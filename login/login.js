@@ -1,8 +1,8 @@
 
 
-function renderLoginContainer () {
-   let loginWrapper = document.getElementById('wrapper-login');
-   loginWrapper.innerHTML = `
+function renderLoginContainer() {
+    let loginWrapper = document.getElementById('wrapper');
+    loginWrapper.innerHTML = `
             <div id='login-Container'>
            <h1>LOGGA IN</h1>
            <input id='login-username' placeholder='Användarnamn' type='text'>
