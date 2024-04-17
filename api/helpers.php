@@ -9,3 +9,5 @@ function sendJSON($data, $statuscode = 200)
     echo $json;
     exit();
 }
+
+?>
