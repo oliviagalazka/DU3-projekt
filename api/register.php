@@ -1,6 +1,6 @@
 <?php
     require_once('central.php');
- 
+
     // För att komma åt users.json filen
     $filename = "users.json";
 
@@ -61,9 +61,4 @@
         sendJSON($newUser, 201);
 
     }
-
-
-
-
-
 ?>
