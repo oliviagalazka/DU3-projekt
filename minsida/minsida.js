@@ -1,7 +1,7 @@
-function renderLandingpage() {
+function renderMinSida() {
     document.getElementById('wrapper').innerHTML = `
     <div id="nav-container"></div`;
 }
 
-renderLandingpage();
+renderMinSida();
 renderNavContainer();

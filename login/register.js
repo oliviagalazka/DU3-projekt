@@ -1,7 +1,7 @@
 "use strict";
 
 function renderRegisterContainer() {
-    const registerWrapper = document.getElementById('wrapper-register');
+    const registerWrapper = document.getElementById('wrapper');
     registerWrapper.innerHTML = `
         <div id='register-container'>
             <h1>SKAPA KONTO</h1>
