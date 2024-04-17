@@ -1,0 +1,9 @@
+{
+    "reviews": [
+        {
+            "id": 1,
+            "comment": "jättegott!",
+            "rank": "5/10"
+        }
+    ]
+}
