@@ -7,8 +7,6 @@ function renderRegisterContainer (parentid) {
             <input id='username' placeholder='Användarnamn' type='text'>
             <input id='password' placeholder='Lösenord' type='password'>
 
-            <input id='password' placeholder='Bekräfta lösenord' type='password'>
-
             <input id='password-comfirm' placeholder='Bekräfta lösenord' type='password'>
 
             <button id='register-button'>Skapa konto</button>
