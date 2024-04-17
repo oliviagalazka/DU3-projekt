@@ -1,5 +1,5 @@
 "use strict";
-
+/*
 // Förslag på entities och nycklar
 
 let USERS = [
@@ -41,4 +41,4 @@ let SHOPPINGLISTS = [
         items: [textsnutt, textsnutt, osv]
     },
 ]
-
+*/
