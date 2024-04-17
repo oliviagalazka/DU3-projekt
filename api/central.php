@@ -10,11 +10,13 @@ if (!in_array($requestMethod, $allowedMethods)) {
     sendJSON($error, 405);
 }
 
+/*
 $contentType = $_SERVER["CONTENT_TYPE"];
 
 if ($contentType != "application/json") {
     $error = ["error" => "Invalid Content Type"];
     sendJSON($error, 415);
 }
+*/
 
 ?>
