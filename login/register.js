@@ -33,8 +33,14 @@ function renderRegisterContainer() {
             body: JSON.stringify(postData),
         });
 
-        const response = await fetch(request);
-        const resource = await response.json();
+        const postUser = {
+            entity: "users",
+            request: request
+        }
+        State.Post(postUser);
+
+        //const response = await fetch(request);
+        //const resource = await response.json();
     })
 
 
