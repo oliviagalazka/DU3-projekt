@@ -1,9 +1,14 @@
-{
-    "reviews": [
-        {
-            "id": 1,
-            "comment": "jättegott!",
-            "rank": "5/10"
-        }
-    ]
-}
+[
+    {
+        "id": 1,
+        "recipeId": 5,
+        "comment": "Jättegott!",
+        "rank": 8
+    },
+    {
+        "id": 2,
+        "recipeId": 45,
+        "comment": "Helt ok.",
+        "rank": 5
+    }
+]

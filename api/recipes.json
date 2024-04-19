@@ -1,54 +1,52 @@
-{
-    "recipes": [
-        {
-            "id": 1,
-            "name": "Pasta Pesto",
-            "shortintro": "Smakrik pastarätt från Italien",
-            "cookingTime": "40 min",
-            "image": "../images/pastapesto.jpg",
-            "ingredients": [
-                "pasta",
-                "pesto",
-                "parmesan",
-                "salt",
-                "peppar"
-            ],
-            "instructions": [
-                "Koka upp vatten",
-                "salta vattnet",
-                "lägg i pastan",
-                "koka pastan",
-                "blanda pasta med pesto"
-            ],
-            "categories": [
-                "pasta",
-                "vegetarisk"
-            ]
-        },
-        {
-            "id": 2,
-            "name": "Pasta Lax",
-            "shortintro": "Smakrik pastarätt från Italien",
-            "cookingTime": "40 min",
-            "image": "../images/pastapesto.jpg",
-            "ingredients": [
-                "pasta",
-                "pesto",
-                "parmesan",
-                "salt",
-                "peppar"
-            ],
-            "instructions": [
-                "Koka upp vatten",
-                "salta vattnet",
-                "lägg i pastan",
-                "koka pastan",
-                "blanda pasta med pesto"
-            ],
-            "categories": [
-                "pasta",
-                "vegetarisk"
-            ]
-        }
-    ]
-}
+[
+    {
+        "id": 1,
+        "name": "Pasta Pesto",
+        "shortintro": "Smakrik pastarätt från Italien",
+        "cookingTime": "40 min",
+        "image": "../images/pastapesto.jpg",
+        "ingredients": [
+            "pasta",
+            "pesto",
+            "parmesan",
+            "salt",
+            "peppar"
+        ],
+        "instructions": [
+            "Koka upp vatten",
+            "salta vattnet",
+            "lägg i pastan",
+            "koka pastan",
+            "blanda pasta med pesto"
+        ],
+        "categories": [
+            "pasta",
+            "vegetarisk"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Pasta Lax",
+        "shortintro": "Smakrik pastarätt från Italien",
+        "cookingTime": "40 min",
+        "image": "../images/pastapesto.jpg",
+        "ingredients": [
+            "pasta",
+            "pesto",
+            "parmesan",
+            "salt",
+            "peppar"
+        ],
+        "instructions": [
+            "Koka upp vatten",
+            "salta vattnet",
+            "lägg i pastan",
+            "koka pastan",
+            "blanda pasta med pesto"
+        ],
+        "categories": [
+            "pasta",
+            "vegetarisk"
+        ]
+    }
+]

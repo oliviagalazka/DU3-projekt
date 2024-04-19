@@ -1,19 +1,17 @@
-{
-    "categories": [
-        "pasta",
-        "sallad",
-        "vegetariskt",
-        "kött",
-        "soppa",
-        "grytor",
-        "gratänger",
-        "paj",
-        "kyckling",
-        "pizza",
-        "grilalt",
-        "mackor",
-        "nudlar",
-        "fisk",
-        "mellanmål"
-    ]
-}
+[
+    "Soppa",
+    "Sallad",
+    "Pasta",
+    "Nudlar",
+    "Paj",
+    "Pizza",
+    "Mackor",
+    "Mellanmål",
+    "Vegetariskt",
+    "Kött",
+    "Kyckling",
+    "Fisk",
+    "Grillat",
+    "Grytor",
+    "Gratänger"
+]
