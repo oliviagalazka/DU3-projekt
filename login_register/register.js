@@ -1,5 +1,3 @@
-"use strict";
-
 function renderRegisterContainer() {
     const registerWrapper = document.getElementById('wrapper');
     registerWrapper.innerHTML = `
@@ -14,12 +12,12 @@ function renderRegisterContainer() {
         </div>
         `;
 
+    const username = document.getElementById("username");
+    const password = document.getElementById("password");
+    const passwordConfirm = document.getElementById("password-confirm");
+
     const registerButton = document.getElementById('register-button');
     registerButton.addEventListener('click', async () => {
-
-        const username = document.getElementById("username");
-        const password = document.getElementById("password");
-        const passwordConfirm = document.getElementById("password-confirm");
 
         const postData = {
             username: username.value,
@@ -33,17 +31,12 @@ function renderRegisterContainer() {
             body: JSON.stringify(postData),
         });
 
-        const postUser = {
+        const newUser = {
             entity: "users",
             request: request
         }
-        State.Post(postUser);
-
-        //const response = await fetch(request);
-        //const resource = await response.json();
+        State.Post(newUser);
     })
-
-
 }
 
 renderRegisterContainer();

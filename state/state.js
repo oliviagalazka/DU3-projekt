@@ -4,7 +4,6 @@ const _state = {
     recipes: [],
     categories: [],
     shoppingList: []
-
 }
 
 const State = {
@@ -14,15 +13,16 @@ const State = {
     Delete,
 }
 
+// GET funktion
 function Get(entity) {
     const copy = JSON.parse(JSON.stringify(_state[entity]));
     return copy;
 }
 
+// POST funktion (register a new user)
 async function Post(data) {
     const entity = data.entity;
     const request = data.request;
-
 
     const response = await fetcher(request);
     if (!response.ok) {
@@ -32,26 +32,9 @@ async function Post(data) {
 
     const resource = await response.json();
     _state[entity].push(resource);
-
-    const instanceData = JSON.parse(JSON.stringify(_state[entity].find(element => element.id === resource.id)));
-
-    switch (entity) {
-
-        case 'games':
-            post_instance_gamesList(instanceData);
-            update_counter();
-            break;
-
-        case 'characters':
-            post_instance_charactersList(instanceData);
-            update_counter();
-            break;
-
-        default:
-            break;
-    }
 }
 
+// PATCH funktion
 async function Patch(data) {
     const entity = data.entity;
     const request = data.request;
@@ -89,6 +72,7 @@ async function Patch(data) {
     }
 }
 
+// DELETE funktion
 async function Delete(data) {
     const entity = data.entity;
     const request = data.request;
@@ -122,6 +106,8 @@ async function Delete(data) {
     }
 }
 
+/*
+// renderApp funktion
 async function renderApp() {
     const gameResponse = await fetcher('./api/games.php?token=6671cb1c4aeeb7b2bf6d7474b28296b199bdd568');
     console.log(gameResponse)
@@ -140,7 +126,7 @@ async function renderApp() {
         const characterResource = await characterResponse.json();
         _state.characters = characterResource;
     } else {
-        alert('something whent wrong ' + characterResponseResponse.statusText);
+        alert('something whent wrong ' + characterResponse.statusText);
     }
 
     document.getElementById('wrapper').innerHTML = '';
@@ -149,15 +135,16 @@ async function renderApp() {
 }
 
 renderApp();
+*/
 
-//en async function returnerar alltid ett löfte - kommer på tentan - (ett promise)
+// fetch funktion
 async function fetcher(request) {
     try {
         const response = await fetch(request);
 
         return response;
 
-    } catch (error) { //fångar större grejer än fel i koden
+    } catch (error) {
         console.log(error);
     }
 }

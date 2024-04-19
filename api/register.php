@@ -20,7 +20,7 @@
     $requestData = json_decode($requestJSON, true);
 
     if($requestMethod == "POST") {
-        if (!isset($requestData["username"], $requestData["password"], $requestData["passwordConfirm"])) {
+       if (empty($requestData["username"] and empty($requestData["password"]) and empty($requestData["passwordConfirm"]))) {
             $error = ["error" => "One of the fields is either missing or incomplete"];
             sendJSON($error, 400);
         }

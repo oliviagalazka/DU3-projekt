@@ -2,13 +2,11 @@
     {
         "id": 1,
         "username": "Olivia",
-        "password": "namnam",
-        "savedRecipes": []
+        "password": "namnam"
     },
     {
         "id": 2,
         "username": "Johan",
-        "password": "hejhej",
-        "savedRecipes": []
+        "password": "hejhej"
     }
 ]
