@@ -1,8 +1,8 @@
 function renderRecept() {
-
-    document.getElementById('wrapper-recept').innerHTML = `
-    <div id="nav-container"></div`;
+    const wrapper = document.getElementById('wrapper');
+    renderNavContainer(wrapper);
+    renderHeroSection(wrapper);
 }
 
-renderRecept();
+
 renderNavContainer();
