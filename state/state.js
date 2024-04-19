@@ -1,6 +1,10 @@
 const _state = {
-    games: [],
-    characters: []
+    users: [],
+    reviews: [],
+    recipes: [],
+    categories: [],
+    shoppingList: []
+
 }
 
 const State = {
