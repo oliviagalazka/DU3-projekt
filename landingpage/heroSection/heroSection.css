@@ -1,0 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+
+#heroSectionContainer {
+    height: 90vh;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
