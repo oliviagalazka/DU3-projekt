@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+#ExploreCategoriesContainer {
+    height: 70vh;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+}
+
+#ExploreCategoriesContainer h2 {
+    text-align: center;
+}
+
+#utforska-kategorier-section {
+    height: 60vh;
+    background-color: rgb(255, 0, 204);
+    margin: 0 200px  0 200px;
+}
