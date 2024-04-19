@@ -4,6 +4,7 @@ function renderLandingpage() {
     renderHeroSection(wrapper);
     renderDaysRecipes(wrapper);
     renderExploreCategories(wrapper);
+    renderAboutUs(wrapper);
 
 }
 
