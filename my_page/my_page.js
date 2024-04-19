@@ -3,9 +3,9 @@ function renderMyPage() {
     renderNavContainer(wrapper);
 
     renderMyPageTop(wrapper);
-    renderMyPageBottom();
-    //renderFooter();
+    renderMyPageBottom(wrapper);
+    renderFooterContainer(wrapper);
 
 }
 
-//renderMyPage();
+renderMyPage();
