@@ -1,9 +1,7 @@
-
-
 function renderLoginContainer() {
     let loginWrapper = document.getElementById('wrapper');
     loginWrapper.innerHTML = `
-            <div id='login-Container'>
+            <div id='login-container'>
            <h1>LOGGA IN</h1>
            <input id='login-username' placeholder='Användarnamn' type='text'>
            <input id='login-password' placeholder='Lösenord' type='password'>
@@ -16,4 +14,3 @@ function renderLoginContainer() {
 
 
 renderLoginContainer();
-

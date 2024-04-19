@@ -1,6 +1,7 @@
 function renderMyPageTop(parentId) {
     const parent = parentId;
     const MyPageTopContainer = document.createElement('div');
+    MyPageTopContainer.id = "my-page-top-container";
     MyPageTopContainer.innerHTML = `
         <div id="my-page-info">
             <h1>Min Sida</h1>
