@@ -3,6 +3,8 @@ function renderLandingpage() {
     renderNavContainer(wrapper);
     renderHeroSection(wrapper);
     renderDaysRecipes(wrapper);
+    renderExploreCategories(wrapper);
+
 }
 
 
