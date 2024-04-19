@@ -1,9 +1,9 @@
-function renderHeroSection (parentId) {
+function renderDaysRecipes (parentId) {
     const parent = parentId;
     const heroSectionContainer = document.createElement('div');
-    heroSectionContainer.id = 'heroSectionContainer';
     heroSectionContainer.innerHTML = `
-        <h1>NamNam</h1>
+        <h2>Dagens Recept</h2>
+        <div id='dagens-recept-container'></div>
     `;
 
     parent.append(heroSectionContainer);
