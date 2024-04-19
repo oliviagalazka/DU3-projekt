@@ -16,5 +16,3 @@ function renderMyPageTop(parentId) {
     parent.append(MyPageTopContainer);
 
 }
-
-renderMyPage();
