@@ -1,4 +1,8 @@
-function renderMyPage() {
+async function renderMyPage() {
+    await State.Get({
+        entity: 'users', request: '../api/users.php'
+    });
+
     const wrapper = document.getElementById('wrapper');
 
     renderNavContainer(wrapper);

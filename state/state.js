@@ -1,5 +1,5 @@
 const _state = {
-    users: [],
+    user: [],
     reviews: [],
     recipes: [],
     categories: [],
@@ -14,9 +14,27 @@ const State = {
 }
 
 // GET funktion
-function Get(entity) {
+function GetEntity(entity) {
     const copy = JSON.parse(JSON.stringify(_state[entity]));
     return copy;
+}
+
+async function Get(data) {
+
+    const entity = data.entity;
+    const request = data.request;
+
+    const response = await fetcher(request);
+    if (!response.ok) {
+        alert('Something whent wrong, Status ' + response.statusText);
+        return;
+    } else {
+        console.log('Welcome!') //fixa så det står på sidan
+    }
+
+    const resource = await response.json();
+    _state[entity].push(resource); //Skriva = istället så 
+
 }
 
 // POST funktion (register a new user)
@@ -28,10 +46,14 @@ async function Post(data) {
     if (!response.ok) {
         alert('Something whent wrong, Status ' + response.statusText);
         return;
+    } else {
+        console.log('Welcome!') //fixa så det står på sidan
     }
-
+    console.log(entity)
     const resource = await response.json();
-    _state[entity].push(resource);
+    _state[entity].push(resource); //Skriva = istället så 
+
+    //switch (entity);
 }
 
 // PATCH funktion

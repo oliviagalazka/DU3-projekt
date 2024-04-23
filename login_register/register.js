@@ -19,6 +19,10 @@ function renderRegisterContainer() {
     const registerButton = document.getElementById('register-button');
     registerButton.addEventListener('click', async () => {
 
+        if (password.value != passwordConfirm.value) {
+            alert("Error - Passwords don't match")
+        }
+
         const postData = {
             username: username.value,
             password: password.value,
@@ -32,7 +36,7 @@ function renderRegisterContainer() {
         });
 
         const newUser = {
-            entity: "users",
+            entity: "user",
             request: request
         }
         State.Post(newUser);
@@ -40,3 +44,7 @@ function renderRegisterContainer() {
 }
 
 renderRegisterContainer();
+
+function errorRegister() {
+
+}

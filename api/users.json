@@ -8,5 +8,35 @@
         "id": 2,
         "username": "Johan",
         "password": "hejhej"
+    },
+    {
+        "id": 3,
+        "username": "hej",
+        "password": "hej"
+    },
+    {
+        "id": 4,
+        "username": "hilda",
+        "password": "hilda"
+    },
+    {
+        "id": 5,
+        "username": "johan",
+        "password": "persson"
+    },
+    {
+        "id": 6,
+        "username": "y",
+        "password": "y"
+    },
+    {
+        "id": 7,
+        "username": "u",
+        "password": "u"
+    },
+    {
+        "id": 8,
+        "username": "i",
+        "password": "i"
     }
 ]
