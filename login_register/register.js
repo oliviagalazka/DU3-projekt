@@ -7,6 +7,7 @@ function renderRegisterContainer() {
             <input id='password' placeholder='Lösenord' type='password'>
             <input id='password-confirm' placeholder='Bekräfta lösenord' type='password'>
             <button id='register-button'>Skapa konto</button>
+            <p id="success"></p>
             <p class='subtitle-register'>Har du redan ett konto?</p>
             <a href='./login.html'>Logga in</a>
         </div>
@@ -47,4 +48,14 @@ renderRegisterContainer();
 
 function errorRegister() {
 
+}
+
+function toLogin() {
+    const success = document.createElement("p");
+    success.textContent = "Ditt konto har nu skapats";
+    document.getElementById("success").append(success);
+
+    setTimeout(() => {
+        window.location = "login.html";
+    }, 2000);
 }

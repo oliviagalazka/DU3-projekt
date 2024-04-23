@@ -1,5 +1,6 @@
 const _state = {
     user: [],
+    login: [],
     reviews: [],
     recipes: [],
     categories: [],
@@ -53,7 +54,13 @@ async function Post(data) {
     const resource = await response.json();
     _state[entity].push(resource); //Skriva = istället så 
 
-    //switch (entity);
+    switch (entity) {
+        case "user":
+            toLogin();
+        case "login":
+            toLandingPage();
+    }
+
 }
 
 // PATCH funktion
