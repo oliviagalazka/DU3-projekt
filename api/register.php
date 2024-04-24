@@ -52,7 +52,9 @@ if ($requestMethod == "POST") {
     $newUser = [
         "id" => $nextId,
         "username" => $username,
-        "password" => $password
+        "password" => $password,
+        "savedRecipes" => [],
+        "logedIn" => false
     ];
 
     $users[] = $newUser;

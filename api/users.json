@@ -13,5 +13,17 @@
         "id": 3,
         "username": "hilda",
         "password": "hopp"
+    },
+    {
+        "id": 4,
+        "username": "namnam",
+        "password": "namnam"
+    },
+    {
+        "id": 5,
+        "username": "hejd\u00e5",
+        "password": "hejd\u00e5",
+        "savedRecipes": [],
+        "logedIn": false
     }
 ]
