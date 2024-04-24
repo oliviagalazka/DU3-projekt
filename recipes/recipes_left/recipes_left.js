@@ -8,7 +8,8 @@ function renderRecipesLeft(parentId) {
         <h1>KATEGORIER</h1>
         <div id="categories"></div>
     </div>`
-    renderCategories(parent);
     parent.append(recipesLeft);
+    renderCategories(recipesLeft);
+
 }
 
