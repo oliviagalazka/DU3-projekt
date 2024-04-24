@@ -1,6 +1,6 @@
 async function renderMyPage() {
     await State.Get({
-        entity: 'users', request: '../api/users.php'
+        entity: 'users', request: '../../api/users.php'
     });
 
     const wrapper = document.getElementById('wrapper');

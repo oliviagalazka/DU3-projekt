@@ -8,7 +8,7 @@ function renderLoginContainer() {
            <button id='login-button'>Logga in</button>
            <p id="success"></p>
            <p class='subtitle-login'>Har du inte ett konto?</p>
-           <a href='./register.html'>Skapa konto</a>
+           <a href='./../register/register.html'>Skapa konto</a>
        </div>
        `;
 
@@ -23,7 +23,7 @@ function renderLoginContainer() {
             password: password.value,
         }
 
-        const request = new Request("./../api/login.php", {
+        const request = new Request("./../../api/login.php", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(postData),
@@ -46,6 +46,6 @@ function toLandingPage() {
     document.getElementById("success").append(success);
 
     setTimeout(() => {
-        window.location = "./../index.html";
+        window.location = "./../../index.html";
     }, 2000);
 }

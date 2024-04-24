@@ -9,7 +9,7 @@ function renderRegisterContainer() {
             <button id='register-button'>Skapa konto</button>
             <p id="success"></p>
             <p class='subtitle-register'>Har du redan ett konto?</p>
-            <a href='./login.html'>Logga in</a>
+            <a href='./../login/login.html'>Logga in</a>
         </div>
         `;
 
@@ -30,7 +30,7 @@ function renderRegisterContainer() {
             passwordConfirm: passwordConfirm.value
         }
 
-        const request = new Request("./../api/register.php", {
+        const request = new Request("./../../api/register.php", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(postData),
