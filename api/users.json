@@ -1,17 +1,9 @@
 [
     {
         "id": 1,
-        "username": "Olivia",
-        "password": "namnam"
-    },
-    {
-        "id": 2,
-        "username": "Johan",
-        "password": "hejhej"
-    },
-    {
-        "id": 3,
-        "username": "hilda",
-        "password": "hopp"
+        "username": "olivia",
+        "password": "namnam",
+        "savedRecipes": [],
+        "logedIn": false
     }
 ]
