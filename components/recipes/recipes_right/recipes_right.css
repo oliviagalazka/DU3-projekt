@@ -1,0 +1,11 @@
+#recipes-right {
+    grid-column: 2;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    overflow: auto;
+    gap: 20px;
+}
+
+#recipes-right>div {
+    border: 1px solid black;
+}
