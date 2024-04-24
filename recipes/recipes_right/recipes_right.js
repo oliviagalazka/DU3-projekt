@@ -8,7 +8,10 @@ async function renderRecipesRight(parentId) {
 
     parent.append(recipesRight);
 
+    // array i array???????
     for (let recipe of recipes) {
+        console.log(recipe);
         renderRecipesCard(recipesRight, recipe);
     }
+    
 }
