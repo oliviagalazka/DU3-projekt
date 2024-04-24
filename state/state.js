@@ -9,6 +9,7 @@ const _state = {
 
 const State = {
     Get,
+    GetEntity,
     Post,
     Patch,
     Delete,
