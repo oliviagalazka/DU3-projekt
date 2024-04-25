@@ -1,12 +1,13 @@
 "use strict";
 
-/*
+
 async function getRandomRecipes(amount) {
     await State.Get({
         entity: 'recipes', request: './../../api/recipes.php'
     });
 
-    const recipes = State.GetEntity('recipes');
+    const RECIPES = State.GetEntity('recipes');
+    const recipes = RECIPES[0];
     console.log(recipes);
 
     for (let i = 0; i < amount; i++) {
@@ -16,7 +17,7 @@ async function getRandomRecipes(amount) {
         // console.log(random_recipe);
     }
 }
-*/
+
 
 function get_random_number(max, min = 0) {
     // Returns a random number between min (inclusive) and max (exclusive)
@@ -29,7 +30,7 @@ function array_random_element(a) {
     return a[random_index];
 }
 
-
+/*
 async function getRandomRecipes(amount) {
     await State.Get({
         entity: 'recipes', request: './../../api/recipes.php'
@@ -56,3 +57,4 @@ async function getRandomRecipes(amount) {
         //console.log(random_recipe);
     });
 }
+*/
