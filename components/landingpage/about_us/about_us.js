@@ -1,5 +1,5 @@
-function renderAboutUs (parentId) {
-    const parent = parentId;
+function renderAboutUs(parentId) {
+    const parent = document.getElementById(parentId);
     const AboutUsContainer = document.createElement('div');
     AboutUsContainer.id = 'AboutUsContainer'
     AboutUsContainer.innerHTML = `

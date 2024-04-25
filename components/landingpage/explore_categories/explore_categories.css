@@ -16,5 +16,24 @@
 #utforska-kategorier-section {
     height: 60vh;
     background-color: rgb(255, 0, 204);
-    margin: 0 200px  0 200px;
+    margin: 0 200px 0 200px;
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: repeat(3, 1fr);
+    gap: 10px;
+
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#utforska-kategorier-section>div {
+    background-color: rgb(180, 136, 171);
+    padding: 10px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

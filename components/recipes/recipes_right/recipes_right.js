@@ -6,7 +6,6 @@ async function renderRecipesRight(parent) {
 
     parent.append(recipesRight);
 
-    // Skapa och lägg till receptkort
     for (let recipe of recipes) {
         renderRecipesCard(recipesRight, recipe);
     }

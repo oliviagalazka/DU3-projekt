@@ -1,5 +1,5 @@
-function renderHeroSection (parentId) {
-    const parent = parentId;
+function renderHeroSection(parentId) {
+    const parent = document.getElementById(parentId);
     const heroSectionContainer = document.createElement('div');
     heroSectionContainer.id = 'heroSectionContainer';
     heroSectionContainer.innerHTML = `

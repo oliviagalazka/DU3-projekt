@@ -4,11 +4,10 @@ async function renderRecipes() {
     });
 
     const wrapper = document.getElementById('wrapper-recipes');
-    renderNavContainer(wrapper);
+    renderNavContainer('wrapper-recipes');
     renderRecipesTop(wrapper);
     renderRecipesBottom(wrapper);
-    renderFooterContainer(wrapper);
+    renderFooterContainer('wrapper-recipes');
 }
-
 
 renderRecipes();
