@@ -25,7 +25,7 @@ function renderRecipesCard(parent, recipe) {
 
 }
 
-/*
+
 // Denna ska vi ha kvar
 function renderRecipeCard(parentID, recipe) {
     parent = document.getElementById(parentID);
@@ -43,4 +43,3 @@ function renderRecipeCard(parentID, recipe) {
 
     parent.append(recipeCard);
 }
-*/
