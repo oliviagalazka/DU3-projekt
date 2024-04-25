@@ -1,5 +1,5 @@
 function renderFooterContainer(parentId) {
-    const parent = parentId;
+    const parent = document.getElementById(parentId);
     const footerContainer = document.createElement("footer");
 
     footerContainer.innerHTML = `

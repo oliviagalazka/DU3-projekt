@@ -4,6 +4,7 @@ function renderLandingpage() {
     renderDailyRecipes('wrapper');
     renderExploreCategories('wrapper');
     renderAboutUs('wrapper');
+    renderFooterContainer('wrapper');
 }
 
 
