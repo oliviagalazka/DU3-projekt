@@ -35,7 +35,9 @@ async function Get(data) {
     }
 
     const resource = await response.json();
+    // FIXME: vi stoppar in array i array, därför blir de dubbelt med push, _state[entity]=resource
     _state[entity].push(resource); //Skriva = istället så 
+   
 
 }
 

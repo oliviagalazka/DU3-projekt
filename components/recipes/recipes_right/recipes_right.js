@@ -8,7 +8,7 @@ async function renderRecipesRight(parentId) {
 
     parent.append(recipesRight);
 
-    // array i array???????
+    // FIXME: Ta bort loopen och ersätt recipe med recipes i funktionsanropet
     for (let recipe of recipes) {
         console.log(recipe);
         renderRecipesCard(recipesRight, recipe);
