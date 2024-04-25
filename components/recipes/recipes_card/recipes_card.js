@@ -1,12 +1,10 @@
 function renderRecipesCard(parent, recipe) {
-    
-
-// hel array här    
-    for (let rec of recipe) {
+    // Skapa ett receptkort för varje enskilt recept
+    recipe.forEach(rec => {
         const recipeCard = document.createElement('div');
         recipeCard.id = `recipe-${rec.id}-card`;
-    
-        
+        recipeCard.classList.add('recipe-card');
+
         recipeCard.innerHTML = `
             <div id='recipe-img'></div>
             <div id='recipe-info'>
@@ -16,7 +14,7 @@ function renderRecipesCard(parent, recipe) {
                 <div id='heart'>Hjärta</div>
             </div>
         `;
-    parent.append(recipeCard);
-}
+        parent.append(recipeCard);
+    });
 }
 
