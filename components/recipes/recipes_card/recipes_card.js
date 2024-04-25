@@ -28,7 +28,7 @@ function renderRecipesCard(parent, recipe) {
 
 // Denna ska vi ha kvar
 function renderRecipeCard(parentID, recipe) {
-    parent = document.getElementById(parentID);
+    const parent = document.getElementById(parentID);
     const recipeCard = document.createElement('div');
     recipeCard.id = `recipe-${recipe.id}-card`;
 
