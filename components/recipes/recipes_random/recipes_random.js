@@ -13,8 +13,8 @@ async function getRandomRecipes(amount) {
     for (let i = 0; i < amount; i++) {
         const random_recipe = array_random_element(recipes);
         console.log(random_recipe);
+        console.log(random_recipe.name);
         //renderRecipesCard('weeksRecipesContainer', random_recipe)
-        // console.log(random_recipe);
     }
 }
 
