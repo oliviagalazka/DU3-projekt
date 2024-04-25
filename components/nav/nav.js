@@ -1,5 +1,5 @@
 function renderNavContainer(parentId) {
-    const parent = parentId;
+    const parent = document.getElementById(parentId);
     const navContainer = document.createElement('nav');
     navContainer.innerHTML = `
             <a href='./../../index.html'>HEM</a>

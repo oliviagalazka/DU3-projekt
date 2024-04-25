@@ -1,5 +1,5 @@
 function renderDailyRecipes(parentId) {
-    const parent = parentId;
+    const parent = document.getElementById(parentId);
 
     const dailyRecipesContainer = document.createElement('div');
     dailyRecipesContainer.id = 'daily-recipes-section';
