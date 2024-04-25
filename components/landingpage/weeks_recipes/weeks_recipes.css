@@ -3,19 +3,25 @@
 }
 
 #daily-recipes-section {
-    height: 50vh;
-    background-color: blueviolet;
+    height: 80vh;
+    background-color: rgb(149, 62, 230);
     display: flex;
     flex-direction: column;
+
+    align-items: center;
 }
 
 #daily-recipes-container {
-    height: 30vh;
-    background-color: rgb(226, 150, 43);
+    height: 60vh;
+    background-color: rgb(225, 156, 59);
     margin: 0 200px 0 200px;
 
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     overflow: auto;
     gap: 20px;
+}
+
+#daily-recipes-container div {
+    background-color: rgb(213, 212, 220);
 }

@@ -9,5 +9,5 @@ function renderDailyRecipes(parentId) {
 
     parent.append(dailyRecipesContainer);
 
-    getRandomRecipe('daily-recipes-container', 4);
+    getRandomRecipe('daily-recipes-container', 8);
 }
