@@ -35,7 +35,14 @@ function renderExploreCategoriesBoxes(parentId) {
     for (let category of categories) {
         const categoryDom = document.createElement('div');
         categoryDom.classList.add('category')
-        categoryDom.innerHTML = `<div>${category}</div>`;
+        categoryDom.innerHTML = `<a>${category}</a>`;
         parent.append(categoryDom);
+        categoryDom.addEventListener('click', goToRecipeFeed);
     }
+}
+
+function goToRecipeFeed(event) {
+
+    window.location = "./components/recipes/recipes.html";
+    console.log(event.target.textContent);
 }
