@@ -1,12 +1,9 @@
 function renderRecipesCard(parent, recipe) {
-    
-
-// hel array här    
+    // hel array här    
     for (let rec of recipe) {
         const recipeCard = document.createElement('div');
         recipeCard.id = `recipe-${rec.id}-card`;
-    
-        
+
         recipeCard.innerHTML = `
             <div id='recipe-img'></div>
             <div id='recipe-info'>
@@ -16,7 +13,24 @@ function renderRecipesCard(parent, recipe) {
                 <div id='heart'>Hjärta</div>
             </div>
         `;
-    parent.append(recipeCard);
-}
+        parent.append(recipeCard);
+    }
 }
 
+// Denna ska vi ha kvar
+function renderRecipeCard(parentID, recipe) {
+    parent = document.getElementById(parentID);
+    const recipeCard = document.createElement('div');
+    recipeCard.id = `recipe-${recipe.id}-card`;
+
+    recipeCard.innerHTML = `
+        <div id='rc-img'>Bild</div>
+        <div id='rc-info'>
+            <h3 id='rc-name'>${recipe.name}</h3>
+            <p id='rc-review'>9/10 (av 15 omdömen)</p>
+            <div id='rc-heart'>&#x2661</div>
+        </div>
+    `;
+
+    parent.append(recipeCard);
+}

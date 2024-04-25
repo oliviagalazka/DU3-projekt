@@ -1,13 +1,13 @@
-function renderDaysRecipes(parentId) {
+function renderDailyRecipes(parentId) {
     const parent = parentId;
-    const weeksRecipesContainer = document.createElement('div');
-    weeksRecipesContainer.id = 'weeksRecipesContainer'
-    weeksRecipesContainer.innerHTML = `
-        <h2>Dagens Recept</h2>
-        <div id='dagens-recept-container'>
-        ${getRandomRecipes(4)}
-        </div>
-    `;
 
-    parent.append(weeksRecipesContainer);
+    const dailyRecipesContainer = document.createElement('div');
+    dailyRecipesContainer.id = 'daily-recipes-section';
+    dailyRecipesContainer.innerHTML = `
+        <h2>DAGENS UTVALDA RECEPT</h2>
+        <div id='daily-recipes-container'></div>`;
+
+    parent.append(dailyRecipesContainer);
+
+    getRandomRecipe('daily-recipes-container', 4);
 }

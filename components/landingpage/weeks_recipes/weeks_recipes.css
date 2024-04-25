@@ -2,17 +2,20 @@
     box-sizing: border-box;
 }
 
-#weeksRecipesContainer {
+#daily-recipes-section {
     height: 50vh;
     background-color: blueviolet;
     display: flex;
     flex-direction: column;
 }
 
-#dagens-recept-container {
+#daily-recipes-container {
     height: 30vh;
     background-color: rgb(226, 150, 43);
-    margin: 0 200px  0 200px;
+    margin: 0 200px 0 200px;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    overflow: auto;
+    gap: 20px;
 }
-
-
