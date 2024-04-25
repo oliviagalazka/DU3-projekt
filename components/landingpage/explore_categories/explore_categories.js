@@ -8,7 +8,7 @@ function renderExploreCategories(parentId) {
     `;
 
     parent.append(ExploreCategoriesContainer);
-    renderExploreCategoriesBoxes('ExploreCategoriesContainer');
+    renderExploreCategoriesBoxes('utforska-kategorier-section');
 }
 
 const categories = [
