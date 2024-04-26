@@ -7,4 +7,5 @@
     background-color: rgba(0, 0, 0, 0.5);
     /* Semi-transparent svart bakgrund */
     z-index: 1000;
+    color:white;
 }
