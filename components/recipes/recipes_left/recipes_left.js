@@ -4,18 +4,12 @@ function renderRecipesLeft(parentId) {
     recipesLeft.id = 'recipes-left';
     recipesLeft.innerHTML = `
     <input type="text" id='search-field'>
-    <button id='search-button'>Sök</button>
     <div id="categories-container">
         <h1>KATEGORIER</h1>
         <div id="categories"></div>
     </div>`
     parent.append(recipesLeft);
 
-    // Vill vi ha en knapp där man först ser resultatet när man klickar på knappen?
-    //const searchButton = document.getElementById('search-button');
-    //searchButton.addEventListener('click', search);
-
-    // Vill vi kunna se sökningen live efter varje bokstav man skriver?
     const inputDom = document.getElementById('search-field');
     inputDom.addEventListener('keyup', search);
 
