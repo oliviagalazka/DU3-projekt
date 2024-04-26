@@ -11,9 +11,13 @@ function showPopup(recipe) {
       <!-- Lägg till annan information här om det behövs -->
   `;
 
+renderRecipeSection('popup-wrapper', recipe);
+
   // Lägg till popupen i DOM:en (t.ex. i body-elementet)
   document.body.appendChild(popup_wrapper);
 }
+
+
 
 
 /*
