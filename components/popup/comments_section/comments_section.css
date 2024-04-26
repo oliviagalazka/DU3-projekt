@@ -1,11 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
 #reviews-section {
     background-color: rgb(226, 43, 104);
     display: flex;
     justify-content: center;
+    width: 800px;
+    margin: auto;
 }
 
 #reviews-container {
     /*margin: 20px 0 20px 0;*/
     background-color: rgb(41, 108, 108);
-    width: 800px;
+    width: 100%;
+    margin: 10px;
+}
+
+#add-review-container div:first-of-type{
+    background-color: rgb(225, 225, 225);
+    height: 70px;
+    border-radius: 5px;
+    border: 0.5px black solid;
+}
+
+#input-comment{
+    width: 90%;
+    height: 100%;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(225, 225, 225);
+    padding-left: 10px ;
+}
+
+#comment-button {
+    width: 120px;
+    background-color: rgb(68, 68, 68);
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    color: rgb(215, 215, 215);
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+#read-reviews-container > div {
+    border-bottom: 0.5px black solid;
+    margin-bottom: 10px;
+    padding: 10px 0 10px 0;
 }
