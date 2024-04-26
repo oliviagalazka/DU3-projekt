@@ -20,8 +20,8 @@ async function renderRecipesRight(parent) {
             const recipeId = recipeCard.dataset.recipeId;
 
             // Hämta det motsvarande Recipe-objektet från receptets id
-            const recipe = recipes.find(recipe => recipe.id === recipeId);
-
+            const recipe = recipes.find(recipe => recipe.id === parseInt(recipeCard.id.split('-')[1]));
+            console.log(recipe);
             // Visa popupen med det specifika receptet
             showPopup(recipe);
         });

@@ -3,6 +3,7 @@ function renderRecipeCard(parentID, recipe) {
     const parent = document.getElementById(parentID);
     const recipeCard = document.createElement('div');
     recipeCard.id = `recipe-${recipe.id}-card`;
+    recipeCard.classList.add('recipe-card');
 
     recipeCard.innerHTML = `
         <div id='rc-img'>Bild</div>

@@ -1,18 +1,18 @@
 function showPopup(recipe) {
-  console.log(recipe)
   // Skapa popupen
-  const popup = document.createElement('div');
-  popup.id = 'popup';
+  const popup_wrapper = document.createElement('div');
+  popup_wrapper.id = 'popup-wrapper';
+  console.log(popup_wrapper);
 
   // Fyll popupen med information från det skickade Recipe-objektet
-  popup.innerHTML = `
+  popup_wrapper.innerHTML = `
       <h2>${recipe.name}</h2>
       <p>${recipe.description}</p>
       <!-- Lägg till annan information här om det behövs -->
   `;
 
   // Lägg till popupen i DOM:en (t.ex. i body-elementet)
-  document.body.appendChild(popup);
+  document.body.appendChild(popup_wrapper);
 }
 
 
