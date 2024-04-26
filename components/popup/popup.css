@@ -9,3 +9,7 @@
     z-index: 1000;
     color:white;
 }
+
+.hide {
+    display: none;
+}

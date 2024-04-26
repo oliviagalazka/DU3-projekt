@@ -1,6 +1,13 @@
-#recipe-info-container{
+#recipe-section{
     background-color: rgb(23, 144, 144);
+    max-width: 700px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+#recipe-info-container{
     display: flex;
+
 }
 #image{
     height: 100px;
@@ -12,4 +19,8 @@
 #title-heart-container{
     display: flex;
     justify-content: space-between;
+}
+
+#recipe-todo-container{
+    display: flex;
 }
