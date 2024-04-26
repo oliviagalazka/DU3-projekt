@@ -37,7 +37,7 @@ function renderRecipeInfo(parentId, recipe) {
 function renderRecipeImage(parentId, recipe) {
     const parent = document.getElementById(parentId);
     const recipeImage = document.createElement('div');
-    recipeImage.id = "recipe-image";
+    recipeImage.id = 'recipe-image';
 
     parent.append(recipeImage);
 }

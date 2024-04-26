@@ -1,34 +1,35 @@
-function renderReviewSection(parentID, recipe) {
+function renderReviewSection(parentId, recipe) {
     const reviews = State.GetEntity('reviews');
 
-    const parent = document.getElementById(parentID);
-    const reviewsSection = document.createElement('div');
-    reviewsSection.id = 'reviews-section';
-    reviewsSection.innerHTML = `<div id='reviews-container'></div>`;
+    const parent = document.getElementById(parentId);
+    const reviewSection = document.createElement('div');
+    reviewSection.id = 'review-section';
+    reviewSection.innerHTML = `<div id='review-container'></div>`;
 
-    parent.append(reviewsSection);
-    renderAddReviewsContainer('reviews-container', recipe);
-    renderReadReviewsContainer('reviews-container', recipe);
+    parent.append(reviewSection);
+
+    renderPostReviewContainer('review-container', recipe);
+    renderGetReviewContainer('review-container', recipe);
 }
 
-function renderAddReviewsContainer(parentID, recipe) {
-    const parent = document.getElementById(parentID);
-
-    const addReviewContainer = document.createElement("div");
-    addReviewContainer.id = "add-review-container";
-    addReviewContainer.innerHTML = `
+// Post Review Container
+function renderPostReviewContainer(parentId, recipe) {
+    const parent = document.getElementById(parentId);
+    const postReviewContainer = document.createElement('div');
+    postReviewContainer.id = 'post-review-container';
+    postReviewContainer.innerHTML = `
                                     <h1>Omdömen</h1>
                                     <div>
-                                        <input id="input-comment" type="text" placeholder="Lämna en kommentar">
+                                        <input id='post-review-input' type='text' placeholder='Lämna ett omdömme'>
                                         <select></select>
                                     </div>
-                                    <div id="comment-button">KOMMENTERA</div>
+                                    <div id='post-review-button'>KOMMENTERA</div>
                                 `;
 
-    parent.append(addReviewContainer);
+    parent.append(postReviewContainer);
 
-    let selectDom = document.querySelector('select');
-    let inputDom = document.getElementById('input-comment');
+    let selectDom = postReviewContainer.querySelector('select');
+    let inputDom = document.getElementById('post-review-input');
 
     for (let i = 0; i < 11; i++) {
         const optionDom = document.createElement('option');
@@ -36,67 +37,69 @@ function renderAddReviewsContainer(parentID, recipe) {
         selectDom.append(optionDom);
     }
 
-    const commentButton = document.getElementById('comment-button');
-    commentButton.addEventListener('click', () => {
+    const postReviewButton = document.getElementById('post-review-button');
+    postReviewButton.addEventListener('click', () => {
 
         const postData = {
             recipeId: recipe.id,
-            userId: 3, // behöver fixa denna nyckeln
+            userId: 'id', // Behöver fixa så att värdet på denna nyckel representerar id:t på användaren som lämnade ett omdömme
             comment: inputDom.value,
             rank: selectDom.value
         }
 
-        const request = new Request("./../../api/reviews.php", {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
+        const request = new Request('./../../api/reviews.php', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(postData),
         });
 
-        const review = {
-            entity: "reviews",
+        const newReview = {
+            entity: 'reviews',
             request: request
         }
-        State.Post(review);
-        inputDom.value = "";
+
+        State.Post(newReview);
+        inputDom.value = '';
         selectDom.value = 0;
-    })
+    });
 }
 
-async function renderReadReviewsContainer(parentID, recipe) {
+// Get Review Container
+async function renderGetReviewContainer(parentId, recipe) {
     await State.Get({ entity: 'reviews', request: './../../api/reviews.php' });
     const reviews = State.GetEntity('reviews');
 
-    const parent = document.getElementById(parentID);
-    const readReviewsContainer = document.createElement("div");
-    readReviewsContainer.id = "read-reviews-container";
-    parent.append(readReviewsContainer);
-    console.log(recipe.id);
+    const parent = document.getElementById(parentId);
+    const getReviewContainer = document.createElement('div');
+    getReviewContainer.id = 'get-review-container';
+
+    parent.append(getReviewContainer);
+
     for (let review of reviews) {
         if (review.recipeId === recipe.id) {
-            console.log(review.recipeId);
-            renderReview("read-reviews-container", review);
+            renderReview('get-review-container', review);
         }
     }
 }
 
-function renderReview(parentID, review) {
-    const parent = document.getElementById(parentID);
+// Render Review
+function renderReview(parentId, review) {
+    const parent = document.getElementById(parentId);
     const reviewDom = document.createElement('div');
     reviewDom.id = `review-${review.id}`;
-    console.log(review);
 
     reviewDom.innerHTML = `
-                        <div>
-                            <img src="">
-                            <div>${review.rank}/10</div>
-                        </div>
-                        <div>${review.comment}</div>
-                        `;
+                            <div id='icon-review-container'>
+                                <img src='' alt='Profil Ikon'>
+                                <div>${review.rank}/10</div>
+                            </div>
+                            <div>${review.comment}</div>
+                            `;
 
     parent.append(reviewDom);
 }
 
-
+// Review Instance
 function postReviewInstance(instanceData) {
-    renderReview("read-reviews-container", instanceData);
+    renderReview('get-review-container', instanceData);
 }

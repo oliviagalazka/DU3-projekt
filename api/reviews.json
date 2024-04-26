@@ -89,5 +89,12 @@
         "userId": 3,
         "comment": "",
         "rank": "4"
+    },
+    {
+        "id": 14,
+        "recipeId": 2,
+        "userId": "id",
+        "comment": "De va inget speciellt",
+        "rank": "5"
     }
 ]

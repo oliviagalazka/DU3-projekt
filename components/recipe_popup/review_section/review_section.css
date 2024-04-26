@@ -1,11 +1,15 @@
-#reviews-section {
+#review-section {
     background-color: rgb(226, 43, 104);
     display: flex;
     justify-content: center;
 }
 
-#reviews-container {
-    /*margin: 20px 0 20px 0;*/
+#review-container {
+    /* margin: 20px 0 20px 0; */
     background-color: rgb(41, 108, 108);
     width: 800px;
+}
+
+#icon-review-container {
+    display: flex;
 }
