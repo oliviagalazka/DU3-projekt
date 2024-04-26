@@ -1,25 +1,61 @@
 <?php
+
 require_once('central.php');
 
-// För att komma åt users.json filen
 $filename = "reviews.json";
 
-// Skapar users array för att sedan kunna fylla den med våra users
 $reviews = [];
 
-// Hämtar users.json innehåll i JSON format
 $json = file_get_contents($filename);
-
-
 $reviews = json_decode($json, true);
 
-// Hämtar allt innehåll från body i förfrågan som är i JSON format
+// GET FÖRFRÅGAN
 if ($requestMethod == "GET") {
     sendJSON($reviews, 200);
 }
-// } else if ($requestMethod == "PATCH") {
-//     $filename = "users.json";
-//     $users = [];
-//     $json = file_get_contents($filename);
-//     $users = json_decode($json, true);
-// }
+
+$contentType = $_SERVER["CONTENT_TYPE"];
+
+if ($contentType != "application/json") {
+    $error = ["error" => "Invalid Content Type"];
+    sendJSON($error, 415);
+}
+
+$requestJSON = file_get_contents("php://input");
+$requestData = json_decode($requestJSON, true);
+
+// POST FÖRFRÅGAN
+if ($requestMethod == "POST") {
+    if (empty($requestData["recipeId"]) and empty($requestData["userId"]) and empty($requestData["comment"])) {
+        $error = ["error" => "The field is empty"];
+        sendJSON($error, 400);
+    }
+
+    $recipeId = $requestData["recipeId"];
+    $userId = $requestData["userId"];
+    $comment = $requestData["comment"];
+    $rank = $requestData["rank"];
+
+    $highestId = 0;
+
+    foreach ($reviews as $review) {
+        if ($review["id"] > $highestId) {
+            $highestId = $review["id"];
+        }
+    }
+
+    $nextId = $highestId + 1;
+    $newReview = [
+        "id" => $nextId,
+        "recipeId" => $recipeId,
+        "userId" => $userId,
+        "comment" => $comment,
+        "rank" => $rank
+    ];
+
+    $reviews[] = $newReview;
+    $json = json_encode($reviews, JSON_PRETTY_PRINT);
+    file_put_contents($filename, $json);
+    sendJSON($newReview, 201);
+}
+?>
