@@ -2,12 +2,14 @@
 function renderRecipeCard(parentID, recipe) {
     const parent = document.getElementById(parentID);
     const recipeCard = document.createElement('div');
+
     recipeCard.id = `recipe-${recipe.id}-card`;
     recipeCard.classList.add('recipe-card');
+
     recipeCard.addEventListener('click', () => {
         renderPopup(recipe);
+    });
 
-    })
     recipeCard.innerHTML = `
         <div id='rc-img'>Bild</div>
         <div id='rc-info'>
