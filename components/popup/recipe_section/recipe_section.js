@@ -47,8 +47,14 @@ function renderRecipeToDoContainer(parentID, recipe) {
 
     const ingredientList = recipe.ingredients;
     for (ingredient of ingredientList) {
-        ingredients.innerHTML =`<p>${ingredient}</p>`;
-        
+        ingredients.innerHTML +=`<p>${ingredient}</p>`;
     }
 
+    const instructionsList = recipe.instructions;
+    for (instruction of instructionsList) {
+        instructions.innerHTML +=`<p>${instruction}</p>`;
+    }
+
+    parent.append(ingredients);
+    parent.append(instructions);
 }
