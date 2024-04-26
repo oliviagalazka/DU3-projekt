@@ -44,6 +44,8 @@ function renderRecipeToDoContainer(parentID, recipe) {
     const parent = document.getElementById(parentID);
     const ingredients = document.createElement('div');
     const instructions = document.createElement('div');
+    const instructionsOlDom = document.createElement('ol');
+    instructions.append(instructionsOlDom);
 
     const ingredientList = recipe.ingredients;
     for (ingredient of ingredientList) {
@@ -52,7 +54,7 @@ function renderRecipeToDoContainer(parentID, recipe) {
 
     const instructionsList = recipe.instructions;
     for (instruction of instructionsList) {
-        instructions.innerHTML +=`<p>${instruction}</p>`;
+        instructionsOlDom.innerHTML +=`<li>${instruction}</li>`;
     }
 
     parent.append(ingredients);

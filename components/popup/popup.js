@@ -1,4 +1,5 @@
 function showPopup(recipe) {
+
   // Skapa popupen
   const popup_wrapper = document.createElement('div');
   popup_wrapper.id = 'popup-wrapper';
@@ -10,7 +11,7 @@ function showPopup(recipe) {
 
   // Lägg till popupen i DOM:en (t.ex. i body-elementet)
   renderRecipeSection('popup-wrapper', recipe);
-  renderReviewsSection('popup-wrapper',)
+  renderReviewsSection('popup-wrapper');
 
   // FIXME
   /*

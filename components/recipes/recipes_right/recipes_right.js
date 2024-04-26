@@ -1,5 +1,6 @@
 async function renderRecipesRight(parent) {
-    const recipes = State.GetEntity('recipes')
+    const recipes = State.GetEntity('recipes');
+    const reviews = State.GetEntity('reviews');
 
     const recipesRight = document.createElement('div');
     recipesRight.id = 'recipes-right';
