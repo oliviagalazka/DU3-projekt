@@ -68,5 +68,26 @@
         "userId": 3,
         "comment": "goda grejer",
         "rank": "6"
+    },
+    {
+        "id": 11,
+        "recipeId": 2,
+        "userId": 3,
+        "comment": "mycket god tomatsoppa!!",
+        "rank": "9"
+    },
+    {
+        "id": 12,
+        "recipeId": 14,
+        "userId": 3,
+        "comment": "dunder!",
+        "rank": "0"
+    },
+    {
+        "id": 13,
+        "recipeId": 14,
+        "userId": 3,
+        "comment": "",
+        "rank": "4"
     }
 ]
