@@ -7,7 +7,7 @@ function showPopup(recipe) {
   // Fyll popupen med information från det skickade Recipe-objektet
   popup_wrapper.innerHTML = `
       <h2>${recipe.name}</h2>
-      <p>${recipe.description}</p>
+      <p>${recipe.shortIntro}</p>
       <!-- Lägg till annan information här om det behövs -->
   `;
 
