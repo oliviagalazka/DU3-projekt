@@ -1,4 +1,4 @@
-function showPopup(recipe) {
+function renderPopup(recipe) {
 
   // Skapa popupen
   const popup_wrapper = document.createElement('div');
