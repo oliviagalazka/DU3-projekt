@@ -7,7 +7,7 @@ async function renderRecipesRight(parent) {
     parent.append(recipesRight);
 
     for (let recipe of recipes) {
-        renderRecipesCard(recipesRight, recipe);
+        renderRecipeCard('recipes-right', recipe);
     }
 
     // Hämta alla receptkort
