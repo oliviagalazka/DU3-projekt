@@ -38,7 +38,7 @@ async function Get(data) {
     // vi stoppar in array i array, därför blir de dubbelt med push, _state[entity]=resource
     // _state[entity].push(resource); //Skriva = istället så 
     _state[entity] = resource;
-   
+
 
 }
 
@@ -54,15 +54,19 @@ async function Post(data) {
     } else {
         console.log('Welcome!') //fixa så det står på sidan
     }
-    console.log(entity)
+    console.log(entity);
     const resource = await response.json();
+    console.log(resource);
     _state[entity].push(resource); //Skriva = istället så 
+    //_state[entity] = resource;
 
     switch (entity) {
         case "user":
             toLogin();
         case "login":
             toLandingPage();
+        case "reviews":
+            postReviewInstance(resource);
     }
 
 }
