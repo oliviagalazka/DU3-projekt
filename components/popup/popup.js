@@ -9,6 +9,7 @@ function showPopup(recipe) {
   document.body.appendChild(popup_wrapper);
 
   renderRecipeSection('popup-wrapper', recipe);
+  // renderCommentSection('popup-wrapper')
 }
 
 

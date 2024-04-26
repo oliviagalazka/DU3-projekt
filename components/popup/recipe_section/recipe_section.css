@@ -1,9 +1,15 @@
-#recipe-section{
-    background-color: aqua;
+#recipe-info-container{
+    background-color: rgb(23, 144, 144);
     display: flex;
 }
 #image{
     height: 100px;
     width: 100px;
     background-color: blueviolet;
+}
+
+
+#title-heart-container{
+    display: flex;
+    justify-content: space-between;
 }

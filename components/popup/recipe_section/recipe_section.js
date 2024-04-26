@@ -2,10 +2,15 @@ function renderRecipeSection(parentID, recipe){
     const parent = document.getElementById(parentID);
     const recipeSection = document.createElement('div');
     recipeSection.id = 'recipe-section';
+    recipeSection.innerHTML = `
+        <div id='recipe-info-container'></div>
+        <div id='recipe-todo-container'</div>
+    `;
 
     parent.append(recipeSection);
-    renderRecipeInfoContainer('recipe-section', recipe);
-    renderRecipeImageContainer('recipe-section', recipe);
+    renderRecipeInfoContainer('recipe-info-container', recipe);
+    renderRecipeImageContainer('recipe-info-container', recipe);
+    renderRecipeToDoContainer('recipe-todo-container', recipe);
 }
 
 function renderRecipeInfoContainer (parentID, recipe) {
@@ -14,7 +19,7 @@ function renderRecipeInfoContainer (parentID, recipe) {
     infoText.id = "info-text";
 
     infoText.innerHTML = `
-                        <div>
+                        <div id='title-heart-container'>
                             <div>${recipe.name}</div>
                             <div>&#x2661</div>
                         </div>
@@ -32,4 +37,18 @@ function renderRecipeImageContainer (parentID, recipe) {
     image.id = "image";
 
     parent.append(image);
+}
+
+
+function renderRecipeToDoContainer(parentID, recipe) {
+    const parent = document.getElementById(parentID);
+    const ingredients = document.createElement('div');
+    const instructions = document.createElement('div');
+
+    const ingredientList = recipe.ingredients;
+    for (ingredient of ingredientList) {
+        ingredients.innerHTML =`<p>${ingredient}</p>`;
+        
+    }
+
 }
