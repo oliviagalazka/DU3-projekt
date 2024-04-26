@@ -7,7 +7,7 @@ function renderRecipeCard(parentID, recipe) {
     recipeCard.classList.add('recipe-card');
 
     recipeCard.addEventListener('click', () => {
-        renderPopup(recipe);
+        renderRecipePopup(recipe);
     });
 
     recipeCard.innerHTML = `

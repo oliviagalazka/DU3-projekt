@@ -1,4 +1,4 @@
-function renderReviewsSection(parentID, recipe) {
+function renderReviewSection(parentID, recipe) {
     const reviews = State.GetEntity('reviews');
 
     const parent = document.getElementById(parentID);
