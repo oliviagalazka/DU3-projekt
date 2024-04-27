@@ -6,5 +6,5 @@ function renderRecipesBottom(parentId) {
     parent.append(recipesBottom);
 
     renderRecipesLeft(recipesBottom);
-    renderRecipesRight(recipesBottom);
+    renderRecipesRight('recipes-bottom');
 }
