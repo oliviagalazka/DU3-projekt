@@ -7,7 +7,10 @@
 
 #recipe-info-container {
     display: flex;
-    justify-content: space-between;
+}
+
+#recipe-info {
+    flex-grow: 1;
 }
 
 #title-heart-container {
