@@ -36,65 +36,9 @@
     },
     {
         "id": 6,
-        "recipeId": 6,
-        "userId": 3,
-        "comment": "gott",
-        "rank": "0"
-    },
-    {
-        "id": 7,
-        "recipeId": 4,
-        "userId": 3,
-        "comment": "supergott recept, rekomenderar!",
-        "rank": "9"
-    },
-    {
-        "id": 8,
-        "recipeId": 1,
-        "userId": 3,
-        "comment": "inte gott alls",
-        "rank": "3"
-    },
-    {
-        "id": 9,
-        "recipeId": 3,
-        "userId": 3,
-        "comment": "k\u00e4nns som jag \u00e4r i thailand!",
-        "rank": "10"
-    },
-    {
-        "id": 10,
-        "recipeId": 11,
-        "userId": 3,
-        "comment": "goda grejer",
-        "rank": "6"
-    },
-    {
-        "id": 11,
-        "recipeId": 2,
-        "userId": 3,
-        "comment": "mycket god tomatsoppa!!",
-        "rank": "9"
-    },
-    {
-        "id": 12,
-        "recipeId": 14,
-        "userId": 3,
-        "comment": "dunder!",
-        "rank": "0"
-    },
-    {
-        "id": 13,
-        "recipeId": 14,
-        "userId": 3,
-        "comment": "",
-        "rank": "4"
-    },
-    {
-        "id": 14,
-        "recipeId": 2,
+        "recipeId": 7,
         "userId": "id",
-        "comment": "De va inget speciellt",
-        "rank": "5"
+        "comment": "namnam!!!",
+        "rank": "9"
     }
 ]

@@ -1,0 +1,19 @@
+#recipe-card {
+    display: flex;
+    flex-direction: column;
+}
+
+#rc-img {
+    height: 200px;
+    background-color: rgb(148, 113, 112);
+}
+
+#rc-info {
+    display: flex;
+    flex-direction: column;
+}
+
+#rc-review-heart {
+    display: flex;
+    justify-content: space-between;
+}

@@ -14,8 +14,10 @@ function renderRecipeCard(parentID, recipe) {
         <div id='rc-img'>Bild</div>
         <div id='rc-info'>
             <h3 id='rc-name'>${recipe.name}</h3>
-            <p id='rc-review'>9/10 (av 15 omdömen)</p>
-            <div id='rc-heart'>&#x2661</div>
+            <div id='rc-review-heart'>
+                <p id='rc-review'>9/10 (av 15 omdömen)</p>
+                <div id='rc-heart'>&#x2661</div>
+            </div>
         </div>
     `;
 

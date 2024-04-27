@@ -18,7 +18,7 @@ function renderPostReviewContainer(parentId, recipe) {
     const postReviewContainer = document.createElement('div');
     postReviewContainer.id = 'post-review-container';
     postReviewContainer.innerHTML = `
-                                    <h1>Omdömen</h1>
+                                    <h1>OMDÖMEN</h1>
                                     <div>
                                         <input id='post-review-input' type='text' placeholder='Lämna ett omdömme'>
                                         <select></select>
@@ -87,6 +87,7 @@ function renderReview(parentId, review) {
     const parent = document.getElementById(parentId);
     const reviewDom = document.createElement('div');
     reviewDom.id = `review-${review.id}`;
+    reviewDom.classList.add('review');
 
     reviewDom.innerHTML = `
                             <div id='icon-review-container'>

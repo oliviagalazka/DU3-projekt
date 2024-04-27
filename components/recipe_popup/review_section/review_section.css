@@ -9,6 +9,24 @@
     width: 800px;
 }
 
+#post-review-input {
+    width: 400px;
+}
+
+#post-review-button {
+    background-color: #B0C4B1;
+    padding: 10px;
+    border-radius: 10px;
+    width: 120px;
+}
+
+.review {
+    background-color: white;
+    color: black;
+    border-bottom: 1px solid black;
+}
+
 #icon-review-container {
     display: flex;
+    gap: 20px;
 }
