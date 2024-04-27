@@ -11,12 +11,12 @@ function renderRecipesLeft(parentId) {
     parent.append(recipesLeft);
 
     const inputDom = document.getElementById('search-field');
-    inputDom.addEventListener('keyup', search);
+    inputDom.addEventListener('keyup', searchForIngredient);
 
     renderCategories(recipesLeft);
 }
 
-async function search() {
+async function searchForIngredient() {
     const inputDom = document.getElementById('search-field');
 
     await State.Get({ entity: 'recipes', request: './../../api/recipes.php' });
