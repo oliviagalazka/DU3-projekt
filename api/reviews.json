@@ -1,44 +1,44 @@
 [
     {
         "id": 1,
-        "recipeId": 5,
-        "userId": 3,
+        "recipeId": 1,
+        "userId": "id",
         "comment": "gotti",
-        "rank": "6"
+        "rank": 5
     },
     {
         "id": 2,
-        "recipeId": 5,
-        "userId": 3,
-        "comment": "Godaste jag \u00e4tit!! Recommend!",
-        "rank": "10"
+        "recipeId": 2,
+        "userId": "id",
+        "comment": "Kr\u00e4mig och god klassisk soppa",
+        "rank": 7
     },
     {
         "id": 3,
-        "recipeId": 3,
-        "userId": 3,
-        "comment": "wow s\u00e5 bra!!",
-        "rank": "5"
+        "recipeId": 2,
+        "userId": "id",
+        "comment": "N\u00e4, f\u00f6r \u00e4ckligt!!",
+        "rank": 1
     },
     {
         "id": 4,
-        "recipeId": 10,
-        "userId": 3,
-        "comment": "super\u00e4ckligt",
-        "rank": "0"
+        "recipeId": 2,
+        "userId": "id",
+        "comment": "namnam",
+        "rank": 10
     },
     {
         "id": 5,
-        "recipeId": 6,
-        "userId": 3,
-        "comment": "jaa",
-        "rank": "0"
+        "recipeId": 7,
+        "userId": "id",
+        "comment": "Recomend recomend!!",
+        "rank": 10
     },
     {
         "id": 6,
-        "recipeId": 7,
+        "recipeId": 4,
         "userId": "id",
-        "comment": "namnam!!!",
-        "rank": "9"
+        "comment": "uschh, laga inte detta recept",
+        "rank": 1
     }
 ]

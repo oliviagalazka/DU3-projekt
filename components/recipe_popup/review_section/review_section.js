@@ -44,7 +44,7 @@ function renderPostReviewContainer(parentId, recipe) {
             recipeId: recipe.id,
             userId: 'id', // Behöver fixa så att värdet på denna nyckel representerar id:t på användaren som lämnade ett omdömme
             comment: inputDom.value,
-            rank: selectDom.value
+            rank: parseInt(selectDom.value)
         }
 
         const request = new Request('./../../api/reviews.php', {
