@@ -11,6 +11,7 @@
     /* margin: 20px 0 20px 0; */
     background-color: #14342B;
     width: 800px;
+    padding: 20px;
 }
 
 #post-review-input {
@@ -44,7 +45,7 @@
 #post-review-container div:first-of-type {
     background-color: rgb(235, 235, 235);
     height: 60px;
-    margin: 0 20px 0 20px;
+    
     border-radius: 5px;
     display: flex;
     justify-content: space-between;
