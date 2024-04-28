@@ -13,7 +13,7 @@ function renderRecipesLeft(parentId) {
     const inputDom = document.getElementById('search-field');
     inputDom.addEventListener('keyup', searchForIngredient);
 
-    renderCategories(recipesLeft);
+    renderCategories('recipes-left');
 }
 
 async function searchForIngredient() {
