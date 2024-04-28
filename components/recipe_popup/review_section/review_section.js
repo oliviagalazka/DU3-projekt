@@ -20,7 +20,7 @@ function renderPostReviewContainer(parentId, recipe) {
     postReviewContainer.innerHTML = `
                                     <h1>OMDÖMEN</h1>
                                     <div>
-                                        <input id='post-review-input' type='text' placeholder='Lämna ett omdömme'>
+                                        <input id='post-review-input' type='text' placeholder='Lämna ett omdömme...'>
                                         <select></select>
                                     </div>
                                     <div id='post-review-button'>KOMMENTERA</div>
@@ -40,27 +40,31 @@ function renderPostReviewContainer(parentId, recipe) {
     const postReviewButton = document.getElementById('post-review-button');
     postReviewButton.addEventListener('click', () => {
 
-        const postData = {
-            recipeId: recipe.id,
-            userId: 'id', // Behöver fixa så att värdet på denna nyckel representerar id:t på användaren som lämnade ett omdömme
-            comment: inputDom.value,
-            rank: parseInt(selectDom.value)
+        if (inputDom.value === '') {
+            inputDom.setAttribute('placeholder', 'Oops, vänligen lämna ett omdömme innan du kommenterar.');
+        } else {
+            const postData = {
+                recipeId: recipe.id,
+                userId: 'id', // Behöver fixa så att värdet på denna nyckel representerar id:t på användaren som lämnade ett omdömme
+                comment: inputDom.value,
+                rank: parseInt(selectDom.value)
+            }
+
+            const request = new Request('./../../api/reviews.php', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(postData),
+            });
+
+            const newReview = {
+                entity: 'reviews',
+                request: request
+            }
+
+            State.Post(newReview);
+            inputDom.value = '';
+            selectDom.value = 0;
         }
-
-        const request = new Request('./../../api/reviews.php', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify(postData),
-        });
-
-        const newReview = {
-            entity: 'reviews',
-            request: request
-        }
-
-        State.Post(newReview);
-        inputDom.value = '';
-        selectDom.value = 0;
     });
 }
 
