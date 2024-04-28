@@ -7,10 +7,7 @@ function renderNavContainer(parentId) {
             <a href='./components/mypage/mypage.html'>MIN SIDA</a>
             <a href='./../../index.html'>OM OSS</a>
             <a href='./components/login/login.html'>LOGGA IN</a>
-
             `;
 
     parent.append(navContainer);
 }
-
-

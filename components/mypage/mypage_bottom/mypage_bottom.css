@@ -1,0 +1,12 @@
+#mypage-bottom-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightblue;
+}
+
+#saved-recipes-container {
+    width: 70vw;
+    height: 70vh;
+    background-color: green;
+}

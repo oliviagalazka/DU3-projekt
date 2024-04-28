@@ -1,6 +1,14 @@
-#my-page-top-container {
+#mypage-top-container {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+}
 
+#my-page-info {
+    height: 60vh;
+    width: 40vw;
+    background-color: gray;
 }
 
 #shopping-list {
@@ -8,4 +16,7 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
+    height: 60vh;
+    width: 20vw;
+    background-color: beige;
 }
