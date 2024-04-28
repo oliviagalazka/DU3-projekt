@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 #review-section {
     display: flex;
     justify-content: center;
@@ -10,7 +14,13 @@
 }
 
 #post-review-input {
-    width: 400px;
+    width: 701px;
+    border-radius: 5px;
+    height: 100%;
+    padding-left: 20px;
+    border: none;
+    outline: none;
+    background-color: rgb(235, 235, 235);
 }
 
 #post-review-button {
@@ -21,7 +31,7 @@
 }
 
 .review {
-    background-color: white;
+    background-color: rgb(235, 235, 235);
     color: black;
     border-bottom: 1px solid black;
 }
@@ -29,4 +39,27 @@
 #icon-review-container {
     display: flex;
     gap: 20px;
+}
+
+#post-review-container div:first-of-type {
+    background-color: rgb(235, 235, 235);
+    height: 60px;
+    margin: 0 20px 0 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#post-review-container select {
+    height: 40px;
+    margin: 10px 20px 10px auto;
+    padding: 2px;
+    border-radius: 3px;
+    border: 0.5px;
+    background-color: rgb(235, 235, 235);
+}
+
+#post-review-container select:hover {
+    cursor: pointer;
 }
