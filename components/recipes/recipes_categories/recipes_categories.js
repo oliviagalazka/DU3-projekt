@@ -21,7 +21,6 @@ async function renderCategories(parentId) {
         entity: 'recipes', request: './../../api/recipes.php'
     });
     const recipes = State.GetEntity('recipes');
-
     const parent = document.getElementById(parentId);
 
     for (let category of categories) {
@@ -36,21 +35,17 @@ async function renderCategories(parentId) {
 
         categoryDom.querySelector('#check-box').addEventListener('click', function (e) {
             document.getElementById('recipes-right').innerHTML = '';
-
             categoryDom.querySelector('#check-box').classList.toggle('checked');
-            const categoryBox = categoryDom.querySelector('#category-text');
 
             for (let recipe of recipes) {
                 const categoriesList = recipe.categories;
                 for (category of categoriesList) {
-                    if (category === categoryBox.textContent) {
+                    if (category === categoryDom.querySelector('#category-text').textContent) {
                         renderRecipeCard('recipes-right', recipe);
                     }
                 }
             }
-
         });
     }
-
 }
 
