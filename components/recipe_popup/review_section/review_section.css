@@ -9,30 +9,44 @@
 
 #review-container {
     /* margin: 20px 0 20px 0; */
-    background-color: #14342B;
+    background-color: #DEDBD2;
     width: 800px;
-    padding: 20px;
+    margin-top: 40px;
+    
 }
 
 #post-review-input {
-    width: 701px;
+    width: 740px;
     border-radius: 5px;
     height: 100%;
     padding-left: 20px;
     border: none;
     outline: none;
-    background-color: rgb(235, 235, 235);
+    background-color: rgb(241, 241, 241);
+
 }
 
 #post-review-button {
-    background-color: #B0C4B1;
+    background-color: #585858;
     padding: 10px;
-    border-radius: 10px;
-    width: 120px;
+    border-radius: 5px;
+    font-size: 12px;
+    width: 130px;
+    margin-top: 15px;
+    font-family: 'gotu';
+    color: rgb(232, 232, 232);
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#post-review-button:hover {
+    cursor: pointer;
 }
 
 .review {
-    background-color: rgb(235, 235, 235);
+    background-color: rgb(241, 241, 241);
     color: black;
     border-bottom: 1px solid black;
 }
@@ -43,9 +57,8 @@
 }
 
 #post-review-container div:first-of-type {
-    background-color: rgb(235, 235, 235);
+    background-color: rgb(241, 241, 241);
     height: 60px;
-    
     border-radius: 5px;
     display: flex;
     justify-content: space-between;
@@ -58,7 +71,7 @@
     padding: 2px;
     border-radius: 3px;
     border: 0.5px;
-    background-color: rgb(235, 235, 235);
+    background-color: rgb(241, 241, 241);
 }
 
 #post-review-container select:hover {
