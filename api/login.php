@@ -27,13 +27,11 @@ if ($requestMethod == "POST") {
 
     foreach ($users as $user) {
         if ($user["username"] == $requestData["username"] and $user["password"] == $requestData["password"]) {
-            
+
             // ändra nyckeln "logedIn" till true
 
             $data = ["welcome" => "yes"];
             sendJSON($data, 200);
-
         }
     }
 }
-?>
