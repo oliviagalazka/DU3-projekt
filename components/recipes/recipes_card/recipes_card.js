@@ -27,9 +27,9 @@ async function renderRecipeCard(parentID, recipe) {
 }
 
 async function recipeAveregeReview(recipe) {
-    await State.Get({
-        entity: 'reviews', request: './../../api/reviews.php'
-    });
+    // await State.Get({
+    //     entity: 'reviews', request: './../../api/reviews.php'
+    // });
     const reviews = State.GetEntity('reviews');
 
     const allReviews = [];

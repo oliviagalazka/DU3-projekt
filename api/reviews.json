@@ -40,5 +40,19 @@
         "userId": "id",
         "comment": "uschh, laga inte detta recept",
         "rank": 1
+    },
+    {
+        "id": 7,
+        "recipeId": 101,
+        "userId": "id",
+        "comment": "S\u00e5 himla gott",
+        "rank": 6
+    },
+    {
+        "id": 8,
+        "recipeId": 244,
+        "userId": "id",
+        "comment": "woooooow ",
+        "rank": 0
     }
 ]

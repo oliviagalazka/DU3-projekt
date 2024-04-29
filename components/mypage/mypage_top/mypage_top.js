@@ -8,10 +8,15 @@ function renderMyPageTop(parentId) {
                                         <p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
                                     </div>
                                     <div id='shopping-list'>
-                                    <div>Inköpslista</div>
-                                    <div>textgubbe</div>
+                                        <div>Inköpslista</div>
+                                        <div>textgubbe</div>
                                     </div>
                                     `;
 
     parent.append(myPageTopContainer);
+
+    const shoppingListPopup = document.getElementById('shopping-list');
+    shoppingListPopup.addEventListener('click', () => {
+        renderShoppingList()
+    })
 }
