@@ -15,8 +15,8 @@ function renderMyPageTop(parentId) {
 
     parent.append(myPageTopContainer);
 
-    const shoppingListPopup = document.getElementById('shopping-list');
+    const shoppingListPopup = myPageTopContainer.querySelector('#shopping-list');
     shoppingListPopup.addEventListener('click', () => {
-        renderShoppingList()
-    })
+        renderShoppingList();
+    });
 }
