@@ -19,7 +19,7 @@ function renderRecipesLeft(parentId) {
 async function searchForIngredient() {
     const inputDom = document.getElementById('search-field');
 
-    await State.Get({ entity: 'recipes', request: './../../api/recipes.php' });
+    // await State.Get({ entity: 'recipes', request: './../../api/recipes.php' });
     const recipes = State.GetEntity('recipes');
 
     let filteredSearch = [];

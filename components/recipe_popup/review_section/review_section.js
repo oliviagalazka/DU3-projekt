@@ -70,7 +70,7 @@ function renderPostReviewContainer(parentId, recipe) {
 
 // Get Review Container
 async function renderGetReviewContainer(parentId, recipe) {
-    await State.Get({ entity: 'reviews', request: './../../api/reviews.php' });
+    // await State.Get({ entity: 'reviews', request: './../../api/reviews.php' });
     const reviews = State.GetEntity('reviews');
 
     const parent = document.getElementById(parentId);
