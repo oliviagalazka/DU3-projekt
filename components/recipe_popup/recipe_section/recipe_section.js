@@ -1,4 +1,4 @@
-function renderRecipeSection(parentId, recipe) {
+async function renderRecipeSection(parentId, recipe) {
     const parent = document.getElementById(parentId);
     const recipeSection = document.createElement('div');
     recipeSection.id = 'recipe-section';
@@ -9,23 +9,25 @@ function renderRecipeSection(parentId, recipe) {
 
     parent.append(recipeSection);
 
-    renderRecipeInfo('recipe-info-container', recipe);
+    await renderRecipeInfo('recipe-info-container', recipe);
     renderRecipeImage('recipe-info-container', recipe);
     renderRecipeTodo('recipe-todo-container', recipe);
 }
 
 // Recipe Info
-function renderRecipeInfo(parentId, recipe) {
+async function renderRecipeInfo(parentId, recipe) {
     const parent = document.getElementById(parentId);
     const recipeInfo = document.createElement('div');
     recipeInfo.id = 'recipe-info';
+
+    const review = await recipeAveregeReview(recipe);
 
     recipeInfo.innerHTML = `
                             <div id='title-heart-container'>
                                 <h1>${recipe.name}</h1>
                                 <h2>&#x2661</h2>
                             </div>
-                            <h3>Genomsnittligt Omdömme/10</h3>
+                            <h3>${review.averageRank}/10 (av ${review.totalReviews} omdömen)</h3>
                             <h4>${recipe.shortIntro}</h4>
                             <h4>Matlagningstid: ${recipe.cookingTime}</h4>
                         `;
