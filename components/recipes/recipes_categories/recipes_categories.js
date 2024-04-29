@@ -17,9 +17,9 @@ const categories = [
 ]
 
 async function renderCategories(parentId) {
-    await State.Get({
+    /*await State.Get({
         entity: 'recipes', request: './../../api/recipes.php'
-    });
+    });*/
     const recipes = State.GetEntity('recipes');
     const parent = document.getElementById(parentId);
 
@@ -48,4 +48,3 @@ async function renderCategories(parentId) {
         });
     }
 }
-
