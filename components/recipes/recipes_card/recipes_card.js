@@ -17,7 +17,7 @@ async function renderRecipeCard(parentID, recipe) {
         <div id='rc-info'>
             <h3 id='rc-name'>${recipe.name}</h3>
             <div id='rc-review-heart'>
-                <p id='rc-review'>${review.averageRank}/10 (av ${review.totalReviews})</p>
+                <p id='rc-review'>${review.averageRank}/10 (av ${review.totalReviews} omdömen)</p>
                 <div id='rc-heart'>&#x2661</div>
             </div>
         </div>
