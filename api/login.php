@@ -30,7 +30,7 @@ if ($requestMethod == "POST") {
             
             // ändra nyckeln "logedIn" till true
 
-            $data = ["welcome" => "yes"];
+            $data = ["user" => $user["id"]];
             sendJSON($data, 200);
 
         }

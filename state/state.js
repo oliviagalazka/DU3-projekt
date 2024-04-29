@@ -64,6 +64,7 @@ async function Post(data) {
         case "user":
             toLogin();
         case "login":
+            window.localStorage.setItem('user', JSON.stringify(resource));
             toLandingPage();
         case "reviews":
             postReviewInstance(resource);
