@@ -31,9 +31,11 @@ function renderLoginContainer() {
 
         const user = {
             entity: "login",
-            request: request
+            request: request,
+            user: username.value
         }
         State.Post(user);
+
     })
 }
 
@@ -45,7 +47,11 @@ function toLandingPage() {
     success.textContent = "Du är nu inloggad";
     document.getElementById("success").append(success);
 
+
+
     setTimeout(() => {
         window.location = "./../../index.html";
     }, 2000);
+
+
 }

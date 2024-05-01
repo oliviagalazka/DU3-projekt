@@ -46,6 +46,7 @@ async function Get(data) {
 async function Post(data) {
     const entity = data.entity;
     const request = data.request;
+    const user = data.user;
 
     const response = await fetcher(request);
     if (!response.ok) {
@@ -64,6 +65,7 @@ async function Post(data) {
         case "user":
             toLogin();
         case "login":
+            window.localStorage.setItem('login', user);
             toLandingPage();
         case "reviews":
             postReviewInstance(resource);
