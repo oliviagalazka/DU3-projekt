@@ -92,26 +92,11 @@ async function Patch(data) {
 
     const resource = await response.json();
 
-    for (let element of _state[entity]) {
-        if (element.id === resource.id) {
-            element.favorite = resource.favorite;
-        }
-    }
 
-    const instanceData = JSON.parse(JSON.stringify(_state[entity].find(element => element.id === resource.id)));
 
     switch (entity) {
-        case 'games':
-            patch_games(instanceData);
-            update_counter();
+        case 'savedRecipes':
             break;
-
-        case 'characters':
-
-            patch_characters(instanceData);
-            update_counter();
-            break;
-
         default:
             break;
     }

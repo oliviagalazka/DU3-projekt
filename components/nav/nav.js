@@ -24,7 +24,7 @@ function renderNavContainer(parentId) {
         navContainer.innerHTML = `
         <a href='./../../index.html'>HEM</a>
         <a href='./components/recipes/recipes.html'>RECEPT</a>
-        <a href='./components/mypage/mypage.html'>MIN SIDA</a>
+        <a href='#'>MIN SIDA</a>
         <a href='./../../index.html' id='about-us'>OM OSS</a>
         <a href='./components/login/login.html'>LOGGA IN</a>
         `;
