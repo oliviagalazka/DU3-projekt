@@ -64,11 +64,17 @@ async function Post(data) {
     switch (entity) {
         case "user":
             toLogin();
+            break;
         case "login":
             window.localStorage.setItem('login', user);
             toLandingPage();
+            break;
+        // case "logout":
+        //     window.localStorage.removeItem('login', user);
+        //     break;
         case "reviews":
             postReviewInstance(resource);
+            break;
     }
 
 }

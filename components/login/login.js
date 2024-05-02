@@ -47,11 +47,8 @@ function toLandingPage() {
     success.textContent = "Du är nu inloggad";
     document.getElementById("success").append(success);
 
-
-
     setTimeout(() => {
         window.location = "./../../index.html";
     }, 2000);
-
 
 }
