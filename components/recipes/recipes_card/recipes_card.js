@@ -25,31 +25,32 @@ async function renderRecipeCard(parentID, recipe) {
     `;
 
     parent.append(recipeCard);
-
-    const favoriteBtn = document.getElementById('rc-heart');
-    favoriteBtn.addEventListener('click', () => {
-
-        const patchRecipe = {
-            id: recipe.id,
-            user: window.localStorage.login,
-        };
-
-        const request = new Request('./../../../api/users.php', {
-            method: 'PATCH',
-            headers: { "Content-Type": 'application/json' },
-            body: JSON.stringify(patchRecipe)
+    /*
+        const favoriteBtn = document.getElementById('rc-heart');
+        favoriteBtn.addEventListener('click', () => {
+    
+            const patchRecipe = {
+                id: recipe.id,
+                user: window.localStorage.login,
+            };
+    
+            const request = new Request('./../../../api/users.php', {
+                method: 'PATCH',
+                headers: { "Content-Type": 'application/json' },
+                body: JSON.stringify(patchRecipe)
+            });
+    
+            const patchObject = {
+                entity: 'savedRecipes',
+                request: request
+            };
+            State.Patch(patchObject);
         });
-
-        const patchObject = {
-            entity: 'savedRecipes',
-            request: request
-        };
-        State.Patch(patchObject);
-    });
-    const user = await State.Get({
-        entity: 'user', request: './../../api/users.php'
-    });
-    console.log(user);
+        const user = await State.Get({
+            entity: 'user', request: './../../api/users.php'
+        });
+        console.log(user);
+        */
 }
 
 async function recipeAveregeReview(recipe) {
