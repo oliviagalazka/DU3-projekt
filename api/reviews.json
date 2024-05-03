@@ -40,5 +40,12 @@
         "userId": "id",
         "comment": "uschh, laga inte detta recept",
         "rank": 1
+    },
+    {
+        "id": 7,
+        "recipeId": 9,
+        "userId": "id",
+        "comment": "F\u00f6r mycket fisksmak!",
+        "rank": 3
     }
 ]
