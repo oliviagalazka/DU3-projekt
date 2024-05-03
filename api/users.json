@@ -12,5 +12,19 @@
         "password": "hej",
         "savedRecipes": [],
         "logedIn": false
+    },
+    {
+        "id": 3,
+        "username": "johan",
+        "password": "johan",
+        "savedRecipes": [],
+        "logedIn": false
+    },
+    {
+        "id": 4,
+        "username": "hilda",
+        "password": "hilda",
+        "savedRecipes": [],
+        "logedIn": false
     }
 ]
