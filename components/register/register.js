@@ -56,6 +56,6 @@ function toLogin() {
     document.getElementById("success").append(success);
 
     setTimeout(() => {
-        window.location = "login.html";
+        window.location = "./../login/login.html";
     }, 2000);
 }

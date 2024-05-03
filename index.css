@@ -12,3 +12,8 @@
     font-family: 'palmore_bold';
     src: url(fonts/Palmore-Bold.ttf);
 }
+
+@font-face {
+    font-family: 'chewy';
+    src: url(fonts/Chewy.ttf);
+}
