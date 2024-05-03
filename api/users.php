@@ -18,26 +18,22 @@ $requestJSON = file_get_contents("php://input");
 // Kodar om innehållet från body i förfrågan till en php array
 $requestData = json_decode($requestJSON, true);
 
-
 if ($requestMethod == "PATCH") {
 
-    $ind_Recipes = true;
+    foreach ($users as &$user) {
+        if ($user["username"] == $requestData["user"]) {
 
-    foreach ($users as $key => $user) {
-        if ($user["id"] == $requestData["user"]) {
-
-            foreach ($users[$key]["savedRecipes"] as $key2 => $recipes) {
-                if ($recipes == $requestData["id"]) {
-                    unset($users[$key]["savedRecipes"][$key2]);
-                    $ind_Recipes = false;
+            foreach ($user["savedRecipes"] as $index => &$recipeId) {
+                if ($recipeId == $requestData["id"]) {
+                    array_splice($user["savedRecipes"], $index, 1);
+                    $data = ["id" => $requestData["id"], "user" => $user["username"]];
+                    sendJSON($data, 200);
+                } else {
+                    $user["savedRecipes"][] = $requestData["id"];
+                    $data = ["id" => $requestData["id"], "user" => $user["username"]];
+                    sendJSON($data, 200);
                 }
             }
         }
     }
-
-    if ($ind_Recipes == true) {
-        $users[$key]["savedRecipes"][] = $requestData["id"];
-    }
-    $data = ["favorite" => "updated"];
-    sendJSON($data, 200);
 }

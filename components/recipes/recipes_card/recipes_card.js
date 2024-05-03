@@ -19,44 +19,22 @@ async function renderRecipeCard(parentID, recipe) {
             <h3 id='rc-name'>${recipe.name}</h3>
             <div id='rc-review-heart'>
                 <p id='rc-review'>${review.averageRank}/10 (av ${review.totalReviews} omdömen)</p>
-                <div id='rc-heart'>&#x2661</div>
+                <div id='saved-${recipe.id}' class='rc-heart'>&#x2661</div>
             </div>
         </div>
     `;
 
+    const favoriteBtn = recipeCard.querySelector('.rc-heart');
+    favoriteBtn.addEventListener('click', saveRecipe);
+
     parent.append(recipeCard);
-    /*
-        const favoriteBtn = document.getElementById('rc-heart');
-        favoriteBtn.addEventListener('click', () => {
-    
-            const patchRecipe = {
-                id: recipe.id,
-                user: window.localStorage.login,
-            };
-    
-            const request = new Request('./../../../api/users.php', {
-                method: 'PATCH',
-                headers: { "Content-Type": 'application/json' },
-                body: JSON.stringify(patchRecipe)
-            });
-    
-            const patchObject = {
-                entity: 'savedRecipes',
-                request: request
-            };
-            State.Patch(patchObject);
-        });
-        const user = await State.Get({
-            entity: 'user', request: './../../api/users.php'
-        });
-        console.log(user);
-        */
 }
 
 async function recipeAveregeReview(recipe) {
-    await State.Get({
+    /*await State.Get({
         entity: 'reviews', request: './../../api/reviews.php'
     });
+    */
     const reviews = State.GetEntity('reviews');
 
     const allReviews = [];
