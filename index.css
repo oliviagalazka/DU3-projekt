@@ -1,14 +1,14 @@
 @font-face {
-    font-family:'gotu';
+    font-family: 'gotu';
     src: url(fonts/Gotu-Regular.ttf);
 }
 
 @font-face {
-    font-family:'petit';
+    font-family: 'petit';
     src: url(fonts/Petit-Cochon.ttf);
 }
 
 @font-face {
-    font-family:'palmore_bold';
+    font-family: 'palmore_bold';
     src: url(fonts/Palmore-Bold.ttf);
 }
