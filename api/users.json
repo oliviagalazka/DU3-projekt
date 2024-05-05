@@ -4,9 +4,11 @@
         "username": "olivia",
         "password": "namnam",
         "savedRecipes": [
-            1,
             2,
-            3
+            3,
+            1,
+            6,
+            18
         ],
         "logedIn": false
     },

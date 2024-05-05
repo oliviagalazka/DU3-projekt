@@ -1,39 +1,54 @@
 <?php
+
 require_once('central.php');
 
-$filename = "users.json";
+$filename = 'users.json';
 
-// Skapar users array för att sedan kunna fylla den med våra users
 $users = [];
-
-// Hämtar users.json innehåll i JSON format
 $json = file_get_contents($filename);
-
-// Fyller users array med innehållet från users.json i php format
 $users = json_decode($json, true);
 
-// Hämtar allt innehåll från body i förfrågan som är i JSON format
-$requestJSON = file_get_contents("php://input");
-
-// Kodar om innehållet från body i förfrågan till en php array
+$requestJSON = file_get_contents('php://input');
 $requestData = json_decode($requestJSON, true);
 
-if ($requestMethod == "PATCH") {
+if ($requestMethod == 'PATCH') {
+    
+    if (!isset($requestData['id'], $requestData['user'])) {
+        $error = ['error' => 'The id, user or both is either missing or incomplete'];
+        sendJSON($error, 400);
+    }
 
-    foreach ($users as &$user) {
-        if ($user["username"] == $requestData["user"]) {
+    $userFound = false;
+    foreach ($users as $index => &$user) {
+        if ($user['username'] == $requestData['user']) {
+            $userFound = true;
+            $recipeFound = false;
 
-            foreach ($user["savedRecipes"] as $index => &$recipeId) {
-                if ($recipeId == $requestData["id"]) {
-                    array_splice($user["savedRecipes"], $index, 1);
-                    $data = ["id" => $requestData["id"], "user" => $user["username"]];
-                    sendJSON($data, 200);
-                } else {
-                    $user["savedRecipes"][] = $requestData["id"];
-                    $data = ["id" => $requestData["id"], "user" => $user["username"]];
-                    sendJSON($data, 200);
+            foreach ($user['savedRecipes'] as $recipeIndex => $recipeId) {
+                if ($recipeId == $requestData['id']) {
+                    array_splice($user['savedRecipes'], $recipeIndex, 1);
+                    $recipeFound = true;
+                    break;
                 }
             }
+
+            if (!$recipeFound) {
+                $user['savedRecipes'][] = $requestData['id'];
+            }
+
+            $json = json_encode($users, JSON_PRETTY_PRINT);
+            file_put_contents($filename, $json);
+            $data = ['id' => $requestData['id'], 'user' => $user['username']];
+            sendJSON($data, 200);
+            break;
         }
     }
+
+    if (!$userFound) {
+        $error = ['error' => 'User not found'];
+        sendJSON($error, 404);
+    }
+
 }
+
+?>
