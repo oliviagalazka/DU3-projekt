@@ -11,10 +11,17 @@ $users = json_decode($json, true);
 $requestJSON = file_get_contents('php://input');
 $requestData = json_decode($requestJSON, true);
 
+$contentType = $_SERVER['CONTENT_TYPE'];
+
+if ($contentType != 'application/json') {
+    $error = ['error' => 'Invalid Content Type'];
+    sendJSON($error, 415);
+}
+
+// PATCH FÖRFRÅGAN
 if ($requestMethod == 'PATCH') {
-    
     if (!isset($requestData['id'], $requestData['user'])) {
-        $error = ['error' => 'The id, user or both is either missing or incomplete'];
+        $error = ['error' => 'One of the fields is either missing or incomplete'];
         sendJSON($error, 400);
     }
 
@@ -48,7 +55,6 @@ if ($requestMethod == 'PATCH') {
         $error = ['error' => 'User not found'];
         sendJSON($error, 404);
     }
-
 }
 
 ?>

@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 @font-face {
     font-family: 'gotu';
     src: url(fonts/Gotu-Regular.ttf);
@@ -11,9 +15,4 @@
 @font-face {
     font-family: 'palmore_bold';
     src: url(fonts/Palmore-Bold.ttf);
-}
-
-@font-face {
-    font-family: 'chewy';
-    src: url(fonts/Chewy.ttf);
 }

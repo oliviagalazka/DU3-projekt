@@ -57,3 +57,19 @@ async function recipeAveregeReview(recipe) {
         return { averageRank: averageRank, totalReviews: allReviews.length };
     }
 }
+
+
+function get_dom_id(instanceId) {
+    return `saved-${instanceId}`;
+}
+
+function patchRecipe(instanceData) {
+    const recipeId = get_dom_id(instanceData.id);
+    const savedDom = document.getElementById(recipeId);
+
+    if (savedDom.classList.contains('favorite')) {
+        savedDom.classList.remove('favorite');
+    } else {
+        savedDom.classList.add('favorite');
+    }
+}

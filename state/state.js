@@ -91,21 +91,25 @@ async function Patch(data) {
     }
 
     const resource = await response.json();
-/*
-    for (let user of _state[entity]) {
-        if (user.username === resource.user) {
-        user.savedRecipes.push(resource.id);
-        }
-    }   
+    /*
+        for (let user of _state[entity]) {
+            if (user.username === resource.user) {
+            user.savedRecipes.push(resource.id);
+            }
+        }   
+    */
+    //_state[entity].push(resource);
 
     switch (entity) {
-        case 'savedRecipes':
+        case 'user':
+            patchRecipe(resource);
             break;
         default:
             break;
     }
-    */
-   console.log(resource);
+
+    console.log(resource);
+    console.log(_state[entity]);
 }
 
 // DELETE funktion

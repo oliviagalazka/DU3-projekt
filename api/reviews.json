@@ -2,50 +2,13 @@
     {
         "id": 1,
         "recipeId": 1,
-        "userId": "id",
-        "comment": "gotti",
-        "rank": 5
+        "comment": "Supergod morotsoppa!!!",
+        "rank": 9
     },
     {
         "id": 2,
-        "recipeId": 2,
-        "userId": "id",
-        "comment": "Kr\u00e4mig och god klassisk soppa",
-        "rank": 7
-    },
-    {
-        "id": 3,
-        "recipeId": 2,
-        "userId": "id",
-        "comment": "N\u00e4, f\u00f6r \u00e4ckligt!!",
-        "rank": 1
-    },
-    {
-        "id": 4,
-        "recipeId": 2,
-        "userId": "id",
-        "comment": "namnam",
-        "rank": 10
-    },
-    {
-        "id": 5,
-        "recipeId": 7,
-        "userId": "id",
-        "comment": "Recomend recomend!!",
-        "rank": 10
-    },
-    {
-        "id": 6,
-        "recipeId": 4,
-        "userId": "id",
-        "comment": "uschh, laga inte detta recept",
-        "rank": 1
-    },
-    {
-        "id": 7,
-        "recipeId": 9,
-        "userId": "id",
-        "comment": "F\u00f6r mycket fisksmak!",
-        "rank": 3
+        "recipeId": 13,
+        "comment": "Usch, laga inte!",
+        "rank": 2
     }
 ]

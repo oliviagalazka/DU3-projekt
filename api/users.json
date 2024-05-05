@@ -2,35 +2,41 @@
     {
         "id": 1,
         "username": "olivia",
-        "password": "namnam",
+        "password": "olivia",
         "savedRecipes": [
-            3,
-            1,
-            6,
-            18,
-            2
-        ],
-        "logedIn": false
+            2,
+            7,
+            5
+        ]
     },
     {
         "id": 2,
-        "username": "hej",
-        "password": "hej",
-        "savedRecipes": [],
-        "logedIn": false
+        "username": "hilda",
+        "password": "hilda",
+        "savedRecipes": [
+            11,
+            6
+        ]
     },
     {
         "id": 3,
         "username": "johan",
         "password": "johan",
-        "savedRecipes": [],
-        "logedIn": false
+        "savedRecipes": [
+            18,
+            17,
+            24
+        ]
     },
     {
         "id": 4,
-        "username": "hilda",
-        "password": "hilda",
-        "savedRecipes": [],
-        "logedIn": false
+        "username": "embla",
+        "password": "embla",
+        "savedRecipes": [
+            10,
+            30,
+            1,
+            2
+        ]
     }
 ]

@@ -1,16 +1,11 @@
-* {
-    box-sizing: border-box;
-}
-
 #heroSectionContainer {
     height: 90vh;
-    background-color: aquamarine;
+    background-color: rgb(145, 121, 92);
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 #heroSectionContainer h1 {
-    font-size: 50px;
+    font-size: 94px;
 }

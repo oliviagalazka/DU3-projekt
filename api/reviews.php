@@ -2,55 +2,52 @@
 
 require_once('central.php');
 
-$filename = "reviews.json";
+$filename = 'reviews.json';
 
 $reviews = [];
-
 $json = file_get_contents($filename);
 $reviews = json_decode($json, true);
 
+$requestJSON = file_get_contents('php://input');
+$requestData = json_decode($requestJSON, true);
+
 // GET FÖRFRÅGAN
-if ($requestMethod == "GET") {
+if ($requestMethod == 'GET') {
     sendJSON($reviews, 200);
 }
 
-$contentType = $_SERVER["CONTENT_TYPE"];
+$contentType = $_SERVER['CONTENT_TYPE'];
 
-if ($contentType != "application/json") {
-    $error = ["error" => "Invalid Content Type"];
+if ($contentType != 'application/json') {
+    $error = ['error' => 'Invalid Content Type'];
     sendJSON($error, 415);
 }
 
-$requestJSON = file_get_contents("php://input");
-$requestData = json_decode($requestJSON, true);
-
 // POST FÖRFRÅGAN
-if ($requestMethod == "POST") {
-    if (empty($requestData["recipeId"]) and empty($requestData["userId"]) and empty($requestData["comment"])) {
-        $error = ["error" => "The field is empty"];
+if ($requestMethod == 'POST') {
+    if (empty($requestData['recipeId']) or empty($requestData['comment']) or empty($requestData['rank'])) {
+        $error = ['error' => 'One of the fields is either missing or incomplete'];
         sendJSON($error, 400);
     }
 
-    $recipeId = $requestData["recipeId"];
-    $userId = $requestData["userId"];
-    $comment = $requestData["comment"];
-    $rank = $requestData["rank"];
+    $recipeId = $requestData['recipeId'];
+    $comment = $requestData['comment'];
+    $rank = $requestData['rank'];
 
     $highestId = 0;
 
     foreach ($reviews as $review) {
-        if ($review["id"] > $highestId) {
-            $highestId = $review["id"];
+        if ($review['id'] > $highestId) {
+            $highestId = $review['id'];
         }
     }
 
     $nextId = $highestId + 1;
     $newReview = [
-        "id" => $nextId,
-        "recipeId" => $recipeId,
-        "userId" => $userId,
-        "comment" => $comment,
-        "rank" => $rank
+        'id' => $nextId,
+        'recipeId' => $recipeId,
+        'comment' => $comment,
+        'rank' => $rank
     ];
 
     $reviews[] = $newReview;
@@ -58,4 +55,5 @@ if ($requestMethod == "POST") {
     file_put_contents($filename, $json);
     sendJSON($newReview, 201);
 }
+
 ?>
