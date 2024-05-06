@@ -3,7 +3,7 @@ function renderRecipesTop(parentId) {
     const recipesTop = document.createElement('div');
     recipesTop.id = 'recipes-top';
     recipesTop.innerHTML = `
-        <h1>RECIPES</h1>
+        <h1>RECEPT</h1>
     `;
 
     parent.append(recipesTop);

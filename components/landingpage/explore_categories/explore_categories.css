@@ -3,7 +3,7 @@
 }
 
 #ExploreCategoriesContainer {
-    height: 70vh;
+    height: 90vh;
     background-color: #0c0b0c;
     display: flex;
     flex-direction: column;
@@ -16,7 +16,6 @@
 
 #utforska-kategorier-section {
     height: 60vh;
-    background-color: rgb(255, 0, 204);
     margin: 0 200px 0 200px;
 
     display: grid;
@@ -31,7 +30,7 @@
 }
 
 #utforska-kategorier-section>div {
-    background-color: rgb(180, 161, 136);
+    background-color: #dfdcd3;
     padding: 10px;
     height: 130px;
     width: 130px;
@@ -44,4 +43,5 @@
 
 #utforska-kategorier-section>div a {
     text-align: center;
+    font-family: "gotu";
 }

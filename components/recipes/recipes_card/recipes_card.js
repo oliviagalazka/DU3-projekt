@@ -14,7 +14,7 @@ async function renderRecipeCard(parentID, recipe) {
     const review = await recipeAveregeReview(recipe);
 
     recipeCard.innerHTML = `
-        <div id='rc-img'>Bild</div>
+        <div id='rc-img'></div>
         <div id='rc-info'>
             <h3 id='rc-name'>${recipe.name}</h3>
             <div id='rc-review-heart'>

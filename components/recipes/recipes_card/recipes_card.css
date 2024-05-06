@@ -1,22 +1,27 @@
 .recipe-card {
+    background-color: #FEFDFE;
+    border: 1px solid black;
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
 }
 
 #rc-img {
-    height: 200px;
-    background-color: rgb(148, 113, 112);
+    height: 180px;
+    background-color: black;
 }
 
 #rc-info {
     display: flex;
     flex-direction: column;
+    padding: 10px;
+    font-size: 14px;
 }
 
 #rc-review-heart {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
 }
 
 .favorite {
