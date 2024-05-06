@@ -12,6 +12,7 @@
     font-family: 'palmore_bold';
     font-size: 50px;
     color: rgb(9, 9, 9);
+    margin-bottom: 10px;
 }
 
 #review-container {
@@ -45,6 +46,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 40px;
 }
 
 #post-review-button:hover {
@@ -52,9 +54,11 @@
 }
 
 .review {
-    background-color: rgb(241, 241, 241);
     color: black;
     border-bottom: 1px solid black;
+    font-family: 'gotu';
+    font-size: 16px;
+    margin-bottom: 20px;
 }
 
 #icon-review-container {
