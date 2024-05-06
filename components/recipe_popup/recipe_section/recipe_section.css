@@ -64,6 +64,10 @@
     padding: 0px;
 }
 
+#recipe-todo-container h2 {
+    font-family: 'palmore_bold';
+}
+
 #recipe-todo-container div:first-of-type {
     background-color: aqua;
     flex-grow: 1;
