@@ -5,6 +5,13 @@
 #review-section {
     display: flex;
     justify-content: center;
+    margin-top: 60PX;
+}
+
+#review-section h1 {
+    font-family: 'palmore_bold';
+    font-size: 50px;
+    color: rgb(9, 9, 9);
 }
 
 #review-container {
@@ -23,7 +30,6 @@
     border: none;
     outline: none;
     background-color: rgb(241, 241, 241);
-
 }
 
 #post-review-button {
