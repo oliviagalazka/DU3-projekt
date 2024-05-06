@@ -1,14 +1,19 @@
 nav {
-    background-color: rgba(0, 0, 0, 0.5);
     height: 5vh;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+nav div:first-child {
+    display: flex;
     gap: 3vw;
-    padding: 15px;
 }
 
 nav a {
-    color: #fefdfe;
     text-decoration: none;
     font-family: "gotu";
+    color: #fefdfe;
 }
