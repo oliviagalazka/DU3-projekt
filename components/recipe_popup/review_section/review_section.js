@@ -24,7 +24,7 @@ function renderPostReviewContainer(parentId, recipe) {
         <input id='post-review-input' type='text' placeholder='Lämna ett omdömme...'>
         <select></select>
     </div>
-    <div id='post-review-button'>KOMMENTERA</div>
+    <div id='post-review-button'>Kommentera</div>
                                 `;
 
     parent.append(postReviewContainer);

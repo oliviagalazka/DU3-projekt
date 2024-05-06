@@ -4,7 +4,8 @@ function renderRecipePopup(recipe) {
 
   // Stäng popup knapp
   const closePopupButton = document.createElement('a');
-  closePopupButton.innerHTML = 'Gå tillbaka till alla recept';
+  closePopupButton.innerHTML = '྾';
+  closePopupButton.id = 'closePopupButton'
   closePopupButton.addEventListener('click', (e) => {
     e.preventDefault();
     recipePopupWrapper.remove();
