@@ -3,7 +3,9 @@ function renderHeroSection(parentId) {
     const heroSectionContainer = document.createElement('div');
     heroSectionContainer.id = 'heroSectionContainer';
     heroSectionContainer.innerHTML = `
-        <h1>NAMNAM</h1>
+        <div>
+            <h1>NAMNAM</h1>
+        </div>
     `;
 
     parent.append(heroSectionContainer);

@@ -19,29 +19,35 @@ function renderRegisterContainer() {
 
     const registerButton = document.getElementById('register-button');
     registerButton.addEventListener('click', async () => {
+        document.getElementById('success').textContent = "";
+        if (username.value === "" || password.value === "" || passwordConfirm.value === "") {
+            setTimeout(() => {
+                document.getElementById('success').textContent = "Vänligen fyll i alla fält.";
+            }, 100);
+        } else if (password.value != passwordConfirm.value) {
+            setTimeout(() => {
+                document.getElementById('success').textContent = "Lösenorden matchar inte.";
+            }, 100);
+        } else {
+            const postData = {
+                username: username.value,
+                password: password.value,
+                passwordConfirm: passwordConfirm.value
+            }
 
-        if (password.value != passwordConfirm.value) {
-            alert("Error - Passwords don't match")
+            const request = new Request("./../../api/register.php", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(postData),
+            });
+
+            const newUser = {
+                entity: "user",
+                request: request
+            }
+            State.Post(newUser);
         }
-
-        const postData = {
-            username: username.value,
-            password: password.value,
-            passwordConfirm: passwordConfirm.value
-        }
-
-        const request = new Request("./../../api/register.php", {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify(postData),
-        });
-
-        const newUser = {
-            entity: "user",
-            request: request
-        }
-        State.Post(newUser);
-    })
+    });
 }
 
 renderRegisterContainer();
