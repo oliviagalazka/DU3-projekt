@@ -12,3 +12,5 @@ $recipes = json_decode($json, true);
 if ($requestMethod == 'GET') {
     sendJSON($recipes, 200);
 }
+
+?>
