@@ -18,12 +18,13 @@ function renderPostReviewContainer(parentId, recipe) {
     const postReviewContainer = document.createElement('div');
     postReviewContainer.id = 'post-review-container';
     postReviewContainer.innerHTML = `
-                                    <h1>OMDÖMEN</h1>
-                                    <div>
-                                        <input id='post-review-input' type='text' placeholder='Lämna ett omdömme...'>
-                                        <select></select>
-                                    </div>
-                                    <div id='post-review-button'>KOMMENTERA</div>
+    <div id='servitris-gubbe-bild'></div>
+    <h1>OMDÖMEN</h1>
+    <div id='add-comment-container'>
+        <input id='post-review-input' type='text' placeholder='Lämna ett omdömme...'>
+        <select></select>
+    </div>
+    <div id='post-review-button'>KOMMENTERA</div>
                                 `;
 
     parent.append(postReviewContainer);
