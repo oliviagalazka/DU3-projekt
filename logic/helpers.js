@@ -29,7 +29,7 @@ async function searchForIngredient() {
     const recipes = State.GetEntity('recipes');
 
     let filteredSearch = [];
-    document.getElementById('recipes-right').innerHTML = "";
+    document.getElementById('recipe-page-right-container').innerHTML = "";
     for (recipe of recipes) {
         const ingredientList = recipe.ingredients;
 
@@ -39,12 +39,12 @@ async function searchForIngredient() {
 
             if (ingredient.includes(inputDom.value) || lowerCase.includes(inputDom.value) || upperCase.includes(inputDom.value)) {
                 filteredSearch.push(recipe);
-                renderRecipeCard('recipes-right', recipe);
+                renderRecipeCard('recipe-page-right-container', recipe);
             }
         }
     }
 
     if (filteredSearch.length === 0) {
-        document.getElementById('recipes-right').innerHTML = `Tyvärr finns det inga recept med denna ingrediens ännu`;
+        document.getElementById('recipe-page-right-container').innerHTML = `Tyvärr finns det inga recept med denna ingrediens ännu`;
     }
 }
