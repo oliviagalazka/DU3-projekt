@@ -1,6 +1,5 @@
-#recipes-bottom {
-    display: grid;
-    gap: 20px;
-    grid-column: 1fr 2fr;
+#recipe-page-bottom-section {
+    display: flex;
+    gap: 30px;
     margin: 70px 200px 70px 200px;
 }

@@ -1,10 +1,10 @@
-function renderRecipesBottom(parentId) {
-    const parent = parentId;
-    const recipesBottom = document.createElement('div');
-    recipesBottom.id = 'recipes-bottom';
+function renderRecipePageBottomSection(parentId) {
+    const parent = document.getElementById(parentId);
+    const recipePageBottomSection = document.createElement('div');
+    recipePageBottomSection.id = 'recipe-page-bottom-section';
 
-    parent.append(recipesBottom);
+    parent.append(recipePageBottomSection);
 
-    renderRecipesLeft(recipesBottom);
-    renderRecipesRight('recipes-bottom');
+    renderRecipePageLeftContainer('recipe-page-bottom-section');
+    renderRecipePageRightContainer('recipe-page-bottom-section');
 }

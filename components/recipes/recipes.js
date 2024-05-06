@@ -1,4 +1,4 @@
-async function renderRecipes() {
+async function renderRecipePage() {
     await State.Get({
         entity: 'recipes', request: './../../api/recipes.php'
     });
@@ -7,11 +7,10 @@ async function renderRecipes() {
         entity: 'reviews', request: './../../api/reviews.php'
     });
 
-    const wrapper = document.getElementById('wrapper-recipes');
     renderNavContainer('wrapper-recipes');
-    renderRecipesTop(wrapper);
-    renderRecipesBottom(wrapper);
+    renderRecipePageTopSection('wrapper-recipes');
+    renderRecipePageBottomSection('wrapper-recipes');
     renderFooterContainer('wrapper-recipes');
 }
 
-renderRecipes();
+renderRecipePage();

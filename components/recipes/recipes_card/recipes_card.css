@@ -1,5 +1,5 @@
 .recipe-card {
-    background-color: #FEFDFE;
+    background-color: #fefdfe;
     border: 1px solid black;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
 
 #rc-img {
     height: 180px;
-    background-color: black;
+    background-color: beige;
 }
 
 #rc-info {

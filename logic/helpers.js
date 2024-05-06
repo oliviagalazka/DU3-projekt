@@ -21,3 +21,30 @@ function saveRecipe(event) {
 
     State.Patch(patchObject);
 }
+
+async function searchForIngredient() {
+    const inputDom = document.getElementById('search-field');
+
+    await State.Get({ entity: 'recipes', request: './../../api/recipes.php' });
+    const recipes = State.GetEntity('recipes');
+
+    let filteredSearch = [];
+    document.getElementById('recipes-right').innerHTML = "";
+    for (recipe of recipes) {
+        const ingredientList = recipe.ingredients;
+
+        for (ingredient of ingredientList) {
+            const lowerCase = ingredient.toLowerCase();
+            const upperCase = ingredient.toUpperCase();
+
+            if (ingredient.includes(inputDom.value) || lowerCase.includes(inputDom.value) || upperCase.includes(inputDom.value)) {
+                filteredSearch.push(recipe);
+                renderRecipeCard('recipes-right', recipe);
+            }
+        }
+    }
+
+    if (filteredSearch.length === 0) {
+        document.getElementById('recipes-right').innerHTML = `Tyvärr finns det inga recept med denna ingrediens ännu`;
+    }
+}

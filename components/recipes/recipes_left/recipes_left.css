@@ -1,3 +1,43 @@
-#recipes-left {
-    grid-column: 1;
+#recipe-page-left-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#categories-container h1 {
+    font-family: "palmore_bold";
+    font-size: 44px;
+    margin-bottom: 0px;
+}
+
+#categories {
+    font-family: "gotu";
+    font-size: 14px;
+}
+
+#search-field {
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    font-family: "gotu";
+    box-shadow: 1px 1px 10px black;
+    color: black;
+}
+
+.check-box {
+    width: 15px;
+    height: 15px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: #fefdfe;
+}
+
+.category-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.checked {
+    background-color: black;
 }

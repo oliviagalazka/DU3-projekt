@@ -12,12 +12,12 @@ function renderExploreCategories(parentId) {
 }
 
 const categories = [
-    "Soppa",
-    "Sallad",
-    "Pasta",
+    "Soppor",
+    "Sallader",
+    "Pastor",
     "Nudlar",
-    "Paj",
-    "Pizza",
+    "Pajer",
+    "Pizzor",
     "Mackor",
     "Mellanmål",
     "Vegetariskt",

@@ -1,10 +1,30 @@
-#recipes-top {
+#recipe-page-top-section {
     margin: 0;
     height: 60vh;
-    background-color: rgba(0, 0, 0, 0.5);
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#recipe-page-top-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#recipe-page-top-container h1 {
+    margin: 0;
     font-family: "petit";
-    font-size: 94px;
+    font-size: 164px;
+    color: #dfdcd3;
+    text-shadow: 1px 1px 10px black;
+}
+
+#recipe-page-top-container p {
+    margin: 0;
+    font-family: "gotu";
+    font-size: 14px;
+    color: #dfdcd3;
+    text-shadow: 1px 1px 10px black;
 }
