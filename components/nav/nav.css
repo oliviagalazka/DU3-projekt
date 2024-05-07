@@ -17,3 +17,6 @@ nav a {
     font-family: "gotu";
     color: #fefdfe;
 }
+nav a:hover{
+    text-shadow: 1px 1px 10px black;
+}
