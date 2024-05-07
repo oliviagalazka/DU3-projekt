@@ -25,7 +25,6 @@ function renderShoppinglistSection(parentId) {
                                                                                 <div class='delete'>
                                                                                     <div>Ta bort</div>
                                                                                 </div>
-                                                                                
                                                                             </div>`;
         shoppinglistSection.querySelector('input').value = '';
     });
