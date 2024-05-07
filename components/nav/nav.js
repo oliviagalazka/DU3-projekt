@@ -181,10 +181,10 @@ function renderNavContainer(parentId) {
         prevScroll = currentScrollPos;
         
         if (isScrollingDown) {
-            setTimeout(function() {
+            {
                 document.getElementById('nav-container').style.top = '-100px';
-                //istället lägg till class. Kolla om man är npgonstans över herosection. då sk ainget hända på scroll. men om man är någon annan stans ska saker hända på scroll
-            }, 1500);
+                //istället för interval lägg till class. Kolla om man är npgonstans över herosection. då sk ainget hända på scroll. men om man är någon annan stans ska saker hända på scroll
+            }
         } else {
         
             document.getElementById('nav-container').style.top = '0';
