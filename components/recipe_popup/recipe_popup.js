@@ -4,8 +4,8 @@ function renderRecipePopup(recipe) {
 
   // Stäng popup knapp
   const closePopupButton = document.createElement('a');
+  closePopupButton.id = 'closePopupButton';
   closePopupButton.innerHTML = '྾';
-  closePopupButton.id = 'closePopupButton'
   closePopupButton.addEventListener('click', (e) => {
     e.preventDefault();
     recipePopupWrapper.remove();
