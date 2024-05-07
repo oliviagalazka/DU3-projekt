@@ -13,11 +13,15 @@ function renderMyPageTop(parentId) {
                                         </ul>
                                         <p>Allt relaterat till detta kan du hitta på denna sida!</p>
                                     </div>
-                                    <div id='shopping-list'>
-                                    <div>Inköpslista</div>
+                                    <div>
+                                    <div id='shopping-list'>Inköpslista</div>
                                     <div>textgubbe</div>
                                     </div>
                                     `;
 
     parent.append(myPageTopContainer);
+
+    myPageTopContainer.querySelector('#shopping-list').addEventListener('click', function () {
+        renderShoppinglistPopup();
+    });
 }
