@@ -2,13 +2,29 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(166, 14, 39);
+    background-image: url(../../../img_for_design/herosectionImg.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+#shadow {
+    background-color: rgba(0, 0, 0, 0.51);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 
 #my-page-info {
     height: 60vh;
     width: 40vw;
+    z-index: 1;
+}
 
+#shopping-list-container {
+    z-index: 2;
 }
 
 #shopping-list {
@@ -25,6 +41,7 @@
     font-family: 'petit';
     color: rgb(245, 245, 235);
     font-size: 60px;
+    
 }
 
 #mypage-top-container p {
