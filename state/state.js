@@ -15,9 +15,10 @@ const State = {
     Delete,
 }
 
+/*
 if (window.localStorage.getItem('userdata')) {
     _state['user'] = JSON.parse(window.localStorage.getItem('userdata'));
-}
+}*/
 
 // GET funktion
 function GetEntity(entity) {
@@ -105,6 +106,7 @@ async function Patch(data) {
 
     switch (entity) {
         case 'user':
+            _state[entity].savedRecipes = resource.savedRecipes;
             patchRecipe(resource);
             break;
         default:

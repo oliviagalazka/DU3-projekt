@@ -1,8 +1,6 @@
 "use strict";
 
 async function getRandomRecipe(parentID, amount) {
-    await State.Get({ entity: 'recipes', request: './../../api/recipes.php' });
-
     const recipes = State.GetEntity('recipes');
 
     for (let i = 0; i < amount; i++) {

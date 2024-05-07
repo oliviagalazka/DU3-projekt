@@ -12,6 +12,7 @@ function renderMyPageBottom(parentId) {
   parent.append(myPageBottomContainer);
 
   let user = State.GetEntity('user');
+  console.log(user);
   let recipes = State.GetEntity('recipes');
   for (let recipe of recipes) {
     for (let savedRecipe of user.savedRecipes) {
