@@ -1,5 +1,5 @@
 const _state = {
-    user: [],
+    user: {},
     login: [],
     reviews: [],
     recipes: [],
@@ -13,6 +13,10 @@ const State = {
     Post,
     Patch,
     Delete,
+}
+
+if (window.localStorage.getItem('userdata')) {
+    _state['user'] = JSON.parse(window.localStorage.getItem('userdata'));
 }
 
 // GET funktion
@@ -38,8 +42,6 @@ async function Get(data) {
     // vi stoppar in array i array, därför blir de dubbelt med push, _state[entity]=resource
     // _state[entity].push(resource); //Skriva = istället så 
     _state[entity] = resource;
-
-
 }
 
 // POST funktion (register a new user)
@@ -60,13 +62,14 @@ async function Post(data) {
     console.log(resource);
     _state[entity].push(resource); //Skriva = istället så 
     //_state[entity] = resource;
-
+    // console.log('detta är vår state', _state)
     switch (entity) {
         case "user":
             toLogin();
             break;
         case "login":
             window.localStorage.setItem('login', user);
+            window.localStorage.setItem('userdata', JSON.stringify(resource));
             toLandingPage();
             break;
         // case "logout":

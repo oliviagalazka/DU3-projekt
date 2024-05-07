@@ -11,12 +11,14 @@ $users = json_decode($json, true);
 $requestJSON = file_get_contents('php://input');
 $requestData = json_decode($requestJSON, true);
 
+/* Behver vi detta???? */
 $contentType = $_SERVER['CONTENT_TYPE'];
 
 if ($contentType != 'application/json') {
     $error = ['error' => 'Invalid Content Type'];
     sendJSON($error, 415);
 }
+
 
 // PATCH FÖRFRÅGAN
 if ($requestMethod == 'PATCH') {
@@ -56,5 +58,3 @@ if ($requestMethod == 'PATCH') {
         sendJSON($error, 404);
     }
 }
-
-?>

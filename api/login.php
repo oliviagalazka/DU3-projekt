@@ -27,10 +27,8 @@ if ($requestMethod == 'POST') {
 
     foreach ($users as $user) {
         if ($user['username'] == $requestData['username'] and $user['password'] == $requestData['password']) {
-            $data = ['message' => 'Welcome'];
-            sendJSON($data, 200);
+            unset($user['password']);
+            sendJSON($user, 200);
         }
     }
 }
-
-?>
