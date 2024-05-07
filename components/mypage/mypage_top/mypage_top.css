@@ -2,13 +2,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: pink;
+    background-color: rgb(166, 14, 39);
 }
 
 #my-page-info {
     height: 60vh;
     width: 40vw;
-    background-color: gray;
+
 }
 
 #shopping-list {
@@ -19,4 +19,26 @@
     height: 60vh;
     width: 20vw;
     background-color: beige;
+}
+
+#mypage-top-container h1 {
+    font-family: 'petit';
+    color: rgb(245, 245, 235);
+    font-size: 60px;
+}
+
+#mypage-top-container p {
+    color: rgb(245, 245, 235);
+    font-family: 'gotu';
+    font-size: 16px;
+}
+
+#mypage-top-container li {
+    color: rgb(245, 245, 235);
+    font-family: 'gotu';
+    font-size: 16px;
+}
+
+#mypage-top-container ul {
+    padding-left: 15px;
 }
