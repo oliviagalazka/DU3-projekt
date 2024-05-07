@@ -38,7 +38,7 @@ function renderLoginContainer() {
             const user = {
                 entity: "login",
                 request: request,
-                user: username.value
+                user: username.value,
             }
             State.Post(user);
         }

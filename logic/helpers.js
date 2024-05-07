@@ -1,6 +1,5 @@
 
 function saveRecipe(event) {
-    console.log("hej");
     event.stopPropagation();
 
     const patchRecipe = {

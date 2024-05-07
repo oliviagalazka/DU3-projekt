@@ -8,15 +8,19 @@ function renderMyPageBottom(parentId) {
                                       `;
 
   // Detta ska vi ha när vi har löst med State.GetEntity('user');
-  /*
-  const recipes = State.GetEntity('recipes');
-  const user = State.GetEntity('user');
-  const savedRecipes = user.savedRecipes;
 
-  for (let savedRecipe of savedRecipes) {
-    let foundRecipe = recipes.find(recipe => recipe.id === savedRecipe)
-    renderRecipesCard("recipe-container", foundRecipe)
-  }
-  */
   parent.append(myPageBottomContainer);
+
+  let user = State.GetEntity('user');
+  let recipes = State.GetEntity('recipes');
+  for (let recipe of recipes) {
+    for (let savedRecipe of user.savedRecipes) {
+      if (recipe.id === savedRecipe) {
+        console.log(recipe);
+        renderRecipeCard('saved-recipes-container', recipe);
+      }
+    }
+  }
+
+
 }
