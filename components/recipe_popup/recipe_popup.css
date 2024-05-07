@@ -8,7 +8,7 @@
     padding: 30px;
     position: absolute;
     padding-bottom: 100px;
-
+    z-index: 100;
 }
 
 #closePopupButton {
