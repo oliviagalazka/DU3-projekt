@@ -16,7 +16,7 @@ function renderMyPageTop(parentId) {
         </div>
         <div id='shopping-list-container'>
             <div id='shopping-list'>Inköpslista</div>
-            <div>textgubbe</div>
+            <div id='textgubbe-klicka-här'>textgubbe</div>
         </div>
     </div>
     `;

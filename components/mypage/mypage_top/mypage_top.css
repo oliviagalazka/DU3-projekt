@@ -9,7 +9,7 @@
 }
 
 #shadow {
-    background-color: rgba(0, 0, 0, 0.51);
+    background-color: rgba(0, 0, 0, 0.648);
     position: absolute;
     top: 0;
     left: 0;
@@ -21,6 +21,7 @@
     height: 60vh;
     width: 40vw;
     z-index: 1;
+    padding-right: 40px;
 }
 
 #shopping-list-container {
@@ -58,4 +59,8 @@
 
 #mypage-top-container ul {
     padding-left: 15px;
+}
+
+#textgubbe-klicka-här {
+    color: aliceblue;
 }
