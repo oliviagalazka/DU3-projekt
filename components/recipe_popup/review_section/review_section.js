@@ -46,7 +46,6 @@ function renderPostReviewContainer(parentId, recipe) {
         } else {
             const postData = {
                 recipeId: recipe.id,
-                userId: 'id', // Behöver fixa så att värdet på denna nyckel representerar id:t på användaren som lämnade ett omdömme
                 comment: inputDom.value,
                 rank: parseInt(selectDom.value)
             }
