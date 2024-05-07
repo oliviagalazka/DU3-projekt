@@ -1,6 +1,7 @@
 function renderNavContainer(parentId) {
     const parent = document.getElementById(parentId);
     const navContainer = document.createElement('nav');
+    navContainer.id = 'nav-container';
 
     if (window.localStorage.length !== 0) {
         navContainer.innerHTML = `
@@ -42,4 +43,17 @@ function renderNavContainer(parentId) {
             section.scrollIntoView({ behavior: 'smooth' });
         }
     });
+
+    let prevScroll = window.pageYOffset;
+    window.onscroll = function() {
+        let currentScrollPos = window.pageYOffset;
+        if (prevScroll > currentScrollPos) {
+            document.getElementById('nav-container').style.top = '0';
+        } else {
+            document.getElementById('nav-container').style.top = '-100px';
+        }
+        prevScroll = currentScrollPos;
+
+    }
+
 }

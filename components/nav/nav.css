@@ -5,6 +5,9 @@ nav {
     justify-content: space-between;
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    z-index: 1;
+    width: 100vw;
 }
 
 nav div:first-child {
