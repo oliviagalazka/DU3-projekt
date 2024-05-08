@@ -1,7 +1,7 @@
 function renderExploreCategories(parentId) {
     const parent = document.getElementById(parentId);
     const ExploreCategoriesContainer = document.createElement('div');
-    ExploreCategoriesContainer.id = 'ExploreCategoriesContainer'
+    ExploreCategoriesContainer.id = 'explore-categories-container';
     ExploreCategoriesContainer.innerHTML = `
         <h2>UTFORSKA KATEGORIER</h2>
         <div id='utforska-kategorier-section'></div>
@@ -43,6 +43,6 @@ function renderExploreCategoriesBoxes(parentId) {
 
 function goToRecipeFeed(event) {
 
-    window.location = "./components/recipes/recipes.html";
+    window.location = "./recipes.html";
     console.log(event.target.textContent);
 }

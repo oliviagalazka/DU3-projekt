@@ -131,13 +131,13 @@ function renderNavContainer(parentId) {
     if (window.localStorage.length !== 0) {
         navContainer.innerHTML = `
             <div>
-                <a href='./../../index.html'>HEM</a>
-                <a href='./components/recipes/recipes.html'>RECEPT</a>
-                <a href='./components/mypage/mypage.html'>MIN SIDA</a>
-                <a href='./../../index.html' id='about-us'>OM OSS</a>
+                <a href='./index.html'>HEM</a>
+                <a href='./recipes.html'>RECEPT</a>
+                <a href='./mypage.html'>MIN SIDA</a>
+                <a href='./index.html' id='about-us'>OM OSS</a>
             </div>
             <div>
-                <a href='./../../index.html' id="logout-button">LOGGA UT</a>
+                <a href='./index.html' id="logout-button">LOGGA UT</a>
             </div>
         `;
 
@@ -152,12 +152,12 @@ function renderNavContainer(parentId) {
     } else {
         navContainer.innerHTML = `
             <div>
-                <a href='./../../index.html'>HEM</a>
-                <a href='./components/recipes/recipes.html'>RECEPT</a>
-                <a href='./../../index.html' id='about-us'>OM OSS</a>
+                <a href='./index.html'>HEM</a>
+                <a href='./recipes.html'>RECEPT</a>
+                <a href='./index.html' id='about-us'>OM OSS</a>
             </div>
             <div>
-                <a href='./components/login/login.html'>LOGGA IN</a>
+                <a href='./login.html'>LOGGA IN</a>
             </div>
         `;
         parent.append(navContainer);
@@ -165,7 +165,7 @@ function renderNavContainer(parentId) {
 
     document.getElementById('about-us').addEventListener('click', (e) => {
         e.preventDefault();
-        const section = document.getElementById('AboutUsContainer');
+        const section = document.getElementById('about-us-container');
         if (section) {
             section.scrollIntoView({ behavior: 'smooth' });
         }

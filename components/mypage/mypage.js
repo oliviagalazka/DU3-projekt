@@ -11,9 +11,9 @@ async function renderMyPage() {
     });
 
     console.log(State.GetEntity('user'));
-    renderNavContainer('wrapper-recipes');
-    renderMyPageTop('wrapper-recipes');
-    renderMyPageBottom('wrapper-recipes');
-    renderFooterContainer('wrapper-recipes');
+    renderNavContainer('wrapper-mypage');
+    renderMyPageTop('wrapper-mypage');
+    renderMyPageBottom('wrapper-mypage');
+    renderFooter('wrapper-mypage');
 }
 renderMyPage();

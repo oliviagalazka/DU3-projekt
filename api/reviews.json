@@ -4,5 +4,11 @@
         "recipeId": 1,
         "comment": "Supergod tomatsoppa!",
         "rank": 8
+    },
+    {
+        "id": 2,
+        "recipeId": 2,
+        "comment": "B\u00e4sta!!",
+        "rank": 4
     }
 ]

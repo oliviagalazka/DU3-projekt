@@ -16,6 +16,7 @@ let currentLocation = '';
 */
 
 
+// SAVE RECIPE
 function saveRecipe(event) {
     event.stopPropagation();
 
@@ -38,6 +39,7 @@ function saveRecipe(event) {
     State.Patch(patchObject);
 }
 
+// SEARCH FOR INGREDIENT
 async function searchForIngredient() {
     const inputDom = document.getElementById('search-field');
 
@@ -63,4 +65,24 @@ async function searchForIngredient() {
     if (filteredSearch.length === 0) {
         document.getElementById('recipe-page-right-container').innerHTML = `Tyvärr finns det inga recept med denna ingrediens ännu`;
     }
+}
+
+// RANDOM RECIPES
+async function renderRandomRecipe(parentID, amount) {
+    const recipes = State.GetEntity('recipes');
+
+    for (let i = 0; i < amount; i++) {
+        const randomRecipe = getArrayRandomElement(recipes);
+        renderRecipeCard(parentID, randomRecipe);
+    }
+}
+
+function getRandomNumber(max, min = 0) {
+    // Returnerar ett slumpmässigt tal mellan minst 0 och max det argument som vi anropar med
+    return min + Math.floor(max * Math.random());
+}
+
+function getArrayRandomElement(array) {
+    const randomIndex = getRandomNumber(array.length);
+    return array[randomIndex];
 }

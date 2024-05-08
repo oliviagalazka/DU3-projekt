@@ -1,13 +1,12 @@
 nav {
     height: 5vh;
+    width: 100vw;
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.5);
     position: fixed;
     z-index: 1;
-    width: 100vw;
 }
 
 nav div:first-child {
@@ -20,6 +19,7 @@ nav a {
     font-family: "gotu";
     color: #fefdfe;
 }
-nav a:hover{
-    text-shadow: 1px 1px 10px black;
+
+nav a:hover {
+    text-shadow: 1px 1px 10px rgb(189, 188, 188);
 }

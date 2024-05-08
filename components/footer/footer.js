@@ -1,17 +1,14 @@
-function renderFooterContainer(parentId) {
+function renderFooter(parentId) {
     const parent = document.getElementById(parentId);
-    const footerContainer = document.createElement("footer");
+    const footer = document.createElement('footer');
 
-    footerContainer.innerHTML = `
-        <div>
-            <div id='img-footer-text-logo'>
-                <div id='img-footer-logo'></div>
-                <h2>NAMNAM</h2>
-            </div>
-        
-            <p>copyright text</p>
-        </div>
-    `
-    parent.append(footerContainer);
+    footer.innerHTML = `<div>
+                            <div id='logo-container'>
+                                <div id='logo-img'></div>
+                                <h2>NAMNAM</h2>
+                            </div>
+                            <p>Copyright 2024</p>
+                        </div>`;
+
+    parent.append(footer);
 }
-

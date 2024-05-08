@@ -1,0 +1,12 @@
+#about-us-section {}
+
+#about-us-container h1 {
+    margin-top: 80px;
+    text-align: center;
+    font-family: 'palmore_bold';
+    font-size: 54px;
+}
+
+#about-us-info {
+    margin: 0 200px 80px 200px;
+}

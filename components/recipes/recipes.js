@@ -14,7 +14,7 @@ async function renderRecipePage() {
     renderNavContainer('wrapper-recipes');
     renderRecipePageTopSection('wrapper-recipes');
     renderRecipePageBottomSection('wrapper-recipes');
-    renderFooterContainer('wrapper-recipes');
+    renderFooter('wrapper-recipes');
 }
 
 renderRecipePage();

@@ -20,7 +20,6 @@
 }
 
 #my-page-info {
-    height: 60vh;
     width: 40vw;
     z-index: 1;
     padding-right: 40px;
@@ -44,7 +43,7 @@
     font-family: 'petit';
     color: rgb(245, 245, 235);
     font-size: 60px;
-    
+
 }
 
 #mypage-top-container p {

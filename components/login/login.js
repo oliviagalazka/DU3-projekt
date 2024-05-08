@@ -1,5 +1,5 @@
 function renderLoginContainer() {
-    let loginWrapper = document.getElementById('wrapper');
+    let loginWrapper = document.getElementById('wrapper-login');
     loginWrapper.innerHTML = `
                             <div id='login-container'>
                                 <h1>LOGGA IN</h1>
@@ -8,7 +8,7 @@ function renderLoginContainer() {
                                 <button id='login-button'>Logga in</button>
                                 <p id="success"></p>
                                 <p class='subtitle-login'>Har du inte ett konto?</p>
-                                <a href='./../register/register.html'>Skapa konto</a>
+                                <a href='./register.html'>Skapa konto</a>
                             </div>
                             `;
 
@@ -45,16 +45,13 @@ function renderLoginContainer() {
     });
 }
 
-
 renderLoginContainer();
 
 function toLandingPage() {
-    const success = document.createElement("p");
-    success.textContent = "Du är nu inloggad";
-    document.getElementById("success").append(success);
+    document.getElementById("success").textContent = "Du är nu inloggad";
 
     setTimeout(() => {
-        window.location = "./../../index.html";
+        window.location = "./index.html";
     }, 2000);
 
 }

@@ -1,22 +1,19 @@
-* {
-    box-sizing: border-box;
-}
-
-#ExploreCategoriesContainer {
-    height: 90vh;
+#explore-categories-container {
     background-color: #0c0b0c;
     display: flex;
     flex-direction: column;
 }
 
-#ExploreCategoriesContainer h2 {
+#explore-categories-container h2 {
     text-align: center;
     color: #dfdcd3;
+    margin-top: 80px;
+    font-family: "palmore_bold";
+    font-size: 54px;
 }
 
 #utforska-kategorier-section {
-    height: 60vh;
-    margin: 0 200px 0 200px;
+    margin: 0 200px 80px 200px;
 
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -32,8 +29,8 @@
 #utforska-kategorier-section>div {
     background-color: #dfdcd3;
     padding: 10px;
-    height: 130px;
-    width: 130px;
+    height: 120px;
+    width: 120px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -44,4 +41,5 @@
 #utforska-kategorier-section>div a {
     text-align: center;
     font-family: "gotu";
+    font-size: 14px;
 }
