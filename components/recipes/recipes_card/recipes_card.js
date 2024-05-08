@@ -4,10 +4,12 @@ async function renderRecipeCard(parentID, recipe) {
     const parent = document.getElementById(parentID);
     const recipeCard = document.createElement('div');
     let favorite = '';
+
     const user = State.GetEntity('user');
-    if (user.savedRecipes.find(id => id === recipe.id)) {
-        favorite = 'favorite';
-    }
+
+    // if (user.savedRecipes.find(id => id === recipe.id)) {
+    //     favorite = 'favorite';
+    // }
 
     recipeCard.id = `rc-${recipe.id}`;
     recipeCard.classList.add('recipe-card');
@@ -33,7 +35,7 @@ async function renderRecipeCard(parentID, recipe) {
     favoriteBtn.addEventListener('click', saveRecipe);
 
     parent.append(recipeCard);
-    
+
 }
 
 async function recipeAveregeReview(recipe) {
@@ -69,7 +71,7 @@ function get_dom_id(instanceId) {
 function patchRecipe(instanceData) {
     const recipeId = get_dom_id(instanceData.id);
     const savedDom = document.getElementById(recipeId);
-    
+
     if (currentLocation === "mypage") {
         document.getElementById('rc-' + instanceData.id).remove();
     }
