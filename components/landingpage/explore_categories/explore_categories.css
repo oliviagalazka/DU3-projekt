@@ -28,6 +28,8 @@
 
 #utforska-kategorier-section>div {
     background-color: #dfdcd3;
+    background-size: cover;
+    background-position: center;
     padding: 10px;
     height: 120px;
     width: 120px;

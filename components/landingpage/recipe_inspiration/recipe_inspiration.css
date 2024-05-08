@@ -1,17 +1,17 @@
-#daily-recipes-section {
+#recipe-inspiration-section {
     background-color: #dfdcd3;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-#daily-recipes-section h2 {
+#recipe-inspiration-section h2 {
     margin-top: 80px;
     font-family: "palmore_bold";
     font-size: 54px;
 }
 
-#daily-recipes-container {
+#recipe-inspiration-container {
     margin: 0 200px 80px 200px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);

@@ -13,7 +13,7 @@ async function renderLandingpage() {
 
     renderNavContainer('wrapper');
     renderHeroSection('wrapper');
-    renderDailyRecipes('wrapper');
+    renderRecipeInspiration('wrapper');
     renderExploreCategories('wrapper');
     renderAboutUs('wrapper');
     renderFooter('wrapper');

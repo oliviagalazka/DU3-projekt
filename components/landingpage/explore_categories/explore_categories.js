@@ -37,6 +37,7 @@ function renderExploreCategoriesBoxes(parentId) {
         categoryDom.classList.add('category')
         categoryDom.innerHTML = `<a>${category}</a>`;
         parent.append(categoryDom);
+        categoryDom.style.backgroundImage = `url('./images_categories/${category}-category.jpg')`;
         categoryDom.addEventListener('click', goToRecipeFeed);
     }
 }
