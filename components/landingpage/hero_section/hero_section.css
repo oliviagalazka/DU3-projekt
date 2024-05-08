@@ -1,6 +1,6 @@
 #hero-section {
     height: 100vh;
-    background-image: url(./../../../img_for_design/hero-section.jpg);
+    background-image: url(./../../../img_for_design/kokey.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -16,6 +16,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 #hero-section h1 {
@@ -24,3 +25,4 @@
     font-size: 184px;
     text-shadow: 1px 1px 10px black;
 }
+
