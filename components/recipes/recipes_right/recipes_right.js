@@ -1,6 +1,5 @@
 async function renderRecipePageRightContainer(parentId) {
   const recipes = State.GetEntity('recipes');
-  //const reviews = State.GetEntity('reviews');
 
   const parent = document.getElementById(parentId);
   const recipePageRightContainer = document.createElement('div');

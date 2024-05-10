@@ -1,21 +1,5 @@
 let currentLocation = '';
 
-/*
-(async function () {
-    await State.Get({
-        entity: 'recipes', request: './../../api/recipes.php'
-    });
-
-    await State.Get({
-        entity: 'reviews', request: './../../api/reviews.php'
-    });
-    await State.Get({
-        entity: 'user', request: './../../api/users.php?user=' + localStorage.getItem('login')
-    });
-})()
-*/
-
-
 // SAVE RECIPE
 function saveRecipe(event) {
     event.stopPropagation();
@@ -57,7 +41,10 @@ async function searchForIngredient() {
 
             if (ingredient.includes(inputDom.value) || lowerCase.includes(inputDom.value) || upperCase.includes(inputDom.value)) {
                 filteredSearch.push(recipe);
-                renderRecipeCard('recipe-page-right-container', recipe);
+                if (filterCategorySearch(recipe)) {
+                    renderRecipeCard('recipe-page-right-container', recipe);
+                    break;
+                }
             }
         }
     }
@@ -65,6 +52,41 @@ async function searchForIngredient() {
     if (filteredSearch.length === 0) {
         document.getElementById('recipe-page-right-container').innerHTML = `Tyvärr finns det inga recept med denna ingrediens ännu`;
     }
+}
+
+function filterCategorySearch(recipe) {
+
+    let categoryArray = [];
+
+    for (let categoryChecked of categories) {
+        let searchCategory = 'category-' + categoryChecked;
+
+        let categorySearch = document.getElementById(searchCategory)
+        let categorySearchIfChecked = categorySearch.querySelector('.checked');
+
+        if (categorySearchIfChecked) {
+            categoryArray.push(categoryChecked);
+        }
+    }
+
+    refreshRecipeCard('recipe-page-right-container');
+
+    if (categoryArray.length === 0) {
+        return true;
+    } else {
+        const categoriesList = recipe.categories;
+        for (let categoryOfList of categoriesList) {
+            for (let categoryOfArray of categoryArray) {
+                if (categoryOfList === categoryOfArray) {
+                    if (searchInInputfield(recipe)) {
+                        return true;
+                    }
+                }
+            }
+        }
+    }
+
+    return false;
 }
 
 // RANDOM RECIPES
