@@ -23,7 +23,7 @@ const categories = [
     "Vegetariskt",
     "Kött",
     "Kyckling",
-    "Fisk och Skaldjur",
+    "Fisk",
     "Grillat",
     "Grytor",
     "Gratänger"
