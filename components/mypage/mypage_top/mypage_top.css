@@ -40,7 +40,7 @@
     background-position: center;
     background-size: cover;
     transition: transform 0.5s ease;
-    z-index: 2;
+    
 }
 
 #shopping-list:hover {
@@ -71,7 +71,7 @@
     padding-left: 15px;
 }
 
-#textgubbe-klicka-här {
+/* #textgubbe-klicka-här {
     color: aliceblue;
     background-image: url(../../../img_for_design/klickaPåListanGubb.png);
     background-position: center;
@@ -80,5 +80,5 @@
     width: 600px;
     position: absolute;
     top: 350px;
-    z-index: 0;
-}
+    
+} */
