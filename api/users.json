@@ -8,9 +8,26 @@
             39
         ],
         "shoppingList": [
-            "Tomat",
-            "Ingef\u00e4ra",
-            "Gurka"
+            {
+                "item": "Lime",
+                "checked": true
+            },
+            {
+                "item": "Nudlar",
+                "checked": true
+            },
+            {
+                "item": "Soja",
+                "checked": false
+            },
+            {
+                "item": "Morot",
+                "checked": true
+            },
+            {
+                "item": "Ingef\u00e4ra",
+                "checked": false
+            }
         ]
     },
     {
@@ -36,13 +53,6 @@
             11,
             29
         ],
-        "shoppingList": []
-    },
-    {
-        "id": 5,
-        "username": "namnam",
-        "password": "namnam",
-        "savedRecipes": [],
         "shoppingList": []
     }
 ]

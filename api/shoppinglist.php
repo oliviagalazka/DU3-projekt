@@ -47,11 +47,16 @@ if ($requestMethod == 'POST') {
                     sendJSON($error, 400);
                 }
             }
+
+            $newItem = [
+                'item' => $requestData['item'],
+                'checked' => false
+            ];
             
-            $user['shoppingList'][] = $requestData['item'];
+            $user['shoppingList'][] = $newItem;
             $json = json_encode($users, JSON_PRETTY_PRINT);
             file_put_contents($filename, $json);
-            sendJSON($requestData['item'], 201);
+            sendJSON($newItem, 201);
         }
     }
 
@@ -68,18 +73,55 @@ if ($requestMethod == 'DELETE') {
 
     foreach ($users as &$user) {
         if ($user['username'] == $requestData['username']) {
-            $itemFound = false;
 
             foreach ($user['shoppingList'] as $itemIndex => $item) {
-                if ($item == $requestData['item']) {
+                if ($item['item'] == $requestData['item']) {
                     array_splice($user['shoppingList'], $itemIndex, 1);
-                    $itemFound = true;
                 }
             }
 
             $json = json_encode($users, JSON_PRETTY_PRINT);
             file_put_contents($filename, $json);
             sendJSON($requestData['item'], 200);
+        }
+    }
+
+    $error = ['error' => 'User not found'];
+    sendJSON($error, 404);
+}
+
+// PATCH FÖRFRÅGAN
+if ($requestMethod == 'PATCH') {
+    if (empty($requestData['username']) or empty($requestData['item'])) {
+        $error = ['error' => 'One of the fields is either missing or incomplete'];
+        sendJSON($error, 400);
+    }
+
+    foreach ($users as &$user) {
+        if ($user['username'] == $requestData['username']) {
+            $itemFound = false;
+
+            foreach ($user['shoppingList'] as &$item) {
+                if ($item['item'] == $requestData['item']) {
+                    if ($item['checked'] == false) {
+                        $item['checked'] = true;
+                    } else {
+                        $item['checked'] = false;
+                    }
+
+                    $itemFound = true;
+                    break;
+                }
+            }
+
+            if ($itemFound) {
+                $json = json_encode($users, JSON_PRETTY_PRINT);
+                file_put_contents($filename, $json);
+                sendJSON($item, 200);
+            } else {
+                $error = ['error' => 'Item not found'];
+                sendJSON($error, 404);
+            }
         }
     }
 

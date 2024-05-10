@@ -89,10 +89,19 @@ async function Patch(data) {
 
     const resource = await response.json();
 
+    console.log(resource);
     switch (entity) {
         case 'user':
             _state[entity].savedRecipes = resource.savedRecipes;
             patchRecipe(resource);
+            break;
+        case 'shoppinglist':
+            const foundItem = _state['user'].shoppingList.find(item => item.item === resource.item);
+            if (foundItem) {
+                foundItem.checked = resource.checked;
+            }
+            console.log(_state['user']);
+            patchItemCheckbox(resource);
             break;
     }
 }
@@ -113,7 +122,7 @@ async function Delete(data) {
     switch (entity) {
         case 'shoppinglist':
             const shoppingList = _state['user'].shoppingList;
-            const deleteAt = shoppingList.findIndex(item => item === resource);
+            const deleteAt = shoppingList.findIndex(item => item.item === resource);
             const deleteInstance = shoppingList.splice(deleteAt, 1);
             deleteItem(deleteInstance[0]);
             break;

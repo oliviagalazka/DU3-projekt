@@ -82,12 +82,35 @@ function removeItemFromShoppingslist(event) {
         body: JSON.stringify(deleteData),
     });
 
-    const deleteObject = {
+    const patchObject = {
         entity: 'shoppinglist',
         request: request
     };
 
-    State.Delete(deleteObject);
+    State.Delete(patchObject);
+}
+
+// PATCH CHECKBOX
+function toggleItemCheckbox(event) {
+    const item = event.target.id.split('-')[1];
+
+    const patchData = {
+        item: item,
+        username: window.localStorage.getItem('login')
+    }
+
+    const request = new Request('./../../api/shoppinglist.php', {
+        method: 'PATCH',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(patchData),
+    });
+
+    const patchObject = {
+        entity: 'shoppinglist',
+        request: request
+    };
+
+    State.Patch(patchObject);
 }
 
 // SEARCH FOR INGREDIENT

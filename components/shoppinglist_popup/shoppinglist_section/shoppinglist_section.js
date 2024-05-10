@@ -25,23 +25,23 @@ function renderItem(parentId, item) {
     const parent = document.getElementById(parentId);
 
     const itemContainer = document.createElement('div');
-    itemContainer.id = `item-${item}`;
+    itemContainer.id = `item-${item.item}`;
     itemContainer.classList.add('item-container');
     itemContainer.innerHTML = `<div class='item-box'>
-                                    <div class='check-box'></div>
-                                    <div>${item}</div>
+                                    <div id='checkbox-${item.item}' class='check-box'></div>
+                                    <div>${item.item}</div>
                                 </div>
-                                <div id='delete-button-${item}' class='delete-box'>
+                                <div id='delete-button-${item.item}' class='delete-box'>
                                     <div>Ta bort</div>
                                 </div>`;
 
     parent.append(itemContainer);
 
-    itemContainer.querySelector('.check-box').addEventListener('click', function (e) {
-        let checkbox = itemContainer.querySelector('.check-box');
-        console.log(checkbox);
-        checkbox.classList.toggle('checked');
-    });
+    if (item.checked === true) {
+        itemContainer.querySelector('.check-box').classList.add('checked');
+    }
+
+    itemContainer.querySelector('.check-box').addEventListener('click', toggleItemCheckbox);
     itemContainer.querySelector('.delete-box').addEventListener('click', removeItemFromShoppingslist);
 }
 
@@ -52,6 +52,15 @@ function postItem(instanceData) {
 
 // Delete Item
 function deleteItem(deleteInstance) {
-    itemDom = document.getElementById(`item-${deleteInstance}`);
+    itemDom = document.getElementById(`item-${deleteInstance.item}`);
     itemDom.remove();
+}
+
+// Patch Item Checkbox
+function patchItemCheckbox(patchInstance) {
+    itemDom = document.getElementById(`checkbox-${patchInstance.item}`);
+    if (itemDom.classList.contains('checked')) {
+        itemDom.classList.remove('checked');
+    } else
+        itemDom.classList.add('checked');
 }
