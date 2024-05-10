@@ -33,5 +33,12 @@
         "password": "embla",
         "savedRecipes": [],
         "shoppingList": []
+    },
+    {
+        "id": 5,
+        "username": "namnam",
+        "password": "namnam",
+        "savedRecipes": [],
+        "shoppingList": []
     }
 ]

@@ -3,7 +3,8 @@ const _state = {
     login: [],
     recipes: [],
     reviews: [],
-    shoppinglist: []
+    shoppinglist: [],
+    users: []
 }
 
 const State = {
