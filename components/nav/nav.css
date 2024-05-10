@@ -9,6 +9,18 @@ nav {
     z-index: 1;
 }
 
+#logo-nav {
+    display: flex;
+    font-family: 'petit';
+    font-size: 20px;
+    color: white;
+    gap: 0.5vw;
+}
+
+#logo-nav img {
+    height: 3vh;
+}
+
 nav div:first-child {
     display: flex;
     gap: 3vw;

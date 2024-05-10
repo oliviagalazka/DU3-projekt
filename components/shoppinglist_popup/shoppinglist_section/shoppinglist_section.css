@@ -5,12 +5,36 @@
     align-items: center;
     color: black;
     font-family: "gotu";
+    padding: 15px;
+    box-shadow: 1px 1px 10px black;
+}
+
+#shoppingslist-section>div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 #shoppingslist-section h1 {
     font-family: "petit";
     font-size: 74px;
     text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+#input-button {
+    display: flex;
+    justify-content: space-between;
+}
+
+#input-button button {
+    border: none;
+    font-family: 'gotu';
+}
+
+#shoppingslist-section input {
+    border: none;
+    width: 20vw;
 }
 
 #shoppingslist-section .check-box {
@@ -21,11 +45,18 @@
     /*background-color: white;*/
 }
 
+#items-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 .item-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 15px;
+    border-bottom: 1px solid black;
 }
 
 .item-box {
