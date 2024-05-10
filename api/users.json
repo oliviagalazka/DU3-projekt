@@ -9,16 +9,8 @@
         ],
         "shoppingList": [
             {
-                "item": "Lime",
-                "checked": true
-            },
-            {
                 "item": "Nudlar",
                 "checked": true
-            },
-            {
-                "item": "Soja",
-                "checked": false
             },
             {
                 "item": "Morot",
@@ -26,6 +18,14 @@
             },
             {
                 "item": "Ingef\u00e4ra",
+                "checked": true
+            },
+            {
+                "item": "Soja",
+                "checked": false
+            },
+            {
+                "item": "Paprika",
                 "checked": false
             }
         ]
