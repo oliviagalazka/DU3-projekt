@@ -3,6 +3,8 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 40px;
 }
 
 #recipe-inspiration-section h2 {
