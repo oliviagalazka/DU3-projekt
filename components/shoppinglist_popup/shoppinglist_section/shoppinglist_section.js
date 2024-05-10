@@ -37,6 +37,11 @@ function renderItem(parentId, item) {
 
     parent.append(itemContainer);
 
+    itemContainer.querySelector('.check-box').addEventListener('click', function (e) {
+        let checkbox = itemContainer.querySelector('.check-box');
+        console.log(checkbox);
+        checkbox.classList.toggle('checked');
+    });
     itemContainer.querySelector('.delete-box').addEventListener('click', removeItemFromShoppingslist);
 }
 
