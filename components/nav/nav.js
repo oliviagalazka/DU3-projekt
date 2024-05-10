@@ -131,6 +131,10 @@ function renderNavContainer(parentId) {
     if (window.localStorage.length !== 0) {
         navContainer.innerHTML = `
             <div>
+                <div id='logo-nav'>
+                    <img src='./img_for_design/Untitled_Artwork 3.png'>
+                    <div>NAMNAM</div>
+                </div>
                 <a href='./index.html'>HEM</a>
                 <a href='./recipes.html'>RECEPT</a>
                 <a href='./mypage.html'>MIN SIDA</a>
@@ -152,6 +156,10 @@ function renderNavContainer(parentId) {
     } else {
         navContainer.innerHTML = `
             <div>
+                <div id='logo-nav'>
+                    <img src='./img_for_design/Untitled_Artwork 3.png'>
+                    <div>NAMNAM</div>
+                </div>
                 <a href='./index.html'>HEM</a>
                 <a href='./recipes.html'>RECEPT</a>
                 <a href='./index.html' id='about-us'>OM OSS</a>
