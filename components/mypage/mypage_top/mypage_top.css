@@ -20,7 +20,7 @@
 }
 
 #my-page-info {
-    width: 40vw;
+    width: 600px;
     z-index: 1;
     padding-right: 40px;
 }
@@ -35,14 +35,16 @@
     align-items: center;
     gap: 10px;
     height: 400px;
-    width: 300px;
+    width: 305px;
     background-image: url(../../../img_for_design/inköpslista.png);
     background-position: center;
     background-size: cover;
+    transition: transform 0.5s ease;
 }
 
 #shopping-list:hover {
     cursor: pointer;
+    transform: scale(1.07) rotate(4deg);
 }
 
 #mypage-top-container h1 {
