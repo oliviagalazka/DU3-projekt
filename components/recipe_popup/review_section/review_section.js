@@ -95,7 +95,7 @@ function renderReview(parentId, review) {
 
     reviewDom.innerHTML = `
                             <div id='icon-review-container'>
-                                <img src='' alt='Profil Ikon'>
+                                <img src='./img_for_design/review-icon.svg' alt='Profil Ikon'>
                                 <div>${review.rank}/10</div>
                             </div>
                             <div>${review.comment}</div>

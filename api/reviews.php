@@ -25,7 +25,7 @@ if ($contentType != 'application/json') {
 
 // POST FÖRFRÅGAN
 if ($requestMethod == 'POST') {
-    if (empty($requestData['recipeId']) or empty($requestData['comment']) or empty($requestData['rank'])) {
+    if (empty($requestData['recipeId']) or empty($requestData['comment'])) {
         $error = ['error' => 'One of the fields is either missing or incomplete'];
         sendJSON($error, 400);
     }

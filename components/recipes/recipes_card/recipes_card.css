@@ -16,7 +16,9 @@
     display: flex;
     flex-direction: column;
     padding: 10px;
-    font-size: 14px;
+    font-size: 12px;
+    height: 180px;
+    justify-content: space-between;
 }
 
 #rc-review-heart {

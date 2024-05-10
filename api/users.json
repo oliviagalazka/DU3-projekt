@@ -4,44 +4,55 @@
         "username": "olivia",
         "password": "olivia",
         "savedRecipes": [
-            76,
-            4,
-            46,
-            70,
-            49,
-            10,
-            1
+            45,
+            39
+        ],
+        "shoppingList": [
+            {
+                "item": "Lime",
+                "checked": true
+            },
+            {
+                "item": "Nudlar",
+                "checked": true
+            },
+            {
+                "item": "Soja",
+                "checked": false
+            },
+            {
+                "item": "Morot",
+                "checked": true
+            },
+            {
+                "item": "Ingef\u00e4ra",
+                "checked": false
+            }
         ]
     },
     {
         "id": 2,
         "username": "hilda",
         "password": "hilda",
-        "savedRecipes": [
-            11,
-            6,
-            1,
-            8,
-            9
-        ]
+        "savedRecipes": [],
+        "shoppingList": []
     },
     {
         "id": 3,
         "username": "johan",
         "password": "johan",
-        "savedRecipes": [
-            18,
-            17,
-            24
-        ]
+        "savedRecipes": [],
+        "shoppingList": []
     },
     {
         "id": 4,
         "username": "embla",
         "password": "embla",
         "savedRecipes": [
-            12,
-            16
-        ]
+            5,
+            11,
+            29
+        ],
+        "shoppingList": []
     }
 ]

@@ -16,13 +16,25 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    
 
 }
+
+#hero-section>div>div {
+    background-image: url(../../../img_for_design/gaffelSmal.png);
+    background-position: center;
+    background-size: 130%; 
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 #hero-section h1 {
     color: #dfdcd3;
     font-family: "petit";
-    font-size: 184px;
+    font-size: 200px;
     text-shadow: 1px 1px 10px black;
 }
 
