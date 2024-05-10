@@ -4,44 +4,30 @@
         "username": "olivia",
         "password": "olivia",
         "savedRecipes": [
-            76,
-            4,
-            46,
-            70,
-            49,
-            10,
-            1
-        ]
+            45,
+            39
+        ],
+        "shoppingList": []
     },
     {
         "id": 2,
         "username": "hilda",
         "password": "hilda",
-        "savedRecipes": [
-            11,
-            6,
-            1,
-            8,
-            9
-        ]
+        "savedRecipes": [],
+        "shoppingList": []
     },
     {
         "id": 3,
         "username": "johan",
         "password": "johan",
-        "savedRecipes": [
-            18,
-            17,
-            24
-        ]
+        "savedRecipes": [],
+        "shoppingList": []
     },
     {
         "id": 4,
         "username": "embla",
         "password": "embla",
-        "savedRecipes": [
-            12,
-            16
-        ]
+        "savedRecipes": [],
+        "shoppingList": []
     }
 ]

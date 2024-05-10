@@ -15,7 +15,6 @@ let currentLocation = '';
 })()
 */
 
-
 // SAVE RECIPE
 function saveRecipe(event) {
     event.stopPropagation();
@@ -37,6 +36,58 @@ function saveRecipe(event) {
     };
 
     State.Patch(patchObject);
+}
+
+// POST ITEM TO SHOPPINGLIST
+function postItemToShoppingslist(event) {
+    const shoppinglistSection = document.getElementById('shoppingslist-section');
+    const inputDom = shoppinglistSection.querySelector('input');
+
+    if (inputDom.value === '') {
+        inputDom.setAttribute('placeholder', 'Oops, vänligen skriv en ingrediens.');
+    } else {
+        const postData = {
+            item: inputDom.value,
+            username: window.localStorage.getItem('login')
+        }
+
+        const request = new Request('./../../api/shoppinglist.php', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(postData),
+        });
+
+        const postObject = {
+            entity: 'shoppinglist',
+            request: request
+        };
+
+        State.Post(postObject);
+        inputDom.value = '';
+    }
+}
+
+// DELETE ITEM FROM SHOPPINGLIST
+function removeItemFromShoppingslist(event) {
+    const item = event.target.parentElement.id.split('-')[2];
+
+    const deleteData = {
+        item: item,
+        username: window.localStorage.getItem('login')
+    }
+
+    const request = new Request('./../../api/shoppinglist.php', {
+        method: 'DELETE',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(deleteData),
+    });
+
+    const deleteObject = {
+        entity: 'shoppinglist',
+        request: request
+    };
+
+    State.Delete(deleteObject);
 }
 
 // SEARCH FOR INGREDIENT

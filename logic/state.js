@@ -1,10 +1,9 @@
 const _state = {
     user: {},
     login: [],
-    reviews: [],
     recipes: [],
-    categories: [],
-    shoppingList: []
+    reviews: [],
+    shoppinglist: []
 }
 
 const State = {
@@ -20,14 +19,14 @@ if (window.localStorage.getItem('userdata')) {
     _state['user'] = JSON.parse(window.localStorage.getItem('userdata'));
 }*/
 
-// GET funktion
+// GET ENTITY funktion
 function GetEntity(entity) {
     const copy = JSON.parse(JSON.stringify(_state[entity]));
     return copy;
 }
 
+// GET funktion
 async function Get(data) {
-
     const entity = data.entity;
     const request = data.request;
 
@@ -35,17 +34,13 @@ async function Get(data) {
     if (!response.ok) {
         alert('Something whent wrong, Status ' + response.statusText);
         return;
-    } else {
-        console.log('Welcome!') //fixa så det står på sidan
     }
 
     const resource = await response.json();
-    // vi stoppar in array i array, därför blir de dubbelt med push, _state[entity]=resource
-    // _state[entity].push(resource); //Skriva = istället så 
     _state[entity] = resource;
 }
 
-// POST funktion (register a new user)
+// POST funktion
 async function Post(data) {
     const entity = data.entity;
     const request = data.request;
@@ -55,15 +50,11 @@ async function Post(data) {
     if (!response.ok) {
         alert('Something whent wrong, Status ' + response.statusText);
         return;
-    } else {
-        console.log('Welcome!') //fixa så det står på sidan
     }
-    console.log(entity);
+
     const resource = await response.json();
-    console.log(resource);
-    _state[entity].push(resource); //Skriva = istället så 
-    //_state[entity] = resource;
-    // console.log('detta är vår state', _state)
+    _state[entity] = resource;
+
     switch (entity) {
         case "user":
             toLogin();
@@ -73,11 +64,12 @@ async function Post(data) {
             window.localStorage.setItem('userdata', JSON.stringify(resource));
             toLandingPage();
             break;
-        // case "logout":
-        //     window.localStorage.removeItem('login', user);
-        //     break;
         case "reviews":
             postReviewInstance(resource);
+            break;
+        case "shoppinglist":
+            _state['user'].shoppingList.push(resource);
+            postItem(resource);
             break;
     }
 
@@ -95,26 +87,13 @@ async function Patch(data) {
     }
 
     const resource = await response.json();
-    /*
-        for (let user of _state[entity]) {
-            if (user.username === resource.user) {
-            user.savedRecipes.push(resource.id);
-            }
-        }   
-    */
-    //_state[entity].push(resource);
 
     switch (entity) {
         case 'user':
             _state[entity].savedRecipes = resource.savedRecipes;
             patchRecipe(resource);
             break;
-        default:
-            break;
     }
-
-    console.log(resource);
-    console.log(_state[entity]);
 }
 
 // DELETE funktion
@@ -130,65 +109,21 @@ async function Delete(data) {
 
     const resource = await response.json();
 
-    const arrayEntity = _state[entity];
-
-    const deleteAt = arrayEntity.findIndex(element => element.id === resource.id);
-    const deleteInstance = arrayEntity.splice(deleteAt, 1);
-
     switch (entity) {
-        case 'games':
-            delete_instance_gameslist(deleteInstance[0].id);
-            update_counter();
-            break;
-
-        case 'characters':
-            delete_instance_characters(deleteInstance[0].id);
-            update_counter();
-            break;
-
-        default:
+        case 'shoppinglist':
+            const shoppingList = _state['user'].shoppingList;
+            const deleteAt = shoppingList.findIndex(item => item === resource);
+            const deleteInstance = shoppingList.splice(deleteAt, 1);
+            deleteItem(deleteInstance[0]);
             break;
     }
 }
 
-/*
-// renderApp funktion
-async function renderApp() {
-    const gameResponse = await fetcher('./api/games.php?token=6671cb1c4aeeb7b2bf6d7474b28296b199bdd568');
-    console.log(gameResponse)
-
-    if (gameResponse.ok) {
-        const gameResource = await gameResponse.json();
-        _state.games = gameResource;
-    } else {
-        alert('something whent wrong ' + gameResponse.statusText);
-    }
-
-    const characterResponse = await fetcher('./api/characters.php?token=6671cb1c4aeeb7b2bf6d7474b28296b199bdd568')
-    console.log(characterResponse);
-
-    if (characterResponse.ok) {
-        const characterResource = await characterResponse.json();
-        _state.characters = characterResource;
-    } else {
-        alert('something whent wrong ' + characterResponse.statusText);
-    }
-
-    document.getElementById('wrapper').innerHTML = '';
-    renderContainerLeft('wrapper');
-    renderContainerRight('wrapper');
-}
-
-renderApp();
-*/
-
-// fetch funktion
+// FETCHER funktion
 async function fetcher(request) {
     try {
         const response = await fetch(request);
-
         return response;
-
     } catch (error) {
         console.log(error);
     }

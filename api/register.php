@@ -54,6 +54,7 @@ if ($requestMethod == 'POST') {
         'username' => $username,
         'password' => $password,
         'savedRecipes' => [],
+        'shoppingList' => []
     ];
 
     $users[] = $newUser;
