@@ -4,10 +4,11 @@ function renderShoppinglistSection(parentId) {
     shoppinglistSection.id = 'shoppingslist-section';
     shoppinglistSection.innerHTML = `<div>
                                         <h1>INKÖPSLISTA</h1>
-                                        <div id='items-container'>
+                                        <div id='items-container'></div>
+                                        <div id='input-button'>
+                                            <input type='text' placeholder='Skriv in en ingrediens...'>
+                                            <button>Lägg till</button>
                                         </div>
-                                        <input type='text'>
-                                        <button>Lägg till</button>
                                     </div>`;
 
     parent.append(shoppinglistSection);
