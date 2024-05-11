@@ -71,6 +71,26 @@
     padding-left: 15px;
 }
 
+#textgubbe-klicka-här p {
+    color: rgb(245, 245, 245);
+    font-family: 'palmore';
+    font-size: 35px;
+    text-align: center;
+    transform: rotate(-10deg);
+}
+
+#textgubbe-klicka-här i {
+    animation: blink 1s infinite; /* Använd animationen blink oändligt */
+}
+
+
+@keyframes blink {
+    50% {
+      opacity: 0; /* Gör div'en osynlig på hälften av animationen */
+    }
+  }
+
+
 /* #textgubbe-klicka-här {
     color: aliceblue;
     background-image: url(../../../img_for_design/klickaPåListanGubb.png);
