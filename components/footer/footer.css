@@ -5,6 +5,7 @@ footer {
     align-items: center;
     flex-direction: column;
     padding: 70px;
+    font-family: 'gotu';
 }
 
 footer h2 {
