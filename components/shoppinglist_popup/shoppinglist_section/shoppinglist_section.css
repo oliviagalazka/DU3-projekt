@@ -6,12 +6,20 @@
     color: black;
     font-family: "gotu";
     padding: 15px;
+    box-shadow: 1px 1px 10px black;
+}
+
+#shoppingslist-section>div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 #shoppingslist-section h1 {
     font-family: "petit";
     font-size: 74px;
     text-decoration: underline;
+    margin-bottom: 10px;
 }
 
 #input-button {
