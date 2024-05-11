@@ -81,6 +81,7 @@
 
 #textgubbe-klicka-här i {
     animation: blink 1s infinite; /* Använd animationen blink oändligt */
+    font-size: 40px;
 }
 
 
