@@ -10,7 +10,6 @@ async function renderMyPage() {
         entity: 'reviews', request: './../../api/reviews.php'
     });
 
-    console.log(State.GetEntity('user'));
     renderNavContainer('wrapper-mypage');
     renderMyPageTop('wrapper-mypage');
     renderMyPageBottom('wrapper-mypage');

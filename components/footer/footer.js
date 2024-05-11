@@ -14,13 +14,12 @@ function renderFooter(parentId) {
                             <p>Copyright 2024</p>
                         </div>`;
 
-    parent.append(footer);
-
-    document.getElementById('to-top').addEventListener('click', scrollToTop);
-    function scrollToTop() {
+    footer.querySelector('#to-top').addEventListener('click', function (e) {
         window.scrollTo({
             top: 0,
             behavior: 'smooth'
         });
-    }
+    });
+
+    parent.append(footer);
 }

@@ -36,3 +36,12 @@ footer p {
     color: rgb(250, 250, 250);
     text-align: center;
 }
+
+#to-top {
+    transform: rotate(180deg);
+    font-size: 18px;
+}
+
+#to-top {
+    cursor: pointer;
+}

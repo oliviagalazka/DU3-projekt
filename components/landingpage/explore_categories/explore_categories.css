@@ -1,4 +1,4 @@
-#explore-categories-container {
+#explore-categories-section {
     background-color: #0c0b0c;
     display: flex;
     flex-direction: column;
@@ -6,7 +6,7 @@
     padding-bottom: 40px;
 }
 
-#explore-categories-container h2 {
+#explore-categories-section h2 {
     text-align: center;
     color: #dfdcd3;
     margin-top: 80px;
@@ -14,7 +14,7 @@
     font-size: 54px;
 }
 
-#utforska-kategorier-section {
+#explore-categories-container {
     margin: auto;
 
     display: grid;
@@ -31,7 +31,7 @@
 
 }
 
-#utforska-kategorier-section>div {
+#explore-categories-container>div {
     background-color: #dfdcd3;
     background-size: cover;
     background-position: center;
@@ -45,7 +45,7 @@
     margin: auto;
 }
 
-#utforska-kategorier-section>div a {
+#explore-categories-container>div a {
     text-align: center;
     font-family: "gotu";
     font-size: 16px;

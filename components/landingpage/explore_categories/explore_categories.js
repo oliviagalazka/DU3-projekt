@@ -1,14 +1,14 @@
 function renderExploreCategories(parentId) {
     const parent = document.getElementById(parentId);
-    const ExploreCategoriesContainer = document.createElement('div');
-    ExploreCategoriesContainer.id = 'explore-categories-container';
-    ExploreCategoriesContainer.innerHTML = `
+    const exploreCategoriesSection = document.createElement('div');
+    exploreCategoriesSection.id = 'explore-categories-section';
+    exploreCategoriesSection.innerHTML = `
         <h2>UTFORSKA KATEGORIER</h2>
-        <div id='utforska-kategorier-section'></div>
+        <div id='explore-categories-container'></div>
     `;
 
-    parent.append(ExploreCategoriesContainer);
-    renderExploreCategoriesBoxes('utforska-kategorier-section');
+    parent.append(exploreCategoriesSection);
+    renderExploreCategoriesBoxes('explore-categories-container');
 }
 
 const categories = [
@@ -43,7 +43,6 @@ function renderExploreCategoriesBoxes(parentId) {
 }
 
 function goToRecipeFeed(event) {
-
     window.location = "./recipes.html";
     console.log(event.target.textContent);
 }

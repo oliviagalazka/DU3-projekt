@@ -24,6 +24,31 @@ function saveRecipe(event) {
     State.Patch(patchObject);
 }
 
+// Recipe Average Review
+async function recipeAverageReview(recipe) {
+    const reviews = State.GetEntity('reviews');
+
+    const allReviews = [];
+    for (let review of reviews) {
+        if (review.recipeId === recipe.id) {
+            allReviews.push(review.rank);
+        }
+    }
+
+    let totalRank = 0;
+    for (let rank of allReviews) {
+        totalRank += rank;
+    }
+
+    const averageRank = totalRank / allReviews.length;
+
+    if (allReviews.length === 0) {
+        return { averageRank: "-", totalReviews: allReviews.length };
+    } else {
+        return { averageRank: averageRank, totalReviews: allReviews.length };
+    }
+}
+
 // POST ITEM TO SHOPPINGLIST
 function postItemToShoppingslist(event) {
     const shoppinglistSection = document.getElementById('shoppingslist-section');
@@ -76,7 +101,7 @@ function removeItemFromShoppingslist(event) {
     State.Delete(patchObject);
 }
 
-// PATCH CHECKBOX
+// PATCH SHOPPINGLIST CHECKBOX
 function toggleItemCheckbox(event) {
     const item = event.target.id.split('-')[1];
 
