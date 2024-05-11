@@ -7,10 +7,6 @@ async function renderRecipeCard(parentID, recipe) {
 
     const user = State.GetEntity('user');
 
-    // if (user.savedRecipes.find(id => id === recipe.id)) {
-    //     favorite = 'favorite';
-    // }
-
     recipeCard.id = `rc-${recipe.id}`;
     recipeCard.classList.add('recipe-card');
 
@@ -30,6 +26,10 @@ async function renderRecipeCard(parentID, recipe) {
             </div>
         </div>
     `;
+
+    if (user.savedRecipes.find(id => id === recipe.id)) {
+        recipeCard.querySelector('.rc-heart').classList.add('favorite');
+    }
 
     const favoriteBtn = recipeCard.querySelector('.rc-heart');
     favoriteBtn.addEventListener('click', saveRecipe);
