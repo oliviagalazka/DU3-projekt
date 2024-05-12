@@ -74,6 +74,7 @@ function renderNavContainer(parentId) {
         }
     }
 
+
     // Funktion för att markera den aktiva länken
     function markActiveLink() {
         const navLinks = navContainer.querySelectorAll('a');
@@ -95,4 +96,5 @@ function renderNavContainer(parentId) {
 
     markActiveLink();
     navContainer.addEventListener('click', markActiveLink);
+
 }
