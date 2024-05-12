@@ -25,6 +25,17 @@
     padding-right: 40px;
 }
 
+#my-page-info #mypage-user {
+    font-size: larger;
+    font-family: 'gotu';
+}
+
+#my-page-info p {
+    color: rgb(245, 245, 235);
+    font-family: 'gotu';
+    font-size: 16px;
+}
+
 #shopping-list-container {
     z-index: 2;
 }
