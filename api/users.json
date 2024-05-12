@@ -36,7 +36,10 @@
         "id": 2,
         "username": "hilda",
         "password": "hilda",
-        "savedRecipes": [],
+        "savedRecipes": [
+            1,
+            2
+        ],
         "shoppingList": []
     },
     {
