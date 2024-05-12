@@ -7,7 +7,7 @@ function renderShoppinglistSection(parentId) {
                                         <div id='items-container'></div>
                                         <div id='input-button'>
                                             <input type='text' placeholder='Skriv in en ingrediens...'>
-                                            <button>Lägg till</button>
+                                            <button>+</button>
                                         </div>
                                     </div>`;
 

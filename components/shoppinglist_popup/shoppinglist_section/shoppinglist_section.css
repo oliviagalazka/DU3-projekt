@@ -7,6 +7,8 @@
     font-family: "gotu";
     padding: 15px;
     box-shadow: 1px 1px 10px black;
+    margin: 80px 200px 80px 0px;
+    min-height: 70vh;
 }
 
 #shoppingslist-section>div {
@@ -24,17 +26,30 @@
 
 #input-button {
     display: flex;
-    justify-content: space-between;
+    gap: 5px;
 }
 
 #input-button button {
     border: none;
     font-family: 'gotu';
+    font-size: 18px;
+    background-color: beige;
+}
+
+#input-button button:hover {
+    cursor: pointer;
 }
 
 #shoppingslist-section input {
     border: none;
-    width: 20vw;
+    border-bottom: 1px solid black;
+    background-color: beige;
+    width: 300px;
+    outline: none;
+}
+
+#shoppingslist-section input:active {
+    border: none;
 }
 
 #shoppingslist-section .check-box {

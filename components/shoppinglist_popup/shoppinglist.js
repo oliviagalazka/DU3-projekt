@@ -4,7 +4,7 @@ function renderShoppinglistPopup() {
 
     // Stäng popup knapp
     const closePopupButton = document.createElement('a');
-    closePopupButton.id = 'closePopupButton';
+    closePopupButton.id = 'closeShoppinglistPopupButton';
     closePopupButton.innerHTML = '྾';
     closePopupButton.addEventListener('click', (e) => {
         e.preventDefault();
