@@ -7,7 +7,7 @@
     background-size: cover;
     position: relative;
     padding-top: 100px;
-    height: 900px;
+    height: 750px;
 }
 
 #shadow {
@@ -40,7 +40,7 @@
     background-position: center;
     background-size: cover;
     transition: transform 0.5s ease;
-    
+
 }
 
 #shopping-list:hover {
@@ -81,13 +81,15 @@
 }
 
 #textgubbe-klicka-här i {
-    animation: blink 1s infinite; /* Använd animationen blink oändligt */
+    animation: blink 1s infinite;
+    /* Använd animationen blink oändligt */
     font-size: 40px;
 }
 
 
 @keyframes blink {
     50% {
-      opacity: 0; /* Gör div'en osynlig på hälften av animationen */
+        opacity: 0;
+        /* Gör div'en osynlig på hälften av animationen */
     }
-  }
+}
