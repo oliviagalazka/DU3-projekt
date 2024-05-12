@@ -155,6 +155,7 @@ async function searchForIngredient() {
     }
 }
 
+//Funktionen börjar kolla sökfältet och sen kollar om det finns någon kategori ifyllt. 
 function filterCategorySearch(recipe) {
 
     let categoryArray = [];
