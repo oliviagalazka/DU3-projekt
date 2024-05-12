@@ -14,14 +14,15 @@
     gap: 15px;
 }
 
-#closePopupButton {
+#closeShoppinglistPopupButton {
     color: black;
     font-size: 30px;
     cursor: pointer;
-    transition: transform 0.5s ease;
+    /*transition: transform 0.5s ease;*/
     display: inline-block;
+    margin: 80px 0 80px 200px;
 }
 
-#closePopupButton:hover {
-    transform: scale(1.1);
+#closeShoppinglistPopupButton:hover {
+    /*transform: scale(1.1);*/
 }
