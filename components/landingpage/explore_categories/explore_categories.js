@@ -38,17 +38,8 @@ function renderExploreCategoriesBoxes(parentId) {
         categoryDom.innerHTML = `<a>${category}</a>`;
         parent.append(categoryDom);
         categoryDom.style.backgroundImage = `url('./images_categories/${category}-category.jpg')`;
-        categoryDom.addEventListener('click', goToRecipeFeed);
+        categoryDom.addEventListener('click', function () {
+            window.location = './recipes.html?category=' + category;
+        });
     }
 }
-
-function goToRecipeFeed(event) {
-    window.location = "./recipes.html";
-
-}
-
-
-categoryDom.style.backgroundImage = `url('./images_categories/${category}-category.jpg')`;
-categoryDom.addEventListener('click', function () {
-    window.location = './recipes.html?category=' + category;
-});

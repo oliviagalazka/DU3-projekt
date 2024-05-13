@@ -51,12 +51,15 @@ function renderCategories(parentId, urlCategory) {
                                 <div class='check-box' id="check-box-${categoryId}"></div>
                                 <div class='category-text'>${categoryId}</div>
                                 `;
-        if (urlCategory === categoryId) {
 
-        }
+
         parent.append(categoryDom);
 
-
+        if (urlCategory === categoryId) {
+            let searchCategoryId = 'check-box-' + categoryId;
+            let checkedCategoryId = document.getElementById(searchCategoryId);
+            checkedCategoryId.classList.toggle('checked');
+        }
 
         //Börjar kolla om en kategori är ifylld och sen kollar på sökfältet.
         //sen sätter vi en eventListener på alla. 
