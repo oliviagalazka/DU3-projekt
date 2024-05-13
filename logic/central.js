@@ -1,20 +1,5 @@
 let currentLocation = '';
 
-/*
-(async function () {
-    await State.Get({
-        entity: 'recipes', request: './../../api/recipes.php'
-    });
-
-    await State.Get({
-        entity: 'reviews', request: './../../api/reviews.php'
-    });
-    await State.Get({
-        entity: 'user', request: './../../api/users.php?user=' + localStorage.getItem('login')
-    });
-})()
-*/
-
 
 // SAVE RECIPE
 function saveRecipe(event) {
@@ -39,6 +24,106 @@ function saveRecipe(event) {
     State.Patch(patchObject);
 }
 
+// Recipe Average Review
+async function recipeAverageReview(recipe) {
+    const reviews = State.GetEntity('reviews');
+
+    const allReviews = [];
+    for (let review of reviews) {
+        if (review.recipeId === recipe.id) {
+            allReviews.push(review.rank);
+        }
+    }
+
+    let totalRank = 0;
+    for (let rank of allReviews) {
+        totalRank += rank;
+    }
+
+    const averageRank = totalRank / allReviews.length;
+
+    if (allReviews.length === 0) {
+        return { averageRank: "-", totalReviews: allReviews.length };
+    } else {
+        return { averageRank: averageRank, totalReviews: allReviews.length };
+    }
+}
+
+// POST ITEM TO SHOPPINGLIST
+function postItemToShoppingslist(event) {
+    const shoppinglistSection = document.getElementById('shoppingslist-section');
+    const inputDom = shoppinglistSection.querySelector('input');
+
+    if (inputDom.value === '') {
+        inputDom.setAttribute('placeholder', 'Oops, vänligen skriv en ingrediens.');
+    } else {
+        const postData = {
+            item: inputDom.value,
+            username: window.localStorage.getItem('login')
+        }
+
+        const request = new Request('./../../api/shoppinglist.php', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(postData),
+        });
+
+        const postObject = {
+            entity: 'shoppinglist',
+            request: request
+        };
+
+        State.Post(postObject);
+        inputDom.value = '';
+    }
+}
+
+// DELETE ITEM FROM SHOPPINGLIST
+function removeItemFromShoppingslist(event) {
+    const item = event.target.parentElement.id.split('-')[2];
+
+    const deleteData = {
+        item: item,
+        username: window.localStorage.getItem('login')
+    }
+
+    const request = new Request('./../../api/shoppinglist.php', {
+        method: 'DELETE',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(deleteData),
+    });
+
+    const patchObject = {
+        entity: 'shoppinglist',
+        request: request
+    };
+
+    State.Delete(patchObject);
+}
+
+// PATCH SHOPPINGLIST CHECKBOX
+function toggleItemCheckbox(event) {
+    const item = event.target.id.split('-')[1];
+
+    const patchData = {
+        item: item,
+        username: window.localStorage.getItem('login')
+    }
+
+    const request = new Request('./../../api/shoppinglist.php', {
+        method: 'PATCH',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(patchData),
+    });
+
+    const patchObject = {
+        entity: 'shoppinglist',
+        request: request
+    };
+
+    State.Patch(patchObject);
+}
+
 // SEARCH FOR INGREDIENT
 async function searchForIngredient() {
     const inputDom = document.getElementById('search-field');
@@ -57,7 +142,10 @@ async function searchForIngredient() {
 
             if (ingredient.includes(inputDom.value) || lowerCase.includes(inputDom.value) || upperCase.includes(inputDom.value)) {
                 filteredSearch.push(recipe);
-                renderRecipeCard('recipe-page-right-container', recipe);
+                if (filterCategorySearch(recipe)) {
+                    renderRecipeCard('recipe-page-right-container', recipe);
+                    break;
+                }
             }
         }
     }
@@ -65,6 +153,42 @@ async function searchForIngredient() {
     if (filteredSearch.length === 0) {
         document.getElementById('recipe-page-right-container').innerHTML = `Tyvärr finns det inga recept med denna ingrediens ännu`;
     }
+}
+
+//Funktionen börjar kolla sökfältet och sen kollar om det finns någon kategori ifyllt. 
+function filterCategorySearch(recipe) {
+
+    let categoryArray = [];
+
+    for (let categoryChecked of categories) {
+        let searchCategory = 'category-' + categoryChecked;
+
+        let categorySearch = document.getElementById(searchCategory)
+        let categorySearchIfChecked = categorySearch.querySelector('.checked');
+
+        if (categorySearchIfChecked) {
+            categoryArray.push(categoryChecked);
+        }
+    }
+
+    refreshRecipeCard('recipe-page-right-container');
+
+    if (categoryArray.length === 0) {
+        return true;
+    } else {
+        const categoriesList = recipe.categories;
+        for (let categoryOfList of categoriesList) {
+            for (let categoryOfArray of categoryArray) {
+                if (categoryOfList === categoryOfArray) {
+                    if (searchInInputfield(recipe)) {
+                        return true;
+                    }
+                }
+            }
+        }
+    }
+
+    return false;
 }
 
 // RANDOM RECIPES

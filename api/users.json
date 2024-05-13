@@ -4,15 +4,29 @@
         "username": "olivia",
         "password": "olivia",
         "savedRecipes": [
-            43,
-            76,
-            27,
-            4,
+            45,
+            39,
             1,
-            46,
-            70,
-            49,
+            29,
             2
+        ],
+        "shoppingList": [
+            {
+                "item": "Nudlar",
+                "checked": true
+            },
+            {
+                "item": "Morot",
+                "checked": false
+            },
+            {
+                "item": "Soja",
+                "checked": false
+            },
+            {
+                "item": "Paprika",
+                "checked": false
+            }
         ]
     },
     {
@@ -20,30 +34,27 @@
         "username": "hilda",
         "password": "hilda",
         "savedRecipes": [
-            11,
-            6,
             1,
-            8,
-            9
-        ]
+            2
+        ],
+        "shoppingList": []
     },
     {
         "id": 3,
         "username": "johan",
         "password": "johan",
-        "savedRecipes": [
-            18,
-            17,
-            24
-        ]
+        "savedRecipes": [],
+        "shoppingList": []
     },
     {
         "id": 4,
         "username": "embla",
         "password": "embla",
         "savedRecipes": [
-            12,
-            16
-        ]
+            5,
+            11,
+            29
+        ],
+        "shoppingList": []
     }
 ]

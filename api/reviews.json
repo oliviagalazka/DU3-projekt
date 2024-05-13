@@ -1,14 +1,20 @@
 [
     {
         "id": 1,
-        "recipeId": 1,
-        "comment": "Supergod tomatsoppa!",
-        "rank": 8
+        "recipeId": 2,
+        "comment": "Mums!",
+        "rank": 5
     },
     {
         "id": 2,
-        "recipeId": 2,
-        "comment": "B\u00e4sta!!",
-        "rank": 4
+        "recipeId": 1,
+        "comment": "mums",
+        "rank": 1
+    },
+    {
+        "id": 3,
+        "recipeId": 1,
+        "comment": "ok",
+        "rank": 0
     }
 ]

@@ -24,7 +24,7 @@
             "Servera varm med en klick crème fraîche om så önskas."
         ],
         "categories": [
-            "Soppa",
+            "Soppor",
             "Vegetariskt"
         ]
     },
@@ -60,8 +60,8 @@
             "Servera varm med riven parmesanost och bröd."
         ],
         "categories": [
-            "Soppa",
-            "Pasta",
+            "Soppor",
+            "Pastor",
             "Vegetariskt"
         ]
     },
@@ -97,7 +97,7 @@
             "Servera genast och njut av!"
         ],
         "categories": [
-            "Soppa",
+            "Soppor",
             "Nudlar",
             "Kyckling"
         ]
@@ -127,7 +127,7 @@
             "Servera varm med färsk persilja på toppen."
         ],
         "categories": [
-            "Soppa",
+            "Soppor",
             "Vegetariskt"
         ]
     },
@@ -161,7 +161,7 @@
             "Servera varm med färsk persilja på toppen."
         ],
         "categories": [
-            "Soppa",
+            "Soppor",
             "Kött"
         ]
     },
@@ -195,7 +195,7 @@
             "Servera varm med risnudlar och färsk koriander på toppen."
         ],
         "categories": [
-            "Soppa",
+            "Soppor",
             "Nudlar",
             "Fisk och Skaldjur"
         ]
@@ -229,7 +229,7 @@
             "Servera varm med färsk mynta på toppen."
         ],
         "categories": [
-            "Soppa",
+            "Soppor",
             "Vegetariskt"
         ]
     },
@@ -262,7 +262,7 @@
             "Servera varm med färsk koriander på toppen."
         ],
         "categories": [
-            "Soppa",
+            "Soppor",
             "Kyckling"
         ]
     },
@@ -296,7 +296,7 @@
             "Servera varm med färsk dill på toppen."
         ],
         "categories": [
-            "Soppa",
+            "Soppor",
             "Fisk och Skaldjur"
         ]
     },
@@ -330,7 +330,7 @@
             "Servera varm med färsk persilja på toppen."
         ],
         "categories": [
-            "Soppa",
+            "Soppor",
             "Vegetariskt"
         ]
     },
@@ -362,7 +362,7 @@
             "Servera varm med en klick smetana och färsk dill på toppen."
         ],
         "categories": [
-            "Soppa",
+            "Soppor",
             "Kött"
         ]
     },
@@ -392,7 +392,7 @@
             "Servera varm med senap och eventuellt bröd."
         ],
         "categories": [
-            "Soppa",
+            "Soppor",
             "Kött"
         ]
     },
@@ -425,7 +425,7 @@
             "Servera varm med färsk persilja på toppen."
         ],
         "categories": [
-            "Soppa",
+            "Soppor",
             "Vegetariskt"
         ]
     },
@@ -459,7 +459,7 @@
             "Servera varm med färsk persilja på toppen."
         ],
         "categories": [
-            "Soppa",
+            "Soppor",
             "Kött"
         ]
     },
@@ -494,7 +494,7 @@
             "Servera varm med färsk dill på toppen."
         ],
         "categories": [
-            "Soppa",
+            "Soppor",
             "Fisk och Skaldjur"
         ]
     },
@@ -527,7 +527,7 @@
             "Servera varm med färsk persilja på toppen."
         ],
         "categories": [
-            "Soppa",
+            "Soppor",
             "Vegetariskt"
         ]
     },
@@ -558,7 +558,7 @@
             "Servera varm med färsk persilja på toppen."
         ],
         "categories": [
-            "Soppa",
+            "Soppor",
             "Vegetariskt"
         ]
     },
@@ -591,7 +591,7 @@
             "Servera varm med färsk persilja på toppen."
         ],
         "categories": [
-            "Soppa",
+            "Soppor",
             "Kött"
         ]
     },
@@ -622,7 +622,7 @@
             "Servera varm med färsk persilja på toppen."
         ],
         "categories": [
-            "Soppa",
+            "Soppor",
             "Kött"
         ]
     },
@@ -654,7 +654,7 @@
             "Servera varm med färsk basilika på toppen."
         ],
         "categories": [
-            "Soppa",
+            "Soppor",
             "Vegetariskt"
         ]
     },
@@ -683,7 +683,7 @@
             "Servera genast och njut av!"
         ],
         "categories": [
-            "Sallad",
+            "Sallader",
             "Kyckling"
         ]
     },
@@ -749,7 +749,7 @@
             "Servera genast och njut av!"
         ],
         "categories": [
-            "Sallad",
+            "Sallader",
             "Fisk och Skaldjur"
         ]
     },
@@ -781,8 +781,8 @@
             "Servera genast och njut av!"
         ],
         "categories": [
-            "Sallad",
-            "Pasta",
+            "Sallader",
+            "Pastor",
             "Vegetariskt"
         ]
     },
@@ -819,7 +819,7 @@
             "Servera genast och njut av!"
         ],
         "categories": [
-            "Sallad",
+            "Sallader",
             "Kyckling"
         ]
     },
@@ -852,7 +852,7 @@
             "Servera genast och njut av!"
         ],
         "categories": [
-            "Sallad",
+            "Sallader",
             "Fisk och Skaldjur"
         ]
     },
@@ -887,7 +887,7 @@
             "Servera genast och njut av!"
         ],
         "categories": [
-            "Sallad",
+            "Sallader",
             "Kyckling"
         ]
     },
@@ -922,7 +922,7 @@
             "Servera genast och njut av!"
         ],
         "categories": [
-            "Sallad",
+            "Sallader",
             "Nudlar",
             "Vegetariskt"
         ]
@@ -950,8 +950,8 @@
             "Servera genast eller kyl ned och servera senare."
         ],
         "categories": [
-            "Sallad",
-            "Pasta",
+            "Sallader",
+            "Pastor",
             "Kyckling"
         ]
     },
@@ -980,7 +980,7 @@
             "Servera genast som en fräsch sallad eller som tillbehör till grillat kött eller fisk."
         ],
         "categories": [
-            "Sallad",
+            "Sallader",
             "Vegetariskt"
         ]
     },
@@ -1017,7 +1017,7 @@
             "Servera genast eller kyl ned och servera senare."
         ],
         "categories": [
-            "Sallad",
+            "Sallader",
             "Nudlar"
         ]
     },
@@ -1051,7 +1051,7 @@
             "Servera genast eller kyl ned och servera senare."
         ],
         "categories": [
-            "Sallad",
+            "Sallader",
             "Vegetariskt"
         ]
     },
@@ -1081,7 +1081,7 @@
             "Servera genast som en lätt förrätt eller som ett sött inslag till huvudrätten."
         ],
         "categories": [
-            "Sallad",
+            "Sallader",
             "Vegetariskt"
         ]
     },
@@ -1114,7 +1114,7 @@
             "Servera genast och njut av!"
         ],
         "categories": [
-            "Sallad",
+            "Sallader",
             "Kyckling"
         ]
     },
@@ -1146,7 +1146,7 @@
             "Servera genast och njut av!"
         ],
         "categories": [
-            "Sallad",
+            "Sallader",
             "Vegetariskt"
         ]
     },
@@ -1177,8 +1177,8 @@
             "Servera genast eller kyl ned och servera senare."
         ],
         "categories": [
-            "Sallad",
-            "Pasta",
+            "Sallader",
+            "Pastor",
             "Vegetariskt"
         ]
     },
@@ -1336,7 +1336,7 @@
             "Servera genast."
         ],
         "categories": [
-            "Pasta",
+            "Pastor",
             "Kött"
         ]
     },
@@ -1368,7 +1368,7 @@
             "Servera varm."
         ],
         "categories": [
-            "Pasta",
+            "Pastor",
             "Vegetariskt",
             "Gratänger"
         ]
@@ -1401,7 +1401,7 @@
             "Servera genast."
         ],
         "categories": [
-            "Pasta",
+            "Pastor",
             "Kyckling"
         ]
     },
@@ -1501,8 +1501,8 @@
             "Servera varm och garnera med färsk basilika."
         ],
         "categories": [
-            "Pasta",
-            "Soppa",
+            "Pastor",
+            "Soppor",
             "Vegetariskt"
         ]
     },
@@ -2014,7 +2014,7 @@
         ],
         "categories": [
             "Nudlar",
-            "Soppa",
+            "Soppor",
             "Kyckling"
         ]
     },
@@ -2107,7 +2107,7 @@
         ],
         "categories": [
             "Nudlar",
-            "Soppa",
+            "Soppor",
             "Vegetariskt"
         ]
     },
@@ -2236,7 +2236,7 @@
         ],
         "categories": [
             "Nudlar",
-            "Soppa",
+            "Soppor",
             "Vegetariskt"
         ]
     },
@@ -2367,7 +2367,7 @@
         ],
         "categories": [
             "Nudlar",
-            "Kött"
+            "Kyckling"
         ]
     },
     {
@@ -2476,7 +2476,7 @@
         ],
         "categories": [
             "Nudlar",
-            "Soppa",
+            "Soppor",
             "Kött"
         ]
     },
@@ -2593,7 +2593,7 @@
         "categories": [
             "Nudlar",
             "Kött",
-            "Soppa"
+            "Soppor"
         ]
     },
     {

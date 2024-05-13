@@ -1,14 +1,29 @@
 #recipe-popup-wrapper {
     position: fixed;
     top: 0;
-    min-height: 100vh;
-    width: 100vw;
+    right: 0;
+    bottom: 0;
+    left: 0;
     background-color: #DEDBD2;
     color: white;
+    border: 1px solid red;
+    z-index: 99999; /* Ska ju vara över allt! */
+}
+
+#recipe-popup-content {
+    position: fixed;
+    top: 0;
+    min-height: 100vh;
+    width: 100vw;
     padding: 30px;
-    position: absolute;
     padding-bottom: 100px;
     z-index: 100;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    overflow-y: scroll;
 }
 
 #closePopupButton {

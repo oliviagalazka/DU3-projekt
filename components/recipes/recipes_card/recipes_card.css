@@ -1,4 +1,4 @@
-.recipe-card {
+.rc {
     background-color: #fefdfe;
     border: 1px solid black;
     display: flex;
@@ -7,19 +7,21 @@
     width: 200px;
 }
 
-#rc-img {
+.rc-img {
     height: 180px;
     background-color: beige;
 }
 
-#rc-info {
+.rc-info {
     display: flex;
     flex-direction: column;
     padding: 10px;
-    font-size: 14px;
+    font-size: 12px;
+    height: 180px;
+    justify-content: space-between;
 }
 
-#rc-review-heart {
+.rc-review-heart {
     display: flex;
     justify-content: space-between;
     align-items: center;

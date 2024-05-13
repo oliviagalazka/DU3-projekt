@@ -52,14 +52,10 @@ function renderRegisterContainer() {
 
 renderRegisterContainer();
 
-function errorRegister() {
-
-}
-
 function toLogin() {
     document.getElementById("success").textContent = "Ditt konto har nu skapats";
 
     setTimeout(() => {
-        window.location = "./login/login.html";
+        window.location = "./login.html";
     }, 2000);
 }
