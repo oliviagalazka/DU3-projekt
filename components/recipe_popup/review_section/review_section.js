@@ -22,7 +22,10 @@ function renderPostReviewContainer(parentId, recipe) {
     <h1>OMDÖMEN</h1>
     <div id='add-comment-container'>
         <input id='post-review-input' type='text' placeholder='Lämna ett omdömme...'>
-        <select></select>
+        <div>
+            <p>Betyg:</p>
+            <select></select>
+        </div>
     </div>
     <div id='post-review-button'>Skicka in</div>
                                 `;
@@ -42,7 +45,7 @@ function renderPostReviewContainer(parentId, recipe) {
     postReviewButton.addEventListener('click', () => {
 
         if (inputDom.value === '') {
-            inputDom.setAttribute('placeholder', 'Oops, vänligen lämna ett omdömme innan du kommenterar.');
+            inputDom.setAttribute('placeholder', 'Oops, vänligen lämna ett omdömme först.');
         } else {
             const postData = {
                 recipeId: recipe.id,
