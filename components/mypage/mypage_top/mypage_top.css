@@ -104,3 +104,10 @@
         /* Gör div'en osynlig på hälften av animationen */
     }
 }
+
+
+@media (max-width: 500px) {
+    #mypage-top-container {
+        flex-direction: column;
+    }
+}
