@@ -57,6 +57,7 @@
 @media (max-width: 500px) {
     #explore-categories-container {
         grid-template-columns: repeat(3, 1fr);
+        width: auto;
     }
 
     #explore-categories-section h2 {
