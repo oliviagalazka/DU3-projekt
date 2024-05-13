@@ -1,4 +1,4 @@
-async function renderRecipePageRightContainer(parentId) {
+async function renderRecipePageRightContainer(parentId, category) {
   const recipes = State.GetEntity('recipes');
   //const reviews = State.GetEntity('reviews');
 

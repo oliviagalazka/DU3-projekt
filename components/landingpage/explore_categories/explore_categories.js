@@ -37,6 +37,7 @@ function renderExploreCategoriesBoxes(parentId) {
         categoryDom.classList.add('category')
         categoryDom.innerHTML = `<a>${category}</a>`;
         parent.append(categoryDom);
+<<<<<<< Updated upstream
         categoryDom.addEventListener('click', goToRecipeFeed);
     }
 }
@@ -46,3 +47,12 @@ function goToRecipeFeed(event) {
     window.location = "./recipes.html";
     console.log(event.target.textContent);
 }
+=======
+        categoryDom.style.backgroundImage = `url('./images_categories/${category}-category.jpg')`;
+        categoryDom.addEventListener('click', function () {
+            window.location = './recipes.html?category=' + category;
+        });
+    }
+}
+
+>>>>>>> Stashed changes

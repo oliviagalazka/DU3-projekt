@@ -1,4 +1,4 @@
-function renderRecipePageLeftContainer(parentId) {
+function renderRecipePageLeftContainer(parentId, category) {
     const parent = document.getElementById(parentId);
     const recipePageLeftContainer = document.createElement('div');
     recipePageLeftContainer.id = 'recipe-page-left-container';
@@ -14,7 +14,7 @@ function renderRecipePageLeftContainer(parentId) {
     const inputDom = document.getElementById('search-field');
     inputDom.addEventListener('keyup', searchForIngredient);
 
-    renderCategories('categories');
+    renderCategories('categories', category);
 }
 
 const categories = [
@@ -35,7 +35,12 @@ const categories = [
     "Gratänger"
 ]
 
+<<<<<<< Updated upstream
 function renderCategories(parentId) {
+=======
+
+function renderCategories(parentId, urlCategory) {
+>>>>>>> Stashed changes
     const recipes = State.GetEntity('recipes');
     const parent = document.getElementById(parentId);
 
@@ -47,9 +52,17 @@ function renderCategories(parentId) {
                                 <div class='check-box'></div>
                                 <div class='category-text'>${category}</div>
                                 `;
+        if (urlCategory === categoryId) {
 
+        }
         parent.append(categoryDom);
 
+<<<<<<< Updated upstream
+=======
+
+        //Börjar kolla om en kategori är ifylld och sen kollar på sökfältet.
+        //sen sätter vi en eventListener på alla. 
+>>>>>>> Stashed changes
         categoryDom.querySelector('.check-box').addEventListener('click', function (e) {
             document.getElementById('recipe-page-right-container').innerHTML = '';
             categoryDom.querySelector('.check-box').classList.toggle('checked');
