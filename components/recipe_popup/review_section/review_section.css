@@ -23,7 +23,7 @@
     background-color: #DEDBD2;
     width: 800px;
     margin-top: 30px;
-    
+
 }
 
 #post-review-input {
@@ -34,6 +34,7 @@
     border: none;
     outline: none;
     background-color: rgb(241, 241, 241);
+    font-family: 'gotu';
 }
 
 #post-review-button {
@@ -51,7 +52,7 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 60px;
-    
+
 }
 
 #post-review-button:hover {
@@ -77,7 +78,17 @@
     border-radius: 5px;
     display: flex;
     justify-content: space-between;
-    
+}
+
+#add-comment-container>div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#add-comment-container>div>p {
+    color: black;
+    font-family: 'gotu';
 }
 
 #post-review-container select {
@@ -98,8 +109,8 @@
     height: 150px;
     width: 150px;
     background-image: url(../../../img_for_design/Untitled_Artwork\ 4.png);
-    background-position: center ;
-    background-size: cover ;
+    background-position: center;
+    background-size: cover;
     display: flex;
     justify-content: center;
     margin: auto;

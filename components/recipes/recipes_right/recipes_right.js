@@ -1,4 +1,4 @@
-async function renderRecipePageRightContainer(parentId) {
+async function renderRecipePageRightContainer(parentId, urlCategory) {
   const recipes = State.GetEntity('recipes');
 
   const parent = document.getElementById(parentId);
@@ -8,6 +8,15 @@ async function renderRecipePageRightContainer(parentId) {
   parent.append(recipePageRightContainer);
 
   for (let recipe of recipes) {
-    renderRecipeCard('recipe-page-right-container', recipe);
+    if (urlCategory === null) {
+      renderRecipeCard('recipe-page-right-container', recipe);
+    } else {
+      for (let category of recipe.categories) {
+        if (urlCategory === category) {
+          renderRecipeCard('recipe-page-right-container', recipe);
+          break;
+        }
+      }
+    }
   }
 }

@@ -20,9 +20,7 @@ async function renderRecipeCard(parentId, recipe) {
     `;
 
     const saveButton = recipeCard.querySelector('.rc-heart');
-    if (user.savedRecipes.find(id => id === recipe.id)) {
-        saveButton.classList.add('favorite');
-    }
+
     saveButton.addEventListener('click', saveRecipe);
 
     recipeCard.addEventListener('click', () => {

@@ -18,3 +18,9 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
 }
+
+@media (max-width: 500px) {
+    #saved-recipes-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

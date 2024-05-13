@@ -9,10 +9,10 @@ $json = file_get_contents($filename);
 $users = json_decode($json, true);
 
 if ($requestMethod == 'GET') {
-    if(isset($_GET['user'])) {
+    if (isset($_GET['user'])) {
         foreach ($users as $user) {
             if ($user['username'] == $_GET['user']) {
-            sendJSON($user, 200);
+                sendJSON($user, 200);
             }
         }
     }

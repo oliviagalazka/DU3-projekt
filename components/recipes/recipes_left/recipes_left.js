@@ -1,4 +1,4 @@
-function renderRecipePageLeftContainer(parentId) {
+function renderRecipePageLeftContainer(parentId, category) {
     const parent = document.getElementById(parentId);
     const recipePageLeftContainer = document.createElement('div');
     recipePageLeftContainer.id = 'recipe-page-left-container';
@@ -14,7 +14,7 @@ function renderRecipePageLeftContainer(parentId) {
     const inputDom = document.getElementById('search-field');
     inputDom.addEventListener('keyup', searchForIngredient);
 
-    renderCategories('categories');
+    renderCategories('categories', category);
 }
 
 const categories = [
@@ -35,10 +35,14 @@ const categories = [
     "Gratänger"
 ]
 
-function renderCategories(parentId) {
+
+
+function renderCategories(parentId, urlCategory) {
+
     const recipes = State.GetEntity('recipes');
     const parent = document.getElementById(parentId);
 
+    //startar alla filterna och alla buttons 
     for (let categoryId of categories) {
         const categoryDom = document.createElement('div');
         categoryDom.id = `category-${categoryId}`;
@@ -48,14 +52,31 @@ function renderCategories(parentId) {
                                 <div class='category-text'>${categoryId}</div>
                                 `;
 
+
         parent.append(categoryDom);
 
-        categoryDom.querySelector('.check-box').addEventListener('click', function (e) {
+        if (urlCategory === categoryId) {
             let searchCategoryId = 'check-box-' + categoryId;
             let checkedCategoryId = document.getElementById(searchCategoryId);
             checkedCategoryId.classList.toggle('checked');
-            let categoryArray = [];
+        }
 
+        //Börjar kolla om en kategori är ifylld och sen kollar på sökfältet.
+        //sen sätter vi en eventListener på alla. 
+
+
+        //Börjar kolla om en kategori är ifylld och sen kollar på sökfältet.
+        //sen sätter vi en eventListener på alla. 
+
+        categoryDom.querySelector('.check-box').addEventListener('click', function (e) {
+
+            //Vi kollar om den är ichekad eller inte. Är den icheckad sätter vi av den och tvärtom. 
+            let searchCategoryId = 'check-box-' + categoryId;
+            let checkedCategoryId = document.getElementById(searchCategoryId);
+            checkedCategoryId.classList.toggle('checked');
+
+            //Vi söker upp alla kategorier som är checkade. Måste vi ha för att man ska trycka i flera kategorier. 
+            let categoryArray = [];
             for (let categoryChecked of categories) {
                 let searchCategory = 'category-' + categoryChecked;
 
@@ -67,22 +88,30 @@ function renderCategories(parentId) {
                 }
             }
 
+            //Vi tömmer varje gång vi trycker på en kategoributton.  
             refreshRecipeCard('recipe-page-right-container');
 
-            if (categoryArray.length === 0) {
+            //Här fyller vi med alla recept
+            if (categoryArray.length === 0) { //Om ingen knapp är itryckt så fyller vi på med alla recept. 
 
                 for (let inputfieldRecipe of recipes) {
+
+                    //Kollar om sökfältet uppfyller receptets ingredienser. 
                     if (searchInInputfield(inputfieldRecipe)) {
                         renderRecipeCard('recipe-page-right-container', inputfieldRecipe);
                     }
                 }
 
             } else {
+
+                //Går igenom varje recept och kollar om den har en kategori som är itryckt. Minst en
                 for (let recipe of recipes) {
                     const categoriesList = recipe.categories;
                     for (let categoryOfList of categoriesList) {
                         for (let categoryOfArray of categoryArray) {
                             if (categoryOfList === categoryOfArray) {
+
+                                //Kollar om sökfältet uppfyller receptets ingredienser. 
                                 if (searchInInputfield(recipe)) {
                                     renderRecipeCard('recipe-page-right-container', recipe);
                                 }

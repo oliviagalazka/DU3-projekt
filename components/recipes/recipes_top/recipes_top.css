@@ -4,7 +4,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url(./../../../img_for_design/recipes-section.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+#shadow-recipe-top {
+    height: 60vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.6);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #recipe-page-top-container {
