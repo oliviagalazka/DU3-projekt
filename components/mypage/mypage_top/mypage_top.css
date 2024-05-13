@@ -64,7 +64,6 @@
     color: rgb(245, 245, 235);
     font-size: 120px;
     margin: 0;
-
 }
 
 #mypage-top-container p {
@@ -110,4 +109,19 @@
     #mypage-top-container {
         flex-direction: column;
     }
+
+    #mypage-top-container {
+        height: auto;
+    }
+
+    #my-page-info {
+        width: auto;
+    }
+
+    #mypage-top-container h1 {
+        font-size: 20vw;
+    }
+
+
+
 }
