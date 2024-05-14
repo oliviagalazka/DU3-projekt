@@ -6,7 +6,7 @@ function renderShoppinglistSection(parentId) {
                                         <h1>INKÖPSLISTA</h1>
                                         <div id='items-container'></div>
                                         <div id='input-button'>
-                                            <input type='text' placeholder='Skriv in en ingrediens...'>
+                                            <input type='text' placeholder='Lägg till vara här'>
                                             <button>+</button>
                                         </div>
                                     </div>`;
