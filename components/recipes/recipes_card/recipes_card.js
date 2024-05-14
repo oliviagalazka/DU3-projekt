@@ -29,6 +29,16 @@ async function renderRecipeCard(parentId, recipe) {
     });
 
     parent.append(recipeCard);
+
+    const popupHeart = document.getElementById('saved-' + `${recipe.id}`);
+
+    popupHeart.style.backgroundColor = null;
+    for (let favoriteRecipe of user.savedRecipes) {
+        if (recipe.id === favoriteRecipe) {
+            popupHeart.style.backgroundColor = 'black';
+            break;
+        }
+    }
 }
 
 // Patch Recipe Funktioner
@@ -40,15 +50,34 @@ function patchRecipe(instanceData) {
     const recipeId = get_dom_id(instanceData.id);
     const savedDom = document.getElementById(recipeId);
 
+    const popupHeart = document.getElementById('popupheart-' + instanceData.id)
+
     if (currentLocation === "mypage") {
         document.getElementById('rc-' + instanceData.id).remove();
     }
 
-    if (savedDom.classList.contains('favorite')) {
-        savedDom.classList.remove('favorite');
-    } else {
-        savedDom.classList.add('favorite');
+    // if (savedDom.classList.contains('favorite')) {
+    //     savedDom.classList.remove('favorite');
+    // } else {
+    //     savedDom.classList.add('favorite');
+    // }
+    if (savedDom != null) {
+        if (savedDom.style.backgroundColor === 'black') {
+            savedDom.style.backgroundColor = null;
+        } else {
+            savedDom.style.backgroundColor = 'black';
+        }
     }
+
+    if (popupHeart != null) {
+        if (popupHeart.style.backgroundColor === 'black') {
+            popupHeart.style.backgroundColor = null;
+        } else {
+            popupHeart.style.backgroundColor = 'black';
+        }
+    }
+
+
 }
 
 

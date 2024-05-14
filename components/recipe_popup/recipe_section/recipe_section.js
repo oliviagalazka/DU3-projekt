@@ -25,7 +25,7 @@ async function renderRecipeInfo(parentId, recipe) {
     recipeInfo.innerHTML = `
                             <div id='title-heart-container'>
                                 <h1>${recipe.name}</h1>
-                                <h2>&#x2661</h2>
+                                <h2 id="popupheart-${recipe.id}">&#x2661</h2>
                             </div>
                             <h3>${review.averageRank}/10 (av ${review.totalReviews} omdömen)</h3>
                             <h4>${recipe.shortIntro}</h4>
@@ -39,7 +39,31 @@ async function renderRecipeInfo(parentId, recipe) {
                             </div>
                         `;
 
+
     parent.append(recipeInfo);
+
+    const popupHeart = document.getElementById('popupheart-' + `${recipe.id}`);
+
+    const user = State.GetEntity('user');
+
+    popupHeart.style.backgroundColor = null;
+    for (let favoriteRecipe of user.savedRecipes) {
+        if (recipe.id === favoriteRecipe) {
+            popupHeart.style.backgroundColor = 'black';
+            break;
+        }
+    }
+
+
+    popupHeart.addEventListener('click', saveRecipe);
+
+    // popupHeart.addEventListener('click', function () {
+    //     if (popupHeart.style.backgroundColor === 'black') {
+    //         popupHeart.style.backgroundColor = null;
+    //     } else {
+    //         popupHeart.style.backgroundColor = 'black';
+    //     }
+    // })
 }
 
 // Recipe Image
