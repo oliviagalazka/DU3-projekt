@@ -336,34 +336,34 @@
     },
     {
         "id": 11,
-        "name": "Borsjtsj",
-        "shortIntro": "En rysk soppa med rödbetor och kött som är rik på smak och färg.",
+        "name": "morotsoppa",
+        "shortIntro": "En svensk soppa med morot och purjolök som är rik på smak och färg.",
         "portions": 6,
         "cookingTime": "2 timmar",
-        "image": "borsjtsj.jpg",
+        "image": "morotsoppa.jpg",
         "ingredients": [
-            "500 g nötkött",
-            "2 lökar",
-            "4 potatisar",
-            "3 rödbetor",
-            "1 liter köttbuljong",
-            "2 msk äppelcidervinäger",
-            "2 msk tomatpuré",
-            "2 msk smetana (rysk gräddfil)",
-            "Färsk dill för garnering",
-            "Salt och peppar efter smak"
+            "1  liten vitlöksklyfta",
+            "500 g fast morot (gärna amandine)",
+            "1 kopp purjolök",
+            "2 msk smör",
+            "1 msk finhackad färsk timjan",
+            "7 dl vatten",
+            "3 dl vispgrädde",
+            "Salt och peppar efter smak",
+            "1  grönsaksbuljongtärning",
+            "1 msk finrivet citronskal",
+            "1 - 2 msk vitvinsvinäger"
         ],
         "instructions": [
-            "Koka nötköttet i köttbuljongen i cirka 1,5 timme tills det är mört.",
-            "Hacka lök och skala och tärna potatisarna och rödbetorna.",
-            "Tillsätt lök, potatis och rödbetor till köttbuljongen och låt koka i 30 minuter till.",
-            "Tillsätt äppelcidervinäger och tomatpuré och låt koka i ytterligare 10 minuter.",
-            "Smaka av med salt och peppar.",
-            "Servera varm med en klick smetana och färsk dill på toppen."
+            "Skala morot, lök och vitlök. Skär potatisen i små tärningar och hacka lök och vitlök.",
+            "Fräs morot, lök och vitlök i smöret några minuter tills löken mjuknar.",
+            "Tillsätt timjan och fräs ytterligare några minuter.",
+            "Tillsätt vatten, grädde och buljongtärning. Låt koka 10–15 minuter på medelvärme tills morot mjuknar.",
+            "Mixa soppan slät och späd ev med mer vätska. Smaka av med citronskal, vinäger, salt och peppar."
         ],
         "categories": [
             "Soppor",
-            "Kött"
+            "Vegetariskt"
         ]
     },
     {
@@ -435,7 +435,7 @@
         "shortIntro": "En barnvänlig favorit med saftiga köttbullar i en varm soppa.",
         "portions": 4,
         "cookingTime": "30 minuter",
-        "image": "kottbullesoppa.jpg",
+        "image": "./images_recipes/kottbullesoppa.jpg",
         "ingredients": [
             "300 g köttfärs",
             "1 lök",
