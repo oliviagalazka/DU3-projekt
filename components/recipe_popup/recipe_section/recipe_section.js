@@ -42,6 +42,8 @@ function renderRecipeImage(parentId, recipe) {
     const recipeImage = document.createElement('div');
     recipeImage.id = 'recipe-image';
 
+    recipeImage.style.backgroundImage = 'url(./../../../images_recipes/' + recipe.image + ')';
+
     parent.append(recipeImage);
 }
 
