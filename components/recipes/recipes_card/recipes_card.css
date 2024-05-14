@@ -33,8 +33,6 @@
     background-color: pink;
 }
 
-
-
 #not-loged-in-popup {
     position: fixed;
     top: 0;
@@ -46,29 +44,59 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 #not-loged-in-popup-content {
-    padding: 30px;
-    padding-bottom: 100px;
+    padding: 50px;
     z-index: 100;
-    border: 1px solid black;
-    background-color: #DEDBD2;
+    background-color: rgb(184, 189, 184);
     color: white;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
+    flex-direction: column;
+    border: 1px solid white;
 }
 
-#closePopupButton {
-    color: black;
+#close-popup {
+    color: white;
     font-size: 30px;
     cursor: pointer;
     transition: transform 0.5s ease;
-    display: inline-block;
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
 }
 
-#closePopupButton:hover {
+#close-popup:hover {
     transform: scale(1.1);
+    color: rgb(124, 146, 139);
+}
+
+#popup-links {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#popup-links a {
+    border: 1px solid white;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+#not-loged-in-popup-text {
+    padding: 20px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#popup-links a:hover {
+    color: rgb(124, 146, 139);
 }
