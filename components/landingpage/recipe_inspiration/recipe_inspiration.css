@@ -29,5 +29,6 @@
 
     #recipe-inspiration-container {
         grid-template-columns: repeat(2, 1fr);
+        gap: 2vw;
     }
 }

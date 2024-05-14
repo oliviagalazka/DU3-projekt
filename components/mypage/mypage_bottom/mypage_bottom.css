@@ -21,7 +21,13 @@
 
 /* --------------------------- MOBILVERSION --------------------------- */
 @media (max-width: 500px) {
+    #mypage-bottom-container h1 {
+        margin-top: 30px;
+        font-size: 9vw;
+    }
+
     #saved-recipes-container {
         grid-template-columns: repeat(2, 1fr);
+        gap: 2vw;
     }
 }
