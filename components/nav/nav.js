@@ -3,7 +3,7 @@ function renderNavContainer(parentId) {
     const navContainer = document.createElement('nav');
     navContainer.id = 'nav-container';
 
-    if (window.localStorage.length !== 0) {
+    if (window.localStorage.getItem('login')) {
         navContainer.innerHTML = `
             <div>
                 <div id='logo-nav'>

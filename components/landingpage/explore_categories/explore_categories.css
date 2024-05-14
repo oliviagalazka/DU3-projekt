@@ -25,9 +25,9 @@
     justify-content: space-evenly;
     align-items: center;
 
-    /*width: 930px;*/
+    width: 930px;
     margin-bottom: 70px;
-    /*height: 500px;*/
+    height: 500px;
 
 }
 
@@ -57,6 +57,7 @@
 @media (max-width: 500px) {
     #explore-categories-container {
         grid-template-columns: repeat(3, 1fr);
+        width: auto;
     }
 
     #explore-categories-section h2 {

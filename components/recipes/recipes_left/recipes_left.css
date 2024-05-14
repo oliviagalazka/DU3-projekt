@@ -45,3 +45,29 @@
 .checked {
     background-color: black;
 }
+
+@media (max-width: 500px) {
+    #recipe-page-left-container {
+        flex-direction: column;
+        margin-right: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #search-field {
+        width: 90vw;
+    }
+
+    #categories-container h1 {
+        margin-top: 1vh;
+        text-align: center;
+    }
+
+    #categories {
+        display: grid;
+        grid-template-columns: repeat(3, 30vw);
+        gap: 0;
+        justify-content: center;
+        align-items: center;
+    }
+}

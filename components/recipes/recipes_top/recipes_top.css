@@ -40,3 +40,15 @@
     color: #dfdcd3;
     text-shadow: 1px 1px 10px black;
 }
+
+@media (max-width: 500px) {
+    #recipe-page-top-container h1 {
+        font-size: 19vw;
+    }
+
+    #recipe-page-top-container p {
+        text-align: center;
+        font-size: 3vw;
+        margin: 2vw;
+    }
+}
