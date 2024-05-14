@@ -41,6 +41,7 @@
     text-shadow: 1px 1px 10px black;
 }
 
+/* --------------------------- MOBILVERSION --------------------------- */
 @media (max-width: 500px) {
     #recipe-page-top-container h1 {
         font-size: 19vw;

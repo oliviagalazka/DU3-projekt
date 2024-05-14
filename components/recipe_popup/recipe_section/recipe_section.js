@@ -29,8 +29,14 @@ async function renderRecipeInfo(parentId, recipe) {
                             </div>
                             <h3>${review.averageRank}/10 (av ${review.totalReviews} omdömen)</h3>
                             <h4>${recipe.shortIntro}</h4>
-                            <h4>Antal portioner: ${recipe.portions}</h4>
-                            <h4>Matlagningstid: ${recipe.cookingTime}</h4>
+                            <div id='portions'>
+                                <img src='./../../../img_for_design/portions.svg'>
+                                <p>${recipe.portions}</p>
+                            </div>
+                            <div id='cooking-time'>
+                            <img src='./../../../img_for_design/clock.svg'>
+                                <p>${recipe.cookingTime}</p>
+                            </div>
                         `;
 
     parent.append(recipeInfo);

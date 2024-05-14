@@ -116,6 +116,7 @@
     margin: auto;
 }
 
+/* --------------------------- MOBILVERSION --------------------------- */
 @media (max-width: 500px) {
     #post-review-input {
         width: auto;
