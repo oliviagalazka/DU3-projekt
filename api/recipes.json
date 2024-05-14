@@ -340,7 +340,7 @@
         "shortIntro": "En svensk soppa med morot och purjolök som är rik på smak och färg.",
         "portions": 6,
         "cookingTime": "2 timmar",
-        "image": "morotsoppa.jpg",
+        "image": "morotssoppa.jpg",
         "ingredients": [
             "1  liten vitlöksklyfta",
             "500 g fast morot (gärna amandine)",
@@ -435,7 +435,7 @@
         "shortIntro": "En barnvänlig favorit med saftiga köttbullar i en varm soppa.",
         "portions": 4,
         "cookingTime": "30 minuter",
-        "image": "./images_recipes/kottbullesoppa.jpg",
+        "image": "kottbullesoppa.jpg",
         "ingredients": [
             "300 g köttfärs",
             "1 lök",
