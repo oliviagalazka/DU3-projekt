@@ -35,8 +35,14 @@
         "username": "hilda",
         "password": "hilda",
         "savedRecipes": [
+            58,
+            11,
+            10,
+            7,
             1,
-            2
+            8,
+            2,
+            3
         ],
         "shoppingList": []
     },
