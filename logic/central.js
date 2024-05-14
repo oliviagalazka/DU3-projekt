@@ -5,23 +5,27 @@ let currentLocation = '';
 function saveRecipe(event) {
     event.stopPropagation();
 
-    const patchRecipe = {
-        id: parseInt(event.currentTarget.id.split('-')[1]),
-        user: window.localStorage.getItem('login')
-    };
+    if (!window.localStorage.getItem('login')) {
+        notLogedInPopup();
+    } else {
+        const patchRecipe = {
+            id: parseInt(event.currentTarget.id.split('-')[1]),
+            user: window.localStorage.getItem('login')
+        };
 
-    const request = new Request('./../../api/users.php', {
-        method: 'PATCH',
-        headers: { "Content-Type": 'application/json' },
-        body: JSON.stringify(patchRecipe)
-    });
+        const request = new Request('./../../api/users.php', {
+            method: 'PATCH',
+            headers: { "Content-Type": 'application/json' },
+            body: JSON.stringify(patchRecipe)
+        });
 
-    const patchObject = {
-        entity: 'user',
-        request: request
-    };
+        const patchObject = {
+            entity: 'user',
+            request: request
+        };
 
-    State.Patch(patchObject);
+        State.Patch(patchObject);
+    }
 }
 
 // Recipe Average Review

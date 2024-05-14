@@ -50,3 +50,30 @@ function patchRecipe(instanceData) {
         savedDom.classList.add('favorite');
     }
 }
+
+function notLogedInPopup() {
+    const notLogedInPopupContainer = document.createElement('div');
+    notLogedInPopupContainer.id = 'not-loged-in-popup';
+
+    const notLogedInPopupContent = document.createElement('div');
+    notLogedInPopupContent.id = 'not-loged-in-popup-content';
+    notLogedInPopupContent.innerHTML = `<div>Du behöver logga in för att spara dina favoritrecept!</div>
+    <p>klicka på logga in länken <a href='./login.html'>Logga In</a></p>`;
+
+
+    // Stäng popup knapp
+    const closePopupButton = document.createElement('a');
+    closePopupButton.id = 'closePopupButton';
+    closePopupButton.innerHTML = '྾';
+    closePopupButton.addEventListener('click', (e) => {
+        e.preventDefault();
+        document.body.classList.remove('prevent-scroll');
+        notLogedInPopupContainer.remove();
+    });
+
+    notLogedInPopupContent.appendChild(closePopupButton);
+    notLogedInPopupContainer.appendChild(notLogedInPopupContent);
+
+    document.body.classList.add('prevent-scroll');
+    document.body.appendChild(notLogedInPopupContainer);
+}
