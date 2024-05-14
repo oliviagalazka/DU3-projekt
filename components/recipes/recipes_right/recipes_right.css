@@ -9,5 +9,7 @@
     #recipe-page-right-container {
         grid-template-columns: repeat(2, 1fr);
         gap: 2vw;
+        margin-right: auto;
+        margin-left: auto;
     }
 }
