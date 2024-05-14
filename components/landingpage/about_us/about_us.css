@@ -8,14 +8,19 @@
 }
 
 #about-us-info {
-    margin: 0 200px 80px 200px;
+    /* margin: 0 200px 80px 200px; */
     display: flex;
     gap: 20px;
     font-family: gotu;
+    width: 900px;
+    margin: auto;
 }
 
 #about-us-info div:last-child {
     /*width: 200px;*/
+}
+#au-left {
+    width: 500px;
 }
 
 #au-right {
@@ -36,8 +41,8 @@
 }
 
 #img-au-logo {
-    width: 200px;
-    height: 200px;
+    width: 50px;
+    height: 50px;
     background-image: url(./../../../img_for_design/Untitled_Artwork\ 3.png);
     background-size: cover;
     background-position: center;
@@ -49,16 +54,16 @@
     background-image: url(./../../../img_for_design/hero-section.jpg);
     background-size: cover;
     background-position: center;
-    width: 300px;
-    height: 200px;
+    width: 50px;
+    height: 50px;
 }
 
 #img-au-icon {
     background-image: url(./../../../img_for_design/Untitled_Artwork\ 4.png);
     background-size: cover;
     background-position: center;
-    width: 250px;
-    height: 300px;
+    width: 50px;
+    height: 50px;
 }
 
 @media (max-width: 500px) {
