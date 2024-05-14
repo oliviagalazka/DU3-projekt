@@ -51,6 +51,7 @@ function patchRecipe(instanceData) {
     }
 }
 
+
 function notLogedInPopup() {
     const notLogedInPopupContainer = document.createElement('div');
     notLogedInPopupContainer.id = 'not-loged-in-popup';
@@ -59,24 +60,23 @@ function notLogedInPopup() {
     notLogedInPopupContent.id = 'not-loged-in-popup-content';
 
     notLogedInPopupContent.innerHTML = `
-    <div>Du behöver logga in för att spara dina favoritrecept!</div>
-        <a href='./login.html'>Logga In</a>
-    <a href='./register.html'>Regist In</a>
+        <a href='#' id="close-popup">྾</a>
+        <div id="not-loged-in-popup-text">Du behöver logga in för att spara dina favoritrecept!</div>
+        <div id="popup-links">
+            <a href='./login.html'>Logga In</a>
+            <a href='./register.html'>Registrera dig</a>
+        </div>
     `;
 
-    // Stäng popup knapp
-    const closePopupButton = document.createElement('a');
-    closePopupButton.id = 'closePopupButton';
-    closePopupButton.innerHTML = '྾';
-    closePopupButton.addEventListener('click', (e) => {
+    document.body.appendChild(notLogedInPopupContainer);
+    notLogedInPopupContainer.append(notLogedInPopupContent);
+
+    const closePopup = document.getElementById('close-popup');
+    closePopup.addEventListener('click', (e) => {
         e.preventDefault();
         document.body.classList.remove('prevent-scroll');
         notLogedInPopupContainer.remove();
     });
 
-    notLogedInPopupContent.appendChild(closePopupButton);
-    notLogedInPopupContainer.appendChild(notLogedInPopupContent);
-
     document.body.classList.add('prevent-scroll');
-    document.body.appendChild(notLogedInPopupContainer);
 }
