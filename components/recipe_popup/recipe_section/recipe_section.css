@@ -101,3 +101,9 @@
 
     padding-left: 14px;
 }
+
+@media (max-width: 500px) {
+    #recipe-todo-container {
+        flex-direction: column;
+    }
+}
