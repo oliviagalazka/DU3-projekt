@@ -47,9 +47,11 @@ function renderNavContainer(parentId) {
 
     document.getElementById('about-us').addEventListener('click', (e) => {
         e.preventDefault();
-        const section = document.getElementById('about-us-container');
+        const section = document.getElementById('au-section');
         if (section) {
             section.scrollIntoView({ behavior: 'smooth' });
+        } else {
+            window.location = './index.html';
         }
     });
 
