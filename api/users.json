@@ -54,6 +54,11 @@
             11,
             29
         ],
-        "shoppingList": []
+        "shoppingList": [
+            {
+                "item": "sss",
+                "checked": false
+            }
+        ]
     }
 ]

@@ -9,6 +9,7 @@
     box-shadow: 1px 1px 10px black;
     margin: auto;
     min-height: 70vh;
+    width: 400px;
 }
 
 #shoppingslist-section>div {
@@ -19,9 +20,9 @@
 
 #shoppingslist-section h1 {
     font-family: "petit";
-    font-size: 74px;
-    text-decoration: underline;
+    font-size: 50px;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 #input-button {
@@ -78,8 +79,14 @@
     display: flex;
     align-items: center;
     gap: 5px;
+    font-size: 14px;
+}
+
+.delete-box {
+    font-size: 12px;
 }
 
 .checked {
     background-color: black;
 }
+
