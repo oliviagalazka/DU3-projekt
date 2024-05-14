@@ -19,6 +19,7 @@ async function renderRecipeCard(parentId, recipe) {
         </div>
     `;
 
+    recipeCard.querySelector('.rc-img').style.backgroundImage = 'url(./../../../images_recipes/' + recipe.image + ')';
     const saveButton = recipeCard.querySelector('.rc-heart');
 
     saveButton.addEventListener('click', saveRecipe);

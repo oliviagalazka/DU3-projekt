@@ -9,7 +9,8 @@
 
 .rc-img {
     height: 180px;
-    background-color: beige;
+    background-size: cover;
+    background-position: center;
 }
 
 .rc-info {

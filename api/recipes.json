@@ -689,7 +689,7 @@
     },
     {
         "id": 22,
-        "name": "Greksallad",
+        "name": "Grekisk Sallad",
         "shortIntro": "En fräsch sallad med tomater, gurka, lök, oliver och fetaost.",
         "portions": 4,
         "cookingTime": "15 minuter",
@@ -738,19 +738,18 @@
             "Salt och peppar efter smak"
         ],
         "instructions": [
-            "Skala räkorna.",
-            "Skär mango, avokado och paprika i bitar.",
-            "Blanda räkor, mango, avokado och paprika i en stor skål.",
-            "Pressa saften från lime över salladen.",
-            "Ringla över olivolja.",
-            "Blanda väl.",
+            "Dränera tonfisken från oljan och lägg den i en stor skål.",
+            "Skär paprikan, gurkan och rödlöken i önskad storlek och lägg dem i skålen med tonfisken.",
+            "Pressa saften från citronen över tonfiskblandningen.",
+            "Ringla olivoljan över salladen.",
+            "Blanda försiktigt så att alla ingredienser är väl fördelade.",
             "Smaka av med salt och peppar.",
-            "Garnera med färsk koriander.",
-            "Servera genast och njut av!"
+            "Garnera med färsk persilja innan servering.",
+            "Servera genast och njut av denna härliga tonfisksallad!"
         ],
         "categories": [
             "Sallader",
-            "Fisk och Skaldjur"
+            "Fisk"
         ]
     },
     {
