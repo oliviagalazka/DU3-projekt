@@ -12,6 +12,7 @@ function renderFooter(parentId) {
                                 <h2>NAMNAM</h2>
                             </div>
                             <p>Copyright 2024</p>
+                            <p>Incomplete website. Only for teaching purposes. Malmö University.</p>
                         </div>`;
 
     footer.querySelector('#to-top').addEventListener('click', function (e) {

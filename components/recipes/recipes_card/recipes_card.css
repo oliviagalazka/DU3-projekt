@@ -100,3 +100,14 @@
 #popup-links a:hover {
     color: rgb(124, 146, 139);
 }
+
+@media (max-width: 500px) {
+    .rc {
+        height: 250px;
+        width: 170px;
+    }
+
+    .rc-info {
+        font-size: 2.5vw;
+    }
+}

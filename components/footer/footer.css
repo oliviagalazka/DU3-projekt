@@ -40,8 +40,28 @@ footer p {
 #to-top {
     transform: rotate(180deg);
     font-size: 18px;
+    cursor: pointer;
 }
 
-#to-top {
-    cursor: pointer;
+@media (max-width: 500px) {
+    footer {
+        padding: 30px;
+    }
+
+    footer p {
+        font-size: 3vw;
+    }
+
+    #logo-img {
+        height: 30px;
+        width: 30px;
+    }
+
+    footer h2 {
+        font-size: 11vw;
+    }
+
+    #to-top {
+        font-size: 3vw;
+    }
 }

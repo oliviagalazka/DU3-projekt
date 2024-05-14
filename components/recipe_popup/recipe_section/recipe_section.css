@@ -41,6 +41,23 @@
     font-size: 16px;
 }
 
+#portions,
+#cooking-time {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: black;
+    font-family: gotu;
+}
+
+#portions img {
+    height: 15px;
+}
+
+#cooking-time img {
+    height: 20px;
+}
+
 #title-heart-container {
     display: flex;
     justify-content: space-between;
@@ -102,6 +119,7 @@
     padding-left: 14px;
 }
 
+/* --------------------------- MOBILVERSION --------------------------- */
 @media (max-width: 500px) {
     #recipe-todo-container {
         flex-direction: column;

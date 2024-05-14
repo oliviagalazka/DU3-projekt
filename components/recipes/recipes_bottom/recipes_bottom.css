@@ -6,6 +6,7 @@
     margin: 120px auto;
 }
 
+/* --------------------------- MOBILVERSION --------------------------- */
 @media (max-width: 500px) {
     #recipe-page-bottom-section {
         width: auto;

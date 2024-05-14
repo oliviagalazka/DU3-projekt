@@ -1,41 +1,45 @@
-#about-us-section {}
-
-#about-us-container h1 {
+#au-container h1 {
     margin-top: 80px;
     text-align: center;
     font-family: 'palmore_bold';
     font-size: 54px;
 }
 
-#about-us-info {
+#au-info {
     margin: 0 200px 80px 200px;
     display: flex;
     gap: 20px;
     font-family: gotu;
 }
 
-#about-us-info div:last-child {
-    /*width: 200px;*/
-}
-
-#au-right {
+#au-img-container {
     display: flex;
-    flex-direction: column;
-}
-
-#img-us-container {
-    display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-#img-au-top {
+#au-img-container div:first-child {
     display: flex;
     gap: 20px;
 }
 
-#img-au-logo {
+#au-img-team {
+    width: 300px;
+    height: 200px;
+    background-image: url(./../../../img_for_design/hero-section.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#au-img-icon {
+    width: 250px;
+    height: 300px;
+    background-image: url(./../../../img_for_design/Untitled_Artwork\ 4.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#au-img-logo {
     width: 200px;
     height: 200px;
     background-image: url(./../../../img_for_design/Untitled_Artwork\ 3.png);
@@ -45,24 +49,9 @@
     background-color: black;
 }
 
-#img-au-team {
-    background-image: url(./../../../img_for_design/hero-section.jpg);
-    background-size: cover;
-    background-position: center;
-    width: 300px;
-    height: 200px;
-}
-
-#img-au-icon {
-    background-image: url(./../../../img_for_design/Untitled_Artwork\ 4.png);
-    background-size: cover;
-    background-position: center;
-    width: 250px;
-    height: 300px;
-}
-
+/* --------------------------- MOBILVERSION --------------------------- */
 @media (max-width: 500px) {
-    #about-us-info {
+    #au-info {
         margin: 0 30px 80px 30px;
         flex-direction: column;
     }

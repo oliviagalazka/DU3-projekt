@@ -66,12 +66,7 @@
     margin: 0;
 }
 
-#mypage-top-container p {
-    color: rgb(245, 245, 235);
-    font-family: 'gotu';
-    font-size: 16px;
-}
-
+#mypage-top-container p,
 #mypage-top-container li {
     color: rgb(245, 245, 235);
     font-family: 'gotu';
@@ -84,7 +79,7 @@
 
 #textgubbe-klicka-här p {
     color: rgb(245, 245, 245);
-    font-family: 'palmore';
+    font-family: 'palmore_bold';
     font-size: 45px;
     text-align: center;
     transform: rotate(-10deg);
@@ -104,7 +99,7 @@
     }
 }
 
-
+/* --------------------------- MOBILVERSION --------------------------- */
 @media (max-width: 500px) {
     #mypage-top-container {
         flex-direction: column;
@@ -112,16 +107,24 @@
 
     #mypage-top-container {
         height: auto;
+        padding-top: 40px;
     }
 
     #my-page-info {
         width: auto;
+        padding: 30px;
     }
 
     #mypage-top-container h1 {
-        font-size: 20vw;
+        font-size: 14vw;
     }
 
+    #my-page-info #mypage-user {
+        font-size: 4vw;
+    }
 
-
+    #mypage-top-container li,
+    #mypage-top-container p {
+        font-size: 3vw;
+    }
 }

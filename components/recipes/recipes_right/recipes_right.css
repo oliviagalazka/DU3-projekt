@@ -4,8 +4,12 @@
     gap: 20px;
 }
 
+/* --------------------------- MOBILVERSION --------------------------- */
 @media (max-width: 500px) {
     #recipe-page-right-container {
         grid-template-columns: repeat(2, 1fr);
+        gap: 2vw;
+        margin-right: auto;
+        margin-left: auto;
     }
 }
