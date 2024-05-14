@@ -22,9 +22,12 @@ function renderPostReviewContainer(parentId, recipe) {
     <h1>OMDÖMEN</h1>
     <div id='add-comment-container'>
         <input id='post-review-input' type='text' placeholder='Lämna ett omdömme...'>
-        <select></select>
+        <div>
+            <p>Betyg:</p>
+            <select></select>
+        </div>
     </div>
-    <div id='post-review-button'>Kommentera</div>
+    <div id='post-review-button'>Skicka in</div>
                                 `;
 
     parent.append(postReviewContainer);
@@ -42,7 +45,7 @@ function renderPostReviewContainer(parentId, recipe) {
     postReviewButton.addEventListener('click', () => {
 
         if (inputDom.value === '') {
-            inputDom.setAttribute('placeholder', 'Oops, vänligen lämna ett omdömme innan du kommenterar.');
+            inputDom.setAttribute('placeholder', 'Oops, vänligen lämna ett omdömme först.');
         } else {
             const postData = {
                 recipeId: recipe.id,
@@ -70,7 +73,6 @@ function renderPostReviewContainer(parentId, recipe) {
 
 // Get Review Container
 async function renderGetReviewContainer(parentId, recipe) {
-    //await State.Get({ entity: 'reviews', request: './../../api/reviews.php' });
     const reviews = State.GetEntity('reviews');
 
     const parent = document.getElementById(parentId);
@@ -95,7 +97,7 @@ function renderReview(parentId, review) {
 
     reviewDom.innerHTML = `
                             <div id='icon-review-container'>
-                                <img src='' alt='Profil Ikon'>
+                                <img src='./img_for_design/review-icon.svg' alt='Profil Ikon'>
                                 <div>${review.rank}/10</div>
                             </div>
                             <div>${review.comment}</div>

@@ -7,11 +7,11 @@
     background-size: cover;
     position: relative;
     padding-top: 100px;
-
+    height: 750px;
 }
 
 #shadow {
-    background-color: rgba(0, 0, 0, 0.648);
+    background-color: rgba(0, 0, 0, 0.757);
     position: absolute;
     top: 0;
     left: 0;
@@ -20,10 +20,20 @@
 }
 
 #my-page-info {
-    height: 60vh;
-    width: 40vw;
+    width: 600px;
     z-index: 1;
     padding-right: 40px;
+}
+
+#my-page-info #mypage-user {
+    font-size: larger;
+    font-family: 'gotu';
+}
+
+#my-page-info p {
+    color: rgb(245, 245, 235);
+    font-family: 'gotu';
+    font-size: 16px;
 }
 
 #shopping-list-container {
@@ -35,16 +45,25 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
-    height: 500px;
-    width: 20vw;
-    background-color: beige;
+    height: 400px;
+    width: 305px;
+    background-image: url(../../../img_for_design/inköpslista.png);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s ease;
+
+}
+
+#shopping-list:hover {
+    cursor: pointer;
+    transform: scale(1.07) rotate(4deg);
 }
 
 #mypage-top-container h1 {
     font-family: 'petit';
     color: rgb(245, 245, 235);
-    font-size: 60px;
-    
+    font-size: 120px;
+    margin: 0;
 }
 
 #mypage-top-container p {
@@ -63,6 +82,46 @@
     padding-left: 15px;
 }
 
-#textgubbe-klicka-här {
-    color: aliceblue;
+#textgubbe-klicka-här p {
+    color: rgb(245, 245, 245);
+    font-family: 'palmore';
+    font-size: 45px;
+    text-align: center;
+    transform: rotate(-10deg);
+}
+
+#textgubbe-klicka-här i {
+    animation: blink 1s infinite;
+    /* Använd animationen blink oändligt */
+    font-size: 40px;
+}
+
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+        /* Gör div'en osynlig på hälften av animationen */
+    }
+}
+
+
+@media (max-width: 500px) {
+    #mypage-top-container {
+        flex-direction: column;
+    }
+
+    #mypage-top-container {
+        height: auto;
+    }
+
+    #my-page-info {
+        width: auto;
+    }
+
+    #mypage-top-container h1 {
+        font-size: 20vw;
+    }
+
+
+
 }

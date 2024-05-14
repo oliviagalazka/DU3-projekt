@@ -1,14 +1,14 @@
 function renderExploreCategories(parentId) {
     const parent = document.getElementById(parentId);
-    const ExploreCategoriesContainer = document.createElement('div');
-    ExploreCategoriesContainer.id = 'ExploreCategoriesContainer'
-    ExploreCategoriesContainer.innerHTML = `
+    const exploreCategoriesSection = document.createElement('div');
+    exploreCategoriesSection.id = 'explore-categories-section';
+    exploreCategoriesSection.innerHTML = `
         <h2>UTFORSKA KATEGORIER</h2>
-        <div id='utforska-kategorier-section'></div>
+        <div id='explore-categories-container'></div>
     `;
 
-    parent.append(ExploreCategoriesContainer);
-    renderExploreCategoriesBoxes('utforska-kategorier-section');
+    parent.append(exploreCategoriesSection);
+    renderExploreCategoriesBoxes('explore-categories-container');
 }
 
 const categories = [
@@ -23,7 +23,7 @@ const categories = [
     "Vegetariskt",
     "Kött",
     "Kyckling",
-    "Fisk och Skaldjur",
+    "Fisk",
     "Grillat",
     "Grytor",
     "Gratänger"
@@ -37,12 +37,9 @@ function renderExploreCategoriesBoxes(parentId) {
         categoryDom.classList.add('category')
         categoryDom.innerHTML = `<a>${category}</a>`;
         parent.append(categoryDom);
-        categoryDom.addEventListener('click', goToRecipeFeed);
+        categoryDom.style.backgroundImage = `url('./images_categories/${category}-category.jpg')`;
+        categoryDom.addEventListener('click', function () {
+            window.location = './recipes.html?category=' + category;
+        });
     }
-}
-
-function goToRecipeFeed(event) {
-
-    window.location = "./components/recipes/recipes.html";
-    console.log(event.target.textContent);
 }

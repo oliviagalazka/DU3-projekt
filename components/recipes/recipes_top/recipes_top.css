@@ -4,7 +4,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url(./../../../img_for_design/recipes-section.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+#shadow-recipe-top {
+    height: 60vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.6);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #recipe-page-top-container {
@@ -27,4 +39,16 @@
     font-size: 14px;
     color: #dfdcd3;
     text-shadow: 1px 1px 10px black;
+}
+
+@media (max-width: 500px) {
+    #recipe-page-top-container h1 {
+        font-size: 19vw;
+    }
+
+    #recipe-page-top-container p {
+        text-align: center;
+        font-size: 3vw;
+        margin: 2vw;
+    }
 }

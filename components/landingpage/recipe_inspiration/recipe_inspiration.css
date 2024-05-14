@@ -1,0 +1,33 @@
+#recipe-inspiration-section {
+    background-color: #dfdcd3;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+#recipe-inspiration-section h2 {
+    margin-top: 80px;
+    font-family: "palmore_bold";
+    font-size: 54px;
+}
+
+#recipe-inspiration-container {
+    margin: 0 200px 80px 200px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    font-family: "gotu";
+}
+
+/* --------------------------- MOBILVERSION --------------------------- */
+@media (max-width: 500px) {
+    #recipe-inspiration-section h2 {
+        font-size: 9vw;
+    }
+
+    #recipe-inspiration-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

@@ -1,22 +1,21 @@
-* {
-    box-sizing: border-box;
-}
-
-#ExploreCategoriesContainer {
-    height: 90vh;
+#explore-categories-section {
     background-color: #0c0b0c;
     display: flex;
     flex-direction: column;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
-#ExploreCategoriesContainer h2 {
+#explore-categories-section h2 {
     text-align: center;
     color: #dfdcd3;
+    margin-top: 80px;
+    font-family: "palmore_bold";
+    font-size: 54px;
 }
 
-#utforska-kategorier-section {
-    height: 60vh;
-    margin: 0 200px 0 200px;
+#explore-categories-container {
+    margin: auto;
 
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -25,15 +24,20 @@
 
     justify-content: space-evenly;
     align-items: center;
-    max-width: 1200px;
-    min-width: 800px;
+
+    width: 930px;
+    margin-bottom: 70px;
+    height: 500px;
+
 }
 
-#utforska-kategorier-section>div {
+#explore-categories-container>div {
     background-color: #dfdcd3;
+    background-size: cover;
+    background-position: center;
     padding: 10px;
-    height: 130px;
-    width: 130px;
+    height: 120px;
+    width: 120px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -41,7 +45,27 @@
     margin: auto;
 }
 
-#utforska-kategorier-section>div a {
+#explore-categories-container>div a {
     text-align: center;
     font-family: "gotu";
+    font-size: 16px;
+    color: white;
+    font-weight: bolder;
+}
+
+/* --------------------------- MOBILVERSION --------------------------- */
+@media (max-width: 500px) {
+    #explore-categories-container {
+        grid-template-columns: repeat(3, 1fr);
+        width: auto;
+    }
+
+    #explore-categories-section h2 {
+        font-size: 10vw;
+    }
+
+    #explore-categories-container>div {
+        height: 100px;
+        width: 100px;
+    }
 }

@@ -1,5 +1,15 @@
 #recipe-page-bottom-section {
     display: flex;
     gap: 30px;
-    margin: 70px 200px 70px 200px;
+
+    width: 860px;
+    margin: 120px auto;
+}
+
+@media (max-width: 500px) {
+    #recipe-page-bottom-section {
+        width: auto;
+        flex-direction: column;
+        margin: 30px auto;
+    }
 }

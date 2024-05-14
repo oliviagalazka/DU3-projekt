@@ -1,17 +1,3 @@
-* {
-    box-sizing: border-box;
-}
-
 body {
     margin: 0;
-}
-
-h1 {
-    font-family: 'petit';
-    font-size: 54px;
-}
-
-h2 {
-    font-family: 'palmore_bold';
-    font-size: 54px;
 }

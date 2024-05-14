@@ -20,7 +20,7 @@ async function renderRecipeInfo(parentId, recipe) {
     const recipeInfo = document.createElement('div');
     recipeInfo.id = 'recipe-info';
 
-    const review = await recipeAveregeReview(recipe);
+    const review = await recipeAverageReview(recipe);
 
     recipeInfo.innerHTML = `
                             <div id='title-heart-container'>
@@ -29,6 +29,7 @@ async function renderRecipeInfo(parentId, recipe) {
                             </div>
                             <h3>${review.averageRank}/10 (av ${review.totalReviews} omdömen)</h3>
                             <h4>${recipe.shortIntro}</h4>
+                            <h4>Antal portioner: ${recipe.portions}</h4>
                             <h4>Matlagningstid: ${recipe.cookingTime}</h4>
                         `;
 
@@ -40,6 +41,8 @@ function renderRecipeImage(parentId, recipe) {
     const parent = document.getElementById(parentId);
     const recipeImage = document.createElement('div');
     recipeImage.id = 'recipe-image';
+
+    recipeImage.style.backgroundImage = 'url(./../../../images_recipes/' + recipe.image + ')';
 
     parent.append(recipeImage);
 }

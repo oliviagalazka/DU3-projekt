@@ -8,6 +8,16 @@ $users = [];
 $json = file_get_contents($filename);
 $users = json_decode($json, true);
 
+if ($requestMethod == 'GET') {
+    if (isset($_GET['user'])) {
+        foreach ($users as $user) {
+            if ($user['username'] == $_GET['user']) {
+                sendJSON($user, 200);
+            }
+        }
+    }
+}
+
 $requestJSON = file_get_contents('php://input');
 $requestData = json_decode($requestJSON, true);
 
@@ -27,10 +37,8 @@ if ($requestMethod == 'PATCH') {
         sendJSON($error, 400);
     }
 
-    $userFound = false;
     foreach ($users as $index => &$user) {
         if ($user['username'] == $requestData['user']) {
-            $userFound = true;
             $recipeFound = false;
 
             foreach ($user['savedRecipes'] as $recipeIndex => $recipeId) {
@@ -47,14 +55,12 @@ if ($requestMethod == 'PATCH') {
 
             $json = json_encode($users, JSON_PRETTY_PRINT);
             file_put_contents($filename, $json);
-            $data = ['id' => $requestData['id'], 'user' => $user['username']];
+            $data = ['id' => $requestData['id'], 'user' => $user['username'], 'savedRecipes' => $user['savedRecipes']];
             sendJSON($data, 200);
             break;
         }
     }
 
-    if (!$userFound) {
-        $error = ['error' => 'User not found'];
-        sendJSON($error, 404);
-    }
+    $error = ['error' => 'User not found'];
+    sendJSON($error, 404);
 }

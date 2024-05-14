@@ -57,12 +57,12 @@ function notLogedInPopup() {
 
     const notLogedInPopupContent = document.createElement('div');
     notLogedInPopupContent.id = 'not-loged-in-popup-content';
+
     notLogedInPopupContent.innerHTML = `
     <div>Du behöver logga in för att spara dina favoritrecept!</div>
         <a href='./login.html'>Logga In</a>
     <a href='./register.html'>Regist In</a>
     `;
-
 
     // Stäng popup knapp
     const closePopupButton = document.createElement('a');

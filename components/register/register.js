@@ -9,7 +9,7 @@ function renderRegisterContainer() {
             <button id='register-button'>Skapa konto</button>
             <p id="success"></p>
             <p class='subtitle-register'>Har du redan ett konto?</p>
-            <a href='./../login/login.html'>Logga in</a>
+            <a href='./login.html'>Logga in</a>
         </div>
         `;
 
@@ -52,16 +52,10 @@ function renderRegisterContainer() {
 
 renderRegisterContainer();
 
-function errorRegister() {
-
-}
-
 function toLogin() {
-    const success = document.createElement("p");
-    success.textContent = "Ditt konto har nu skapats";
-    document.getElementById("success").append(success);
+    document.getElementById("success").textContent = "Ditt konto har nu skapats";
 
     setTimeout(() => {
-        window.location = "./../login/login.html";
+        window.location = "./login.html";
     }, 2000);
 }
