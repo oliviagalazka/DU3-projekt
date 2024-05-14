@@ -46,6 +46,7 @@
     background-color: black;
 }
 
+/* --------------------------- MOBILVERSION --------------------------- */
 @media (max-width: 500px) {
     #recipe-page-left-container {
         flex-direction: column;

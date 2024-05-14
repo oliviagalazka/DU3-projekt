@@ -104,7 +104,7 @@
     }
 }
 
-
+/* --------------------------- MOBILVERSION --------------------------- */
 @media (max-width: 500px) {
     #mypage-top-container {
         flex-direction: column;
@@ -121,7 +121,4 @@
     #mypage-top-container h1 {
         font-size: 20vw;
     }
-
-
-
 }
