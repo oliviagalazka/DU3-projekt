@@ -7,13 +7,18 @@ async function renderRecipeCard(parentId, recipe) {
     recipeCard.classList.add('rc');
 
     const review = await recipeAverageReview(recipe);
+    let formattedRank = 0;
+    if (review != null & review.averageRank != '-') {
+        formattedRank = review.averageRank.toFixed(0);
+    }
+
 
     recipeCard.innerHTML = `
         <div class='rc-img'></div>
         <div class='rc-info'>
             <h3 class='rc-name'>${recipe.name}</h3>
             <div class='rc-review-heart'>
-                <p class='rc-review'>${review.averageRank}/10 (av ${review.totalReviews} omdömen)</p>
+                <p class='rc-review'>${formattedRank}/10 (av ${review.totalReviews} omdömen)</p>
                 <div id='saved-${recipe.id}' class='rc-heart'>
                 &#x2661
                 </div>

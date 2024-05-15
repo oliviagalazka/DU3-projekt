@@ -22,12 +22,14 @@ async function renderRecipeInfo(parentId, recipe) {
 
     const review = await recipeAverageReview(recipe);
 
+    let formattedRank = review.averageRank.toFixed(0);
+
     recipeInfo.innerHTML = `
                             <div id='title-heart-container'>
                                 <h1>${recipe.name}</h1>
                                 <h2 id="popupheart-${recipe.id}">&#x2661</h2>
                             </div>
-                            <h3>${review.averageRank}/10 (av ${review.totalReviews} omdömen)</h3>
+                            <h3>${formattedRank}/10 (av ${review.totalReviews} omdömen)</h3>
                             <h4>${recipe.shortIntro}</h4>
                             <div id='portions'>
                                 <img src='./../../../img_for_design/portions.svg'>

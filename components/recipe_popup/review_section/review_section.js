@@ -67,6 +67,7 @@ function renderPostReviewContainer(parentId, recipe) {
             State.Post(newReview);
             inputDom.value = '';
             selectDom.value = 0;
+            renderRecipeInfo('recipe-info-container', recipe);
         }
     });
 }
@@ -95,10 +96,12 @@ function renderReview(parentId, review) {
     reviewDom.id = `review-${review.id}`;
     reviewDom.classList.add('review');
 
+    let formattedRank = review.rank.toFixed(0);
+
     reviewDom.innerHTML = `
                             <div id='icon-review-container'>
                                 <img src='./img_for_design/review-icon.svg' alt='Profil Ikon'>
-                                <div>${review.rank}/10</div>
+                                <div>${formattedRank}/10</div>
                             </div>
                             <div>${review.comment}</div>
                             `;
