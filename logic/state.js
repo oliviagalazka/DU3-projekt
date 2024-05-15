@@ -49,7 +49,11 @@ async function Post(data) {
 
     const response = await fetcher(request);
     if (!response.ok) {
-        alert('Something whent wrong, Status ' + response.statusText);
+        // alert('Something whent wrong, Status ' + response.statusText);
+        const resource  = await response.json()
+        console.log(resource)
+        document.getElementById('success').textContent = resource.error;
+      
         return;
     }
 

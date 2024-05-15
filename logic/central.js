@@ -132,7 +132,6 @@ function toggleItemCheckbox(event) {
 async function searchForIngredient() {
     const inputDom = document.getElementById('search-field');
 
-    await State.Get({ entity: 'recipes', request: './../../api/recipes.php' });
     const recipes = State.GetEntity('recipes');
 
     let filteredSearch = [];
@@ -142,9 +141,9 @@ async function searchForIngredient() {
 
         for (ingredient of ingredientList) {
             const lowerCase = ingredient.toLowerCase();
-            const upperCase = ingredient.toUpperCase();
+            const inputValue = inputDom.value.toLowerCase();
 
-            if (ingredient.includes(inputDom.value) || lowerCase.includes(inputDom.value) || upperCase.includes(inputDom.value)) {
+            if (lowerCase.includes(inputValue)) {
                 filteredSearch.push(recipe);
                 if (filterCategorySearch(recipe)) {
                     renderRecipeCard('recipe-page-right-container', recipe);

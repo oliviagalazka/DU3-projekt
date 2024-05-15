@@ -20,15 +20,21 @@ if ($contentType != 'application/json') {
 
 // POST FÖRFRÅGAN
 if ($requestMethod == 'POST') {
-    if (empty($requestData['username']) or empty($requestData['password'])) {
-        $error = ['error' => 'One of the fields is either missing or incomplete'];
-        sendJSON($error, 400);
-    }
 
     foreach ($users as $user) {
-        if ($user['username'] == $requestData['username'] and $user['password'] == $requestData['password']) {
-            unset($user['password']);
-            sendJSON($user, 200);
-        }
+        if ($user['username'] == $requestData['username']) {
+            if ($user['password'] == $requestData['password']) {
+                unset($user['password']);
+                sendJSON($user, 200);
+            }
+            else {
+                $error = ['error' => 'Fel lösenord eller användarnamn'];
+                sendJSON($error, 400);
+            }
+        } 
+        
     }
+    $error = ['error' => 'Fel lösenord eller användarnamn'];
+                sendJSON($error, 400);
+    
 }
