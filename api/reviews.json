@@ -16,5 +16,23 @@
         "recipeId": 1,
         "comment": "ok",
         "rank": 0
+    },
+    {
+        "id": 4,
+        "recipeId": 1,
+        "comment": "yum",
+        "rank": 6
+    },
+    {
+        "id": 5,
+        "recipeId": 1,
+        "comment": "Supergott!",
+        "rank": 5
+    },
+    {
+        "id": 6,
+        "recipeId": 1,
+        "comment": "Good soup",
+        "rank": 3
     }
 ]

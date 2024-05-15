@@ -8,13 +8,13 @@ $reviews = [];
 $json = file_get_contents($filename);
 $reviews = json_decode($json, true);
 
-$requestJSON = file_get_contents('php://input');
-$requestData = json_decode($requestJSON, true);
-
 // GET FÖRFRÅGAN
 if ($requestMethod == 'GET') {
     sendJSON($reviews, 200);
 }
+
+$requestJSON = file_get_contents('php://input');
+$requestData = json_decode($requestJSON, true);
 
 $contentType = $_SERVER['CONTENT_TYPE'];
 
@@ -25,24 +25,19 @@ if ($contentType != 'application/json') {
 
 // POST FÖRFRÅGAN
 if ($requestMethod == 'POST') {
-    if (empty($requestData['recipeId']) or empty($requestData['comment'])) {
-        $error = ['error' => 'One of the fields is either missing or incomplete'];
-        sendJSON($error, 400);
-    }
 
     $recipeId = $requestData['recipeId'];
     $comment = $requestData['comment'];
     $rank = $requestData['rank'];
 
     $highestId = 0;
-
     foreach ($reviews as $review) {
         if ($review['id'] > $highestId) {
             $highestId = $review['id'];
         }
     }
-
     $nextId = $highestId + 1;
+    
     $newReview = [
         'id' => $nextId,
         'recipeId' => $recipeId,

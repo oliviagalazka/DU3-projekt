@@ -23,7 +23,7 @@ if ($requestMethod == 'POST') {
 
     foreach ($users as $user) {
         if ($user['username'] == $requestData['username']) {
-            $error = ['error' => 'User already exists'];
+            $error = ['error' => 'Användarnamnet är upptaget'];
             sendJSON($error, 400);
         }
     }
@@ -32,14 +32,13 @@ if ($requestMethod == 'POST') {
     $password = $requestData['password'];
 
     $highestId = 0;
-
     foreach ($users as $user) {
         if ($user['id'] > $highestId) {
             $highestId = $user['id'];
         }
     }
-
     $nextId = $highestId + 1;
+    
     $newUser = [
         'id' => $nextId,
         'username' => $username,

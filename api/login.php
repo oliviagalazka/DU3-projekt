@@ -24,17 +24,18 @@ if ($requestMethod == 'POST') {
     foreach ($users as $user) {
         if ($user['username'] == $requestData['username']) {
             if ($user['password'] == $requestData['password']) {
+                // Ska vi ha dessa två rader under? Vad ska vi ha annars?
                 unset($user['password']);
                 sendJSON($user, 200);
-            }
-            else {
-                $error = ['error' => 'Fel lösenord eller användarnamn'];
+            } else {
+                $error = ['error' => 'Fel användarnamn eller lösenord'];
                 sendJSON($error, 400);
             }
-        } 
-        
+        }
     }
-    $error = ['error' => 'Fel lösenord eller användarnamn'];
-                sendJSON($error, 400);
-    
+
+    $error = ['error' => 'Fel användarnamn eller lösenord'];
+    sendJSON($error, 400);
 }
+
+?>

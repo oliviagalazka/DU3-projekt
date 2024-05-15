@@ -51,7 +51,7 @@ function renderNavContainer(parentId) {
         if (section) {
             section.scrollIntoView({ behavior: 'smooth' });
         } else {
-            window.location = './index.html';
+            //window.location.hash = 'index.html#aboutus';
         }
     });
 
