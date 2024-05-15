@@ -20,9 +20,14 @@ async function renderRecipeInfo(parentId, recipe) {
     const recipeInfo = document.createElement('div');
     recipeInfo.id = 'recipe-info';
 
-    const review = await recipeAverageReview(recipe);
+    // const review = await recipeAverageReview(recipe);
 
-    let formattedRank = review.averageRank.toFixed(0);
+    // let formattedRank = review.averageRank.toFixed(0);
+    const review = await recipeAverageReview(recipe);
+    let formattedRank = 0;
+    if (review != null & review.averageRank != '-') {
+        formattedRank = review.averageRank.toFixed(0);
+    }
 
     recipeInfo.innerHTML = `
                             <div id='title-heart-container'>
