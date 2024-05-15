@@ -1,3 +1,77 @@
+function renderNavContainer(parentId) {
+    const parent = document.getElementById(parentId);
+    const navContainer = document.createElement('nav');
+    navContainer.id = 'nav-container';
+
+    if (window.localStorage.getItem('login')) {
+        navContainer.innerHTML = `
+            <div>
+                <div id='logo-nav'>
+                    <img src='./img_for_design/Untitled_Artwork 3.png'>
+                    <div>NAMNAM</div>
+                </div>
+                <a href='./index.html'>HEM</a>
+                <a href='./recipes.html'>RECEPT</a>
+                <a href='./mypage.html'>MIN SIDA</a>
+                <a href="#" id='about-us'>OM OSS</a>
+            </div>
+            <div>
+                <a href='./index.html' id="logout-button">LOGGA UT</a>
+            </div>
+        `;
+
+        parent.append(navContainer);
+
+        const logoutButton = document.getElementById('logout-button');
+        logoutButton.addEventListener('click', async () => {
+            window.localStorage.removeItem('login');
+            window.localStorage.removeItem('userdata');
+        });
+    } else {
+        navContainer.innerHTML = `
+            <div>
+                <div id='logo-nav'>
+                    <img src='./img_for_design/Untitled_Artwork 3.png'>
+                    <div>NAMNAM</div>
+                </div>
+                <a href='./index.html'>HEM</a>
+                <a href='./recipes.html'>RECEPT</a>
+                <a href="#" id='about-us'>OM OSS</a>
+            </div>
+            <div>
+                <a href='./login.html'>LOGGA IN</a>
+            </div>
+        `;
+        parent.append(navContainer);
+    }
+
+    let aboutUsLink = document.getElementById('about-us');
+    aboutUsLink.addEventListener('click', function (event) {
+        event.preventDefault(); // Förhindra standard länkbeteende
+        if (window.location.pathname.endsWith('index.html')) {
+            // Om vi är på index.html, scrolla till sektionen direkt
+            let aboutUsSection = document.getElementById('au-section');
+            if (aboutUsSection) {
+                aboutUsSection.scrollIntoView({ behavior: 'smooth' });
+            }
+        } else {
+            // Om vi är på en annan sida, navigera till index.html med en speciell hash
+            window.location.href = './index.html#pending-about-scroll';
+        }
+    });
+
+    // Kontrollera om sidan laddades med en speciell hash och scrolla till sektionen med fördröjning
+    if (window.location.hash === '#pending-about-scroll') {
+        window.history.replaceState(null, null, 'index.html'); // Ta bort hash från URL:en
+        setTimeout(function () {
+            let aboutUsSection = document.getElementById('au-section');
+            if (aboutUsSection) {
+                aboutUsSection.scrollIntoView({ behavior: 'smooth' });
+            }
+        }, 1000); // Fördröjning på 2 sekunder
+    }
+}
+
 // function renderNavContainer(parentId) {
 //     const parent = document.getElementById(parentId);
 //     const navContainer = document.createElement('nav');
@@ -123,153 +197,3 @@
 
 // }
 // markActiveLink();
-
-
-
-// function renderNavContainer(parentId) {
-//     const parent = document.getElementById(parentId);
-//     const navContainer = document.createElement('nav');
-//     navContainer.id = 'nav-container';
-
-//     if (window.localStorage.getItem('login')) {
-//         navContainer.innerHTML = `
-//             <div>
-//                 <div id='logo-nav'>
-//                     <img src='./img_for_design/Untitled_Artwork 3.png'>
-//                     <div>NAMNAM</div>
-//                 </div>
-//                 <a href='./index.html'>HEM</a>
-//                 <a href='./recipes.html'>RECEPT</a>
-//                 <a href='./mypage.html'>MIN SIDA</a>
-//                 <a href="#" id='about-us'>OM OSS</a>
-//             </div>
-//             <div>
-//                 <a href='./index.html' id="logout-button">LOGGA UT</a>
-//             </div>
-//         `;
-
-//         parent.append(navContainer);
-
-//         const logoutButton = document.getElementById('logout-button');
-//         logoutButton.addEventListener('click', async () => {
-//             window.localStorage.removeItem('login');
-//             window.localStorage.removeItem('userdata');
-//         });
-//     } else {
-//         navContainer.innerHTML = `
-//             <div>
-//                 <div id='logo-nav'>
-//                     <img src='./img_for_design/Untitled_Artwork 3.png'>
-//                     <div>NAMNAM</div>
-//                 </div>
-//                 <a href='./index.html'>HEM</a>
-//                 <a href='./recipes.html'>RECEPT</a>
-//                 <a href="#" id='about-us'>OM OSS</a>
-//             </div>
-//             <div>
-//                 <a href='./login.html'>LOGGA IN</a>
-//             </div>
-//         `;
-//         parent.append(navContainer);
-//     }
-
-//     let aboutUsLink = document.getElementById('about-us');
-//     aboutUsLink.addEventListener('click', function (event) {
-//         event.preventDefault(); // Förhindra standard länkbeteende
-//         if (window.location.pathname.endsWith('index.html')) {
-//             // Om vi är på index.html, scrolla till sektionen
-//             let aboutUsSection = document.getElementById('au-section');
-//             if (aboutUsSection) {
-//                 aboutUsSection.scrollIntoView({ behavior: 'smooth' });
-//             }
-//         } else {
-//             // Om vi är på en annan sida, navigera till index.html med hash
-//             window.location.href = './index.html#about-section';
-//         }
-//     });
-
-//     // Kontrollera om sidan laddades med en hash och scrolla till sektionen
-//     if (window.location.hash === '#about-section') {
-//         document.addEventListener('DOMContentLoaded', function () {
-//             let aboutUsSection = document.getElementById('au-section');
-//             if (aboutUsSection) {
-//                 aboutUsSection.scrollIntoView({ behavior: 'smooth' });
-//             }
-//         });
-//     }
-// }
-
-
-function renderNavContainer(parentId) {
-    const parent = document.getElementById(parentId);
-    const navContainer = document.createElement('nav');
-    navContainer.id = 'nav-container';
-
-    if (window.localStorage.getItem('login')) {
-        navContainer.innerHTML = `
-            <div>
-                <div id='logo-nav'>
-                    <img src='./img_for_design/Untitled_Artwork 3.png'>
-                    <div>NAMNAM</div>
-                </div>
-                <a href='./index.html'>HEM</a>
-                <a href='./recipes.html'>RECEPT</a>
-                <a href='./mypage.html'>MIN SIDA</a>
-                <a href="#" id='about-us'>OM OSS</a>
-            </div>
-            <div>
-                <a href='./index.html' id="logout-button">LOGGA UT</a>
-            </div>
-        `;
-
-        parent.append(navContainer);
-
-        const logoutButton = document.getElementById('logout-button');
-        logoutButton.addEventListener('click', async () => {
-            window.localStorage.removeItem('login');
-            window.localStorage.removeItem('userdata');
-        });
-    } else {
-        navContainer.innerHTML = `
-            <div>
-                <div id='logo-nav'>
-                    <img src='./img_for_design/Untitled_Artwork 3.png'>
-                    <div>NAMNAM</div>
-                </div>
-                <a href='./index.html'>HEM</a>
-                <a href='./recipes.html'>RECEPT</a>
-                <a href="#" id='about-us'>OM OSS</a>
-            </div>
-            <div>
-                <a href='./login.html'>LOGGA IN</a>
-            </div>
-        `;
-        parent.append(navContainer);
-    }
-
-    let aboutUsLink = document.getElementById('about-us');
-    aboutUsLink.addEventListener('click', function (event) {
-        event.preventDefault(); // Förhindra standard länkbeteende
-        if (window.location.pathname.endsWith('index.html')) {
-            // Om vi är på index.html, scrolla till sektionen direkt
-            let aboutUsSection = document.getElementById('au-section');
-            if (aboutUsSection) {
-                aboutUsSection.scrollIntoView({ behavior: 'smooth' });
-            }
-        } else {
-            // Om vi är på en annan sida, navigera till index.html med en speciell hash
-            window.location.href = './index.html#pending-about-scroll';
-        }
-    });
-
-    // Kontrollera om sidan laddades med en speciell hash och scrolla till sektionen med fördröjning
-    if (window.location.hash === '#pending-about-scroll') {
-        window.history.replaceState(null, null, 'index.html'); // Ta bort hash från URL:en
-        setTimeout(function () {
-            let aboutUsSection = document.getElementById('au-section');
-            if (aboutUsSection) {
-                aboutUsSection.scrollIntoView({ behavior: 'smooth' });
-            }
-        }, 1000); // Fördröjning på 2 sekunder
-    }
-}
