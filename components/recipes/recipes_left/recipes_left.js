@@ -105,8 +105,10 @@ function renderCategories(parentId, urlCategory) {
             } else {
 
                 //Går igenom varje recept och kollar om den har en kategori som är itryckt. Minst en
+                let recipeCheck = false;
                 for (let recipe of recipes) {
                     const categoriesList = recipe.categories;
+                    recipeCheck = false;
                     for (let categoryOfList of categoriesList) {
                         for (let categoryOfArray of categoryArray) {
                             if (categoryOfList === categoryOfArray) {
@@ -114,8 +116,13 @@ function renderCategories(parentId, urlCategory) {
                                 //Kollar om sökfältet uppfyller receptets ingredienser. 
                                 if (searchInInputfield(recipe)) {
                                     renderRecipeCard('recipe-page-right-container', recipe);
+                                    recipeCheck = true;
+                                    break;
                                 }
                             }
+                        }
+                        if (recipeCheck) {
+                            break;
                         }
                     }
                 }

@@ -60,11 +60,11 @@
 
 #title-heart-container {
     display: flex;
-    justify-content: space-between;
+
 }
 
 #title-heart-container h2 {
-    font-size: 40px;
+    font-size: 70px;
 }
 
 #recipe-image {

@@ -14,11 +14,13 @@ async function renderRecipeCard(parentId, recipe) {
             <h3 class='rc-name'>${recipe.name}</h3>
             <div class='rc-review-heart'>
                 <p class='rc-review'>${review.averageRank}/10 (av ${review.totalReviews} omdömen)</p>
-                <div id='saved-${recipe.id}' class='rc-heart'>&#x2661</div>
+                <div id='saved-${recipe.id}' class='rc-heart'>
+                &#x2661
+                </div>
             </div>
         </div>
     `;
-
+    // &#x2661
     recipeCard.querySelector('.rc-img').style.backgroundImage = 'url(./../../../images_recipes/' + recipe.image + ')';
     const saveButton = recipeCard.querySelector('.rc-heart');
 
@@ -32,10 +34,10 @@ async function renderRecipeCard(parentId, recipe) {
 
     const popupHeart = document.getElementById('saved-' + `${recipe.id}`);
 
-    popupHeart.style.backgroundColor = null;
+    popupHeart.innerText = "♡";
     for (let favoriteRecipe of user.savedRecipes) {
         if (recipe.id === favoriteRecipe) {
-            popupHeart.style.backgroundColor = 'black';
+            popupHeart.textContent = "♥";
             break;
         }
     }
@@ -62,21 +64,28 @@ function patchRecipe(instanceData) {
     //     savedDom.classList.add('favorite');
     // }
     if (savedDom != null) {
-        if (savedDom.style.backgroundColor === 'black') {
-            savedDom.style.backgroundColor = null;
+        if (savedDom.innerText === "♥") {
+            savedDom.innerText = "♡";
         } else {
-            savedDom.style.backgroundColor = 'black';
+            savedDom.innerText = "♥";
         }
     }
 
     if (popupHeart != null) {
-        if (popupHeart.style.backgroundColor === 'black') {
-            popupHeart.style.backgroundColor = null;
+        if (popupHeart.innerText === "♥") {
+            popupHeart.innerText = "♡";
         } else {
-            popupHeart.style.backgroundColor = 'black';
+            popupHeart.innerText = "♥";
         }
     }
 
+    // popupHeart.innerText = "♡";
+    // for (let favoriteRecipe of user.savedRecipes) {
+    //     if (recipe.id === favoriteRecipe) {
+    //         popupHeart.textContent = "♥";
+    //         break;
+    //     }
+    // }
 
 }
 
