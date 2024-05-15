@@ -50,10 +50,10 @@ async function Post(data) {
     const response = await fetcher(request);
     if (!response.ok) {
         // alert('Something whent wrong, Status ' + response.statusText);
-        const resource  = await response.json()
+        const resource = await response.json()
         console.log(resource)
-        document.getElementById('success').textContent = resource.error;
-      
+        document.getElementById('feedback').textContent = resource.error;
+
         return;
     }
 
@@ -65,6 +65,7 @@ async function Post(data) {
             toLogin();
             break;
         case "login":
+            // Behöver vi ha båda dessa? Räcker de ej med en, kan man ej sätta ihop dem till en?
             window.localStorage.setItem('login', user);
             window.localStorage.setItem('userdata', JSON.stringify(resource));
             toLandingPage();

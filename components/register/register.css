@@ -2,37 +2,37 @@ body {
     margin: 0;
 }
 
-#wrapper {
+#wrapper-register {
+    height: 100vh;
+    background-color: #dfdcd3;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background-color: #dfdcd3;
 }
 
 #register-container {
     display: flex;
+    align-items: center;
     flex-direction: column;
     gap: 10px;
-    align-items: center;
 }
 
 #register-container h1 {
+    color: #260c1a;
     font-family: "petit";
     font-size: 74px;
-    color: #260c1a;
 }
 
 #register-container input {
-    padding: 2px;
     width: 250px;
-    text-align: center;
+    padding: 2px;
     border-radius: 20px;
     box-shadow: 1px 1px 10px black;
     font-family: "gotu";
+    text-align: center;
 }
 
-#register-container button {
+#register-button {
     background-color: #260c1a;
     color: #dfdcd3;
     border-radius: 20px;
@@ -42,14 +42,13 @@ body {
 
 #register-container p {
     font-family: "gotu";
-
 }
 
 #register-container a {
-    font-family: "gotu";
     color: black;
+    font-family: "gotu";
 }
 
-#success {
+#feedback {
     color: #762d56;
 }
