@@ -46,10 +46,10 @@ async function renderRecipeInfo(parentId, recipe) {
 
     const user = State.GetEntity('user');
 
-    popupHeart.style.backgroundColor = null;
+    popupHeart.innerText = "♡";
     for (let favoriteRecipe of user.savedRecipes) {
         if (recipe.id === favoriteRecipe) {
-            popupHeart.style.backgroundColor = 'black';
+            popupHeart.innerText = "♥";
             break;
         }
     }
