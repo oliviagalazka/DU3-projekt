@@ -34,7 +34,7 @@ async function renderRecipeInfo(parentId, recipe) {
                                 <h1>${recipe.name}</h1>
                                 <h2 id="popupheart-${recipe.id}">&#x2661</h2>
                             </div>
-                            <h3>${formattedRank}/10 (av ${review.totalReviews} omdömen)</h3>
+                            <h3 id="popup-omdome">${formattedRank}/10 (av ${review.totalReviews} omdömen)</h3>
                             <h4>${recipe.shortIntro}</h4>
                             <div id='portions'>
                                 <img src='./../../../img_for_design/portions.svg'>

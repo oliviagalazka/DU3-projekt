@@ -67,7 +67,7 @@ function renderPostReviewContainer(parentId, recipe) {
             State.Post(newReview);
             inputDom.value = '';
             selectDom.value = 0;
-            renderRecipeInfo('recipe-info-container', recipe);
+            // renderRecipeInfo('popup-omdome', recipe);
         }
     });
 }
