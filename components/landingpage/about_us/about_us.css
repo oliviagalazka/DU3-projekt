@@ -6,10 +6,12 @@
 }
 
 #au-info {
-    margin: 0 200px 80px 200px;
+    /* margin: 0 200px 80px 200px; */
     display: flex;
     gap: 20px;
     font-family: gotu;
+    width: 1000px;
+    margin: auto;
 }
 
 #au-img-container {
@@ -23,25 +25,29 @@
     gap: 20px;
 }
 
+#au-left {
+    width: 600px;
+}
+
 #au-img-team {
-    width: 300px;
-    height: 200px;
+    width: 50px;
+    height: 50px;
     background-image: url(./../../../img_for_design/hero-section.jpg);
     background-size: cover;
     background-position: center;
 }
 
 #au-img-icon {
-    width: 250px;
-    height: 300px;
+    width: 50px;
+    height: 50px;
     background-image: url(./../../../img_for_design/spatserandeFiskGubbeSvart.png);
     background-size: cover;
     background-position: center;
 }
 
 #au-img-logo {
-    width: 200px;
-    height: 200px;
+    width: 50px;
+    height: 50px;
     background-image: url(./../../../img_for_design/Untitled_Artwork\ 3.png);
     background-size: cover;
     background-position: center;
