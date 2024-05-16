@@ -3,8 +3,7 @@ const _state = {
     login: [],
     recipes: [],
     reviews: [],
-    shoppinglist: [],
-    users: []
+    shoppinglist: []
 }
 
 const State = {
@@ -49,11 +48,8 @@ async function Post(data) {
 
     const response = await fetcher(request);
     if (!response.ok) {
-        // alert('Something whent wrong, Status ' + response.statusText);
         const resource = await response.json()
-        console.log(resource)
         document.getElementById('feedback').textContent = resource.error;
-
         return;
     }
 
@@ -94,8 +90,6 @@ async function Patch(data) {
 
     const resource = await response.json();
 
-    console.log(resource);
-
     switch (entity) {
         case 'user':
             _state[entity].savedRecipes = resource.savedRecipes;
@@ -106,7 +100,6 @@ async function Patch(data) {
             if (foundItem) {
                 foundItem.checked = resource.checked;
             }
-            console.log(_state['user']);
             patchItemCheckbox(resource);
             break;
     }

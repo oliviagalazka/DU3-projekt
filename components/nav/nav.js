@@ -70,6 +70,49 @@ function renderNavContainer(parentId) {
             }
         }, 1000); // Fördröjning på 2 sekunder
     }
+
+
+    let prevScroll = window.pageYOffset;
+    let isScrollingDown = false;
+    window.onscroll = function () {
+        let currentScrollPos = window.pageYOffset;
+        if (prevScroll > currentScrollPos) {
+            isScrollingDown = false;
+        } else {
+            isScrollingDown = true;
+        }
+        prevScroll = currentScrollPos;
+
+        if (isScrollingDown) {
+            {
+                document.getElementById('nav-container').style.top = '-100px';
+                //istället för interval lägg till class. Kolla om man är npgonstans över herosection. då sk ainget hända på scroll. men om man är någon annan stans ska saker hända på scroll
+            }
+        } else {
+            document.getElementById('nav-container').style.top = '0';
+        }
+    }
+
+    function markActiveLink() {
+        const navLinks = navContainer.querySelectorAll('a');
+        const currentPageURL = window.location.href;
+
+        navLinks.forEach(link => {
+            // Kontrollera om länken är för om oss, login eller logout
+            if (link.id === 'about-us' || link.id === 'logout-button' || link.getAttribute('href') === './login.html') {
+                return;
+            }
+
+            if (link.href === currentPageURL) {
+                link.classList.add('active-link');
+            } else {
+                link.classList.remove('active-link');
+            }
+        });
+
+    }
+
+    markActiveLink();
 }
 
 // function renderNavContainer(parentId) {
