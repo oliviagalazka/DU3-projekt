@@ -8,11 +8,6 @@ async function renderRecipePage(category) {
         entity: 'reviews', request: './../../api/reviews.php'
     });
 
-    // Ska vi verkligen ha detta här? Vi har inte loggat in här än? + vi får felmeddelande om vi har detta?
-    // await State.Get({
-    //     entity: 'user', request: './../../api/users.php?user=' + localStorage.getItem('login')
-    // });
-
     await State.Get({
         entity: 'user', request: './../../api/users.php?user=' + localStorage.getItem('login')
     });

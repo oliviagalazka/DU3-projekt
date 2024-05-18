@@ -1,5 +1,5 @@
 #shoppingslist-section {
-    background-color: beige;
+    background-color: #fdfefd;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -34,7 +34,7 @@
     border: none;
     font-family: 'gotu';
     font-size: 18px;
-    background-color: beige;
+    background-color: #fdfefd;
 }
 
 #input-button button:hover {
@@ -44,7 +44,7 @@
 #shoppingslist-section input {
     border: none;
     border-bottom: 1px solid black;
-    background-color: beige;
+    background-color: #fdfefd;
     width: 300px;
     outline: none;
 }
@@ -92,4 +92,3 @@
 .checked {
     background-color: black;
 }
-

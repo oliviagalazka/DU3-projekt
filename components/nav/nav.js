@@ -68,7 +68,7 @@ function renderNavContainer(parentId) {
             if (aboutUsSection) {
                 aboutUsSection.scrollIntoView({ behavior: 'smooth' });
             }
-        }, 1000); // Fördröjning på 2 sekunder
+        }, 250); // Fördröjning
     }
 
 
