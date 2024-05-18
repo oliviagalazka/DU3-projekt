@@ -249,35 +249,34 @@
     },
     {
         "id": 8,
-        "name": "Kycklingsoppa med citrongräs",
-        "shortIntro": "En uppfriskande och doftande soppa med kyckling och citrongräs.",
-        "portions": 4,
-        "cookingTime": "40 minuter",
-        "image": "kycklingsoppa.jpg",
+        "name": "Vit bönsoppa",
+        "shortIntro": "En krämig och mild bönsoppa med smak av timjan och vitlök, serverad med krispiga krutonger.",
+        "portions": 2,
+        "cookingTime": "30 minuter",
+        "image": "bonsoppa.jpg",
         "ingredients": [
-            "500 g kycklingbröst",
-            "1 liter kycklingbuljong",
-            "2 stjälkar citrongräs",
-            "2 limeblad",
-            "2 röda chilifrukter",
-            "4 cm färsk ingefära",
-            "Saft från 1 limefrukt",
-            "2 msk fisksås",
-            "1 dl kokosmjölk",
-            "Färsk koriander för garnering"
+            "1 gul lök",
+            "2 vitlöksklyftor",
+            "1 förp kokta vita bönor (à 380 g)",
+            "1 msk smör",
+            "1 tsk torkad timjan",
+            "1 grönsaksbuljongtärning",
+            "5 dl vatten",
+            "1 dl vispgrädde",
+            "1/2 msk vitvinsvinäger",
+            "Salt och vitpeppar",
+            "Krutonger"
         ],
         "instructions": [
-            "Skär kycklingbröstet i tunna skivor.",
-            "Knäck citrongrässtjälkarna så att de blir lite öppna.",
-            "Skär ingefäran i tunna skivor.",
-            "Koka upp kycklingbuljongen och tillsätt citrongräs, limeblad, röd chili, ingefära, limejuice och fisksås.",
-            "Låt sjuda i 20 minuter.",
-            "Tillsätt kyckling och kokosmjölk och låt koka i ytterligare 10 minuter.",
-            "Servera varm med färsk koriander på toppen."
+            "Skala och skiva lök och vitlök. Häll av, skölj och låt bönorna rinna av.",
+            "Fräs lök och vitlök i smöret i en kastrull tills de mjuknar utan att de får färg.",
+            "Tillsätt bönor, timjan, buljongtärning, vatten och grädde. Koka upp och låt koka under lock på svag värme ca 10 minuter.",
+            "Mixa ev soppan slät med stavmixer. Tillsätt vinägern. Smaka av med salt och peppar.",
+            "Servera med krutonger."
         ],
         "categories": [
             "Soppor",
-            "Kyckling"
+            "Vegetariskt"
         ]
     },
     {
