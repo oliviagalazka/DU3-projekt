@@ -281,66 +281,63 @@
     },
     {
         "id": 9,
-        "name": "Lax- och spenatsoppa",
-        "shortIntro": "En krämig och proteinrik soppa med lax och färsk spenat.",
+        "name": "Sellerisoppa",
+        "shortIntro": "Njut av en krämig och smakrik soppa som värmer både kropp och själ med denna ljuvliga blandning av potatis, rotselleri och parmesanost. Perfekt för en mysig kväll!",
         "portions": 4,
-        "cookingTime": "30 minuter",
-        "image": "lax_spenatsoppa.jpg",
+        "cookingTime": "45 minuter",
+        "image": "sellerisoppa.jpg",
         "ingredients": [
-            "400 g laxfilé",
-            "200 g färsk spenat",
-            "1 liter fiskbuljong",
-            "2 dl grädde",
-            "1 lök",
-            "2 vitlöksklyftor",
-            "2 msk smör",
-            "Salt och peppar efter smak",
-            "Färsk dill för garnering"
+            "4 mjöliga potatisar",
+            "2 gula lökar",
+            "400 g rotselleri",
+            "Smör",
+            "¾ liter svampbuljong",
+            "2½ dl matlagningsgrädde",
+            "2 dl riven parmesanost",
+            "Salt och vitpeppar efter smak",
+            "Hackad färsk persilja",
+            "Krutonger"
         ],
         "instructions": [
-            "Skär laxfilén i mindre bitar.",
-            "Hacka lök och vitlök.",
-            "Stek lök och vitlök i smör tills de är mjuka.",
-            "Tillsätt laxbitarna och stek tills de är genomstekta.",
-            "Tillsätt fiskbuljong och låt sjuda i 10 minuter.",
-            "Tillsätt färsk spenat och låt den sjunka ihop.",
-            "Tillsätt grädde och låt sjuda i ytterligare några minuter.",
-            "Smaka av med salt och peppar.",
-            "Servera varm med färsk dill på toppen."
+            "Skala och skiva potatis, lök och selleri. Fräs löken i smör i en kastrull.",
+            "Tillsätt potatis, selleri och buljong. Låt soppan koka 15-20 min.",
+            "Mosa eller mixa grönsakerna till puré. Rör ner grädden och låt koka upp.",
+            "Smaksätt med ost, salt och peppar.",
+            "Servera gärna soppan i en stor kopp och strö över lite riven ost och hackad persilja och krutonger."
         ],
         "categories": [
             "Soppor",
-            "Fisk och Skaldjur"
+            "Vegetariskt"
         ]
     },
     {
         "id": 10,
-        "name": "Morot- och apelsinsoppa",
-        "shortIntro": "En fräsch och uppiggande soppa med sötma från morötter och apelsin.",
+        "name": "Gazpacho",
+        "shortIntro": "Denna fräscha och kryddiga gazpacho är en perfekt svalkande rätt för varma sommardagar, fylld med smak av färska grönsaker och en hint av chili.",
         "portions": 4,
         "cookingTime": "30 minuter",
-        "image": "morot_apelsinsoppa.jpg",
+        "image": "gazpacho.jpg",
         "ingredients": [
-            "500 g morötter",
-            "1 lök",
-            "2 vitlöksklyftor",
-            "1 liter grönsaksbuljong",
-            "Saft och skal från 1 apelsin",
-            "1 dl grädde",
-            "2 msk olivolja",
-            "Salt och peppar efter smak",
-            "Färsk persilja för garnering"
+            "3 msk rödvinsvinäger",
+            "3 msk extra virgin olivolja",
+            "Salt",
+            "Svartpeppar",
+            "2 frp finkrossade tomater",
+            "2 röda paprikor, i mindre bitar",
+            "1 gurka, skalad och i mindre bitar",
+            "1/2 rödlök, hackad",
+            "1/2 vitlöksklyfta, hackad",
+            "2 dl vatten",
+            "1/2 röd chilipeppar, hackad",
+            "Basilika till garnering"
         ],
         "instructions": [
-            "Skala och skiva morötterna.",
-            "Hacka lök och vitlök.",
-            "Stek morötter, lök och vitlök i olivolja tills de är mjuka.",
-            "Tillsätt grönsaksbuljong och apelsinsaft och låt sjuda i 20 minuter.",
-            "Mixa soppan slät.",
-            "Tillsätt grädde och apelsinskal.",
-            "Låt sjuda i några minuter till.",
-            "Smaka av med salt och peppar.",
-            "Servera varm med färsk persilja på toppen."
+            "SVispa ihop vinäger, olja, salt och peppar i en stor skål.",
+            "Smaksätt med salt och peppar.",
+            "Vänd ner alla grönsakerna inklusive tomaterna och låt dra någon minut.",
+            "Mixa grönsaksblandningen och späd med vatten till önskad konsistens.",
+            "Smaksätt med salt och peppar.",
+            "Servera den med några droppar olivolja och basilika."
         ],
         "categories": [
             "Soppor",
@@ -349,330 +346,6 @@
     },
     {
         "id": 11,
-        "name": "morotsoppa",
-        "shortIntro": "En svensk soppa med morot och purjolök som är rik på smak och färg.",
-        "portions": 6,
-        "cookingTime": "2 timmar",
-        "image": "morotssoppa.jpg",
-        "ingredients": [
-            "1  liten vitlöksklyfta",
-            "500 g fast morot (gärna amandine)",
-            "1 kopp purjolök",
-            "2 msk smör",
-            "1 msk finhackad färsk timjan",
-            "7 dl vatten",
-            "3 dl vispgrädde",
-            "Salt och peppar efter smak",
-            "1  grönsaksbuljongtärning",
-            "1 msk finrivet citronskal",
-            "1 - 2 msk vitvinsvinäger"
-        ],
-        "instructions": [
-            "Skala morot, lök och vitlök. Skär potatisen i små tärningar och hacka lök och vitlök.",
-            "Fräs morot, lök och vitlök i smöret några minuter tills löken mjuknar.",
-            "Tillsätt timjan och fräs ytterligare några minuter.",
-            "Tillsätt vatten, grädde och buljongtärning. Låt koka 10–15 minuter på medelvärme tills morot mjuknar.",
-            "Mixa soppan slät och späd ev med mer vätska. Smaka av med citronskal, vinäger, salt och peppar."
-        ],
-        "categories": [
-            "Soppor",
-            "Vegetariskt"
-        ]
-    },
-    {
-        "id": 12,
-        "name": "Ärtsoppa med fläsk",
-        "shortIntro": "En svensk klassiker med gula ärtor och rimmat fläsk som passar perfekt till torsdagsmiddagen.",
-        "portions": 6,
-        "cookingTime": "2 timmar",
-        "image": "artsoppa.jpg",
-        "ingredients": [
-            "500 g torkade gula ärtor",
-            "500 g rimmat fläsk",
-            "1 lök",
-            "2 morötter",
-            "1 liter vatten",
-            "1 tsk timjan",
-            "1 tsk mejram",
-            "Salt och peppar efter smak"
-        ],
-        "instructions": [
-            "Blötlägg de gula ärtorna över natten.",
-            "Hacka lök och skala och skiva morötterna.",
-            "Koka ärtorna i vatten med lök, morötter, timjan och mejram i 1,5 timme tills de är mjuka.",
-            "Tillsätt rimmat fläsk och låt koka i ytterligare 30 minuter.",
-            "Smaka av med salt och peppar.",
-            "Servera varm med senap och eventuellt bröd."
-        ],
-        "categories": [
-            "Soppor",
-            "Kött"
-        ]
-    },
-    {
-        "id": 13,
-        "name": "Kantarellsoppa",
-        "shortIntro": "En krämig och välsmakande soppa gjord på färska kantareller.",
-        "portions": 4,
-        "cookingTime": "40 minuter",
-        "image": "kantarellsoppa.jpg",
-        "ingredients": [
-            "400 g färska kantareller",
-            "1 lök",
-            "2 potatisar",
-            "1 liter grönsaksbuljong",
-            "2 dl grädde",
-            "2 msk smör",
-            "Färsk persilja för garnering",
-            "Salt och peppar efter smak"
-        ],
-        "instructions": [
-            "Rensa kantarellerna och skär dem i mindre bitar.",
-            "Hacka lök och skala och tärna potatisarna.",
-            "Stek kantarellerna i smör tills de är genomstekta.",
-            "Tillsätt lök och potatis och stek i ytterligare några minuter.",
-            "Tillsätt grönsaksbuljong och låt koka i 20 minuter.",
-            "Mixa soppan slät.",
-            "Tillsätt grädde och låt sjuda i några minuter till.",
-            "Smaka av med salt och peppar.",
-            "Servera varm med färsk persilja på toppen."
-        ],
-        "categories": [
-            "Soppor",
-            "Vegetariskt"
-        ]
-    },
-    {
-        "id": 14,
-        "name": "Köttbullesoppa",
-        "shortIntro": "En barnvänlig favorit med saftiga köttbullar i en varm soppa.",
-        "portions": 4,
-        "cookingTime": "30 minuter",
-        "image": "kottbullesoppa.jpg",
-        "ingredients": [
-            "300 g köttfärs",
-            "1 lök",
-            "1 ägg",
-            "2 msk ströbröd",
-            "1 liter köttbuljong",
-            "2 morötter",
-            "2 potatisar",
-            "1 dl frysta ärter",
-            "Färsk persilja för garnering",
-            "Salt och peppar efter smak"
-        ],
-        "instructions": [
-            "Blanda köttfärs med hackad lök, ägg och ströbröd.",
-            "Forma små köttbullar och stek dem i olja tills de är genomstekta.",
-            "Skala och skiva morötterna och potatisarna.",
-            "Koka köttbuljong och tillsätt morötter och potatis.",
-            "Låt koka i 15 minuter.",
-            "Tillsätt köttbullarna och ärterna och låt koka i ytterligare några minuter.",
-            "Smaka av med salt och peppar.",
-            "Servera varm med färsk persilja på toppen."
-        ],
-        "categories": [
-            "Soppor",
-            "Kött"
-        ]
-    },
-    {
-        "id": 15,
-        "name": "Kräftsoppa",
-        "shortIntro": "En lyxig och krämig soppa med smak av färska kräftor.",
-        "portions": 4,
-        "cookingTime": "40 minuter",
-        "image": "kraftsoppa.jpg",
-        "ingredients": [
-            "500 g färska kräftor",
-            "2 schalottenlökar",
-            "2 dl vitt vin",
-            "5 dl vatten",
-            "2 dl vispgrädde",
-            "1 dl crème fraîche",
-            "2 msk smör",
-            "1 msk tomatpuré",
-            "Färsk dill för garnering",
-            "Salt och peppar efter smak"
-        ],
-        "instructions": [
-            "Skala och hacka schalottenlökarna.",
-            "Stek löken i smör tills den är mjuk.",
-            "Tillsätt kräftor och tomatpuré och stek i ytterligare några minuter.",
-            "Tillsätt vitt vin och låt sjuda i 5 minuter.",
-            "Tillsätt vatten och låt sjuda i 20 minuter.",
-            "Mixa soppan slät och tillsätt grädde och crème fraîche.",
-            "Låt sjuda i några minuter till.",
-            "Smaka av med salt och peppar.",
-            "Servera varm med färsk dill på toppen."
-        ],
-        "categories": [
-            "Soppor",
-            "Fisk och Skaldjur"
-        ]
-    },
-    {
-        "id": 16,
-        "name": "Broccolisoppa",
-        "shortIntro": "En krämig och näringsrik soppa med mild smak av broccoli.",
-        "portions": 4,
-        "cookingTime": "30 minuter",
-        "image": "broccolisoppa.jpg",
-        "ingredients": [
-            "1 broccoli",
-            "1 lök",
-            "2 potatisar",
-            "1 liter grönsaksbuljong",
-            "2 dl grädde",
-            "2 msk smör",
-            "Salt och peppar efter smak",
-            "Färsk persilja för garnering"
-        ],
-        "instructions": [
-            "Dela broccolin i mindre buketter och hacka lök.",
-            "Skala och tärna potatisarna.",
-            "Stek löken i smör tills den är mjuk.",
-            "Tillsätt broccolibuketter och potatis och stek i ytterligare några minuter.",
-            "Tillsätt grönsaksbuljong och låt koka i 20 minuter.",
-            "Mixa soppan slät.",
-            "Tillsätt grädde och låt sjuda i några minuter till.",
-            "Smaka av med salt och peppar.",
-            "Servera varm med färsk persilja på toppen."
-        ],
-        "categories": [
-            "Soppor",
-            "Vegetariskt"
-        ]
-    },
-    {
-        "id": 17,
-        "name": "Champinjonsoppa",
-        "shortIntro": "En krämig och mustig soppa gjord på färska champinjoner.",
-        "portions": 4,
-        "cookingTime": "30 minuter",
-        "image": "champinjonsoppa.jpg",
-        "ingredients": [
-            "500 g färska champinjoner",
-            "1 lök",
-            "2 vitlöksklyftor",
-            "1 liter grönsaksbuljong",
-            "2 dl grädde",
-            "2 msk smör",
-            "Salt och peppar efter smak",
-            "Färsk persilja för garnering"
-        ],
-        "instructions": [
-            "Skiva champinjonerna och hacka lök och vitlök.",
-            "Stek champinjoner, lök och vitlök i smör tills de är mjuka.",
-            "Tillsätt grönsaksbuljong och låt koka i 20 minuter.",
-            "Mixa soppan slät.",
-            "Tillsätt grädde och låt sjuda i några minuter till.",
-            "Smaka av med salt och peppar.",
-            "Servera varm med färsk persilja på toppen."
-        ],
-        "categories": [
-            "Soppor",
-            "Vegetariskt"
-        ]
-    },
-    {
-        "id": 18,
-        "name": "Svampsoppa med bacon",
-        "shortIntro": "En mustig och fyllig soppa med svamp och knaperstekt bacon.",
-        "portions": 4,
-        "cookingTime": "40 minuter",
-        "image": "svampsoppa.jpg",
-        "ingredients": [
-            "500 g blandad svamp",
-            "150 g bacon",
-            "1 lök",
-            "2 vitlöksklyftor",
-            "1 liter grönsaksbuljong",
-            "2 dl grädde",
-            "2 msk smör",
-            "Salt och peppar efter smak",
-            "Färsk persilja för garnering"
-        ],
-        "instructions": [
-            "Skiva svampen och hacka lök och vitlök.",
-            "Stek bacon i en stor kastrull tills det är knaperstekt.",
-            "Tillsätt lök och vitlök och stek tills de är mjuka.",
-            "Tillsätt svamp och stek tills den är mjuk.",
-            "Tillsätt grönsaksbuljong och låt koka i 20 minuter.",
-            "Tillsätt grädde och låt sjuda i några minuter till.",
-            "Smaka av med salt och peppar.",
-            "Servera varm med färsk persilja på toppen."
-        ],
-        "categories": [
-            "Soppor",
-            "Kött"
-        ]
-    },
-    {
-        "id": 19,
-        "name": "Lins- och korvsoppa",
-        "shortIntro": "En mättande och smakrik soppa med linser och korv.",
-        "portions": 4,
-        "cookingTime": "40 minuter",
-        "image": "lins_korvsoppa.jpg",
-        "ingredients": [
-            "300 g röda linser",
-            "300 g korv",
-            "1 lök",
-            "2 morötter",
-            "1 liter grönsaksbuljong",
-            "2 msk tomatpuré",
-            "2 msk olivolja",
-            "Salt och peppar efter smak",
-            "Färsk persilja för garnering"
-        ],
-        "instructions": [
-            "Skiva korven och hacka lök och skala och tärna morötterna.",
-            "Stek korv, lök och morötter i olivolja tills de är mjuka.",
-            "Tillsätt röda linser, grönsaksbuljong och tomatpuré och låt koka i 20 minuter.",
-            "Mixa soppan slät om så önskas.",
-            "Smaka av med salt och peppar.",
-            "Servera varm med färsk persilja på toppen."
-        ],
-        "categories": [
-            "Soppor",
-            "Kött"
-        ]
-    },
-    {
-        "id": 20,
-        "name": "Zucchinisoppa med parmesan",
-        "shortIntro": "En krämig och smakrik soppa med zucchini och parmesanost.",
-        "portions": 4,
-        "cookingTime": "30 minuter",
-        "image": "zucchinisoppa.jpg",
-        "ingredients": [
-            "4 zucchinis",
-            "1 lök",
-            "2 vitlöksklyftor",
-            "1 liter grönsaksbuljong",
-            "2 dl grädde",
-            "50 g riven parmesanost",
-            "2 msk olivolja",
-            "Salt och peppar efter smak",
-            "Färsk basilika för garnering"
-        ],
-        "instructions": [
-            "Skiva zucchinin och hacka lök och vitlök.",
-            "Stek zucchinin, lök och vitlök i olivolja tills de är mjuka.",
-            "Tillsätt grönsaksbuljong och låt koka i 20 minuter.",
-            "Mixa soppan slät.",
-            "Tillsätt grädde och parmesanost och låt sjuda i några minuter till.",
-            "Smaka av med salt och peppar.",
-            "Servera varm med färsk basilika på toppen."
-        ],
-        "categories": [
-            "Soppor",
-            "Vegetariskt"
-        ]
-    },
-    {
-        "id": 21,
         "name": "Caesarsallad",
         "shortIntro": "En klassisk sallad med krämig dressing, romansallad, kyckling och krutonger.",
         "portions": 4,
@@ -701,7 +374,7 @@
         ]
     },
     {
-        "id": 22,
+        "id": 12,
         "name": "Grekisk Sallad",
         "shortIntro": "En fräsch sallad med tomater, gurka, lök, oliver och fetaost.",
         "portions": 4,
@@ -734,7 +407,7 @@
         ]
     },
     {
-        "id": 23,
+        "id": 13,
         "name": "Tonfisksallad",
         "shortIntro": "En läcker sallad med tonfisk, grönsaker och en citronig dressing.",
         "portions": 4,
@@ -766,7 +439,7 @@
         ]
     },
     {
-        "id": 24,
+        "id": 14,
         "name": "Pastasallad med pesto",
         "shortIntro": "En smakrik pastasallad med körsbärstomater, mozzarella och färsk basilikapesto.",
         "portions": 4,
@@ -799,7 +472,7 @@
         ]
     },
     {
-        "id": 25,
+        "id": 15,
         "name": "Kycklingsallad med avokado",
         "shortIntro": "En fyllig sallad med grillad kyckling, avokado, tomater och honungssenapsdressing.",
         "portions": 4,
@@ -836,7 +509,7 @@
         ]
     },
     {
-        "id": 26,
+        "id": 16,
         "name": "Räksallad med mango",
         "shortIntro": "En tropisk sallad med saftiga räkor, söt mango och krämig avokado.",
         "portions": 4,
@@ -869,7 +542,7 @@
         ]
     },
     {
-        "id": 27,
+        "id": 17,
         "name": "Cobb-sallad",
         "shortIntro": "En matig sallad med grillad kyckling, bacon, ägg, avokado och blåmögelost.",
         "portions": 4,
@@ -904,7 +577,7 @@
         ]
     },
     {
-        "id": 28,
+        "id": 18,
         "name": "Thaisallad med nudlar",
         "shortIntro": "En kryddig och aromatisk sallad med nudlar, grönsaker och jordnötssås.",
         "portions": 4,
@@ -940,7 +613,7 @@
         ]
     },
     {
-        "id": 29,
+        "id": 19,
         "name": "Caesar Pasta Salad",
         "shortIntro": "En fusion av klassiska Caesar-salladssmaker med pasta för en tillfredsställande måltid.",
         "portions": 4,
@@ -968,7 +641,7 @@
         ]
     },
     {
-        "id": 30,
+        "id": 20,
         "name": "Grön ärtsallad",
         "shortIntro": "En lätt och fräsch sallad med gröna ärter, mynta och fetaost.",
         "portions": 4,
@@ -997,336 +670,7 @@
         ]
     },
     {
-        "id": 31,
-        "name": "Asiatisk nudelsallad",
-        "shortIntro": "En smakrik och färgglad sallad med asiatiska nudlar, grönsaker och en härlig sojadressing.",
-        "portions": 4,
-        "cookingTime": "20 minuter",
-        "image": "asiatisk_nudelsallad.jpg",
-        "ingredients": [
-            "200 g asiatiska nudlar",
-            "1 röd paprika",
-            "1 gul paprika",
-            "1 gurka",
-            "2 morötter",
-            "1 kruka färsk koriander",
-            "1 lime",
-            "3 msk sojasås",
-            "1 msk risvinäger",
-            "1 msk sesamolja",
-            "1 msk honung",
-            "1 vitlöksklyfta",
-            "1 tsk riven ingefära",
-            "1/2 tsk chiliflakes"
-        ],
-        "instructions": [
-            "Koka nudlarna enligt anvisningarna på förpackningen. Häll av och skölj i kallt vatten för att stoppa tillagningen. Låt svalna.",
-            "Strimla paprikorna och gurkan i tunna remsor. Skala och strimla morötterna.",
-            "Hacka färsk koriander grovt.",
-            "Blanda nudlar, strimlade grönsaker och koriander i en stor skål.",
-            "I en liten skål, blanda saften från lime, sojasås, risvinäger, sesamolja, honung, pressad vitlök, riven ingefära och chiliflakes för dressingen.",
-            "Häll dressingen över salladen och blanda väl.",
-            "Servera genast eller kyl ned och servera senare."
-        ],
-        "categories": [
-            "Sallader",
-            "Nudlar"
-        ]
-    },
-    {
-        "id": 32,
-        "name": "Grekisk Quinoasallad",
-        "shortIntro": "En hälsosam och fyllig sallad med quinoa, tomater, gurka, oliver och fetaost.",
-        "portions": 4,
-        "cookingTime": "25 minuter",
-        "image": "grekisk_quinoasallad.jpg",
-        "ingredients": [
-            "1 1/2 dl quinoa",
-            "3 dl vatten",
-            "1 röd paprika",
-            "1 gul paprika",
-            "1/2 gurka",
-            "200 g körsbärstomater",
-            "1 dl svarta oliver",
-            "150 g fetaost",
-            "1/2 dl färsk persilja",
-            "Saften från 1 citron",
-            "2 msk olivolja",
-            "Salt och peppar efter smak"
-        ],
-        "instructions": [
-            "Skölj quinoan i kallt vatten. Koka upp 3 dl vatten i en kastrull och tillsätt quinoan. Sänk värmen och låt sjuda under lock i 15 minuter eller tills vattnet absorberats och quinoan är mjuk. Ta bort från värmen och låt stå i 5 minuter, sedan fluffa med en gaffel.",
-            "Strimla paprikorna, skiva gurkan och halvera körsbärstomaterna. Hacka oliverna grovt.",
-            "Blanda den kokta quinoan med strimlad paprika, skivad gurka, körsbärstomater, oliver och fetaost i en stor skål.",
-            "Pressa över citronsaften och ringla över olivolja.",
-            "Tillsätt färsk persilja och blanda väl. Smaka av med salt och peppar.",
-            "Servera genast eller kyl ned och servera senare."
-        ],
-        "categories": [
-            "Sallader",
-            "Vegetariskt"
-        ]
-    },
-    {
-        "id": 33,
-        "name": "Sommarbärssallad",
-        "shortIntro": "En fräsch och söt sallad med en blandning av sommarbär, fetaost och honungsdressing.",
-        "portions": 4,
-        "cookingTime": "15 minuter",
-        "image": "sommarbarssallad.jpg",
-        "ingredients": [
-            "100 g jordgubbar",
-            "100 g blåbär",
-            "100 g hallon",
-            "100 g fetaost",
-            "1 msk honung",
-            "2 msk olivolja",
-            "Färsk mynta för garnering",
-            "Salt efter smak"
-        ],
-        "instructions": [
-            "Skiva jordgubbarna.",
-            "Blanda jordgubbar, blåbär, hallon och fetaost i en stor skål.",
-            "Blanda honung och olivolja i en liten skål för dressingen.",
-            "Ringla dressingen över salladen och blanda väl.",
-            "Garnera med färsk mynta och smaka av med lite salt om så önskas.",
-            "Servera genast som en lätt förrätt eller som ett sött inslag till huvudrätten."
-        ],
-        "categories": [
-            "Sallader",
-            "Vegetariskt"
-        ]
-    },
-    {
-        "id": 34,
-        "name": "Kyckling- och Avokadosallad",
-        "shortIntro": "En näringsrik sallad med saftig kyckling, krämig avokado och en balsamico-honungsdressing.",
-        "portions": 4,
-        "cookingTime": "25 minuter",
-        "image": "kyckling_avokadosallad.jpg",
-        "ingredients": [
-            "2 kycklingbröst",
-            "2 avokador",
-            "100 g körsbärstomater",
-            "1 röd lök",
-            "1 msk balsamvinäger",
-            "1 msk honung",
-            "2 msk olivolja",
-            "Färsk basilika för garnering",
-            "Salt och peppar efter smak"
-        ],
-        "instructions": [
-            "Grilla kycklingbrösten tills de är genomstekta och gyllenbruna. Låt svalna och skär dem i skivor.",
-            "Skiva avokadorna och körsbärstomaterna.",
-            "Skiva rödlöken tunt.",
-            "I en liten skål, blanda balsamvinäger, honung och olivolja till dressingen.",
-            "Lägg kyckling, avokado, körsbärstomater och rödlök i en stor skål.",
-            "Ringla över dressingen och blanda väl.",
-            "Strö över färsk basilika och smaka av med salt och peppar.",
-            "Servera genast och njut av!"
-        ],
-        "categories": [
-            "Sallader",
-            "Kyckling"
-        ]
-    },
-    {
-        "id": 35,
-        "name": "Halloumisallad med rostade grönsaker",
-        "shortIntro": "En härlig sallad med halloumiost, rostade grönsaker och en honungsbalsamico-dressing.",
-        "portions": 4,
-        "cookingTime": "30 minuter",
-        "image": "halloumisallad_rostade_gronsaker.jpg",
-        "ingredients": [
-            "250 g halloumiost",
-            "2 röda paprikor",
-            "1 zucchini",
-            "1 rödlök",
-            "2 msk olivolja",
-            "2 msk balsamvinäger",
-            "1 msk honung",
-            "Färsk timjan för garnering",
-            "Salt och peppar efter smak"
-        ],
-        "instructions": [
-            "Skär halloumi, paprika, zucchini och rödlök i bitar.",
-            "Lägg grönsakerna på en bakplåtspappersklädd plåt och ringla över olivolja. Krydda med salt och peppar.",
-            "Rosta grönsakerna i ugnen på 200°C i ca 20 minuter eller tills de är mjuka och börjar få färg.",
-            "Blanda balsamvinäger och honung i en liten skål till dressingen.",
-            "Lägg de rostade grönsakerna i en stor skål och lägg halloumibitarna överst.",
-            "Ringla över dressingen och strö över färsk timjan.",
-            "Servera genast och njut av!"
-        ],
-        "categories": [
-            "Sallader",
-            "Vegetariskt"
-        ]
-    },
-    {
-        "id": 36,
-        "name": "Kall pastasallad med pesto",
-        "shortIntro": "En förfriskande pastasallad med pesto, körsbärstomater och mozzarella.",
-        "portions": 4,
-        "cookingTime": "20 minuter",
-        "image": "kall_pastasallad_pesto.jpg",
-        "ingredients": [
-            "250 g pasta (t.ex. penne)",
-            "200 g körsbärstomater",
-            "1 mozzarella",
-            "1 dl färsk basilikapesto",
-            "2 msk pinjenötter",
-            "2 msk olivolja",
-            "Salt och peppar efter smak"
-        ],
-        "instructions": [
-            "Koka pastan enligt anvisningarna på förpackningen. Häll av och skölj i kallt vatten för att stoppa tillagningen. Låt pastan rinna av ordentligt.",
-            "Halvera körsbärstomaterna.",
-            "Skär mozzarellan i bitar.",
-            "I en stor skål, blanda den kokta pastan, halverade körsbärstomater, mozzarellabitar och basilikapesto.",
-            "Rosta pinjenötterna i en torr stekpanna tills de är gyllenbruna.",
-            "Strö över pinjenötterna och ringla över olivolja.",
-            "Blanda väl och smaka av med salt och peppar.",
-            "Servera genast eller kyl ned och servera senare."
-        ],
-        "categories": [
-            "Sallader",
-            "Pastor",
-            "Vegetariskt"
-        ]
-    },
-    {
-        "id": 37,
-        "name": "Taco Sallad",
-        "shortIntro": "En smakrik sallad med tacokryddad kyckling, majs, svarta bönor och en krämig avokadodressing.",
-        "portions": 4,
-        "cookingTime": "25 minuter",
-        "image": "taco_sallad.jpg",
-        "ingredients": [
-            "2 kycklingbröst",
-            "1 msk tacokrydda",
-            "1 msk olivolja",
-            "1 burk svarta bönor",
-            "1 burk majskorn",
-            "2 tomater",
-            "1 avokado",
-            "1 lime",
-            "1 dl grekisk yoghurt",
-            "Färsk koriander för garnering",
-            "Salt och peppar efter smak"
-        ],
-        "instructions": [
-            "Krydda kycklingbrösten med tacokrydda och stek dem i olivolja tills de är genomstekta och gyllenbruna. Låt svalna och skär dem i tärningar.",
-            "Skölj svarta bönor och majskorn under kallt vatten.",
-            "Skiva tomater och avokado.",
-            "I en liten skål, blanda saften från lime med grekisk yoghurt för dressing.",
-            "I en stor skål, blanda tärnad kyckling, svarta bönor, majskorn, tomater och avokado.",
-            "Ringla över avokadodressingen och blanda väl.",
-            "Smaka av med salt och peppar.",
-            "Garnera med färsk koriander och servera genast."
-        ],
-        "categories": [
-            "Sallad",
-            "Kyckling"
-        ]
-    },
-    {
-        "id": 38,
-        "name": "Melon- och Skinksallad",
-        "shortIntro": "En läcker sallad med saftig melon, lufttorkad skinka och färsk mynta.",
-        "portions": 4,
-        "cookingTime": "15 minuter",
-        "image": "melon_skinksallad.jpg",
-        "ingredients": [
-            "1 honungsmelon",
-            "150 g lufttorkad skinka",
-            "1 kruka färsk mynta",
-            "Saften från 1 lime",
-            "2 msk olivolja",
-            "Salt och peppar efter smak"
-        ],
-        "instructions": [
-            "Skär honungsmelonen i kuber och skär skinkan i mindre bitar.",
-            "Hacka färsk mynta grovt.",
-            "Blanda melon, skinka och mynta i en stor skål.",
-            "Pressa över saften från lime och ringla över olivolja.",
-            "Blanda väl och smaka av med salt och peppar.",
-            "Servera genast som en uppfriskande förrätt eller som en del av en sommarmåltid."
-        ],
-        "categories": [
-            "Sallad",
-            "Kött"
-        ]
-    },
-    {
-        "id": 39,
-        "name": "Svampsallad med rostade valnötter",
-        "shortIntro": "En smakrik sallad med blandade svampar, färsk spenat och rostade valnötter.",
-        "portions": 4,
-        "cookingTime": "25 minuter",
-        "image": "svampsallad_valnotter.jpg",
-        "ingredients": [
-            "400 g blandade svampar (t.ex. champinjoner, shiitake, ostronskivling)",
-            "200 g färsk spenat",
-            "1 rödlök",
-            "1 vitlöksklyfta",
-            "1 dl valnötter",
-            "2 msk olivolja",
-            "2 msk balsamvinäger",
-            "1 msk honung",
-            "Färsk persilja för garnering",
-            "Salt och peppar efter smak"
-        ],
-        "instructions": [
-            "Skär större svampar i skivor.",
-            "Finhacka rödlöken och vitlöken.",
-            "Hetta upp olivoljan i en stekpanna på medelhög värme. Tillsätt svamparna och stek tills de är gyllenbruna och vätskan har kokat bort, ca 8-10 minuter. Tillsätt vitlök och stek i ytterligare 1 minut.",
-            "I en separat torr stekpanna, rosta valnötterna tills de är gyllenbruna och doftar gott, ca 3-4 minuter.",
-            "Blanda balsamvinäger och honung i en liten skål för dressingen.",
-            "I en stor skål, blanda stekt svamp, spenat, rödlök och rostade valnötter.",
-            "Ringla över dressingen och blanda väl.",
-            "Garnera med färsk persilja och smaka av med salt och peppar.",
-            "Servera genast och njut av!"
-        ],
-        "categories": [
-            "Sallad",
-            "Vegetariskt"
-        ]
-    },
-    {
-        "id": 40,
-        "name": "Laxsallad med avokado",
-        "shortIntro": "En hälsosam och fyllig sallad med varmrökt lax, avokado och citron-vitlöksdressing.",
-        "portions": 4,
-        "cookingTime": "20 minuter",
-        "image": "laxsallad_avokado.jpg",
-        "ingredients": [
-            "400 g varmrökt lax",
-            "2 avokador",
-            "100 g körsbärstomater",
-            "1/2 rödlök",
-            "1 citron",
-            "2 msk olivolja",
-            "1 vitlöksklyfta",
-            "Färsk dill för garnering",
-            "Salt och peppar efter smak"
-        ],
-        "instructions": [
-            "Skär varmrökt lax i mindre bitar.",
-            "Skiva avokadorna och halvera körsbärstomaterna.",
-            "Skiva rödlöken tunt.",
-            "I en liten skål, blanda saften från citron med olivolja och pressad vitlök för dressingen.",
-            "Lägg lax, avokado, körsbärstomater och rödlök i en stor skål.",
-            "Ringla över dressingen och blanda väl.",
-            "Strö över färsk dill och smaka av med salt och peppar.",
-            "Servera genast och njut av!"
-        ],
-        "categories": [
-            "Sallad",
-            "Fisk och Skaldjur"
-        ]
-    },
-    {
-        "id": 41,
+        "id": 21,
         "name": "Spaghetti Carbonara",
         "shortIntro": "En klassisk italiensk rätt med krämig sås och bacon",
         "portions": 4,
@@ -1353,7 +697,7 @@
         ]
     },
     {
-        "id": 42,
+        "id": 22,
         "name": "Vegetarisk Lasagne",
         "shortIntro": "En läcker och krämig lasagne utan kött",
         "portions": 6,
@@ -1386,7 +730,7 @@
         ]
     },
     {
-        "id": 43,
+        "id": 23,
         "name": "Kyckling Alfredo Pasta",
         "shortIntro": "En krämig pastarätt med saftig kyckling och parmesansås",
         "portions": 4,
@@ -1418,7 +762,7 @@
         ]
     },
     {
-        "id": 44,
+        "id": 24,
         "name": "Pasta Primavera",
         "shortIntro": "En lätt och fräsch pastarätt med säsongens grönsaker",
         "portions": 4,
@@ -1452,7 +796,7 @@
         ]
     },
     {
-        "id": 45,
+        "id": 25,
         "name": "Räkpasta med Vitlökssmör",
         "shortIntro": "En smakrik pastarätt med saftiga räkor och vitlökssmör",
         "portions": 4,
@@ -1483,7 +827,7 @@
         ]
     },
     {
-        "id": 46,
+        "id": 26,
         "name": "Pasta e Fagioli",
         "shortIntro": "En rustik och mättande pastasoppa med bönor och grönsaker",
         "portions": 6,
@@ -1519,7 +863,7 @@
         ]
     },
     {
-        "id": 47,
+        "id": 27,
         "name": "Krämig Pesto Pasta",
         "shortIntro": "En smakrik pastarätt med hemlagad pestosås",
         "portions": 4,
@@ -1548,7 +892,7 @@
         ]
     },
     {
-        "id": 48,
+        "id": 28,
         "name": "Laxpasta med Dill",
         "shortIntro": "En läcker pastarätt med saftig lax och krämig dillsås",
         "portions": 4,
@@ -1577,7 +921,7 @@
         ]
     },
     {
-        "id": 49,
+        "id": 29,
         "name": "Pasta Salad med Kyckling och Pesto",
         "shortIntro": "En läcker sallad med kyckling, grönsaker och pestodressing",
         "portions": 4,
@@ -1610,7 +954,7 @@
         ]
     },
     {
-        "id": 50,
+        "id": 30,
         "name": "Köttfärssås med Spagetti",
         "shortIntro": "En klassisk pastarätt med hemlagad köttfärssås",
         "portions": 4,
@@ -1644,324 +988,7 @@
         ]
     },
     {
-        "id": 51,
-        "name": "Pasta med Körsbärstomater och Mozzarella",
-        "shortIntro": "En fräsch pastarätt med söta körsbärstomater och krämig mozzarella",
-        "portions": 4,
-        "cookingTime": "20 minuter",
-        "image": "pasta_korsbarstomater_mozzarella.jpg",
-        "ingredients": [
-            "400 g penne",
-            "250 g körsbärstomater, halverade",
-            "200 g färsk mozzarella, tärnad",
-            "1 dl färsk basilika, strimlad",
-            "2 vitlöksklyftor, finhackade",
-            "3 msk olivolja",
-            "Salt och svartpeppar"
-        ],
-        "instructions": [
-            "Koka pennepastan enligt förpackningens anvisningar.",
-            "Hetta upp olivoljan i en stekpanna och stek vitlök i ca 1 minut.",
-            "Tillsätt körsbärstomater och stek i ytterligare några minuter tills de blir mjuka.",
-            "Tillsätt den kokta pastan i stekpannan tillsammans med mozzarella och strimlad basilika.",
-            "Blanda väl tills mozzarellan börjar smälta.",
-            "Smaka av med salt och svartpeppar.",
-            "Servera genast."
-        ],
-        "categories": [
-            "Pasta",
-            "Vegetariskt"
-        ]
-    },
-    {
-        "id": 52,
-        "name": "Krabbpasta med Vitlökssmör",
-        "shortIntro": "En lyxig pastarätt med krabbkött och smörig vitlökssås",
-        "portions": 4,
-        "cookingTime": "25 minuter",
-        "image": "krabbpasta_vitlokssmor.jpg",
-        "ingredients": [
-            "400 g linguine",
-            "300 g krabbkött",
-            "100 g smör",
-            "4 vitlöksklyftor, finhackade",
-            "1 dl hackad persilja",
-            "Saften från 1 citron",
-            "Salt och svartpeppar"
-        ],
-        "instructions": [
-            "Koka linguinen enligt förpackningens anvisningar.",
-            "Smält smöret i en stor stekpanna och tillsätt vitlök.",
-            "Stek vitlöken i smöret tills den är gyllenbrun och doftande.",
-            "Tillsätt krabbköttet och stek i smöret i ca 2-3 minuter tills det är genomvarmt.",
-            "Tillsätt citronsaft och hackad persilja.",
-            "Smaka av med salt och svartpeppar.",
-            "Blanda den kokta linguinen med krabbköttet och vitlökssmöret.",
-            "Servera genast."
-        ],
-        "categories": [
-            "Pasta",
-            "Fisk och Skaldjur"
-        ]
-    },
-    {
-        "id": 53,
-        "name": "Caprese Pasta",
-        "shortIntro": "En enkel och smakrik pastarätt inspirerad av den klassiska Caprese-salladen",
-        "portions": 4,
-        "cookingTime": "15 minuter",
-        "image": "caprese_pasta.jpg",
-        "ingredients": [
-            "400 g penne",
-            "400 g körsbärstomater, halverade",
-            "250 g färsk mozzarella, tärnad",
-            "1 dl färsk basilika, strimlad",
-            "3 msk olivolja",
-            "2 vitlöksklyftor, pressade",
-            "Salt och svartpeppar"
-        ],
-        "instructions": [
-            "Koka pennepastan enligt förpackningens anvisningar.",
-            "I en stor skål, blanda kokt pasta med körsbärstomater, mozzarella och basilika.",
-            "Häll över olivolja och pressad vitlök och blanda väl.",
-            "Smaka av med salt och svartpeppar.",
-            "Servera genast."
-        ],
-        "categories": [
-            "Pasta",
-            "Sallad",
-            "Vegetariskt"
-        ]
-    },
-    {
-        "id": 54,
-        "name": "Pasta med Champinjonsås",
-        "shortIntro": "En krämig pastarätt med saftiga champinjoner och vitlökssmör",
-        "portions": 4,
-        "cookingTime": "20 minuter",
-        "image": "pasta_champinjonsas.jpg",
-        "ingredients": [
-            "400 g linguine",
-            "300 g färska champinjoner, skivade",
-            "100 g smör",
-            "4 vitlöksklyftor, finhackade",
-            "1 dl hackad persilja",
-            "Saften från 1 citron",
-            "Salt och svartpeppar"
-        ],
-        "instructions": [
-            "Koka linguinen enligt förpackningens anvisningar.",
-            "Smält smöret i en stor stekpanna och tillsätt vitlök.",
-            "Stek vitlöken i smöret tills den är gyllenbrun och doftande.",
-            "Tillsätt champinjonerna och stek i smöret i ca 5-7 minuter tills de är mjuka och gyllenbruna.",
-            "Tillsätt citronsaft och hackad persilja.",
-            "Smaka av med salt och svartpeppar.",
-            "Blanda den kokta linguinen med champinjonsåsen.",
-            "Servera genast."
-        ],
-        "categories": [
-            "Pasta",
-            "Vegetariskt"
-        ]
-    },
-    {
-        "id": 55,
-        "name": "Färsk Tomat och Ricotta Pasta",
-        "shortIntro": "En läcker pastarätt med saftiga tomater och krämig ricottaost",
-        "portions": 4,
-        "cookingTime": "20 minuter",
-        "image": "tomat_ricotta_pasta.jpg",
-        "ingredients": [
-            "400 g fettuccine",
-            "500 g färska tomater, tärnade",
-            "250 g ricottaost",
-            "2 vitlöksklyftor, pressade",
-            "1 dl färsk basilika, strimlad",
-            "3 msk olivolja",
-            "Salt och svartpeppar"
-        ],
-        "instructions": [
-            "Koka fettuccinen enligt förpackningens anvisningar.",
-            "I en stor stekpanna, hetta upp olivoljan och stek vitlök i ca 1 minut.",
-            "Tillsätt de tärnade tomaterna och stek i ytterligare några minuter tills de är mjuka.",
-            "Tillsätt ricottaost och strimlad basilika och blanda väl.",
-            "Smaka av med salt och svartpeppar.",
-            "Blanda den kokta fettuccinen med tomatsåsen.",
-            "Servera genast."
-        ],
-        "categories": [
-            "Pasta",
-            "Vegetariskt"
-        ]
-    },
-    {
-        "id": 56,
-        "name": "Pasta med Italienska Köttbullar",
-        "shortIntro": "En smakrik pastarätt med hemlagade italienska köttbullar i tomatsås",
-        "portions": 4,
-        "cookingTime": "40 minuter",
-        "image": "pasta_kottbullar.jpg",
-        "ingredients": [
-            "400 g spaghetti",
-            "400 g köttfärs",
-            "1 lök, finhackad",
-            "2 vitlöksklyftor, finhackade",
-            "1 ägg",
-            "1 dl ströbröd",
-            "2 msk färsk basilika, hackad",
-            "1 burk krossade tomater",
-            "2 msk tomatpuré",
-            "1 tsk torkad oregano",
-            "Salt och svartpeppar",
-            "Olivolja för stekning"
-        ],
-        "instructions": [
-            "Koka spaghettin enligt anvisningarna på förpackningen.",
-            "I en stor skål, blanda köttfärs, lök, vitlök, ägg, ströbröd, basilika, salt och svartpeppar.",
-            "Rulla blandningen till små köttbullar.",
-            "Stek köttbullarna i olivolja tills de är genomstekta och gyllenbruna.",
-            "I en annan kastrull, tillsätt krossade tomater, tomatpuré, oregano, salt och svartpeppar.",
-            "Låt såsen sjuda i ca 10 minuter.",
-            "Servera köttbullarna och tomatsåsen över den kokta spagettin.",
-            "Toppa med riven parmesanost om så önskas.",
-            "Servera genast."
-        ],
-        "categories": [
-            "Pasta",
-            "Kött"
-        ]
-    },
-    {
-        "id": 57,
-        "name": "Pasta Primavera med Krämig Citronpepparsås",
-        "shortIntro": "En lätt och fräsch pastarätt med säsongens grönsaker och citronpepparsås",
-        "portions": 4,
-        "cookingTime": "25 minuter",
-        "image": "pasta_primavera_citronpepparsas.jpg",
-        "ingredients": [
-            "300 g fettuccine",
-            "2 msk olivolja",
-            "2 vitlöksklyftor, pressade",
-            "1 röd paprika, tärnad",
-            "1 gul paprika, tärnad",
-            "1 zucchini, tärnad",
-            "1 gul lök, skivad",
-            "1 dl gröna ärter",
-            "Saften från 1 citron",
-            "1 dl crème fraiche",
-            "1 tsk citronpeppar",
-            "Salt och svartpeppar",
-            "Färsk basilika för garnering"
-        ],
-        "instructions": [
-            "Koka fettuccinen enligt anvisningarna på förpackningen.",
-            "Hetta upp olivoljan i en stekpanna och stek vitlök i ca 1 minut.",
-            "Tillsätt paprikor, zucchini och lök och stek tills grönsakerna är mjuka.",
-            "Tillsätt ärter och stek i ytterligare några minuter.",
-            "Tillsätt citronsaft, crème fraiche och citronpeppar.",
-            "Låt såsen sjuda i ca 5 minuter.",
-            "Smaka av med salt och svartpeppar.",
-            "Blanda den kokta fettuccinen med såsen och grönsakerna.",
-            "Servera genast och garnera med färsk basilika."
-        ],
-        "categories": [
-            "Pasta",
-            "Vegetariskt"
-        ]
-    },
-    {
-        "id": 58,
-        "name": "Krabbpasta med Citron och Dill",
-        "shortIntro": "En läcker pastarätt med saftigt krabbkött och frisk smak av citron och dill",
-        "portions": 4,
-        "cookingTime": "25 minuter",
-        "image": "krabbpasta_citron_dill.jpg",
-        "ingredients": [
-            "400 g linguine",
-            "300 g krabbkött",
-            "2 dl crème fraiche",
-            "Saften från 1 citron",
-            "2 msk hackad dill",
-            "Salt och svartpeppar"
-        ],
-        "instructions": [
-            "Koka linguinen enligt förpackningens anvisningar.",
-            "I en stor stekpanna, tillsätt crème fraiche, citronsaft, hackad dill, salt och svartpeppar.",
-            "Låt såsen sjuda i några minuter tills den tjocknar något.",
-            "Tillsätt krabbköttet och värm upp det i såsen.",
-            "Blanda den kokta linguinen med krabbköttssåsen.",
-            "Servera genast."
-        ],
-        "categories": [
-            "Pasta",
-            "Fisk och Skaldjur"
-        ]
-    },
-    {
-        "id": 59,
-        "name": "Pasta Alfredo med Räkor",
-        "shortIntro": "En lyxig pastarätt med krämig Alfredosås och saftiga räkor",
-        "portions": 4,
-        "cookingTime": "20 minuter",
-        "image": "pasta_alfredo_rakor.jpg",
-        "ingredients": [
-            "400 g linguine",
-            "400 g räkor, skalade och rensade",
-            "2 dl grädde",
-            "1 dl riven parmesanost",
-            "2 vitlöksklyftor, finhackade",
-            "2 msk smör",
-            "Salt och svartpeppar",
-            "Färsk persilja för garnering"
-        ],
-        "instructions": [
-            "Koka linguinen enligt förpackningens anvisningar.",
-            "Stek räkorna i smör tills de är genomstekta och rosa.",
-            "Tillsätt vitlök och stek i ytterligare en minut.",
-            "Sänk värmen och tillsätt grädde och parmesanost. Låt såsen sjuda tills osten smälter och såsen tjocknar.",
-            "Smaka av med salt och svartpeppar.",
-            "Blanda den kokta linguinen med såsen och räkorna.",
-            "Garnera med färsk persilja.",
-            "Servera genast."
-        ],
-        "categories": [
-            "Pasta",
-            "Fisk och Skaldjur"
-        ]
-    },
-    {
-        "id": 60,
-        "name": "Pasta med Krämig Bacon- och Ädelostsås",
-        "shortIntro": "En rik och smakfull pastarätt med bacon och ädelostsås",
-        "portions": 4,
-        "cookingTime": "25 minuter",
-        "image": "pasta_bacon_adelostsas.jpg",
-        "ingredients": [
-            "400 g linguine",
-            "200 g bacon, skivat",
-            "2 dl grädde",
-            "150 g ädelost, smulad",
-            "2 dl riven parmesanost",
-            "2 vitlöksklyftor, finhackade",
-            "2 msk smör",
-            "Salt och svartpeppar"
-        ],
-        "instructions": [
-            "Koka linguinen enligt förpackningens anvisningar.",
-            "Stek baconet knaprigt i smör i en stor stekpanna.",
-            "Tillsätt vitlök och stek i ytterligare en minut.",
-            "Sänk värmen och tillsätt grädde, ädelost och parmesanost. Låt såsen sjuda tills osten smälter och såsen tjocknar.",
-            "Smaka av med salt och svartpeppar.",
-            "Blanda den kokta linguinen med såsen och baconet.",
-            "Servera genast."
-        ],
-        "categories": [
-            "Pasta",
-            "Kött"
-        ]
-    },
-    {
-        "id": 61,
+        "id": 31,
         "name": "Pad Thai",
         "shortIntro": "En klassisk thailändsk nudelrätt med räkor och jordnötter.",
         "portions": 4,
@@ -1995,7 +1022,7 @@
         ]
     },
     {
-        "id": 62,
+        "id": 32,
         "name": "Ramen",
         "shortIntro": "En japansk nudelsoppa med marinerad kyckling och grönsaker.",
         "portions": 4,
@@ -2031,7 +1058,7 @@
         ]
     },
     {
-        "id": 63,
+        "id": 33,
         "name": "Koreansk kall nudelsallad",
         "shortIntro": "En uppfriskande koreansk sallad med kalla nudlar och grönsaker.",
         "portions": 4,
@@ -2064,7 +1091,7 @@
         ]
     },
     {
-        "id": 64,
+        "id": 34,
         "name": "Spaghetti Carbonara",
         "shortIntro": "En klassisk italiensk pasta med ägg, pancetta och pecorino.",
         "portions": 4,
@@ -2092,7 +1119,7 @@
         ]
     },
     {
-        "id": 65,
+        "id": 35,
         "name": "Thailändsk kokosnötsoppa med nudlar",
         "shortIntro": "En krämig och kryddig soppa med kokosmjölk, grönsaker och nudlar.",
         "portions": 4,
@@ -2124,7 +1151,7 @@
         ]
     },
     {
-        "id": 66,
+        "id": 36,
         "name": "Vietnamesiska vårrullar med nudlar",
         "shortIntro": "Färska vårrullar fyllda med nudlar, grönsaker och räkor.",
         "portions": 4,
@@ -2160,7 +1187,7 @@
         ]
     },
     {
-        "id": 67,
+        "id": 37,
         "name": "Pasta Alfredo",
         "shortIntro": "En krämig italiensk pasta med parmesan och smör.",
         "portions": 4,
@@ -2187,7 +1214,7 @@
         ]
     },
     {
-        "id": 68,
+        "id": 38,
         "name": "Kinesisk nudelwok med grönsaker",
         "shortIntro": "En hälsosam och snabb nudelrätt med en mängd grönsaker.",
         "portions": 4,
@@ -2220,7 +1247,7 @@
         ]
     },
     {
-        "id": 69,
+        "id": 39,
         "name": "Soba nudelsoppa med tofu",
         "shortIntro": "En japansk nudelsoppa med sobanudlar och tofu.",
         "portions": 4,
@@ -2253,7 +1280,7 @@
         ]
     },
     {
-        "id": 70,
+        "id": 40,
         "name": "Köttfärspasta med spaghetti",
         "shortIntro": "En klassisk köttfärspasta med tomatsås och spaghetti.",
         "portions": 4,
@@ -2283,365 +1310,6 @@
         "categories": [
             "Nudlar",
             "Kött"
-        ]
-    },
-    {
-        "id": 71,
-        "name": "Kycklingnudelsallad med jordnötssås",
-        "shortIntro": "En fräsch sallad med grillad kyckling, nudlar och jordnötssås.",
-        "portions": 4,
-        "cookingTime": "25 minuter",
-        "image": "kycklingnudelsallad.jpg",
-        "ingredients": [
-            "200g äggnudlar",
-            "2 kycklingfiléer",
-            "1 röd paprika, strimlad",
-            "1 gurka, strimlad",
-            "2 salladslökar, skivade",
-            "1 kruka färsk koriander",
-            "1 kruka färsk mynta",
-            "1 msk jordnötssmör",
-            "2 msk sojasås",
-            "1 msk risvinäger",
-            "1 msk honung",
-            "1 tsk sesamolja",
-            "1 vitlöksklyfta, finhackad",
-            "1 tsk ingefära, riven"
-        ],
-        "instructions": [
-            "Koka nudlarna enligt anvisningarna på förpackningen. Skölj under kallt vatten och låt rinna av.",
-            "Grilla kycklingfiléerna tills de är genomstekta. Skär dem i skivor.",
-            "Blanda jordnötssmör, sojasås, risvinäger, honung, sesamolja, vitlök och ingefära i en liten skål för dressing.",
-            "Fördela nudlarna i skålar och toppa med grillad kyckling, paprika, gurka, salladslök, koriander och mynta.",
-            "Ringla över dressingen före servering och blanda väl.",
-            "Servera genast som en lätt och näringsrik måltid."
-        ],
-        "categories": [
-            "Nudlar",
-            "Sallad",
-            "Kyckling"
-        ]
-    },
-    {
-        "id": 72,
-        "name": "Lemon Garlic Shrimp Pasta",
-        "shortIntro": "En läcker pasta med vitlök, citron och räkor.",
-        "portions": 4,
-        "cookingTime": "20 minuter",
-        "image": "citron_vitloksrakor_pasta.jpg",
-        "ingredients": [
-            "400g linguine",
-            "400g räkor, skalade och rensade",
-            "4 vitlöksklyftor, finhackade",
-            "Saften från 2 citroner",
-            "1 dl torrt vitt vin",
-            "2 msk olivolja",
-            "1 kruka färsk persilja, hackad",
-            "Salt och svartpeppar"
-        ],
-        "instructions": [
-            "Koka linguinen enligt anvisningarna på förpackningen.",
-            "Hetta upp olivoljan i en stor stekpanna över medelhög värme. Tillsätt vitlök och stek tills den är gyllenbrun.",
-            "Tillsätt räkorna och stek tills de är genomstekta.",
-            "Tillsätt citronsaft och vitt vin. Låt koka i ca 2 minuter.",
-            "Blanda den kokta pastan med räkorna i stekpannan. Tillsätt persilja, salt och svartpeppar. Rör om väl.",
-            "Servera genast med eventuellt extra persilja och citronskivor."
-        ],
-        "categories": [
-            "Nudlar",
-            "Kött",
-            "Fisk och Skaldjur"
-        ]
-    },
-    {
-        "id": 73,
-        "name": "Pesto Chicken Pasta",
-        "shortIntro": "En enkel pasta med pesto och kyckling.",
-        "portions": 4,
-        "cookingTime": "25 minuter",
-        "image": "pesto_kyckling_pasta.jpg",
-        "ingredients": [
-            "400g penne",
-            "2 kycklingfiléer, skivade",
-            "1 dl färsk basilika",
-            "50g pinjenötter",
-            "2 vitlöksklyftor",
-            "1 dl riven parmesanost",
-            "1 dl olivolja",
-            "Salt och svartpeppar"
-        ],
-        "instructions": [
-            "Koka penne enligt anvisningarna på förpackningen.",
-            "Stek kycklingfiléerna i olivolja tills de är genomstekta.",
-            "I en mixer eller matberedare, blanda basilika, pinjenötter, vitlök, parmesanost, olivolja, salt och svartpeppar tills det bildar en jämn pesto.",
-            "Blanda den kokta pastan med kycklingen i stekpannan och tillsätt peston. Rör om väl.",
-            "Servera genast med eventuellt extra riven parmesanost och färsk basilika."
-        ],
-        "categories": [
-            "Nudlar",
-            "Kyckling"
-        ]
-    },
-    {
-        "id": 74,
-        "name": "Szechuan Noodle Stir-Fry",
-        "shortIntro": "En het och kryddig wok med nudlar och grönsaker.",
-        "portions": 4,
-        "cookingTime": "20 minuter",
-        "image": "szechuan_nudel_wok.jpg",
-        "ingredients": [
-            "300g äggnudlar",
-            "2 morötter, skivade",
-            "1 röd paprika, strimlad",
-            "1 gul lök, strimlad",
-            "100g sockerärtor",
-            "2 msk sojasås",
-            "2 msk risvinäger",
-            "1 msk hoisinsås",
-            "1 msk sesamolja",
-            "1 msk sambal oelek (eller mer för extra hetta)",
-            "1 vitlöksklyfta, finhackad",
-            "1 tsk ingefära, riven"
-        ],
-        "instructions": [
-            "Koka nudlarna enligt anvisningarna på förpackningen. Skölj under kallt vatten och låt rinna av.",
-            "Hetta upp sesamoljan i en wokpanna eller stor stekpanna över medelhög värme.",
-            "Tillsätt vitlök och ingefära och stek i ca 30 sekunder.",
-            "Tillsätt morötter, paprika, lök, sockerärtor och sambal oelek. Woka i ca 5 minuter tills grönsakerna är knappt mjuka.",
-            "Tillsätt kokta nudlar, sojasås, risvinäger och hoisinsås. Blanda väl och värm igenom.",
-            "Servera genast som en kryddig och smakrik måltid."
-        ],
-        "categories": [
-            "Nudlar",
-            "Vegetariskt"
-        ]
-    },
-    {
-        "id": 75,
-        "name": "Cold Peanut Noodle Salad",
-        "shortIntro": "En fräsch sallad med kalla nudlar och jordnötssås.",
-        "portions": 4,
-        "cookingTime": "15 minuter",
-        "image": "kall_jordnotsnudelsallad.jpg",
-        "ingredients": [
-            "300g spaghetti",
-            "1 gurka, skivad",
-            "1 morot, strimlad",
-            "4 salladslökar, skivade",
-            "1 kruka färsk koriander",
-            "1 kruka färsk mynta",
-            "100g jordnötter, hackade",
-            "1 msk sesamolja",
-            "1 msk sojasås",
-            "1 msk risvinäger",
-            "1 msk honung",
-            "1 vitlöksklyfta, finhackad",
-            "1 tsk ingefära, riven",
-            "1 tsk sesamfrön för garnering"
-        ],
-        "instructions": [
-            "Koka spaghettin enligt anvisningarna på förpackningen. Skölj under kallt vatten och låt rinna av.",
-            "Blanda sesamolja, sojasås, risvinäger, honung, vitlök, ingefära i en stor skål för dressing.",
-            "Tillsätt nudlar, gurka, morot, salladslök, koriander och mynta i skålen och blanda väl.",
-            "Strö över hackade jordnötter och sesamfrön före servering.",
-            "Servera genast som en lätt och smakrik sallad."
-        ],
-        "categories": [
-            "Nudlar",
-            "Sallad",
-            "Vegetariskt"
-        ]
-    },
-    {
-        "id": 76,
-        "name": "Vietnamesisk Pho Bo",
-        "shortIntro": "En traditionell vietnamesisk nudelsoppa med oxfilé och örter.",
-        "portions": 4,
-        "cookingTime": "2 timmar",
-        "image": "pho_bo.jpg",
-        "ingredients": [
-            "400g risnudlar",
-            "500g oxfilé",
-            "2 lökar, skalade och halverade",
-            "1 bit färsk ingefära, skivad",
-            "2 stjärnanis",
-            "3 kanelstänger",
-            "3 kryddnejlikor",
-            "1 tsk korianderfrön",
-            "1 tsk fänkålsfrön",
-            "1 tsk salt",
-            "2 msk fisksås",
-            "1 msk socker",
-            "1 lime, i klyftor",
-            "Färsk koriander och thaibasilika för garnering",
-            "Färska böngroddar och skivad röd chili (valfritt)"
-        ],
-        "instructions": [
-            "Roasta löken och ingefäran över en öppen låga eller under ugnens grillfunktion tills de är mjuka och har en fin rostad färg.",
-            "Koka upp 3 liter vatten i en stor gryta. Lägg i den rostade löken och ingefäran, stjärnanis, kanelstänger, kryddnejlikor, korianderfrön, fänkålsfrön och salt. Sjud på låg värme i minst 1,5 timmar.",
-            "Koka risnudlarna enligt anvisningarna på förpackningen. Skölj och låt rinna av.",
-            "Skiva oxfilén tunt.",
-            "Ta bort kryddorna från buljongen. Tillsätt fisksås och socker.",
-            "Lägg risnudlar i skålar och fördela oxfiléskivorna ovanpå.",
-            "Häll den heta buljongen över nudlarna och köttet.",
-            "Servera med limeklyftor, färsk koriander, thaibasilika och eventuellt böngroddar och skivad röd chili."
-        ],
-        "categories": [
-            "Nudlar",
-            "Soppor",
-            "Kött"
-        ]
-    },
-    {
-        "id": 77,
-        "name": "Koreansk Japchae",
-        "shortIntro": "En koreansk rätt med glasnudlar, grönsaker och biff.",
-        "portions": 4,
-        "cookingTime": "40 minuter",
-        "image": "japchae.jpg",
-        "ingredients": [
-            "300g glasnudlar",
-            "300g biffkött (lövbiff eller entrecôte), skivat",
-            "2 morötter, juliennestrimlade",
-            "1 röd paprika, strimlad",
-            "1 gul lök, strimlad",
-            "100g svamp, skivad",
-            "3 vitlöksklyftor, finhackade",
-            "3 msk sojasås",
-            "2 msk sesamolja",
-            "1 msk socker",
-            "1 msk sesamfrön",
-            "Färsk koriander för garnering"
-        ],
-        "instructions": [
-            "Koka glasnudlarna enligt anvisningarna på förpackningen. Skölj under kallt vatten och låt rinna av.",
-            "Stek biffköttet i hälften av sesamoljan tills det är genomstekt. Ta bort från pannan och lägg åt sidan.",
-            "Stek vitlök i återstående sesamolja tills den är gyllenbrun.",
-            "Tillsätt morötter och svamp och stek tills de är mjuka.",
-            "Tillsätt paprika och lök och stek ytterligare några minuter.",
-            "Lägg till glasnudlarna och biffen i pannan. Blanda i sojasås, socker och sesamfrön. Rör om väl och stek i ytterligare några minuter.",
-            "Servera varm eller kall och garnera med färsk koriander."
-        ],
-        "categories": [
-            "Nudlar",
-            "Sallad",
-            "Kött"
-        ]
-    },
-    {
-        "id": 78,
-        "name": "Thai Pad See Ew",
-        "shortIntro": "En thailändsk wokrätt med breda risnudlar, kyckling och grönsaker.",
-        "portions": 4,
-        "cookingTime": "30 minuter",
-        "image": "pad_see_ew.jpg",
-        "ingredients": [
-            "400g breda risnudlar",
-            "400g kycklingbröst, skivat",
-            "2 msk ostronsås",
-            "2 msk sojasås",
-            "1 msk fisksås",
-            "1 msk tamarindsaft",
-            "2 msk rårörsocker",
-            "3 vitlöksklyftor, finhackade",
-            "2 ägg",
-            "2 kopp broccolibuketter",
-            "1 morot, skivad",
-            "1 röd paprika, strimlad",
-            "1 kopp thaibasilika eller vanlig basilika",
-            "1 kopp böngroddar",
-            "1 lime, i klyftor",
-            "Grovhackade jordnötter för garnering (valfritt)"
-        ],
-        "instructions": [
-            "Koka de breda risnudlarna enligt anvisningarna på förpackningen. Skölj under kallt vatten och låt rinna av.",
-            "Stek kycklingen i en wokpanna tills den är genomstekt. Ta bort från pannan och ställ åt sidan.",
-            "Blanda ostronsås, sojasås, fisksås, tamarindsaft och rårörsocker i en liten skål för såsen.",
-            "Stek vitlök i wokpannan tills den är gyllenbrun. Knäck äggen och stek tills de är genomstekta.",
-            "Tillsätt broccolibuketter, morot och paprika i pannan. Woka tills grönsakerna är knappt mjuka.",
-            "Lägg till nudlarna, kycklingen och såsen i pannan. Blanda väl tills allt är genomvarmt.",
-            "Vik ner thaibasilika och böngroddar. Blanda väl och stek i ytterligare några minuter.",
-            "Servera med limeklyftor och eventuellt grovhackade jordnötter."
-        ],
-        "categories": [
-            "Nudlar",
-            "Sallad",
-            "Kyckling"
-        ]
-    },
-    {
-        "id": 79,
-        "name": "Kinesisk Hot Pot",
-        "shortIntro": "En gemensam matupplevelse där man tillagar olika råvaror i en het fondue.",
-        "portions": 4,
-        "cookingTime": "40 minuter",
-        "image": "hot_pot.jpg",
-        "ingredients": [
-            "500g tunna äggnudlar",
-            "500g tunnskivat nötkött",
-            "300g färsk tofu, skivad",
-            "200g svamp, skivad",
-            "1 kinesisk vitkål, strimlad",
-            "1 kopp mungbönsgroddar",
-            "1 kopp shiitakesvampar",
-            "1 kopp pak choi, skivad",
-            "1 kopp skivad morot",
-            "1 kopp skivad purjolök",
-            "1 kopp vattenkastanjer, skivade",
-            "1 kopp salladslök, skivade",
-            "1 kopp koriander, hackad",
-            "1 kopp färsk mynta",
-            "Hot pot-dippningsås (köpt eller hemlagad)"
-        ],
-        "instructions": [
-            "Koka äggnudlarna enligt anvisningarna på förpackningen. Skölj och låt rinna av.",
-            "Förbered ingredienserna genom att skiva kött, tofu och grönsaker.",
-            "Koka upp en stor gryta med vatten och placera den på en portabel värmekälla på bordet.",
-            "Låt var och en välja sina önskade ingredienser och lägg dem sedan i den heta grytan för att koka.",
-            "När ingredienserna är kokta, fiska upp dem med en spår för att ätas med den heta pot-dippningsåsen.",
-            "Upprepa processen och njut av denna gemensamma måltid!",
-            "Se till att ha en skål för avfall och en skål med risnudlar bredvid grytan för att ta upp smak."
-        ],
-        "categories": [
-            "Nudlar",
-            "Kött",
-            "Soppor"
-        ]
-    },
-    {
-        "id": 80,
-        "name": "Koreansk Japchae",
-        "shortIntro": "En koreansk rätt med glasnudlar, grönsaker och biff.",
-        "portions": 4,
-        "cookingTime": "40 minuter",
-        "image": "koreansk_japchae.jpg",
-        "ingredients": [
-            "300g glasnudlar",
-            "300g biffkött (lövbiff eller entrecôte), skivat",
-            "2 morötter, juliennestrimlade",
-            "1 röd paprika, strimlad",
-            "1 gul lök, strimlad",
-            "100g svamp, skivad",
-            "3 vitlöksklyftor, finhackade",
-            "3 msk sojasås",
-            "2 msk sesamolja",
-            "1 msk socker",
-            "1 msk sesamfrön",
-            "Färsk koriander för garnering"
-        ],
-        "instructions": [
-            "Koka glasnudlarna enligt anvisningarna på förpackningen. Skölj under kallt vatten och låt rinna av.",
-            "Stek biffköttet i hälften av sesamoljan tills det är genomstekt. Ta bort från pannan och lägg åt sidan.",
-            "Stek vitlök i återstående sesamolja tills den är gyllenbrun.",
-            "Tillsätt morötter och svamp och stek tills de är mjuka.",
-            "Tillsätt paprika och lök och stek ytterligare några minuter.",
-            "Lägg till glasnudlarna och biffen i pannan. Blanda i sojasås, socker och sesamfrön. Rör om väl och stek i ytterligare några minuter.",
-            "Servera varm eller kall och garnera med färsk koriander."
-        ],
-        "categories": [
-            "Nudlar",
-            "Kött",
-            "Sallad"
         ]
     }
 ]
