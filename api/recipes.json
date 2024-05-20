@@ -1434,6 +1434,116 @@
         "categories": ["Pajer"]
     },
     {
+        "id": 61,
+        "name": "Margherita",
+        "shortIntro": "En klassisk italiensk pizza med tomater, mozzarella och basilika.",
+        "portions": 4,
+        "cookingTime": "20 minuter",
+        "image": "margherita.jpg",
+        "ingredients": ["Pizzadeg", "Tomatsås", "Mozzarella", "Färsk basilika"],
+        "instructions": ["1. Rulla ut pizzadegen.", "2. Bred tomatsås över degen.", "3. Lägg skivor av mozzarella jämnt över tomatsåsen.", "4. Grädda i ugnen tills pizzan är gyllenbrun.", "5. Toppa med färsk basilika och servera."],
+        "categories": ["Pizzor"]
+    },
+    {
+        "id": 62,
+        "name": "Pepperoni",
+        "shortIntro": "En smakrik pizza med salamikorv, tomatsås och ost.",
+        "portions": 4,
+        "cookingTime": "25 minuter",
+        "image": "pepperoni.jpg",
+        "ingredients": ["Pizzadeg", "Tomatsås", "Mozzarella", "Pepperoni"],
+        "instructions": ["1. Rulla ut pizzadegen.", "2. Bred tomatsås över degen.", "3. Strö över rikligt med mozzarellaost.", "4. Lägg skivor av pepperoni jämnt över osten.", "5. Grädda tills osten är bubblande och gyllenbrun."],
+        "categories": ["Pizzor"]
+    },
+    {
+        "id": 63,
+        "name": "Hawaii",
+        "shortIntro": "En tropisk twist på pizzan med ananas och skinka.",
+        "portions": 4,
+        "cookingTime": "22 minuter",
+        "image": "hawaii.jpg",
+        "ingredients": ["Pizzadeg", "Tomatsås", "Mozzarella", "Skinka", "Ananas"],
+        "instructions": ["1. Rulla ut pizzadegen.", "2. Bred tomatsås över degen.", "3. Strö över rikligt med mozzarellaost.", "4. Fördela skivad skinka och ananasbitar jämnt över osten.", "5. Grädda tills gyllenbrun."],
+        "categories": ["Pizzor"]
+    },
+    {
+        "id": 64,
+        "name": "Quattro Stagioni",
+        "shortIntro": "En fyra-säsongs pizza med olika fyllningar på varje sektion.",
+        "portions": 4,
+        "cookingTime": "30 minuter",
+        "image": "quattro_stagioni.jpg",
+        "ingredients": ["Pizzadeg", "Tomatsås", "Mozzarella", "Skinka", "Champinjoner", "Räkor", "Oliver", "Ansjovis"],
+        "instructions": ["1. Rulla ut pizzadegen.", "2. Dela degen i fyra sektioner.", "3. Fyll varje sektion med olika ingredienser; skinka och champinjoner, räkor, oliver och ansjovis.", "4. Grädda tills gyllenbrun och bubblande."],
+        "categories": ["Pizzor"]
+    },
+    {
+        "id": 65,
+        "name": "Vegetarisk",
+        "shortIntro": "En hälsosam pizza med massor av grönsaker och ost.",
+        "portions": 4,
+        "cookingTime": "25 minuter",
+        "image": "vegetarisk.jpg",
+        "ingredients": ["Pizzadeg", "Tomatsås", "Mozzarella", "Paprika", "Svamp", "Lök", "Kronärtskocka", "Oliver"],
+        "instructions": ["1. Rulla ut pizzadegen.", "2. Bred tomatsås över degen.", "3. Strö över rikligt med mozzarellaost.", "4. Fördela grönsakerna jämnt över osten.", "5. Grädda tills gyllenbrun och grönsakerna är mjuka."],
+        "categories": ["Pizzor"]
+    },
+    {
+        "id": 66,
+        "name": "Calzone",
+        "shortIntro": "En fylld pizza som är vikt över till en halvmåne.",
+        "portions": 2,
+        "cookingTime": "30 minuter",
+        "image": "calzone.jpg",
+        "ingredients": ["Pizzadeg", "Tomatsås", "Mozzarella", "Skinka", "Champinjoner", "Ricotta"],
+        "instructions": ["1. Rulla ut pizzadegen och bred tomatsås över den.", "2. Lägg på fyllningen på ena sidan av degen; skinka, champinjoner och ricotta.", "3. Vik över den andra halvan av degen och tryck ihop kanterna för att försegla.", "4. Grädda tills gyllenbrun och fyllningen är varm."],
+        "categories": ["Pizzor"]
+    },
+    {
+        "id": 67,
+        "name": "Capricciosa",
+        "shortIntro": "En rik pizza toppad med skinka, champinjoner, kronärtskockor och oliver.",
+        "portions": 4,
+        "cookingTime": "28 minuter",
+        "image": "capricciosa.jpg",
+        "ingredients": ["Pizzadeg", "Tomatsås", "Mozzarella", "Skinka", "Champinjoner", "Kronärtskocka", "Oliver"],
+        "instructions": ["1. Rulla ut pizzadegen.", "2. Bred tomatsås över degen.", "3. Strö över rikligt med mozzarellaost.", "4. Fördela skinka, champinjoner, kronärtskockor och oliver jämnt över osten.", "5. Grädda tills gyllenbrun och bubblig."],
+        "categories": ["Pizzor"]
+    },
+    {
+        "id": 68,
+        "name": "Fyra Ost",
+        "shortIntro": "En ostig fest med fyra olika sorters ost på en pizza.",
+        "portions": 4,
+        "cookingTime": "25 minuter",
+        "image": "fyra_ost.jpg",
+        "ingredients": ["Pizzadeg", "Tomatsås", "Mozzarella", "Parmesan", "Gorgonzola", "Cheddar", "Gouda"],
+        "instructions": ["1. Rulla ut pizzadegen.", "2. Bred tomatsås över degen.", "3. Strö över rikligt med mozzarellaost.", "4. Fördela de andra ostarna jämnt över pizzan.", "5. Grädda tills gyllenbrun och osterna är smält."],
+        "categories": ["Pizzor"]
+    },
+    {
+        "id": 69,
+        "name": "Mexikansk Pizza",
+        "shortIntro": "En kryddig pizza med tacosås, köttfärs och jalapeños.",
+        "portions": 4,
+        "cookingTime": "30 minuter",
+        "image": "mexikansk.jpg",
+        "ingredients": ["Pizzadeg", "Tacosås", "Mozzarella", "Köttfärs", "Majs", "Paprika", "Rödlök", "Jalapeños"],
+        "instructions": ["1. Rulla ut pizzadegen.", "2. Bred tacosås över degen.", "3. Strö över rikligt med mozzarellaost.", "4. Fördela köttfärs, majs, paprika, rödlök och jalapeños jämnt över osten.", "5. Grädda tills gyllenbrun och köttfärsen är genomstekt."],
+        "categories": ["Pizzor"]
+    },
+    {
+        "id": 70,
+        "name": "BBQ Kyckling",
+        "shortIntro": "En smakrik pizza med BBQ-sås, kyckling och lök.",
+        "portions": 4,
+        "cookingTime": "28 minuter",
+        "image": "bbq_kyckling.jpg",
+        "ingredients": ["Pizzadeg", "BBQ-sås", "Mozzarella", "Kyckling", "Rödlök", "Koriander"],
+        "instructions": ["1. Rulla ut pizzadegen.", "2. Bred BBQ-sås över degen.", "3. Strö över rikligt med mozzarellaost.", "4. Fördela grillad kyckling och skivad rödlök jämnt över osten.", "5. Grädda tills gyllenbrun och kycklingen är varm."],
+        "categories": ["Pizzor"]
+    },
+    {
         "id": 131,
         "name": "Boeuf Bourguignon",
         "shortIntro": "En klassisk fransk köttgryta med rött vin och grönsaker.",
