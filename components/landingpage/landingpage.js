@@ -7,11 +7,6 @@ async function renderLandingpage() {
         entity: 'reviews', request: './../../api/reviews.php'
     });
 
-    //varför ska vi ha detta???
-    // await State.Get({
-    //     entity: 'user', request: './../../api/users.php?user=' + localStorage.getItem('login')
-    // });
-
     await State.Get({
         entity: 'user', request: './../../api/users.php?user=' + localStorage.getItem('login')
     });

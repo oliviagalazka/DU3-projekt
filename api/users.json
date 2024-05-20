@@ -8,7 +8,8 @@
             3,
             5,
             4,
-            2
+            2,
+            12
         ],
         "shoppingList": [
             {
@@ -17,7 +18,7 @@
             },
             {
                 "item": "Morot",
-                "checked": false
+                "checked": true
             },
             {
                 "item": "Soja",

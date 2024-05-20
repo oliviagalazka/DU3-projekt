@@ -57,6 +57,7 @@
 
 #post-review-button:hover {
     cursor: pointer;
+    background-color: #b9b4a6;
 }
 
 .review {
