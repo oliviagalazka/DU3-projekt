@@ -791,7 +791,7 @@
             "Servera genast."
         ],
         "categories": [
-            "Pasta",
+            "Pastor",
             "Vegetariskt"
         ]
     },
@@ -822,8 +822,8 @@
             "Servera genast."
         ],
         "categories": [
-            "Pasta",
-            "Fisk och Skaldjur"
+            "Pastor",
+            "Fisk"
         ]
     },
     {
@@ -887,7 +887,7 @@
             "Servera genast."
         ],
         "categories": [
-            "Pasta",
+            "Pastor",
             "Vegetariskt"
         ]
     },
@@ -916,13 +916,13 @@
             "Servera genast."
         ],
         "categories": [
-            "Pasta",
-            "Fisk och Skaldjur"
+            "Pastor",
+            "Fisk"
         ]
     },
     {
         "id": 29,
-        "name": "Pasta Sallad med Kyckling och Pesto",
+        "name": "Pastasalad med Kyckling och Pesto",
         "shortIntro": "En läcker sallad med kyckling, grönsaker och pestodressing",
         "portions": 4,
         "cookingTime": "20 minuter",
@@ -948,8 +948,8 @@
             "Servera salladen kall."
         ],
         "categories": [
-            "Pasta",
-            "Sallad",
+            "Pastor",
+            "Sallader",
             "Kyckling"
         ]
     },
@@ -983,7 +983,7 @@
             "Servera genast."
         ],
         "categories": [
-            "Pasta",
+            "Pastor",
             "Kött"
         ]
     },
@@ -1092,17 +1092,22 @@
     },
     {
         "id": 34,
-        "name": "Spaghetti Carbonara",
-        "shortIntro": "En klassisk italiensk pasta med ägg, pancetta och pecorino.",
+        "name": "Thai Red Curry Noodle Soup with Chicken",
+        "shortIntro": "En asiatisk kryddstark soppa.",
         "portions": 4,
-        "cookingTime": "20 minuter",
-        "image": "spaghetti_carbonara.jpg",
+        "cookingTime": "50 minuter",
+        "image": "red_curry_noodle.jpg",
         "ingredients": [
-            "400g spaghetti",
+            "400g Nudlar",
+            "500g kyckling",
+            "2 msk kycklingbuljong",
+            "2 msk fisksås",
             "200g pancetta, tärnad",
-            "4 ägg",
-            "100g pecorino ost, riven",
+            " 2 msk röd curry",
+            "1 gullök, hackad",
             "2 vitlöksklyftor, finhackade",
+            "2 dl cocosmjölk",
+            "1 pressad lime",
             "Svartpeppar"
         ],
         "instructions": [
@@ -1115,6 +1120,7 @@
         ],
         "categories": [
             "Nudlar",
+            "Soppor",
             "Kött"
         ]
     },
@@ -1182,35 +1188,40 @@
         ],
         "categories": [
             "Nudlar",
-            "Sallad",
-            "Fisk och Skaldjur"
+            "Fisk"
         ]
     },
     {
         "id": 37,
-        "name": "Pasta Alfredo",
-        "shortIntro": "En krämig italiensk pasta med parmesan och smör.",
+        "name": "Kycklingwook",
+        "shortIntro": "En kryddig kyckling wook med grönsaker.",
         "portions": 4,
         "cookingTime": "20 minuter",
-        "image": "pasta_alfredo.jpg",
+        "image": "kycklingwook.jpg",
         "ingredients": [
+            "1kg kyckling",
+            "500g nudlar",
+            "2st paprika",
+            "1dl soja",
+            "1 msk fisksås",
+            "400 ml kokosmjölk",
             "400g fettuccine",
+            "1 gul lök",
             "1 dl smör",
-            "2 dl grädde",
-            "200g riven parmesanost",
+            "2 morötter",
             "Svartpeppar"
         ],
         "instructions": [
-            "Koka fettuccinen enligt anvisningarna på förpackningen. Spara lite av pastavattnet.",
-            "Smält smöret i en stor stekpanna på medelvärme.",
-            "Tillsätt grädden och låt sjuda i ca 5 minuter tills såsen tjocknar något.",
-            "Tillsätt parmesanosten och rör om tills den smälter och såsen blir krämig. Om såsen är för tjock, späd med lite av det sparade pastavattnet.",
-            "Blanda den kokta pastan med såsen i stekpannan och rör om väl.",
-            "Servera genast med nymalen svartpeppar och eventuellt extra parmesanost."
+            "Koka nudlarna enligt anvisningarna på förpackningen. Spara lite av nudelvattnet.",
+            "Stek kycklingen i smält smör i en stekpanna.",
+            "hacka grönsakerna och tillsätt dem i pannan tillsammans med kycklingen.",
+            "Tillsätt kokosmjölken och sojan.",
+            "Blanda sist i dem kokta nudlarna med såsen i stekpannan och rör om väl."
         ],
         "categories": [
             "Nudlar",
-            "Vegetariskt"
+            "Vegetariskt",
+            "kyckling"
         ]
     },
     {
@@ -1248,11 +1259,11 @@
     },
     {
         "id": 39,
-        "name": "Soba nudelsoppa med tofu",
+        "name": "Nudelsoppa med tofu",
         "shortIntro": "En japansk nudelsoppa med sobanudlar och tofu.",
         "portions": 4,
         "cookingTime": "30 minuter",
-        "image": "soba_nudelsoppa.jpg",
+        "image": "nudelsoppa_tofu.jpg",
         "ingredients": [
             "200g sobanudlar",
             "400g fast tofu, tärnad",
@@ -1261,7 +1272,7 @@
             "2 msk risvinäger",
             "1 msk mirin",
             "1 msk ingefära, riven",
-            "2 salladslökar, skivade",
+            "2 salladslsökar, skivade",
             "1 msk sesamolja",
             "Svartpeppar"
         ],
@@ -1281,13 +1292,13 @@
     },
     {
         "id": 40,
-        "name": "Köttfärspasta med spaghetti",
-        "shortIntro": "En klassisk köttfärspasta med tomatsås och spaghetti.",
+        "name": "Asiatisk köttfärsås med nudlar",
+        "shortIntro": "En kryddstark asiatisk köttfärssås med nudlar",
         "portions": 4,
         "cookingTime": "40 minuter",
-        "image": "kottfarspasta.jpg",
+        "image": "asiatisk_kottfarssas.jpg",
         "ingredients": [
-            "400g spaghetti",
+            "400g nudlar",
             "400g köttfärs",
             "1 gul lök, finhackad",
             "2 vitlöksklyftor, finhackade",
@@ -1300,11 +1311,11 @@
             "Salt och svartpeppar"
         ],
         "instructions": [
-            "Koka spaghettin enligt anvisningarna på förpackningen.",
+            "Koka nudlarna enligt anvisningarna på förpackningen.",
             "Hetta upp olivoljan i en stekpanna över medelhög värme. Tillsätt lök och vitlök och stek tills de är mjuka.",
             "Tillsätt köttfärsen och stek tills den är genomstekt.",
             "Tillsätt krossade tomater, tomatpuré, oregano, basilika, socker, salt och svartpeppar. Låt sjuda i ca 20 minuter.",
-            "Blanda den kokta pastan med såsen i stekpannan och rör om väl.",
+            "Blanda nudlarna med såsen i stekpannan och rör om väl.",
             "Servera genast med eventuellt extra riven parmesanost."
         ],
         "categories": [
@@ -1421,6 +1432,662 @@
         "ingredients": ["3 dl vetemjöl", "150 g smör", "3 msk vatten", "3 paprikor i olika färger", "150 g fetaost", "3 ägg", "2 dl mjölk", "salt", "peppar", "oregano"],
         "instructions": ["Förvärm ugnen till 200°C.", "Blanda mjöl, smör och vatten till en deg.", "Tryck ut degen i en pajform och förgrädda i 10 minuter.", "Skär paprikorna i bitar och fördela i pajskalet.", "Smula över fetaosten.", "Vispa ihop ägg och mjölk, tillsätt salt, peppar och oregano.", "Häll fyllningen över paprikan och grädda i 35-40 minuter."],
         "categories": ["Pajer"]
+    },
+    {
+        "id": 131,
+        "name": "Boeuf Bourguignon",
+        "shortIntro": "En klassisk fransk köttgryta med rött vin och grönsaker.",
+        "portions": 6,
+        "cookingTime": "3 timmar",
+        "image": "boeuf_bourguignon.jpg",
+        "ingredients": [
+            "1 kg högrev, tärnat",
+            "200 g rökt sidfläsk, tärnat",
+            "2 morötter, skivade",
+            "2 gula lökar, hackade",
+            "2 vitlöksklyftor, finhackade",
+            "2 msk tomatpuré",
+            "5 dl rött vin",
+            "5 dl oxbuljong",
+            "2 lagerblad",
+            "2 kvistar timjan",
+            "200 g champinjoner, skivade",
+            "Salt och peppar",
+            "Olja för stekning"
+        ],
+        "instructions": [
+            "Förvärm ugnen till 150°C.",
+            "Stek kött och sidfläsk i en gryta tills de är brynta. Lägg åt sidan.",
+            "Stek morötter, lök och vitlök tills de är mjuka.",
+            "Tillsätt tomatpuré och stek i ytterligare en minut.",
+            "Lägg tillbaka köttet i grytan och tillsätt vin, buljong, lagerblad och timjan.",
+            "Koka upp och sätt sedan in grytan i ugnen. Låt sjuda i 2,5 timmar.",
+            "Tillsätt champinjoner och koka i ytterligare 30 minuter.",
+            "Smaka av med salt och peppar.",
+            "Servera varm."
+        ],
+        "categories": [
+            "Grytor",
+            "Kött"
+        ]
+    },
+    {
+        "id": 132,
+        "name": "Coq au Vin",
+        "shortIntro": "En klassisk fransk kycklinggryta med rött vin och svamp.",
+        "portions": 6,
+        "cookingTime": "2,5 timmar",
+        "image": "coq_au_vin.jpg",
+        "ingredients": [
+            "1 kyckling, styckad",
+            "150 g bacon, tärnat",
+            "200 g champinjoner, skivade",
+            "2 morötter, skivade",
+            "2 gula lökar, hackade",
+            "2 vitlöksklyftor, finhackade",
+            "5 dl rött vin",
+            "3 dl kycklingbuljong",
+            "2 lagerblad",
+            "2 kvistar timjan",
+            "Salt och peppar",
+            "Olja för stekning"
+        ],
+        "instructions": [
+            "Stek kycklingbitarna i en gryta tills de är gyllenbruna. Lägg åt sidan.",
+            "Stek bacon tills det är knaprigt. Lägg åt sidan.",
+            "Stek lök, vitlök, morötter och champinjoner tills de är mjuka.",
+            "Lägg tillbaka kycklingen i grytan och tillsätt vin, buljong, lagerblad och timjan.",
+            "Koka upp och låt sjuda på svag värme i 2 timmar.",
+            "Tillsätt baconet och koka i ytterligare 30 minuter.",
+            "Smaka av med salt och peppar.",
+            "Servera varm."
+        ],
+        "categories": [
+            "Grytor",
+            "Kyckling"
+        ]
+    },
+    {
+        "id": 133,
+        "name": "Chili con Carne",
+        "shortIntro": "En kryddig köttgryta med bönor, tomater och chili.",
+        "portions": 6,
+        "cookingTime": "1,5 timmar",
+        "image": "chili_con_carne.jpg",
+        "ingredients": [
+            "500 g köttfärs",
+            "1 lök, hackad",
+            "2 vitlöksklyftor, finhackade",
+            "1 röd paprika, hackad",
+            "1 burk krossade tomater",
+            "2 msk tomatpuré",
+            "2 burkar kidneybönor, sköljda och avrunna",
+            "1 tsk chilipulver",
+            "1 tsk spiskummin",
+            "1 tsk paprikapulver",
+            "Salt och peppar",
+            "Olja för stekning"
+        ],
+        "instructions": [
+            "Stek köttfärsen i en gryta tills den är genomstekt. Lägg åt sidan.",
+            "Stek lök, vitlök och paprika tills de är mjuka.",
+            "Tillsätt tomatpuré, chilipulver, spiskummin och paprikapulver och stek i ytterligare en minut.",
+            "Lägg tillbaka köttfärsen i grytan och tillsätt krossade tomater.",
+            "Låt sjuda i 30 minuter.",
+            "Tillsätt bönorna och koka i ytterligare 10 minuter.",
+            "Smaka av med salt och peppar.",
+            "Servera varm."
+        ],
+        "categories": [
+            "Grytor",
+            "Kött"
+        ]
+    },
+    {
+        "id": 134,
+        "name": "Vegetarisk Linsgryta",
+        "shortIntro": "En värmande och mättande gryta med linser och grönsaker.",
+        "portions": 4,
+        "cookingTime": "1 timme",
+        "image": "vegetarisk_linsgryta.jpg",
+        "ingredients": [
+            "2 dl röda linser",
+            "1 lök, hackad",
+            "2 vitlöksklyftor, finhackade",
+            "2 morötter, skivade",
+            "2 stjälkar selleri, skivade",
+            "1 burk krossade tomater",
+            "1 liter grönsaksbuljong",
+            "1 tsk spiskummin",
+            "1 tsk koriander",
+            "Salt och peppar",
+            "Olja för stekning"
+        ],
+        "instructions": [
+            "Stek lök och vitlök i en gryta tills de är mjuka.",
+            "Tillsätt morötter och selleri och stek i ytterligare 5 minuter.",
+            "Tillsätt spiskummin och koriander och stek i ytterligare en minut.",
+            "Tillsätt krossade tomater, linser och buljong.",
+            "Koka upp och låt sjuda i 30 minuter tills linserna är mjuka.",
+            "Smaka av med salt och peppar.",
+            "Servera varm."
+        ],
+        "categories": [
+            "Grytor",
+            "Vegetariskt"
+        ]
+    },
+    {
+        "id": 135,
+        "name": "Boeuf Stroganoff",
+        "shortIntro": "En klassisk rysk gryta med nötkött, svamp och gräddfil.",
+        "portions": 4,
+        "cookingTime": "1,5 timmar",
+        "image": "boeuf_stroganoff.jpg",
+        "ingredients": [
+            "600 g nötkött, strimlat",
+            "200 g champinjoner, skivade",
+            "1 lök, hackad",
+            "2 vitlöksklyftor, finhackade",
+            "2 msk tomatpuré",
+            "3 dl köttbuljong",
+            "2 dl gräddfil",
+            "2 msk dijonsenap",
+            "Salt och peppar",
+            "Olja för stekning"
+        ],
+        "instructions": [
+            "Stek köttet i en gryta tills det är brynt. Lägg åt sidan.",
+            "Stek lök, vitlök och champinjoner tills de är mjuka.",
+            "Tillsätt tomatpuré och stek i ytterligare en minut.",
+            "Lägg tillbaka köttet i grytan och tillsätt buljong.",
+            "Koka upp och låt sjuda i 45 minuter.",
+            "Tillsätt gräddfil och senap och koka i ytterligare 10 minuter.",
+            "Smaka av med salt och peppar.",
+            "Servera varm."
+        ],
+        "categories": [
+            "Grytor",
+            "Kött"
+        ]
+    },
+    {
+        "id": 136,
+        "name": "Fiskgryta med Saffran",
+        "shortIntro": "En smakrik och färgrik fiskgryta med saffran och grönsaker.",
+        "portions": 4,
+        "cookingTime": "45 minuter",
+        "image": "fiskgryta_saffran.jpg",
+        "ingredients": [
+            "400 g torskfilé, tärnad",
+            "1 lök, hackad",
+            "2 vitlöksklyftor, finhackade",
+            "1 fänkål, skivad",
+            "2 morötter, skivade",
+            "1 burk krossade tomater",
+            "1 liter fiskbuljong",
+            "1 dl vitt vin",
+            "1 g saffran",
+            "Salt och peppar",
+            "Olja för stekning"
+        ],
+        "instructions": [
+            "Stek lök och vitlök i en gryta tills de är mjuka.",
+            "Tillsätt fänkål och morötter och stek i ytterligare 5 minuter.",
+            "Tillsätt krossade tomater, buljong, vin och saffran.",
+            "Koka upp och låt sjuda i 20 minuter.",
+            "Tillsätt fisken och koka i ytterligare 10 minuter tills fisken är genomkokt.",
+            "Smaka av med salt och peppar.",
+            "Servera varm."
+        ],
+        "categories": [
+            "Grytor",
+            "Fisk"
+        ]
+    },
+    {
+        "id": 137,
+        "name": "Indisk Kycklinggryta",
+        "shortIntro": "En kryddig och aromatisk indisk gryta med kyckling och kokosmjölk.",
+        "portions": 4,
+        "cookingTime": "1 timme",
+        "image": "indisk_kycklinggryta.jpg",
+        "ingredients": [
+            "600 g kycklingbröst, tärnat",
+            "1 lök, hackad",
+            "2 vitlöksklyftor, finhackade",
+            "1 bit ingefära, finriven",
+            "1 burk kokosmjölk",
+            "1 burk krossade tomater",
+            "2 msk garam masala",
+            "1 tsk gurkmeja",
+            "1 tsk chilipulver",
+            "Salt och peppar",
+            "Olja för stekning"
+        ],
+        "instructions": [
+            "Stek lök, vitlök och ingefära i en gryta tills de är mjuka.",
+            "Tillsätt garam masala, gurkmeja och chilipulver och stek i ytterligare en minut.",
+            "Lägg i kycklingen och stek tills den är genomstekt.",
+            "Tillsätt krossade tomater och kokosmjölk.",
+            "Koka upp och låt sjuda i 30 minuter.",
+            "Smaka av med salt och peppar.",
+            "Servera varm med ris eller naanbröd."
+        ],
+        "categories": [
+            "Grytor",
+            "Kyckling"
+        ]
+    },
+    {
+        "id": 138,
+        "name": "Marockansk Lammtagine",
+        "shortIntro": "En smakrik och aromatisk gryta med lamm, torkad frukt och kryddor.",
+        "portions": 4,
+        "cookingTime": "2 timmar",
+        "image": "marockansk_lammtagine.jpg",
+        "ingredients": [
+            "800 g lammkött, tärnat",
+            "1 lök, hackad",
+            "2 vitlöksklyftor, finhackade",
+            "2 morötter, skivade",
+            "1 burk krossade tomater",
+            "1 dl torkade aprikoser, hackade",
+            "1 dl russin",
+            "1 tsk kanel",
+            "1 tsk spiskummin",
+            "1 tsk koriander",
+            "Salt och peppar",
+            "Olja för stekning"
+        ],
+        "instructions": [
+            "Stek lök och vitlök i en gryta tills de är mjuka.",
+            "Tillsätt kanel, spiskummin och koriander och stek i ytterligare en minut.",
+            "Lägg i lammköttet och stek tills det är brynt.",
+            "Tillsätt krossade tomater, aprikoser och russin.",
+            "Koka upp och låt sjuda på svag värme i 1,5-2 timmar tills köttet är mört.",
+            "Smaka av med salt och peppar.",
+            "Servera varm med couscous."
+        ],
+        "categories": [
+            "Grytor",
+            "Kött"
+        ]
+    },
+    {
+        "id": 139,
+        "name": "Köttgryta med Rotfrukter",
+        "shortIntro": "En mustig och värmande köttgryta med rotfrukter och örter.",
+        "portions": 6,
+        "cookingTime": "2,5 timmar",
+        "image": "kottgryta_rotfrukter.jpg",
+        "ingredients": [
+            "1 kg högrev, tärnat",
+            "2 morötter, skivade",
+            "2 palsternackor, skivade",
+            "1 sellerirot, tärnad",
+            "2 gula lökar, hackade",
+            "2 vitlöksklyftor, finhackade",
+            "1 liter köttbuljong",
+            "2 lagerblad",
+            "2 kvistar timjan",
+            "Salt och peppar",
+            "Olja för stekning"
+        ],
+        "instructions": [
+            "Stek köttet i en gryta tills det är brynt. Lägg åt sidan.",
+            "Stek lök och vitlök tills de är mjuka.",
+            "Tillsätt rotfrukterna och stek i ytterligare 5 minuter.",
+            "Lägg tillbaka köttet i grytan och tillsätt buljong, lagerblad och timjan.",
+            "Koka upp och låt sjuda på svag värme i 2 timmar tills köttet och rotfrukterna är möra.",
+            "Smaka av med salt och peppar.",
+            "Servera varm."
+        ],
+        "categories": [
+            "Grytor",
+            "Kött"
+        ]
+    },
+    {
+        "id": 140,
+        "name": "Vegetarisk Kikärtsgryta",
+        "shortIntro": "En smakrik och proteinrik gryta med kikärter och grönsaker.",
+        "portions": 4,
+        "cookingTime": "1 timme",
+        "image": "vegetarisk_kikartsgryta.jpg",
+        "ingredients": [
+            "2 burkar kikärter, sköljda och avrunna",
+            "1 lök, hackad",
+            "2 vitlöksklyftor, finhackade",
+            "2 morötter, skivade",
+            "1 röd paprika, hackad",
+            "1 burk krossade tomater",
+            "1 liter grönsaksbuljong",
+            "1 tsk spiskummin",
+            "1 tsk koriander",
+            "Salt och peppar",
+            "Olja för stekning"
+        ],
+        "instructions": [
+            "Stek lök och vitlök i en gryta tills de är mjuka.",
+            "Tillsätt morötter och paprika och stek i ytterligare 5 minuter.",
+            "Tillsätt spiskummin och koriander och stek i ytterligare en minut.",
+            "Tillsätt krossade tomater, kikärter och buljong.",
+            "Koka upp och låt sjuda i 30 minuter.",
+            "Smaka av med salt och peppar.",
+            "Servera varm."
+        ],
+        "categories": [
+            "Grytor",
+            "Vegetariskt"
+        ]
+    },
+    {
+        "id": 141,
+        "name": "Potatisgratäng",
+        "shortIntro": "En klassisk och krämig potatisgratäng som passar perfekt som tillbehör till många rätter.",
+        "portions": 6,
+        "cookingTime": "1 timme",
+        "image": "potatisgratang.jpg",
+        "ingredients": [
+            "1 kg potatis, skivad",
+            "2 dl grädde",
+            "2 dl mjölk",
+            "2 vitlöksklyftor, finhackade",
+            "1 gul lök, skivad",
+            "2 dl riven ost",
+            "Salt och peppar"
+        ],
+        "instructions": [
+            "Förvärm ugnen till 200°C.",
+            "Smörj en ugnsform.",
+            "Varva potatis, lök och vitlök i formen. Salta och peppra mellan lagren.",
+            "Blanda grädde och mjölk, häll över potatisen.",
+            "Strö riven ost över gratängen.",
+            "Grädda i ugnen i 45-50 minuter tills potatisen är mjuk och gratängen har fått fin färg.",
+            "Servera varm."
+        ],
+        "categories": [
+            "Gratänger",
+            "Vegetariskt"
+        ]
+    },
+    {
+        "id": 142,
+        "name": "Broccoligratäng med Ost",
+        "shortIntro": "En härlig och lättlagad broccoligratäng med krämig ostsås.",
+        "portions": 4,
+        "cookingTime": "30 minuter",
+        "image": "broccoligratang_ost.jpg",
+        "ingredients": [
+            "500 g broccoli, delad i buketter",
+            "2 dl grädde",
+            "2 dl riven ost",
+            "2 ägg",
+            "1 dl mjölk",
+            "Salt och peppar"
+        ],
+        "instructions": [
+            "Förvärm ugnen till 200°C.",
+            "Koka broccolin i lättsaltat vatten i 3-4 minuter, häll av vattnet.",
+            "Lägg broccolin i en ugnsform.",
+            "Vispa ihop grädde, mjölk och ägg. Salta och peppra.",
+            "Häll blandningen över broccolin.",
+            "Strö riven ost över gratängen.",
+            "Grädda i ugnen i 20-25 minuter tills gratängen är gyllene.",
+            "Servera varm."
+        ],
+        "categories": [
+            "Gratänger",
+            "Vegetariskt"
+        ]
+    },
+    {
+        "id": 143,
+        "name": "Kyckling- och Spenatgratäng",
+        "shortIntro": "En smakrik gratäng med kyckling och spenat, täckt med ett lager av krämig ostsås.",
+        "portions": 4,
+        "cookingTime": "45 minuter",
+        "image": "kyckling_spenatgratang.jpg",
+        "ingredients": [
+            "2 kycklingfiléer, skivade",
+            "200 g färsk spenat",
+            "2 dl grädde",
+            "2 dl riven ost",
+            "1 lök, finhackad",
+            "2 vitlöksklyftor, finhackade",
+            "Salt och peppar"
+        ],
+        "instructions": [
+            "Förvärm ugnen till 200°C.",
+            "Stek kycklingen tills den är genomstekt, krydda med salt och peppar.",
+            "Lägg kycklingen i en ugnsform och fördela spenaten över.",
+            "Stek lök och vitlök tills de är mjuka, häll över grädde och låt sjuda.",
+            "Häll gräddblandningen över kycklingen och spenaten.",
+            "Strö riven ost över gratängen.",
+            "Grädda i ugnen i 25-30 minuter tills gratängen är gyllene.",
+            "Servera varm."
+        ],
+        "categories": [
+            "Gratänger",
+            "Kyckling"
+        ]
+    },
+    {
+        "id": 144,
+        "name": "Skink- och Purjolöksgratäng",
+        "shortIntro": "En enkel och smakfull gratäng med skinka och purjolök, perfekt för vardagsmiddagen.",
+        "portions": 4,
+        "cookingTime": "40 minuter",
+        "image": "skink_purjolokgratang.jpg",
+        "ingredients": [
+            "300 g skinka, strimlad",
+            "1 purjolök, skivad",
+            "2 dl grädde",
+            "2 dl riven ost",
+            "2 ägg",
+            "1 dl mjölk",
+            "Salt och peppar"
+        ],
+        "instructions": [
+            "Förvärm ugnen till 200°C.",
+            "Stek purjolöken tills den är mjuk.",
+            "Lägg skinkan och purjolöken i en ugnsform.",
+            "Vispa ihop grädde, mjölk och ägg. Salta och peppra.",
+            "Häll blandningen över skinkan och purjolöken.",
+            "Strö riven ost över gratängen.",
+            "Grädda i ugnen i 25-30 minuter tills gratängen är gyllene.",
+            "Servera varm."
+        ],
+        "categories": [
+            "Gratänger",
+            "Kött"
+        ]
+    },
+    {
+        "id": 145,
+        "name": "Lax- och Potatisgratäng",
+        "shortIntro": "En lyxig gratäng med lax och potatis, toppad med en krämig sås.",
+        "portions": 4,
+        "cookingTime": "1 timme",
+        "image": "lax_potatisgratang.jpg",
+        "ingredients": [
+            "500 g potatis, skivad",
+            "300 g laxfilé, skivad",
+            "2 dl grädde",
+            "2 dl mjölk",
+            "2 dl riven ost",
+            "1 lök, skivad",
+            "2 vitlöksklyftor, finhackade",
+            "Salt och peppar"
+        ],
+        "instructions": [
+            "Förvärm ugnen till 200°C.",
+            "Smörj en ugnsform.",
+            "Varva potatis, lax, lök och vitlök i formen. Salta och peppra mellan lagren.",
+            "Blanda grädde och mjölk, häll över potatisen och laxen.",
+            "Strö riven ost över gratängen.",
+            "Grädda i ugnen i 45-50 minuter tills potatisen är mjuk och gratängen har fått fin färg.",
+            "Servera varm."
+        ],
+        "categories": [
+            "Gratänger",
+            "Fisk"
+        ]
+    },
+    {
+        "id": 146,
+        "name": "Vegetarisk Grönsaksgratäng",
+        "shortIntro": "En färgrik och nyttig gratäng fylld med olika grönsaker och täckt med ost.",
+        "portions": 4,
+        "cookingTime": "40 minuter",
+        "image": "gronsaksgratang.jpg",
+        "ingredients": [
+            "1 zucchini, skivad",
+            "1 aubergine, skivad",
+            "1 röd paprika, skivad",
+            "1 gul paprika, skivad",
+            "2 dl grädde",
+            "2 dl riven ost",
+            "2 ägg",
+            "1 dl mjölk",
+            "Salt och peppar"
+        ],
+        "instructions": [
+            "Förvärm ugnen till 200°C.",
+            "Lägg alla grönsaker i en ugnsform.",
+            "Vispa ihop grädde, mjölk och ägg. Salta och peppra.",
+            "Häll blandningen över grönsakerna.",
+            "Strö riven ost över gratängen.",
+            "Grädda i ugnen i 25-30 minuter tills gratängen är gyllene.",
+            "Servera varm."
+        ],
+        "categories": [
+            "Gratänger",
+            "Vegetariskt"
+        ]
+    },
+    {
+        "id": 147,
+        "name": "Tacogratäng",
+        "shortIntro": "En smakrik gratäng inspirerad av tacos, perfekt för hela familjen.",
+        "portions": 4,
+        "cookingTime": "35 minuter",
+        "image": "tacogratang.jpg",
+        "ingredients": [
+            "400 g köttfärs",
+            "1 påse tacokrydda",
+            "1 dl vatten",
+            "1 burk majs",
+            "2 dl gräddfil",
+            "2 dl riven ost",
+            "1 påse tortillachips",
+            "1 tomat, hackad",
+            "1 rödlök, hackad"
+        ],
+        "instructions": [
+            "Förvärm ugnen till 200°C.",
+            "Stek köttfärsen och tillsätt tacokrydda och vatten, låt sjuda i 5 minuter.",
+            "Lägg köttfärsen i en ugnsform och fördela majsen över.",
+            "Klicka ut gräddfil över köttfärsen.",
+            "Krossa tortillachipsen lätt och strö över gratängen.",
+            "Strö riven ost över.",
+            "Grädda i ugnen i 20 minuter tills osten är smält och gratängen är gyllene.",
+            "Toppa med hackad tomat och rödlök innan servering."
+        ],
+        "categories": [
+            "Gratänger",
+            "Kött"
+        ]
+    },
+    {
+        "id": 148,
+        "name": "Blomkåls- och Bacongratäng",
+        "shortIntro": "En härlig gratäng med blomkål och krispigt bacon, perfekt som huvudrätt eller tillbehör.",
+        "portions": 4,
+        "cookingTime": "35 minuter",
+        "image": "blomkal_bacongratang.jpg",
+        "ingredients": [
+            "1 blomkålshuvud, delat i buketter",
+            "200 g bacon, tärnat",
+            "2 dl grädde",
+            "2 dl riven ost",
+            "2 ägg",
+            "1 dl mjölk",
+            "Salt och peppar"
+        ],
+        "instructions": [
+            "Förvärm ugnen till 200°C.",
+            "Koka blomkålen i lättsaltat vatten i 5 minuter, häll av vattnet.",
+            "Stek baconet tills det är knaprigt.",
+            "Lägg blomkålen och baconet i en ugnsform.",
+            "Vispa ihop grädde, mjölk och ägg. Salta och peppra.",
+            "Häll blandningen över blomkålen och baconet.",
+            "Strö riven ost över gratängen.",
+            "Grädda i ugnen i 25-30 minuter tills gratängen är gyllene.",
+            "Servera varm."
+        ],
+        "categories": [
+            "Gratänger",
+            "Kött"
+        ]
+    },
+    {
+        "id": 149,
+        "name": "Sötpotatis- och Fetaostgratäng",
+        "shortIntro": "En smakrik och krämig gratäng med sötpotatis och fetaost.",
+        "portions": 4,
+        "cookingTime": "45 minuter",
+        "image": "sotpotatis_fetaostgratang.jpg",
+        "ingredients": [
+            "500 g sötpotatis, skivad",
+            "200 g fetaost, smulad",
+            "2 dl grädde",
+            "1 dl mjölk",
+            "2 vitlöksklyftor, finhackade",
+            "Salt och peppar"
+        ],
+        "instructions": [
+            "Förvärm ugnen till 200°C.",
+            "Smörj en ugnsform.",
+            "Varva sötpotatis och fetaost i formen. Salta och peppra mellan lagren.",
+            "Blanda grädde och mjölk, häll över sötpotatisen och fetaosten.",
+            "Grädda i ugnen i 35-40 minuter tills sötpotatisen är mjuk och gratängen har fått fin färg.",
+            "Servera varm."
+        ],
+        "categories": [
+            "Gratänger",
+            "Vegetariskt"
+        ]
+    },
+    {
+        "id": 150,
+        "name": "Aubergine- och Tomatgratäng",
+        "shortIntro": "En medelhavsinspirerad gratäng med aubergine och tomat, toppad med ost.",
+        "portions": 4,
+        "cookingTime": "50 minuter",
+        "image": "aubergine_tomatgratang.jpg",
+        "ingredients": [
+            "2 auberginer, skivade",
+            "4 tomater, skivade",
+            "2 dl grädde",
+            "2 dl riven ost",
+            "2 vitlöksklyftor, finhackade",
+            "1 dl basilika, hackad",
+            "Salt och peppar"
+        ],
+        "instructions": [
+            "Förvärm ugnen till 200°C.",
+            "Lägg aubergineskivorna på en plåt och salta lätt, låt dra i 10 minuter och torka av.",
+            "Varva aubergine och tomat i en ugnsform. Strö vitlök och basilika över varje lager.",
+            "Blanda grädde och riven ost, häll över grönsakerna.",
+            "Grädda i ugnen i 35-40 minuter tills gratängen är gyllene.",
+            "Servera varm."
+        ],
+        "categories": [
+            "Gratänger",
+            "Vegetariskt"
+        ]
     }
     
     
