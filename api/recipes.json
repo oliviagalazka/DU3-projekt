@@ -1544,6 +1544,116 @@
         "categories": ["Pizzor"]
     },
     {
+        "id": 81,
+        "name": "Fruktspett",
+        "shortIntro": "Färgglada fruktspett som är perfekta som mellanmål eller lätt efterrätt.",
+        "portions": 4,
+        "cookingTime": "10 minuter",
+        "image": "fruktspett.jpg",
+        "ingredients": ["Äpple", "Banan", "Jordgubbar", "Ananas"],
+        "instructions": ["Skär frukten i bitar.", "Trä frukten på grillspett.", "Servera och njut!"],
+        "categories": ["Mellanmål"]
+    },
+    {
+        "id": 82,
+        "name": "Yoghurt med Müsli",
+        "shortIntro": "Krämig yoghurt toppad med krispig müsli och färsk frukt.",
+        "portions": 2,
+        "cookingTime": "5 minuter",
+        "image": "yoghurt_musli.jpg",
+        "ingredients": ["Naturell yoghurt", "Müsli", "Bär (valfria)"],
+        "instructions": ["Fördela yoghurten i skålar.", "Toppa med müsli och bär.", "Servera omedelbart."],
+        "categories": ["Mellanmål"]
+    },
+    {
+        "id": 83,
+        "name": "Grönsaksstavar med Hummus",
+        "shortIntro": "Färska grönsaksstavar serverade med krämig hummus.",
+        "portions": 2,
+        "cookingTime": "10 minuter",
+        "image": "gronsaksstavar_hummus.jpg",
+        "ingredients": ["Morot", "Gurka", "Paprika", "Hummus"],
+        "instructions": ["Skär grönsakerna i stavar.", "Servera med hummus på sidan om.", "Njut av den krispiga och krämiga kombinationen."],
+        "categories": ["Mellanmål"]
+    },
+    {
+        "id": 84,
+        "name": "Smoothie med Banan och Jordnötssmör",
+        "shortIntro": "Krämig och proteinrik smoothie med banan och jordnötssmör.",
+        "portions": 2,
+        "cookingTime": "5 minuter",
+        "image": "smoothie_banan_jordnotssmor.jpg",
+        "ingredients": ["Banan", "Jordnötssmör", "Mjölk", "Honung (valfritt)"],
+        "instructions": ["Mixa banan, jordnötssmör, mjölk och eventuell honung i en blender.", "Servera direkt och njut av den krämiga smaken."],
+        "categories": ["Mellanmål"]
+    },
+    {
+        "id": 85,
+        "name": "Grön Smoothie med Spenat och Ananas",
+        "shortIntro": "En uppfriskande grön smoothie packad med näringsrika ingredienser.",
+        "portions": 2,
+        "cookingTime": "5 minuter",
+        "image": "gron_smoothie.jpg",
+        "ingredients": ["Färsk spenat", "Ananas", "Banan", "Mjölk (valfritt)", "Honung (valfritt)"],
+        "instructions": ["Kombinera spenat, ananas, banan och eventuell mjölk i en blender.", "Mixa tills smoothien är jämn och krämig.", "Söta vid behov med honung.", "Häll upp i glas och servera omedelbart."],
+        "categories": ["Mellanmål"]
+    },
+    {
+        "id": 86,
+        "name": "Bär Smoothiebowl",
+        "shortIntro": "En färgglad och näringsrik smoothiebowl toppad med färska bär och knaprig granola.",
+        "portions": 2,
+        "cookingTime": "10 minuter",
+        "image": "smoothiebowl_bar.jpg",
+        "ingredients": ["Frysta bär (t.ex. jordgubbar, blåbär, hallon)", "Banan", "Naturell yoghurt", "Mjölk (valfritt)", "Granola", "Färska bär (till topping)"],
+        "instructions": ["Mixa frysta bär, banan, yoghurt och eventuell mjölk till en tjock och krämig konsistens.", "Häll smoothien i skålar.", "Toppa med granola och färska bär.", "Servera direkt och njut av den friska smaken."],
+        "categories": ["Mellanmål"]
+    },
+    {
+        "id": 87,
+        "name": "Kesoplättar med Bär",
+        "shortIntro": "Luftiga kesoplättar toppade med färska bär och honung.",
+        "portions": 2,
+        "cookingTime": "15 minuter",
+        "image": "kesoplattar_baer.jpg",
+        "ingredients": ["Keso", "Ägg", "Mjöl", "Bakpulver", "Salt", "Färska bär (t.ex. hallon, blåbär)", "Honung"],
+        "instructions": ["Blanda keso, ägg, mjöl, bakpulver och en nypa salt i en skål till en jämn smet.", "Stek små plättar i en stekpanna med lite smör tills de är gyllenbruna på båda sidor.", "Toppa plättarna med färska bär och ringla över honung.", "Servera genast som ett läckert mellanmål eller frukostalternativ."],
+        "categories": ["Mellanmål"]
+    },
+    {
+        "id": 88,
+        "name": "Äpple & Kanel Havregrynsgröt",
+        "shortIntro": "Varm och tröstande havregrynsgröt smaksatt med äpple och kanel för en härlig smakkombination.",
+        "portions": 2,
+        "cookingTime": "10 minuter",
+        "image": "apple_kanel_havregryn.jpg",
+        "ingredients": ["Havregryn", "Mjölk eller vatten", "Äpple", "Kanel", "Honung eller lönnsirap"],
+        "instructions": ["Koka upp havregryn och mjölk eller vatten i en kastrull.", "Skala och tärna äpplet och tillsätt det i den kokande gröt.", "Krydda med kanel och sötma med honung eller lönnsirap efter smak.", "Rör om väl och låt sjuda tills grötens konsistens är krämig.", "Servera varm och njut av den goda och fylliga smaken."],
+        "categories": ["Mellanmål"]
+    },
+    {
+        "id": 89,
+        "name": "Bär Overnight Oats",
+        "shortIntro": "En enkel och god portion overnight oats med bär och mandel för en snabb och näringsrik mellanmålslösning.",
+        "portions": 2,
+        "cookingTime": "Ingen, måste stå över natten",
+        "image": "bar_overnight_oats.jpg",
+        "ingredients": ["Havregryn", "Mandelmjölk", "Färska eller frysta bär (t.ex. jordgubbar, blåbär, hallon)", "Mandelsmör", "Honung eller lönnsirap", "Mandelspån"],
+        "instructions": ["Blanda havregryn, mandelmjölk, bär, mandelsmör och sötma i en glasburk eller en skål.", "Rör om väl och täck över med lock eller plastfolie.", "Låt stå i kylskåp över natten eller åtminstone 4-6 timmar.", "När det är dags att äta, rör om ordentligt och toppa med mandelspån för extra crunch.", "Servera kall och njut av den krämiga och smakrika blandningen."],
+        "categories": ["Mellanmål"]
+    },
+    {
+        "id": 90,
+        "name": "Banan och Jordnötssmör Gröt",
+        "shortIntro": "Krämig havregrynsgröt smaksatt med banan och jordnötssmör för en fyllig och näringsrik måltid.",
+        "portions": 2,
+        "cookingTime": "10 minuter",
+        "image": "banan_jordnotssmor_havregryn.jpg",
+        "ingredients": ["Havregryn", "Mjölk eller vatten", "Banan", "Jordnötssmör", "Honung eller lönnsirap", "Kanel (valfritt)"],
+        "instructions": ["Koka upp havregryn och mjölk eller vatten i en kastrull.", "Mosa bananen och blanda i den kokande gröt.", "Tillsätt jordnötssmör, honung eller lönnsirap och eventuell kanel.", "Rör om väl och låt sjuda tills grötens konsistens är krämig.", "Servera varm och njut som ett näringsrikt mellanmål."],
+        "categories": ["Mellanmål"]
+    },
+    {
         "id": 131,
         "name": "Boeuf Bourguignon",
         "shortIntro": "En klassisk fransk köttgryta med rött vin och grönsaker.",
