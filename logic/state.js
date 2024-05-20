@@ -7,17 +7,17 @@ const _state = {
 }
 
 const State = {
-    Get,
     GetEntity,
+    Get,
     Post,
     Patch,
     Delete,
 }
 
-/*
-if (window.localStorage.getItem('userdata')) {
-    _state['user'] = JSON.parse(window.localStorage.getItem('userdata'));
-}*/
+// SKA VI HA DETTA?
+// if (window.localStorage.getItem('userdata')) {
+//     _state['user'] = JSON.parse(window.localStorage.getItem('userdata'));
+// }
 
 // GET ENTITY funktion
 function GetEntity(entity) {
@@ -61,8 +61,8 @@ async function Post(data) {
             toLogin();
             break;
         case "login":
-            // Behöver vi ha båda dessa? Räcker de ej med en, kan man ej sätta ihop dem till en?
             window.localStorage.setItem('login', user);
+            // Behöver vi ha denna? Vad gör vi med userdata?
             window.localStorage.setItem('userdata', JSON.stringify(resource));
             toLandingPage();
             break;

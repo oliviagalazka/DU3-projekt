@@ -12,6 +12,7 @@
 
 #recipe-info {
     width: 500px;
+    margin-right: 50px;
 }
 
 #recipe-info h1 {
@@ -31,7 +32,7 @@
 #recipe-info h4:first-of-type {
     font-family: 'gotu';
     color: rgb(9, 9, 9);
-    font-size: 20px;
+    font-size: 16px;
     margin-top: 60px;
 }
 
@@ -60,7 +61,8 @@
 
 #title-heart-container {
     display: flex;
-
+    gap: 40px;
+    align-items: center;
 }
 
 #title-heart-container h2 {
@@ -69,11 +71,10 @@
 
 #recipe-image {
     height: 1fr;
-    width: 300px;
+    width: 350px;
     background-color: #14342B;
     background-size: cover;
     background-position: center;
-
 }
 
 #recipe-todo-container {
@@ -83,7 +84,8 @@
     padding: 0px;
     color: rgb(220, 220, 220);
     padding: 20px 40px 40px 40px;
-    border-radius: 3px;
+    border-radius: 10px;
+    gap: 50px;
 }
 
 #recipe-todo-container h2 {
