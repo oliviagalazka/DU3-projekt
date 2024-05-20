@@ -1324,6 +1324,355 @@
         ]
     },
     {
+        "id": 131,
+        "name": "Boeuf Bourguignon",
+        "shortIntro": "En klassisk fransk köttgryta med rött vin och grönsaker.",
+        "portions": 6,
+        "cookingTime": "3 timmar",
+        "image": "boeuf_bourguignon.jpg",
+        "ingredients": [
+            "1 kg högrev, tärnat",
+            "200 g rökt sidfläsk, tärnat",
+            "2 morötter, skivade",
+            "2 gula lökar, hackade",
+            "2 vitlöksklyftor, finhackade",
+            "2 msk tomatpuré",
+            "5 dl rött vin",
+            "5 dl oxbuljong",
+            "2 lagerblad",
+            "2 kvistar timjan",
+            "200 g champinjoner, skivade",
+            "Salt och peppar",
+            "Olja för stekning"
+        ],
+        "instructions": [
+            "Förvärm ugnen till 150°C.",
+            "Stek kött och sidfläsk i en gryta tills de är brynta. Lägg åt sidan.",
+            "Stek morötter, lök och vitlök tills de är mjuka.",
+            "Tillsätt tomatpuré och stek i ytterligare en minut.",
+            "Lägg tillbaka köttet i grytan och tillsätt vin, buljong, lagerblad och timjan.",
+            "Koka upp och sätt sedan in grytan i ugnen. Låt sjuda i 2,5 timmar.",
+            "Tillsätt champinjoner och koka i ytterligare 30 minuter.",
+            "Smaka av med salt och peppar.",
+            "Servera varm."
+        ],
+        "categories": [
+            "Grytor",
+            "Kött"
+        ]
+    },
+    {
+        "id": 132,
+        "name": "Coq au Vin",
+        "shortIntro": "En klassisk fransk kycklinggryta med rött vin och svamp.",
+        "portions": 6,
+        "cookingTime": "2,5 timmar",
+        "image": "coq_au_vin.jpg",
+        "ingredients": [
+            "1 kyckling, styckad",
+            "150 g bacon, tärnat",
+            "200 g champinjoner, skivade",
+            "2 morötter, skivade",
+            "2 gula lökar, hackade",
+            "2 vitlöksklyftor, finhackade",
+            "5 dl rött vin",
+            "3 dl kycklingbuljong",
+            "2 lagerblad",
+            "2 kvistar timjan",
+            "Salt och peppar",
+            "Olja för stekning"
+        ],
+        "instructions": [
+            "Stek kycklingbitarna i en gryta tills de är gyllenbruna. Lägg åt sidan.",
+            "Stek bacon tills det är knaprigt. Lägg åt sidan.",
+            "Stek lök, vitlök, morötter och champinjoner tills de är mjuka.",
+            "Lägg tillbaka kycklingen i grytan och tillsätt vin, buljong, lagerblad och timjan.",
+            "Koka upp och låt sjuda på svag värme i 2 timmar.",
+            "Tillsätt baconet och koka i ytterligare 30 minuter.",
+            "Smaka av med salt och peppar.",
+            "Servera varm."
+        ],
+        "categories": [
+            "Grytor",
+            "Kyckling"
+        ]
+    },
+    {
+        "id": 133,
+        "name": "Chili con Carne",
+        "shortIntro": "En kryddig köttgryta med bönor, tomater och chili.",
+        "portions": 6,
+        "cookingTime": "1,5 timmar",
+        "image": "chili_con_carne.jpg",
+        "ingredients": [
+            "500 g köttfärs",
+            "1 lök, hackad",
+            "2 vitlöksklyftor, finhackade",
+            "1 röd paprika, hackad",
+            "1 burk krossade tomater",
+            "2 msk tomatpuré",
+            "2 burkar kidneybönor, sköljda och avrunna",
+            "1 tsk chilipulver",
+            "1 tsk spiskummin",
+            "1 tsk paprikapulver",
+            "Salt och peppar",
+            "Olja för stekning"
+        ],
+        "instructions": [
+            "Stek köttfärsen i en gryta tills den är genomstekt. Lägg åt sidan.",
+            "Stek lök, vitlök och paprika tills de är mjuka.",
+            "Tillsätt tomatpuré, chilipulver, spiskummin och paprikapulver och stek i ytterligare en minut.",
+            "Lägg tillbaka köttfärsen i grytan och tillsätt krossade tomater.",
+            "Låt sjuda i 30 minuter.",
+            "Tillsätt bönorna och koka i ytterligare 10 minuter.",
+            "Smaka av med salt och peppar.",
+            "Servera varm."
+        ],
+        "categories": [
+            "Grytor",
+            "Kött"
+        ]
+    },
+    {
+        "id": 134,
+        "name": "Vegetarisk Linsgryta",
+        "shortIntro": "En värmande och mättande gryta med linser och grönsaker.",
+        "portions": 4,
+        "cookingTime": "1 timme",
+        "image": "vegetarisk_linsgryta.jpg",
+        "ingredients": [
+            "2 dl röda linser",
+            "1 lök, hackad",
+            "2 vitlöksklyftor, finhackade",
+            "2 morötter, skivade",
+            "2 stjälkar selleri, skivade",
+            "1 burk krossade tomater",
+            "1 liter grönsaksbuljong",
+            "1 tsk spiskummin",
+            "1 tsk koriander",
+            "Salt och peppar",
+            "Olja för stekning"
+        ],
+        "instructions": [
+            "Stek lök och vitlök i en gryta tills de är mjuka.",
+            "Tillsätt morötter och selleri och stek i ytterligare 5 minuter.",
+            "Tillsätt spiskummin och koriander och stek i ytterligare en minut.",
+            "Tillsätt krossade tomater, linser och buljong.",
+            "Koka upp och låt sjuda i 30 minuter tills linserna är mjuka.",
+            "Smaka av med salt och peppar.",
+            "Servera varm."
+        ],
+        "categories": [
+            "Grytor",
+            "Vegetariskt"
+        ]
+    },
+    {
+        "id": 135,
+        "name": "Boeuf Stroganoff",
+        "shortIntro": "En klassisk rysk gryta med nötkött, svamp och gräddfil.",
+        "portions": 4,
+        "cookingTime": "1,5 timmar",
+        "image": "boeuf_stroganoff.jpg",
+        "ingredients": [
+            "600 g nötkött, strimlat",
+            "200 g champinjoner, skivade",
+            "1 lök, hackad",
+            "2 vitlöksklyftor, finhackade",
+            "2 msk tomatpuré",
+            "3 dl köttbuljong",
+            "2 dl gräddfil",
+            "2 msk dijonsenap",
+            "Salt och peppar",
+            "Olja för stekning"
+        ],
+        "instructions": [
+            "Stek köttet i en gryta tills det är brynt. Lägg åt sidan.",
+            "Stek lök, vitlök och champinjoner tills de är mjuka.",
+            "Tillsätt tomatpuré och stek i ytterligare en minut.",
+            "Lägg tillbaka köttet i grytan och tillsätt buljong.",
+            "Koka upp och låt sjuda i 45 minuter.",
+            "Tillsätt gräddfil och senap och koka i ytterligare 10 minuter.",
+            "Smaka av med salt och peppar.",
+            "Servera varm."
+        ],
+        "categories": [
+            "Grytor",
+            "Kött"
+        ]
+    },
+    {
+        "id": 136,
+        "name": "Fiskgryta med Saffran",
+        "shortIntro": "En smakrik och färgrik fiskgryta med saffran och grönsaker.",
+        "portions": 4,
+        "cookingTime": "45 minuter",
+        "image": "fiskgryta_saffran.jpg",
+        "ingredients": [
+            "400 g torskfilé, tärnad",
+            "1 lök, hackad",
+            "2 vitlöksklyftor, finhackade",
+            "1 fänkål, skivad",
+            "2 morötter, skivade",
+            "1 burk krossade tomater",
+            "1 liter fiskbuljong",
+            "1 dl vitt vin",
+            "1 g saffran",
+            "Salt och peppar",
+            "Olja för stekning"
+        ],
+        "instructions": [
+            "Stek lök och vitlök i en gryta tills de är mjuka.",
+            "Tillsätt fänkål och morötter och stek i ytterligare 5 minuter.",
+            "Tillsätt krossade tomater, buljong, vin och saffran.",
+            "Koka upp och låt sjuda i 20 minuter.",
+            "Tillsätt fisken och koka i ytterligare 10 minuter tills fisken är genomkokt.",
+            "Smaka av med salt och peppar.",
+            "Servera varm."
+        ],
+        "categories": [
+            "Grytor",
+            "Fisk"
+        ]
+    },
+    {
+        "id": 137,
+        "name": "Indisk Kycklinggryta",
+        "shortIntro": "En kryddig och aromatisk indisk gryta med kyckling och kokosmjölk.",
+        "portions": 4,
+        "cookingTime": "1 timme",
+        "image": "indisk_kycklinggryta.jpg",
+        "ingredients": [
+            "600 g kycklingbröst, tärnat",
+            "1 lök, hackad",
+            "2 vitlöksklyftor, finhackade",
+            "1 bit ingefära, finriven",
+            "1 burk kokosmjölk",
+            "1 burk krossade tomater",
+            "2 msk garam masala",
+            "1 tsk gurkmeja",
+            "1 tsk chilipulver",
+            "Salt och peppar",
+            "Olja för stekning"
+        ],
+        "instructions": [
+            "Stek lök, vitlök och ingefära i en gryta tills de är mjuka.",
+            "Tillsätt garam masala, gurkmeja och chilipulver och stek i ytterligare en minut.",
+            "Lägg i kycklingen och stek tills den är genomstekt.",
+            "Tillsätt krossade tomater och kokosmjölk.",
+            "Koka upp och låt sjuda i 30 minuter.",
+            "Smaka av med salt och peppar.",
+            "Servera varm med ris eller naanbröd."
+        ],
+        "categories": [
+            "Grytor",
+            "Kyckling"
+        ]
+    },
+    {
+        "id": 138,
+        "name": "Marockansk Lammtagine",
+        "shortIntro": "En smakrik och aromatisk gryta med lamm, torkad frukt och kryddor.",
+        "portions": 4,
+        "cookingTime": "2 timmar",
+        "image": "marockansk_lammtagine.jpg",
+        "ingredients": [
+            "800 g lammkött, tärnat",
+            "1 lök, hackad",
+            "2 vitlöksklyftor, finhackade",
+            "2 morötter, skivade",
+            "1 burk krossade tomater",
+            "1 dl torkade aprikoser, hackade",
+            "1 dl russin",
+            "1 tsk kanel",
+            "1 tsk spiskummin",
+            "1 tsk koriander",
+            "Salt och peppar",
+            "Olja för stekning"
+        ],
+        "instructions": [
+            "Stek lök och vitlök i en gryta tills de är mjuka.",
+            "Tillsätt kanel, spiskummin och koriander och stek i ytterligare en minut.",
+            "Lägg i lammköttet och stek tills det är brynt.",
+            "Tillsätt krossade tomater, aprikoser och russin.",
+            "Koka upp och låt sjuda på svag värme i 1,5-2 timmar tills köttet är mört.",
+            "Smaka av med salt och peppar.",
+            "Servera varm med couscous."
+        ],
+        "categories": [
+            "Grytor",
+            "Kött"
+        ]
+    },
+    {
+        "id": 139,
+        "name": "Köttgryta med Rotfrukter",
+        "shortIntro": "En mustig och värmande köttgryta med rotfrukter och örter.",
+        "portions": 6,
+        "cookingTime": "2,5 timmar",
+        "image": "kottgryta_rotfrukter.jpg",
+        "ingredients": [
+            "1 kg högrev, tärnat",
+            "2 morötter, skivade",
+            "2 palsternackor, skivade",
+            "1 sellerirot, tärnad",
+            "2 gula lökar, hackade",
+            "2 vitlöksklyftor, finhackade",
+            "1 liter köttbuljong",
+            "2 lagerblad",
+            "2 kvistar timjan",
+            "Salt och peppar",
+            "Olja för stekning"
+        ],
+        "instructions": [
+            "Stek köttet i en gryta tills det är brynt. Lägg åt sidan.",
+            "Stek lök och vitlök tills de är mjuka.",
+            "Tillsätt rotfrukterna och stek i ytterligare 5 minuter.",
+            "Lägg tillbaka köttet i grytan och tillsätt buljong, lagerblad och timjan.",
+            "Koka upp och låt sjuda på svag värme i 2 timmar tills köttet och rotfrukterna är möra.",
+            "Smaka av med salt och peppar.",
+            "Servera varm."
+        ],
+        "categories": [
+            "Grytor",
+            "Kött"
+        ]
+    },
+    {
+        "id": 140,
+        "name": "Vegetarisk Kikärtsgryta",
+        "shortIntro": "En smakrik och proteinrik gryta med kikärter och grönsaker.",
+        "portions": 4,
+        "cookingTime": "1 timme",
+        "image": "vegetarisk_kikartsgryta.jpg",
+        "ingredients": [
+            "2 burkar kikärter, sköljda och avrunna",
+            "1 lök, hackad",
+            "2 vitlöksklyftor, finhackade",
+            "2 morötter, skivade",
+            "1 röd paprika, hackad",
+            "1 burk krossade tomater",
+            "1 liter grönsaksbuljong",
+            "1 tsk spiskummin",
+            "1 tsk koriander",
+            "Salt och peppar",
+            "Olja för stekning"
+        ],
+        "instructions": [
+            "Stek lök och vitlök i en gryta tills de är mjuka.",
+            "Tillsätt morötter och paprika och stek i ytterligare 5 minuter.",
+            "Tillsätt spiskummin och koriander och stek i ytterligare en minut.",
+            "Tillsätt krossade tomater, kikärter och buljong.",
+            "Koka upp och låt sjuda i 30 minuter.",
+            "Smaka av med salt och peppar.",
+            "Servera varm."
+        ],
+        "categories": [
+            "Grytor",
+            "Vegetariskt"
+        ]
+    },
+    {
         "id": 141,
         "name": "Potatisgratäng",
         "shortIntro": "En klassisk och krämig potatisgratäng som passar perfekt som tillbehör till många rätter.",
