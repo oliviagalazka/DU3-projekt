@@ -1406,7 +1406,7 @@
         "shortIntro": "En lätt och somrig paj med zucchini.",
         "portions": 4,
         "cookingTime": "50 minuter",
-        "image": "zucchini.jpg",
+        "image": "zucchini_paj.jpg",
         "ingredients": ["3 dl vetemjöl", "150 g smör", "2 msk kallt vatten", "2 små zucchini", "1 lök", "3 ägg", "2 dl grädde", "2 dl riven ost", "salt", "peppar", "oregano"],
         "instructions": ["Förvärm ugnen till 200°C.", "Blanda mjöl och smör till en smulig massa.", "Tillsätt vatten och arbeta ihop till en deg.", "Tryck ut degen i en pajform och förgrädda i 10 minuter.", "Skiva zucchinin och hacka löken, fräs i lite olja tills de mjuknar.", "Vispa ihop ägg och grädde, tillsätt ost, zucchini, lök, salt, peppar och oregano.", "Häll fyllningen i pajskalet och grädda i 30 minuter."],
         "categories": ["Pajer"]
@@ -1417,7 +1417,7 @@
         "shortIntro": "En färgglad paj med paprika och fetaost.",
         "portions": 4,
         "cookingTime": "1 timme",
-        "image": "paprika_feta.jpg",
+        "image": "paprika_feta_paj.jpg",
         "ingredients": ["3 dl vetemjöl", "150 g smör", "3 msk vatten", "3 paprikor i olika färger", "150 g fetaost", "3 ägg", "2 dl mjölk", "salt", "peppar", "oregano"],
         "instructions": ["Förvärm ugnen till 200°C.", "Blanda mjöl, smör och vatten till en deg.", "Tryck ut degen i en pajform och förgrädda i 10 minuter.", "Skär paprikorna i bitar och fördela i pajskalet.", "Smula över fetaosten.", "Vispa ihop ägg och mjölk, tillsätt salt, peppar och oregano.", "Häll fyllningen över paprikan och grädda i 35-40 minuter."],
         "categories": ["Pajer"]
