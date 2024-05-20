@@ -791,7 +791,7 @@
             "Servera genast."
         ],
         "categories": [
-            "Pasta",
+            "Pastor",
             "Vegetariskt"
         ]
     },
@@ -822,8 +822,8 @@
             "Servera genast."
         ],
         "categories": [
-            "Pasta",
-            "Fisk och Skaldjur"
+            "Pastor",
+            "Fisk"
         ]
     },
     {
@@ -887,7 +887,7 @@
             "Servera genast."
         ],
         "categories": [
-            "Pasta",
+            "Pastor",
             "Vegetariskt"
         ]
     },
@@ -916,13 +916,13 @@
             "Servera genast."
         ],
         "categories": [
-            "Pasta",
-            "Fisk och Skaldjur"
+            "Pastor",
+            "Fisk"
         ]
     },
     {
         "id": 29,
-        "name": "Pasta Salad med Kyckling och Pesto",
+        "name": "Pastasalad med Kyckling och Pesto",
         "shortIntro": "En läcker sallad med kyckling, grönsaker och pestodressing",
         "portions": 4,
         "cookingTime": "20 minuter",
@@ -948,8 +948,8 @@
             "Servera salladen kall."
         ],
         "categories": [
-            "Pasta",
-            "Sallad",
+            "Pastor",
+            "Sallader",
             "Kyckling"
         ]
     },
@@ -983,7 +983,7 @@
             "Servera genast."
         ],
         "categories": [
-            "Pasta",
+            "Pastor",
             "Kött"
         ]
     },
@@ -1092,17 +1092,22 @@
     },
     {
         "id": 34,
-        "name": "Spaghetti Carbonara",
-        "shortIntro": "En klassisk italiensk pasta med ägg, pancetta och pecorino.",
+        "name": "Thai Red Curry Noodle Soup with Chicken",
+        "shortIntro": "En asiatisk kryddstark soppa.",
         "portions": 4,
-        "cookingTime": "20 minuter",
-        "image": "spaghetti_carbonara.jpg",
+        "cookingTime": "50 minuter",
+        "image": "red_curry_noodle.jpg",
         "ingredients": [
-            "400g spaghetti",
+            "400g Nudlar",
+            "500g kyckling",
+            "2 msk kycklingbuljong",
+            "2 msk fisksås",
             "200g pancetta, tärnad",
-            "4 ägg",
-            "100g pecorino ost, riven",
+            " 2 msk röd curry",
+            "1 gullök, hackad",
             "2 vitlöksklyftor, finhackade",
+            "2 dl cocosmjölk",
+            "1 pressad lime",
             "Svartpeppar"
         ],
         "instructions": [
@@ -1115,6 +1120,7 @@
         ],
         "categories": [
             "Nudlar",
+            "Soppor",
             "Kött"
         ]
     },
@@ -1182,35 +1188,40 @@
         ],
         "categories": [
             "Nudlar",
-            "Sallad",
-            "Fisk och Skaldjur"
+            "Fisk"
         ]
     },
     {
         "id": 37,
-        "name": "Pasta Alfredo",
-        "shortIntro": "En krämig italiensk pasta med parmesan och smör.",
+        "name": "Kycklingwook",
+        "shortIntro": "En kryddig kyckling wook med grönsaker.",
         "portions": 4,
         "cookingTime": "20 minuter",
-        "image": "pasta_alfredo.jpg",
+        "image": "kycklingwook.jpg",
         "ingredients": [
+            "1kg kyckling",
+            "500g nudlar",
+            "2st paprika",
+            "1dl soja",
+            "1 msk fisksås",
+            "400 ml kokosmjölk",
             "400g fettuccine",
+            "1 gul lök",
             "1 dl smör",
-            "2 dl grädde",
-            "200g riven parmesanost",
+            "2 morötter",
             "Svartpeppar"
         ],
         "instructions": [
-            "Koka fettuccinen enligt anvisningarna på förpackningen. Spara lite av pastavattnet.",
-            "Smält smöret i en stor stekpanna på medelvärme.",
-            "Tillsätt grädden och låt sjuda i ca 5 minuter tills såsen tjocknar något.",
-            "Tillsätt parmesanosten och rör om tills den smälter och såsen blir krämig. Om såsen är för tjock, späd med lite av det sparade pastavattnet.",
-            "Blanda den kokta pastan med såsen i stekpannan och rör om väl.",
-            "Servera genast med nymalen svartpeppar och eventuellt extra parmesanost."
+            "Koka nudlarna enligt anvisningarna på förpackningen. Spara lite av nudelvattnet.",
+            "Stek kycklingen i smält smör i en stekpanna.",
+            "hacka grönsakerna och tillsätt dem i pannan tillsammans med kycklingen.",
+            "Tillsätt kokosmjölken och sojan.",
+            "Blanda sist i dem kokta nudlarna med såsen i stekpannan och rör om väl."
         ],
         "categories": [
             "Nudlar",
-            "Vegetariskt"
+            "Vegetariskt",
+            "kyckling"
         ]
     },
     {
@@ -1248,11 +1259,11 @@
     },
     {
         "id": 39,
-        "name": "Soba nudelsoppa med tofu",
+        "name": "Nudelsoppa med tofu",
         "shortIntro": "En japansk nudelsoppa med sobanudlar och tofu.",
         "portions": 4,
         "cookingTime": "30 minuter",
-        "image": "soba_nudelsoppa.jpg",
+        "image": "nudelsoppa_tofu.jpg",
         "ingredients": [
             "200g sobanudlar",
             "400g fast tofu, tärnad",
@@ -1261,7 +1272,7 @@
             "2 msk risvinäger",
             "1 msk mirin",
             "1 msk ingefära, riven",
-            "2 salladslökar, skivade",
+            "2 salladslsökar, skivade",
             "1 msk sesamolja",
             "Svartpeppar"
         ],
@@ -1281,13 +1292,13 @@
     },
     {
         "id": 40,
-        "name": "Köttfärspasta med spaghetti",
-        "shortIntro": "En klassisk köttfärspasta med tomatsås och spaghetti.",
+        "name": "Asiatisk köttfärsås med nudlar",
+        "shortIntro": "En kryddstark asiatisk köttfärssås med nudlar",
         "portions": 4,
         "cookingTime": "40 minuter",
-        "image": "kottfarspasta.jpg",
+        "image": "asiatisk_kottfarssas.jpg",
         "ingredients": [
-            "400g spaghetti",
+            "400g nudlar",
             "400g köttfärs",
             "1 gul lök, finhackad",
             "2 vitlöksklyftor, finhackade",
@@ -1300,11 +1311,11 @@
             "Salt och svartpeppar"
         ],
         "instructions": [
-            "Koka spaghettin enligt anvisningarna på förpackningen.",
+            "Koka nudlarna enligt anvisningarna på förpackningen.",
             "Hetta upp olivoljan i en stekpanna över medelhög värme. Tillsätt lök och vitlök och stek tills de är mjuka.",
             "Tillsätt köttfärsen och stek tills den är genomstekt.",
             "Tillsätt krossade tomater, tomatpuré, oregano, basilika, socker, salt och svartpeppar. Låt sjuda i ca 20 minuter.",
-            "Blanda den kokta pastan med såsen i stekpannan och rör om väl.",
+            "Blanda nudlarna med såsen i stekpannan och rör om väl.",
             "Servera genast med eventuellt extra riven parmesanost."
         ],
         "categories": [
