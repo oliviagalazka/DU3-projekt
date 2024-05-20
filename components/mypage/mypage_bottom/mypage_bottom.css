@@ -2,11 +2,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #260c1a;
+    background-color: #dfdcd3;
 }
 
 #mypage-bottom-container h1 {
-    color: beige;
+    color: black;
     margin-top: 80px;
     font-family: palmore_bold;
     font-size: 44px;

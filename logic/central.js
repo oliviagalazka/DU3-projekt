@@ -1,5 +1,5 @@
+// Vad gör vi med denna exakt?
 let currentLocation = '';
-
 
 // SAVE RECIPE
 function saveRecipe(event) {
@@ -154,11 +154,11 @@ async function searchForIngredient() {
     }
 
     if (filteredSearch.length === 0) {
-        document.getElementById('recipe-page-right-container').innerHTML = `Tyvärr finns det inga recept med denna ingrediens ännu`;
+        document.getElementById('recipe-page-right-container').innerHTML = `<div>Tyvärr finns det inga recept med denna ingrediens ännu</div>`;
     }
 }
 
-//Funktionen börjar kolla sökfältet och sen kollar om det finns någon kategori ifyllt. 
+// Funktionen börjar kolla sökfältet och sen kollar om det finns någon kategori ifyllt. 
 function filterCategorySearch(recipe) {
 
     let categoryArray = [];
