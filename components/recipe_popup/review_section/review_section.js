@@ -53,7 +53,7 @@ function renderPostReviewContainer(parentId, recipe) {
                 rank: parseInt(selectDom.value)
             }
 
-            const request = new Request('./../../api/reviews.php', {
+            const request = new Request('./api/reviews.php', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(postData),

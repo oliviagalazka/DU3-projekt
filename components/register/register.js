@@ -32,7 +32,7 @@ function renderRegisterContainer() {
                 passwordConfirm: passwordConfirm.value
             }
 
-            const request = new Request('./../../api/register.php', {
+            const request = new Request('./api/register.php', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(postData),

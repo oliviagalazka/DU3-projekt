@@ -13,7 +13,7 @@ function saveRecipe(event) {
             user: window.localStorage.getItem('login')
         };
 
-        const request = new Request('./../../api/users.php', {
+        const request = new Request('./api/users.php', {
             method: 'PATCH',
             headers: { "Content-Type": 'application/json' },
             body: JSON.stringify(patchRecipe)
@@ -66,7 +66,7 @@ function postItemToShoppingslist(event) {
             username: window.localStorage.getItem('login')
         }
 
-        const request = new Request('./../../api/shoppinglist.php', {
+        const request = new Request('./api/shoppinglist.php', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(postData),
@@ -91,7 +91,7 @@ function removeItemFromShoppingslist(event) {
         username: window.localStorage.getItem('login')
     }
 
-    const request = new Request('./../../api/shoppinglist.php', {
+    const request = new Request('./api/shoppinglist.php', {
         method: 'DELETE',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(deleteData),
@@ -114,7 +114,7 @@ function toggleItemCheckbox(event) {
         username: window.localStorage.getItem('login')
     }
 
-    const request = new Request('./../../api/shoppinglist.php', {
+    const request = new Request('./api/shoppinglist.php', {
         method: 'PATCH',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(patchData),

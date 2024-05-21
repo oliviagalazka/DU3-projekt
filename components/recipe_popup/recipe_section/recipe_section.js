@@ -37,11 +37,11 @@ async function renderRecipeInfo(parentId, recipe) {
                             <h3 id="popup-omdome">${formattedRank}/10 (av ${review.totalReviews} omdömen)</h3>
                             <h4>${recipe.shortIntro}</h4>
                             <div id='portions'>
-                                <img src='./../../../img_for_design/portions.svg'>
+                                <img src='./img_for_design/portions.svg'>
                                 <p>${recipe.portions}</p>
                             </div>
                             <div id='cooking-time'>
-                            <img src='./../../../img_for_design/clock.svg'>
+                            <img src='./img_for_design/clock.svg'>
                                 <p>${recipe.cookingTime}</p>
                             </div>
                         `;
@@ -81,7 +81,7 @@ function renderRecipeImage(parentId, recipe) {
     const recipeImage = document.createElement('div');
     recipeImage.id = 'recipe-image';
 
-    recipeImage.style.backgroundImage = 'url(./../../../images_recipes/' + recipe.image + ')';
+    recipeImage.style.backgroundImage = 'url(./images_recipes/' + recipe.image + ')';
 
     parent.append(recipeImage);
 }
