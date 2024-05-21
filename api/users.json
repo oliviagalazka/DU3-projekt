@@ -8,8 +8,30 @@
     },
     {
         "id": 2,
-        "username": "hej",
-        "password": "hej",
+        "username": "hilda",
+        "password": "hilda",
+        "savedRecipes": [
+            58,
+            11,
+            10,
+            7,
+            8,
+            3,
+            18,
+            73,
+            12,
+            41,
+            27,
+            24,
+            135,
+            1
+        ],
+        "shoppingList": []
+    },
+    {
+        "id": 3,
+        "username": "johan",
+        "password": "johan",
         "savedRecipes": [],
         "logedIn": false
     }
