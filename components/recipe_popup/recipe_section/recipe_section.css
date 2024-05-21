@@ -126,4 +126,9 @@
     #recipe-todo-container {
         flex-direction: column;
     }
+
+    #recipe-todo-container p,
+    #recipe-todo-container li {
+        font-size: 3.5vw;
+    }
 }

@@ -42,11 +42,10 @@
 #au-img-logo {
     width: 200px;
     height: 200px;
-    background-image: url(./../../../img_for_design/Untitled_Artwork\ 3.png);
+    background-image: url(./../../../img_for_design/litenLogoSvart.png);
     background-size: cover;
     background-position: center;
     border-radius: 50%;
-    background-color: black;
 }
 
 /* --------------------------- MOBILVERSION --------------------------- */
@@ -54,5 +53,13 @@
     #au-info {
         margin: 0 30px 80px 30px;
         flex-direction: column;
+    }
+
+    #au-container h1 {
+        font-size: 10vw;
+    }
+
+    #au-info {
+        font-size: 3.5vw;
     }
 }

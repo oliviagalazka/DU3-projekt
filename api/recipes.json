@@ -1324,6 +1324,823 @@
         ]
     },
     {
+        "id": 51,
+        "name": "Klassisk Västerbottenpaj",
+        "shortIntro": "En klassisk paj med smakrik Västerbottenost.",
+        "portions": 6,
+        "cookingTime": "1 timme",
+        "image": "vasterbotten.jpg",
+        "ingredients": [
+            "3 dl vetemjöl",
+            "150 g smör",
+            "2 msk kallt vatten",
+            "300 g riven Västerbottenost",
+            "3 ägg",
+            "2 dl grädde",
+            "salt",
+            "peppar"
+        ],
+        "instructions": [
+            "Förvärm ugnen till 200°C.",
+            "Blanda mjöl och smör till en smulig massa.",
+            "Tillsätt vatten och arbeta ihop till en deg.",
+            "Tryck ut degen i en pajform och förgrädda i 10 minuter.",
+            "Vispa ihop ägg och grädde, tillsätt ost, salt och peppar.",
+            "Häll fyllningen i pajskalet och grädda i ca 30 minuter."
+        ],
+        "categories": [
+            "Pajer"
+        ]
+    },
+    {
+        "id": 52,
+        "name": "Kyckling- och Broccolipaj",
+        "shortIntro": "En mättande paj med kyckling och broccoli.",
+        "portions": 4,
+        "cookingTime": "1 timme och 15 minuter",
+        "image": "kyckling_broccoli.jpg",
+        "ingredients": [
+            "3 dl vetemjöl",
+            "150 g smör",
+            "3 msk vatten",
+            "300 g kycklingfilé",
+            "1 broccolibukett",
+            "1 lök",
+            "3 ägg",
+            "2 dl grädde",
+            "2 dl riven ost",
+            "salt",
+            "peppar"
+        ],
+        "instructions": [
+            "Förvärm ugnen till 200°C.",
+            "Blanda mjöl, smör och vatten till en deg.",
+            "Tryck ut degen i en pajform och förgrädda i 10 minuter.",
+            "Stek kyckling och lök tills de är genomstekta.",
+            "Förväll broccoli kort i kokande vatten.",
+            "Blanda kyckling, lök och broccoli i pajskalet.",
+            "Vispa ihop ägg och grädde, tillsätt ost, salt och peppar.",
+            "Häll fyllningen över kycklingen och grädda i 35-40 minuter."
+        ],
+        "categories": [
+            "Pajer"
+        ]
+    },
+    {
+        "id": 53,
+        "name": "Spenat- och Fetaostpaj",
+        "shortIntro": "En vegetarisk paj med spenat och fetaost.",
+        "portions": 4,
+        "cookingTime": "50 minuter",
+        "image": "spenat_feta.jpg",
+        "ingredients": [
+            "3 dl vetemjöl",
+            "150 g smör",
+            "2 msk kallt vatten",
+            "200 g färsk spenat",
+            "150 g fetaost",
+            "3 ägg",
+            "2 dl mjölk",
+            "salt",
+            "peppar",
+            "muskotnöt"
+        ],
+        "instructions": [
+            "Förvärm ugnen till 200°C.",
+            "Blanda mjöl och smör till en smulig massa.",
+            "Tillsätt vatten och arbeta ihop till en deg.",
+            "Tryck ut degen i en pajform och förgrädda i 10 minuter.",
+            "Fräs spenaten i lite smör tills den mjuknar.",
+            "Vispa ihop ägg och mjölk, tillsätt spenat, smulad fetaost, salt, peppar och muskot.",
+            "Häll fyllningen i pajskalet och grädda i 30 minuter."
+        ],
+        "categories": [
+            "Pajer"
+        ]
+    },
+    {
+        "id": 54,
+        "name": "Lax- och Spenatpaj",
+        "shortIntro": "En smakrik paj med lax och spenat.",
+        "portions": 6,
+        "cookingTime": "1 timme",
+        "image": "lax_spenat.jpg",
+        "ingredients": [
+            "3 dl vetemjöl",
+            "150 g smör",
+            "3 msk vatten",
+            "200 g färsk spenat",
+            "300 g laxfilé",
+            "3 ägg",
+            "2 dl grädde",
+            "2 dl riven ost",
+            "salt",
+            "peppar"
+        ],
+        "instructions": [
+            "Förvärm ugnen till 200°C.",
+            "Blanda mjöl, smör och vatten till en deg.",
+            "Tryck ut degen i en pajform och förgrädda i 10 minuter.",
+            "Fräs spenaten i lite smör tills den mjuknar.",
+            "Skär laxen i bitar och fördela i pajskalet tillsammans med spenaten.",
+            "Vispa ihop ägg och grädde, tillsätt ost, salt och peppar.",
+            "Häll fyllningen över laxen och grädda i 35-40 minuter."
+        ],
+        "categories": [
+            "Pajer"
+        ]
+    },
+    {
+        "id": 55,
+        "name": "Quiche Lorraine",
+        "shortIntro": "En klassisk fransk paj med bacon och ost.",
+        "portions": 6,
+        "cookingTime": "1 timme",
+        "image": "quiche_lorraine.jpg",
+        "ingredients": [
+            "3 dl vetemjöl",
+            "150 g smör",
+            "3 msk vatten",
+            "150 g bacon",
+            "1 lök",
+            "3 ägg",
+            "2 dl grädde",
+            "2 dl riven ost",
+            "salt",
+            "peppar",
+            "muskotnöt"
+        ],
+        "instructions": [
+            "Förvärm ugnen till 200°C.",
+            "Blanda mjöl, smör och vatten till en deg.",
+            "Tryck ut degen i en pajform och förgrädda i 10 minuter.",
+            "Stek bacon och lök tills de är gyllenbruna.",
+            "Vispa ihop ägg och grädde, tillsätt ost, bacon, lök, salt, peppar och muskot.",
+            "Häll fyllningen i pajskalet och grädda i 35-40 minuter."
+        ],
+        "categories": [
+            "Pajer"
+        ]
+    },
+    {
+        "id": 56,
+        "name": "Kantarellpaj",
+        "shortIntro": "En lyxig paj med smak av skogens guld - kantareller.",
+        "portions": 4,
+        "cookingTime": "1 timme",
+        "image": "kantarell.jpg",
+        "ingredients": [
+            "3 dl vetemjöl",
+            "150 g smör",
+            "3 msk vatten",
+            "300 g kantareller",
+            "1 lök",
+            "3 ägg",
+            "2 dl grädde",
+            "2 dl riven ost",
+            "salt",
+            "peppar",
+            "timjan"
+        ],
+        "instructions": [
+            "Förvärm ugnen till 200°C.",
+            "Blanda mjöl, smör och vatten till en deg.",
+            "Tryck ut degen i en pajform och förgrädda i 10 minuter.",
+            "Stek kantareller och lök tills de är gyllenbruna.",
+            "Vispa ihop ägg och grädde, tillsätt ost, kantareller, lök, salt, peppar och timjan.",
+            "Häll fyllningen i pajskalet och grädda i 35-40 minuter."
+        ],
+        "categories": [
+            "Pajer"
+        ]
+    },
+    {
+        "id": 57,
+        "name": "Tomat- och Mozzarellapaj",
+        "shortIntro": "En smakrik och fräsch paj med tomater och mozzarella.",
+        "portions": 4,
+        "cookingTime": "1 timme",
+        "image": "tomat_mozzarella.jpg",
+        "ingredients": [
+            "3 dl vetemjöl",
+            "150 g smör",
+            "3 msk vatten",
+            "4 stora tomater",
+            "250 g mozzarella",
+            "3 ägg",
+            "2 dl grädde",
+            "basilika",
+            "salt",
+            "peppar"
+        ],
+        "instructions": [
+            "Förvärm ugnen till 200°C.",
+            "Blanda mjöl, smör och vatten till en deg.",
+            "Tryck ut degen i en pajform och förgrädda i 10 minuter.",
+            "Skiva tomater och mozzarella.",
+            "Vispa ihop ägg och grädde, tillsätt basilika, salt och peppar.",
+            "Varva tomatskivor och mozzarella i pajskalet.",
+            "Häll äggstanningen över och grädda i 35-40 minuter."
+        ],
+        "categories": [
+            "Pajer"
+        ]
+    },
+    {
+        "id": 58,
+        "name": "Ost- och Skinkpaj",
+        "shortIntro": "En enkel och god paj med ost och skinka.",
+        "portions": 6,
+        "cookingTime": "1 timme",
+        "image": "ost_skinka.jpg",
+        "ingredients": [
+            "3 dl vetemjöl",
+            "150 g smör",
+            "3 msk vatten",
+            "200 g skinka",
+            "3 ägg",
+            "2 dl grädde",
+            "2 dl riven ost",
+            "salt",
+            "peppar"
+        ],
+        "instructions": [
+            "Förvärm ugnen till 200°C.",
+            "Blanda mjöl, smör och vatten till en deg.",
+            "Tryck ut degen i en pajform och förgrädda i 10 minuter.",
+            "Tärna skinkan och fördela i pajskalet.",
+            "Vispa ihop ägg och grädde, tillsätt ost, salt och peppar.",
+            "Häll fyllningen över skinkan och grädda i 35-40 minuter."
+        ],
+        "categories": [
+            "Pajer"
+        ]
+    },
+    {
+        "id": 59,
+        "name": "Zucchinipaj",
+        "shortIntro": "En lätt och somrig paj med zucchini.",
+        "portions": 4,
+        "cookingTime": "50 minuter",
+        "image": "zucchini_paj.jpg",
+        "ingredients": [
+            "3 dl vetemjöl",
+            "150 g smör",
+            "2 msk kallt vatten",
+            "2 små zucchini",
+            "1 lök",
+            "3 ägg",
+            "2 dl grädde",
+            "2 dl riven ost",
+            "salt",
+            "peppar",
+            "oregano"
+        ],
+        "instructions": [
+            "Förvärm ugnen till 200°C.",
+            "Blanda mjöl och smör till en smulig massa.",
+            "Tillsätt vatten och arbeta ihop till en deg.",
+            "Tryck ut degen i en pajform och förgrädda i 10 minuter.",
+            "Skiva zucchinin och hacka löken, fräs i lite olja tills de mjuknar.",
+            "Vispa ihop ägg och grädde, tillsätt ost, zucchini, lök, salt, peppar och oregano.",
+            "Häll fyllningen i pajskalet och grädda i 30 minuter."
+        ],
+        "categories": [
+            "Pajer"
+        ]
+    },
+    {
+        "id": 60,
+        "name": "Paprika- och Fetaostpaj",
+        "shortIntro": "En färgglad paj med paprika och fetaost.",
+        "portions": 4,
+        "cookingTime": "1 timme",
+        "image": "paprika_feta_paj.jpg",
+        "ingredients": [
+            "3 dl vetemjöl",
+            "150 g smör",
+            "3 msk vatten",
+            "3 paprikor i olika färger",
+            "150 g fetaost",
+            "3 ägg",
+            "2 dl mjölk",
+            "salt",
+            "peppar",
+            "oregano"
+        ],
+        "instructions": [
+            "Förvärm ugnen till 200°C.",
+            "Blanda mjöl, smör och vatten till en deg.",
+            "Tryck ut degen i en pajform och förgrädda i 10 minuter.",
+            "Skär paprikorna i bitar och fördela i pajskalet.",
+            "Smula över fetaosten.",
+            "Vispa ihop ägg och mjölk, tillsätt salt, peppar och oregano.",
+            "Häll fyllningen över paprikan och grädda i 35-40 minuter."
+        ],
+        "categories": [
+            "Pajer"
+        ]
+    },
+    {
+        "id": 61,
+        "name": "Margherita",
+        "shortIntro": "En klassisk italiensk pizza med tomater, mozzarella och basilika.",
+        "portions": 4,
+        "cookingTime": "20 minuter",
+        "image": "margherita_pizza.jpg",
+        "ingredients": [
+            "Pizzadeg",
+            "Tomatsås",
+            "Mozzarella",
+            "Färsk basilika"
+        ],
+        "instructions": [
+            "1. Rulla ut pizzadegen.",
+            "2. Bred tomatsås över degen.",
+            "3. Lägg skivor av mozzarella jämnt över tomatsåsen.",
+            "4. Grädda i ugnen tills pizzan är gyllenbrun.",
+            "5. Toppa med färsk basilika och servera."
+        ],
+        "categories": [
+            "Pizzor"
+        ]
+    },
+    {
+        "id": 62,
+        "name": "Pepperoni",
+        "shortIntro": "En smakrik pizza med salamikorv, tomatsås och ost.",
+        "portions": 4,
+        "cookingTime": "25 minuter",
+        "image": "pepperoni_pizza.jpg",
+        "ingredients": [
+            "Pizzadeg",
+            "Tomatsås",
+            "Mozzarella",
+            "Pepperoni"
+        ],
+        "instructions": [
+            "1. Rulla ut pizzadegen.",
+            "2. Bred tomatsås över degen.",
+            "3. Strö över rikligt med mozzarellaost.",
+            "4. Lägg skivor av pepperoni jämnt över osten.",
+            "5. Grädda tills osten är bubblande och gyllenbrun."
+        ],
+        "categories": [
+            "Pizzor"
+        ]
+    },
+    {
+        "id": 63,
+        "name": "Hawaii",
+        "shortIntro": "En tropisk twist på pizzan med ananas och skinka.",
+        "portions": 4,
+        "cookingTime": "22 minuter",
+        "image": "hawaii_pizza.jpg",
+        "ingredients": [
+            "Pizzadeg",
+            "Tomatsås",
+            "Mozzarella",
+            "Skinka",
+            "Ananas"
+        ],
+        "instructions": [
+            "1. Rulla ut pizzadegen.",
+            "2. Bred tomatsås över degen.",
+            "3. Strö över rikligt med mozzarellaost.",
+            "4. Fördela skivad skinka och ananasbitar jämnt över osten.",
+            "5. Grädda tills gyllenbrun."
+        ],
+        "categories": [
+            "Pizzor"
+        ]
+    },
+    {
+        "id": 64,
+        "name": "Quattro Stagioni",
+        "shortIntro": "En fyra-säsongs pizza med olika fyllningar på varje sektion.",
+        "portions": 4,
+        "cookingTime": "30 minuter",
+        "image": "quattro_stagioni_pizza.jpg",
+        "ingredients": [
+            "Pizzadeg",
+            "Tomatsås",
+            "Mozzarella",
+            "Skinka",
+            "Champinjoner",
+            "Räkor",
+            "Oliver",
+            "Ansjovis"
+        ],
+        "instructions": [
+            "1. Rulla ut pizzadegen.",
+            "2. Dela degen i fyra sektioner.",
+            "3. Fyll varje sektion med olika ingredienser; skinka och champinjoner, räkor, oliver och ansjovis.",
+            "4. Grädda tills gyllenbrun och bubblande."
+        ],
+        "categories": [
+            "Pizzor"
+        ]
+    },
+    {
+        "id": 65,
+        "name": "Vegetarisk",
+        "shortIntro": "En hälsosam pizza med massor av grönsaker och ost.",
+        "portions": 4,
+        "cookingTime": "25 minuter",
+        "image": "vegetarisk_pizza.jpg",
+        "ingredients": [
+            "Pizzadeg",
+            "Tomatsås",
+            "Mozzarella",
+            "Paprika",
+            "Svamp",
+            "Lök",
+            "Kronärtskocka",
+            "Oliver"
+        ],
+        "instructions": [
+            "1. Rulla ut pizzadegen.",
+            "2. Bred tomatsås över degen.",
+            "3. Strö över rikligt med mozzarellaost.",
+            "4. Fördela grönsakerna jämnt över osten.",
+            "5. Grädda tills gyllenbrun och grönsakerna är mjuka."
+        ],
+        "categories": [
+            "Pizzor"
+        ]
+    },
+    {
+        "id": 66,
+        "name": "Calzone",
+        "shortIntro": "En fylld pizza som är vikt över till en halvmåne.",
+        "portions": 2,
+        "cookingTime": "30 minuter",
+        "image": "calzone_pizza.jpg",
+        "ingredients": [
+            "Pizzadeg",
+            "Tomatsås",
+            "Mozzarella",
+            "Skinka",
+            "Champinjoner",
+            "Ricotta"
+        ],
+        "instructions": [
+            "1. Rulla ut pizzadegen och bred tomatsås över den.",
+            "2. Lägg på fyllningen på ena sidan av degen; skinka, champinjoner och ricotta.",
+            "3. Vik över den andra halvan av degen och tryck ihop kanterna för att försegla.",
+            "4. Grädda tills gyllenbrun och fyllningen är varm."
+        ],
+        "categories": [
+            "Pizzor"
+        ]
+    },
+    {
+        "id": 67,
+        "name": "Capricciosa",
+        "shortIntro": "En rik pizza toppad med skinka, champinjoner, kronärtskockor och oliver.",
+        "portions": 4,
+        "cookingTime": "28 minuter",
+        "image": "capricciosa_pizza.jpg",
+        "ingredients": [
+            "Pizzadeg",
+            "Tomatsås",
+            "Mozzarella",
+            "Skinka",
+            "Champinjoner",
+            "Kronärtskocka",
+            "Oliver"
+        ],
+        "instructions": [
+            "1. Rulla ut pizzadegen.",
+            "2. Bred tomatsås över degen.",
+            "3. Strö över rikligt med mozzarellaost.",
+            "4. Fördela skinka, champinjoner, kronärtskockor och oliver jämnt över osten.",
+            "5. Grädda tills gyllenbrun och bubblig."
+        ],
+        "categories": [
+            "Pizzor"
+        ]
+    },
+    {
+        "id": 68,
+        "name": "Fyra Ost",
+        "shortIntro": "En ostig fest med fyra olika sorters ost på en pizza.",
+        "portions": 4,
+        "cookingTime": "25 minuter",
+        "image": "fyra_ost_pizza.jpg",
+        "ingredients": [
+            "Pizzadeg",
+            "Tomatsås",
+            "Mozzarella",
+            "Parmesan",
+            "Gorgonzola",
+            "Cheddar",
+            "Gouda"
+        ],
+        "instructions": [
+            "1. Rulla ut pizzadegen.",
+            "2. Bred tomatsås över degen.",
+            "3. Strö över rikligt med mozzarellaost.",
+            "4. Fördela de andra ostarna jämnt över pizzan.",
+            "5. Grädda tills gyllenbrun och osterna är smält."
+        ],
+        "categories": [
+            "Pizzor"
+        ]
+    },
+    {
+        "id": 69,
+        "name": "Mexikansk Pizza",
+        "shortIntro": "En kryddig pizza med tacosås, köttfärs och jalapeños.",
+        "portions": 4,
+        "cookingTime": "30 minuter",
+        "image": "mexikansk_pizza.jpg",
+        "ingredients": [
+            "Pizzadeg",
+            "Tacosås",
+            "Mozzarella",
+            "Köttfärs",
+            "Majs",
+            "Paprika",
+            "Rödlök",
+            "Jalapeños"
+        ],
+        "instructions": [
+            "1. Rulla ut pizzadegen.",
+            "2. Bred tacosås över degen.",
+            "3. Strö över rikligt med mozzarellaost.",
+            "4. Fördela köttfärs, majs, paprika, rödlök och jalapeños jämnt över osten.",
+            "5. Grädda tills gyllenbrun och köttfärsen är genomstekt."
+        ],
+        "categories": [
+            "Pizzor"
+        ]
+    },
+    {
+        "id": 70,
+        "name": "BBQ Kyckling",
+        "shortIntro": "En smakrik pizza med BBQ-sås, kyckling och lök.",
+        "portions": 4,
+        "cookingTime": "28 minuter",
+        "image": "bbq_kyckling_pizza.jpg",
+        "ingredients": [
+            "Pizzadeg",
+            "BBQ-sås",
+            "Mozzarella",
+            "Kyckling",
+            "Rödlök",
+            "Koriander"
+        ],
+        "instructions": [
+            "1. Rulla ut pizzadegen.",
+            "2. Bred BBQ-sås över degen.",
+            "3. Strö över rikligt med mozzarellaost.",
+            "4. Fördela grillad kyckling och skivad rödlök jämnt över osten.",
+            "5. Grädda tills gyllenbrun och kycklingen är varm."
+        ],
+        "categories": [
+            "Pizzor"
+        ]
+    },
+    {
+        "id": 81,
+        "name": "Fruktspett",
+        "shortIntro": "Färgglada fruktspett som är perfekta som mellanmål eller lätt efterrätt.",
+        "portions": 4,
+        "cookingTime": "10 minuter",
+        "image": "fruktspett.jpg",
+        "ingredients": [
+            "Äpple",
+            "Banan",
+            "Jordgubbar",
+            "Ananas"
+        ],
+        "instructions": [
+            "Skär frukten i bitar.",
+            "Trä frukten på grillspett.",
+            "Servera och njut!"
+        ],
+        "categories": [
+            "Mellanmål"
+        ]
+    },
+    {
+        "id": 82,
+        "name": "Yoghurt med Müsli",
+        "shortIntro": "Krämig yoghurt toppad med krispig müsli och färsk frukt.",
+        "portions": 2,
+        "cookingTime": "5 minuter",
+        "image": "yoghurt_musli.jpg",
+        "ingredients": [
+            "Naturell yoghurt",
+            "Müsli",
+            "Bär (valfria)"
+        ],
+        "instructions": [
+            "Fördela yoghurten i skålar.",
+            "Toppa med müsli och bär.",
+            "Servera omedelbart."
+        ],
+        "categories": [
+            "Mellanmål"
+        ]
+    },
+    {
+        "id": 83,
+        "name": "Grönsaksstavar med Hummus",
+        "shortIntro": "Färska grönsaksstavar serverade med krämig hummus.",
+        "portions": 2,
+        "cookingTime": "10 minuter",
+        "image": "gronsaksstavar_hummus.jpg",
+        "ingredients": [
+            "Morot",
+            "Gurka",
+            "Paprika",
+            "Hummus"
+        ],
+        "instructions": [
+            "Skär grönsakerna i stavar.",
+            "Servera med hummus på sidan om.",
+            "Njut av den krispiga och krämiga kombinationen."
+        ],
+        "categories": [
+            "Mellanmål"
+        ]
+    },
+    {
+        "id": 84,
+        "name": "Smoothie med Banan och Jordnötssmör",
+        "shortIntro": "Krämig och proteinrik smoothie med banan och jordnötssmör.",
+        "portions": 2,
+        "cookingTime": "5 minuter",
+        "image": "smoothie_banan_jordnotssmor.jpg",
+        "ingredients": [
+            "Banan",
+            "Jordnötssmör",
+            "Mjölk",
+            "Honung (valfritt)"
+        ],
+        "instructions": [
+            "Mixa banan, jordnötssmör, mjölk och eventuell honung i en blender.",
+            "Servera direkt och njut av den krämiga smaken."
+        ],
+        "categories": [
+            "Mellanmål"
+        ]
+    },
+    {
+        "id": 85,
+        "name": "Grön Smoothie med Spenat och Ananas",
+        "shortIntro": "En uppfriskande grön smoothie packad med näringsrika ingredienser.",
+        "portions": 2,
+        "cookingTime": "5 minuter",
+        "image": "gron_smoothie.jpg",
+        "ingredients": [
+            "Färsk spenat",
+            "Ananas",
+            "Banan",
+            "Mjölk (valfritt)",
+            "Honung (valfritt)"
+        ],
+        "instructions": [
+            "Kombinera spenat, ananas, banan och eventuell mjölk i en blender.",
+            "Mixa tills smoothien är jämn och krämig.",
+            "Söta vid behov med honung.",
+            "Häll upp i glas och servera omedelbart."
+        ],
+        "categories": [
+            "Mellanmål"
+        ]
+    },
+    {
+        "id": 86,
+        "name": "Bär Smoothiebowl",
+        "shortIntro": "En färgglad och näringsrik smoothiebowl toppad med färska bär och knaprig granola.",
+        "portions": 2,
+        "cookingTime": "10 minuter",
+        "image": "smoothiebowl_bar.jpg",
+        "ingredients": [
+            "Frysta bär (t.ex. jordgubbar, blåbär, hallon)",
+            "Banan",
+            "Naturell yoghurt",
+            "Mjölk (valfritt)",
+            "Granola",
+            "Färska bär (till topping)"
+        ],
+        "instructions": [
+            "Mixa frysta bär, banan, yoghurt och eventuell mjölk till en tjock och krämig konsistens.",
+            "Häll smoothien i skålar.",
+            "Toppa med granola och färska bär.",
+            "Servera direkt och njut av den friska smaken."
+        ],
+        "categories": [
+            "Mellanmål"
+        ]
+    },
+    {
+        "id": 87,
+        "name": "Kesoplättar med Bär",
+        "shortIntro": "Luftiga kesoplättar toppade med färska bär och honung.",
+        "portions": 2,
+        "cookingTime": "15 minuter",
+        "image": "kesoplattar_baer.jpg",
+        "ingredients": [
+            "Keso",
+            "Ägg",
+            "Mjöl",
+            "Bakpulver",
+            "Salt",
+            "Färska bär (t.ex. hallon, blåbär)",
+            "Honung"
+        ],
+        "instructions": [
+            "Blanda keso, ägg, mjöl, bakpulver och en nypa salt i en skål till en jämn smet.",
+            "Stek små plättar i en stekpanna med lite smör tills de är gyllenbruna på båda sidor.",
+            "Toppa plättarna med färska bär och ringla över honung.",
+            "Servera genast som ett läckert mellanmål eller frukostalternativ."
+        ],
+        "categories": [
+            "Mellanmål"
+        ]
+    },
+    {
+        "id": 88,
+        "name": "Äpple & Kanel Havregrynsgröt",
+        "shortIntro": "Varm och tröstande havregrynsgröt smaksatt med äpple och kanel för en härlig smakkombination.",
+        "portions": 2,
+        "cookingTime": "10 minuter",
+        "image": "apple_kanel_havregryn.jpg",
+        "ingredients": [
+            "Havregryn",
+            "Mjölk eller vatten",
+            "Äpple",
+            "Kanel",
+            "Honung eller lönnsirap"
+        ],
+        "instructions": [
+            "Koka upp havregryn och mjölk eller vatten i en kastrull.",
+            "Skala och tärna äpplet och tillsätt det i den kokande gröt.",
+            "Krydda med kanel och sötma med honung eller lönnsirap efter smak.",
+            "Rör om väl och låt sjuda tills grötens konsistens är krämig.",
+            "Servera varm och njut av den goda och fylliga smaken."
+        ],
+        "categories": [
+            "Mellanmål"
+        ]
+    },
+    {
+        "id": 89,
+        "name": "Bär Overnight Oats",
+        "shortIntro": "En enkel och god portion overnight oats med bär och mandel för en snabb och näringsrik mellanmålslösning.",
+        "portions": 2,
+        "cookingTime": "Ingen, måste stå över natten",
+        "image": "bar_overnight_oats.jpg",
+        "ingredients": [
+            "Havregryn",
+            "Mandelmjölk",
+            "Färska eller frysta bär (t.ex. jordgubbar, blåbär, hallon)",
+            "Mandelsmör",
+            "Honung eller lönnsirap",
+            "Mandelspån"
+        ],
+        "instructions": [
+            "Blanda havregryn, mandelmjölk, bär, mandelsmör och sötma i en glasburk eller en skål.",
+            "Rör om väl och täck över med lock eller plastfolie.",
+            "Låt stå i kylskåp över natten eller åtminstone 4-6 timmar.",
+            "När det är dags att äta, rör om ordentligt och toppa med mandelspån för extra crunch.",
+            "Servera kall och njut av den krämiga och smakrika blandningen."
+        ],
+        "categories": [
+            "Mellanmål"
+        ]
+    },
+    {
+        "id": 90,
+        "name": "Banan och Jordnötssmör Gröt",
+        "shortIntro": "Krämig havregrynsgröt smaksatt med banan och jordnötssmör för en fyllig och näringsrik måltid.",
+        "portions": 2,
+        "cookingTime": "10 minuter",
+        "image": "banan_jordnotssmor_havregryn.jpg",
+        "ingredients": [
+            "Havregryn",
+            "Mjölk eller vatten",
+            "Banan",
+            "Jordnötssmör",
+            "Honung eller lönnsirap",
+            "Kanel (valfritt)"
+        ],
+        "instructions": [
+            "Koka upp havregryn och mjölk eller vatten i en kastrull.",
+            "Mosa bananen och blanda i den kokande gröt.",
+            "Tillsätt jordnötssmör, honung eller lönnsirap och eventuell kanel.",
+            "Rör om väl och låt sjuda tills grötens konsistens är krämig.",
+            "Servera varm och njut som ett näringsrikt mellanmål."
+        ],
+        "categories": [
+            "Mellanmål"
+        ]
+    },
+    {
         "id": 121,
         "name": "Grillad Lax med Citron och Dill",
         "shortIntro": "Saftig grillad lax med frisk smak av citron och dill.",
@@ -1582,27 +2399,30 @@
     },
     {
         "id": 130,
-        "name": "Grillade Ananasskivor med Kanel",
-        "shortIntro": "Söta grillade ananasskivor kryddade med kanel.",
+        "name": "Grillade Fläskkotletter med BBQ-sås",
+        "shortIntro": "Saftiga grillade fläskkotletter penslade med smakrik BBQ-sås.",
         "portions": 4,
-        "cookingTime": "10 minuter",
-        "image": "grillade_ananasskivor_kanel.jpg",
+        "cookingTime": "25 minuter",
+        "image": "grillade_flaskkotletter_bbq_sas.jpg",
         "ingredients": [
-            "1 ananas, skivad",
-            "2 msk smör, smält",
-            "1 msk kanel",
-            "2 msk socker"
+            "4 fläskkotletter",
+            "1 dl BBQ-sås",
+            "2 msk olivolja",
+            "1 vitlöksklyfta, finhackad",
+            "1 tsk paprikapulver",
+            "Salt och peppar"
         ],
         "instructions": [
             "Förvärm grillen till medelhög värme.",
-            "Pensla ananasskivorna med smält smör.",
-            "Blanda kanel och socker och strö över ananasskivorna.",
-            "Grilla ananasskivorna i cirka 3-4 minuter per sida.",
-            "Servera varma, gärna med vaniljglass."
+            "Blanda olivolja, vitlök, paprikapulver, salt och peppar i en skål.",
+            "Pensla fläskkotletterna med oljeblandningen.",
+            "Grilla fläskkotletterna i cirka 5-7 minuter per sida, eller tills de är genomstekta.",
+            "Pensla BBQ-sås på fläskkotletterna under de sista minuterna av grillningen.",
+            "Servera genast."
         ],
         "categories": [
             "Grillat",
-            "Dessert"
+            "Kött"
         ]
     },
     {

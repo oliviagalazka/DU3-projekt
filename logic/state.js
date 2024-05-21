@@ -14,11 +14,6 @@ const State = {
     Delete,
 }
 
-// SKA VI HA DETTA?
-// if (window.localStorage.getItem('userdata')) {
-//     _state['user'] = JSON.parse(window.localStorage.getItem('userdata'));
-// }
-
 // GET ENTITY funktion
 function GetEntity(entity) {
     const copy = JSON.parse(JSON.stringify(_state[entity]));
@@ -62,8 +57,6 @@ async function Post(data) {
             break;
         case "login":
             window.localStorage.setItem('login', user);
-            // Behöver vi ha denna? Vad gör vi med userdata?
-            window.localStorage.setItem('userdata', JSON.stringify(resource));
             toLandingPage();
             break;
         case "reviews":

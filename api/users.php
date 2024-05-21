@@ -15,6 +15,9 @@ if ($requestMethod == 'GET') {
                 sendJSON($user, 200);
             }
         }
+
+        $error = ['error' => 'User does not exist'];
+        sendJSON($error, 400);
     }
 }
 

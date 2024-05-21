@@ -106,6 +106,7 @@ function renderReview(parentId, review) {
                             <div>${review.comment}</div>
                             `;
 
+
     parent.append(reviewDom);
 }
 
