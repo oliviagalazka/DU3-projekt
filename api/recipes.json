@@ -2141,6 +2141,118 @@
         ]
     },
     {
+        "id": 91,
+        "name": "Klassisk Ost- och Skinksmörgås",
+        "shortIntro": "En enkel men utsökt ost- och skinksmörgås.",
+        "cookingTime": "5 minuter",
+        "portions": 1,
+        "image": "ost_skinksmorgas.jpg",
+        "ingredients": ["2 skivor bröd", "2 skivor skinka", "2 skivor ost", "smör"],
+        "instructions": ["Bred smör på brödet.", "Lägg på skinka och ost.", "Lägg ihop brödskivorna och skär i halvor."],
+        "categories": ["Mackor"]
+    },
+
+    {
+        "id": 92,
+        "name": "Avokado- och Äggmacka",
+        "shortIntro": "En mättande smörgås med avokado och ägg.",
+        "cookingTime": "10 minuter",
+        "portions": 1,
+        "image": "avokado_aggmacka.jpg",
+        "ingredients": ["1 skiva bröd", "1 avokado", "1 kokt ägg", "salt", "peppar"],
+        "instructions": ["Mosa avokadon och bred på brödet.", "Skiva ägget och lägg ovanpå avokadon.", "Krydda med salt och peppar."],
+        "categories": ["Mackor"]
+    },
+  
+    {
+        "id": 93,
+        "name": "Räkmacka",
+        "shortIntro": "En klassisk svensk räkmacka.",
+        "cookingTime": "15 minuter",
+        "portions": 1,
+        "image": "rakmacka.jpg",
+        "ingredients": ["1 skiva bröd", "100 g skalade räkor", "1 kokt ägg", "dill", "majonnäs", "citron"],
+        "instructions": ["Bred majonnäs på brödet.", "Lägg på räkor och skivad ägg.", "Garnera med dill och en citronklyfta."],
+        "categories": ["Mackor"]
+    },
+    {
+        "id": 94,
+        "name": "Grillad Kycklingmacka",
+        "shortIntro": "En smakrik grillad kycklingmacka.",
+        "cookingTime": "20 minuter",
+        "portions": 2,
+        "image": "grillad_kycklingmacka.jpg",
+        "ingredients": ["4 skivor bröd", "2 kycklingfiléer", "2 skivor ost", "1 tomat", "sallad", "majonnäs", "smör"],
+        "instructions": ["Grilla kycklingfiléerna tills de är genomstekta.", "Bred smör på brödet och lägg på ost.", "Skiva tomaten och lägg på brödet tillsammans med kycklingen och salladen.", "Lägg ihop bröden och grilla smörgåsen tills osten har smält."],
+        "categories": ["Mackor"]
+    },
+    {
+        "id": 95,
+        "name": "Tonfisk Smörgås",
+        "shortIntro": "En smakrik smörgås med tonfiskröra.",
+        "cookingTime": "10 minuter",
+        "portions": 1,
+        "image": "tonfiskrora.jpg",
+        "ingredients": ["2 skivor rågbröd", "1 burk tonfisk", "2 msk majonnäs", "1 tsk citronsaft", "salt", "peppar", "salladsblad"],
+        "instructions": ["Blanda tonfisk med majonnäs och citronsaft.", "Smaka av med salt och peppar.", "Bred ut tonfiskröran på rågbrödet och toppa med salladsblad."],
+        "categories": ["Mackor"]
+    },
+    {
+        "id": 96,
+        "name": "Vegetarisk Hummusmacka",
+        "shortIntro": "En nyttig smörgås med hummus och grönsaker.",
+        "cookingTime": "10 minuter",
+        "portions": 1,
+        "image": "hummusmacka.jpg",
+        "ingredients": ["2 skivor fullkornsbröd", "4 msk hummus", "1 morot", "1 gurka", "sallad"],
+        "instructions": ["Bred hummus på båda brödskivorna.", "Skiva moroten och gurkan tunt.", "Lägg grönsakerna och salladen på brödet och lägg ihop skivorna."],
+        "categories": ["Mackor"]
+    },
+    {
+        "id": 97,
+        "name": "Lax Smörgås",
+        "shortIntro": "En fräsch smörgås med lax och pepparrot.",
+        "cookingTime": "10 minuter",
+        "portions": 1,
+        "image": "lax_macka.jpg",
+        "ingredients": ["1 smörgås", "100 g gravad lax", "2 msk pepparrotskräm", "sallad", "citron"],
+        "instructions": ["Bred pepparrotskräm på smörgåsen.", "Lägg på lax och sallad.", "Rulla ihop och skär i bitar. Servera med en citronklyfta."],
+        "categories": ["Mackor"]
+    },
+    {
+        "id": 98,
+        "name": "Caprese Panini",
+        "shortIntro": "En varm panini med mozzarella, tomat och basilika.",
+        "cookingTime": "10 minuter",
+        "portions": 1,
+        "image": "caprese_panini.jpg",
+        "ingredients": ["2 skivor ciabatta", "1 mozzarella", "1 tomat", "basilika", "olivolja", "salt", "peppar"],
+        "instructions": ["Skiva mozzarella och tomat.", "Lägg på ciabattan tillsammans med basilika.", "Ringla över olivolja och krydda med salt och peppar.", "Grilla paninin tills osten har smält."],
+        "categories": ["Mackor"]
+    },
+    {
+        "id": 99,
+        "name": "Croque Monsieur",
+        "shortIntro": "En fransk varm macka med skinka och ost.",
+        "cookingTime": "15 minuter",
+        "portions": 1,
+        "image": "croque_monsieur.jpg",
+        "ingredients": ["2 skivor bröd", "2 skivor skinka", "2 skivor ost", "béchamelsås", "smör"],
+        "instructions": ["Bred smör på brödet.", "Lägg på skinka och ost.", "Toppa med béchamelsås och lägg ihop bröden.", "Grilla tills osten smält och brödet är gyllenbrunt."],
+        "categories": ["Mackor"]
+    },
+    {
+        "id": 100,
+        "name": "BLT-macka",
+        "shortIntro": "En klassisk BLT med bacon, sallad och tomat.",
+        "cookingTime": "10 minuter",
+        "portions": 1,
+        "image": "blt_macka.jpg",
+        "ingredients": ["2 skivor bröd", "4 skivor bacon", "1 tomat", "sallad", "majonnäs"],
+        "instructions": ["Stek baconet tills det är knaprigt.", "Bred majonnäs på brödet.", "Lägg på bacon, skivad tomat och sallad.", "Lägg ihop bröden och skär i halvor."],
+        "categories": ["Mackor"]
+    },
+    {
         "id": 121,
         "name": "Grillad Lax med Citron och Dill",
         "shortIntro": "Saftig grillad lax med frisk smak av citron och dill.",
