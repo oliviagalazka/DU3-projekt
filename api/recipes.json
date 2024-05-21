@@ -1324,6 +1324,288 @@
         ]
     },
     {
+        "id": 121,
+        "name": "Grillad Lax med Citron och Dill",
+        "shortIntro": "Saftig grillad lax med frisk smak av citron och dill.",
+        "portions": 4,
+        "cookingTime": "20 minuter",
+        "image": "grillad_lax_citron_dill.jpg",
+        "ingredients": [
+            "4 laxfiléer",
+            "1 citron, skivad",
+            "1 knippe dill",
+            "2 msk olivolja",
+            "Salt och peppar"
+        ],
+        "instructions": [
+            "Förvärm grillen till medelhög värme.",
+            "Pensla laxfiléerna med olivolja och krydda med salt och peppar.",
+            "Lägg skivor av citron och dillkvistar på laxen.",
+            "Grilla laxfiléerna i cirka 10 minuter, vänd dem efter halva tiden.",
+            "Servera genast."
+        ],
+        "categories": [
+            "Grillat",
+            "Fisk"
+        ]
+    },
+    {
+        "id": 122,
+        "name": "Kycklingspett med Jordnötssås",
+        "shortIntro": "Smakrika kycklingspett serverade med en krämig jordnötssås.",
+        "portions": 4,
+        "cookingTime": "30 minuter",
+        "image": "kycklingspett_jordnotssas.jpg",
+        "ingredients": [
+            "600 g kycklingbröst, tärnat",
+            "2 msk soja",
+            "2 msk honung",
+            "2 vitlöksklyftor, finhackade",
+            "1 msk riven ingefära",
+            "Salt och peppar",
+            "Träspett",
+            "2 dl jordnötssmör",
+            "1 dl kokosmjölk",
+            "1 msk fisksås",
+            "1 msk limejuice",
+            "1 msk socker"
+        ],
+        "instructions": [
+            "Blanda soja, honung, vitlök, ingefära, salt och peppar i en skål.",
+            "Marinera kycklingen i blandningen i 30 minuter.",
+            "Trä kycklingbitarna på spett.",
+            "Förvärm grillen till medelhög värme.",
+            "Grilla kycklingspetten i cirka 10-15 minuter, vänd dem regelbundet.",
+            "Blanda jordnötssmör, kokosmjölk, fisksås, limejuice och socker i en kastrull. Värm under omrörning tills såsen är slät.",
+            "Servera kycklingspetten med jordnötssåsen."
+        ],
+        "categories": [
+            "Grillat",
+            "Kyckling"
+        ]
+    },
+    {
+        "id": 123,
+        "name": "Grillad Entrecôte med Chimichurri",
+        "shortIntro": "Saftig grillad entrecôte serverad med en smakrik chimichurri.",
+        "portions": 4,
+        "cookingTime": "25 minuter",
+        "image": "grillad_entrecote_chimichurri.jpg",
+        "ingredients": [
+            "4 entrecôtebitar",
+            "2 msk olivolja",
+            "Salt och peppar",
+            "1 knippe persilja, finhackad",
+            "2 vitlöksklyftor, finhackade",
+            "1 röd chili, finhackad",
+            "1 msk rödvinsvinäger",
+            "1 dl olivolja",
+            "Salt och peppar"
+        ],
+        "instructions": [
+            "Förvärm grillen till hög värme.",
+            "Pensla entrecôten med olivolja och krydda med salt och peppar.",
+            "Grilla entrecôten i cirka 4-5 minuter per sida för medium-rare.",
+            "Blanda persilja, vitlök, chili, rödvinsvinäger och olivolja i en skål. Smaka av med salt och peppar.",
+            "Servera entrecôten med chimichurrisåsen."
+        ],
+        "categories": [
+            "Grillat",
+            "Kött"
+        ]
+    },
+    {
+        "id": 124,
+        "name": "Grillade Grönsaksspett",
+        "shortIntro": "Färgglada och smakrika grönsaksspett, perfekta för grillen.",
+        "portions": 4,
+        "cookingTime": "20 minuter",
+        "image": "grillade_gronsaksspett.jpg",
+        "ingredients": [
+            "1 röd paprika, tärnad",
+            "1 gul paprika, tärnad",
+            "1 zucchini, skivad",
+            "200 g champinjoner",
+            "1 röd lök, skivad",
+            "2 msk olivolja",
+            "1 tsk torkad oregano",
+            "Salt och peppar",
+            "Träspett"
+        ],
+        "instructions": [
+            "Blötlägg träspetten i vatten i 30 minuter.",
+            "Blanda olivolja, oregano, salt och peppar i en skål.",
+            "Trä grönsakerna på spetten och pensla med oljeblandningen.",
+            "Förvärm grillen till medelhög värme.",
+            "Grilla spetten i cirka 10-15 minuter, vänd dem regelbundet.",
+            "Servera genast."
+        ],
+        "categories": [
+            "Grillat",
+            "Vegetariskt"
+        ]
+    },
+    {
+        "id": 125,
+        "name": "Grillade Lammkotletter med Rosmarin",
+        "shortIntro": "Möra lammkotletter marinerade med rosmarin och vitlök.",
+        "portions": 4,
+        "cookingTime": "25 minuter",
+        "image": "grillade_lammkotletter_rosmarin.jpg",
+        "ingredients": [
+            "8 lammkotletter",
+            "2 vitlöksklyftor, finhackade",
+            "2 msk färsk rosmarin, hackad",
+            "2 msk olivolja",
+            "Salt och peppar"
+        ],
+        "instructions": [
+            "Blanda vitlök, rosmarin, olivolja, salt och peppar i en skål.",
+            "Marinera lammkotletterna i blandningen i minst 30 minuter.",
+            "Förvärm grillen till hög värme.",
+            "Grilla lammkotletterna i cirka 3-4 minuter per sida för medium-rare.",
+            "Servera genast."
+        ],
+        "categories": [
+            "Grillat",
+            "Kött"
+        ]
+    },
+    {
+        "id": 126,
+        "name": "Grillade Räkor med Vitlök och Chili",
+        "shortIntro": "Smakrika grillade räkor med vitlök och chili.",
+        "portions": 4,
+        "cookingTime": "15 minuter",
+        "image": "grillade_rakor_vitlok_chili.jpg",
+        "ingredients": [
+            "500 g räkor, skalade",
+            "2 vitlöksklyftor, finhackade",
+            "1 röd chili, finhackad",
+            "2 msk olivolja",
+            "Saften från 1 citron",
+            "Salt och peppar",
+            "Träspett"
+        ],
+        "instructions": [
+            "Blötlägg träspetten i vatten i 30 minuter.",
+            "Blanda vitlök, chili, olivolja, citronsaft, salt och peppar i en skål.",
+            "Trä räkorna på spetten och pensla med marinaden.",
+            "Förvärm grillen till medelhög värme.",
+            "Grilla räkorna i cirka 2-3 minuter per sida.",
+            "Servera genast."
+        ],
+        "categories": [
+            "Grillat",
+            "Fisk och skaldjur"
+        ]
+    },
+    {
+        "id": 127,
+        "name": "Grillad Majskolv med Smör och Kryddor",
+        "shortIntro": "Saftiga grillade majskolvar smörade och kryddade.",
+        "portions": 4,
+        "cookingTime": "15 minuter",
+        "image": "grillad_majskolv_smor_kryddor.jpg",
+        "ingredients": [
+            "4 majskolvar",
+            "4 msk smör, smält",
+            "1 tsk paprikapulver",
+            "Salt och peppar"
+        ],
+        "instructions": [
+            "Förvärm grillen till medelhög värme.",
+            "Pensla majskolvarna med smält smör och krydda med paprikapulver, salt och peppar.",
+            "Grilla majskolvarna i cirka 10-15 minuter, vänd dem regelbundet.",
+            "Servera genast."
+        ],
+        "categories": [
+            "Grillat",
+            "Vegetariskt"
+        ]
+    },
+    {
+        "id": 128,
+        "name": "Grillade Hamburgare med Cheddar",
+        "shortIntro": "Saftiga grillade hamburgare toppade med smält cheddarost.",
+        "portions": 4,
+        "cookingTime": "20 minuter",
+        "image": "grillade_hamburgare_cheddar.jpg",
+        "ingredients": [
+            "600 g nötfärs",
+            "4 skivor cheddarost",
+            "4 hamburgerbröd",
+            "Salt och peppar",
+            "Olja för stekning"
+        ],
+        "instructions": [
+            "Förvärm grillen till hög värme.",
+            "Forma nötfärsen till fyra biffar och krydda med salt och peppar.",
+            "Grilla hamburgarna i cirka 4-5 minuter per sida.",
+            "Lägg en skiva cheddarost på varje hamburgare och låt smälta.",
+            "Grilla bröden snabbt.",
+            "Servera hamburgarna i bröden med valfria tillbehör."
+        ],
+        "categories": [
+            "Grillat",
+            "Kött"
+        ]
+    },
+    {
+        "id": 129,
+        "name": "Grillade Grönsakspaket",
+        "shortIntro": "Smakrika grönsaker grillade i foliepaket.",
+        "portions": 4,
+        "cookingTime": "30 minuter",
+        "image": "grillade_gronsakspaket.jpg",
+        "ingredients": [
+            "2 paprikor, skivade",
+            "1 zucchini, skivad",
+            "200 g champinjoner, skivade",
+            "1 röd lök, skivad",
+            "4 msk olivolja",
+            "1 tsk torkad timjan",
+            "Salt och peppar",
+            "Folie"
+        ],
+        "instructions": [
+            "Förvärm grillen till medelhög värme.",
+            "Blanda grönsakerna med olivolja, timjan, salt och peppar.",
+            "Fördela grönsakerna i foliepaket och förslut väl.",
+            "Grilla foliepaketen i cirka 20-25 minuter.",
+            "Servera genast."
+        ],
+        "categories": [
+            "Grillat",
+            "Vegetariskt"
+        ]
+    },
+    {
+        "id": 130,
+        "name": "Grillade Ananasskivor med Kanel",
+        "shortIntro": "Söta grillade ananasskivor kryddade med kanel.",
+        "portions": 4,
+        "cookingTime": "10 minuter",
+        "image": "grillade_ananasskivor_kanel.jpg",
+        "ingredients": [
+            "1 ananas, skivad",
+            "2 msk smör, smält",
+            "1 msk kanel",
+            "2 msk socker"
+        ],
+        "instructions": [
+            "Förvärm grillen till medelhög värme.",
+            "Pensla ananasskivorna med smält smör.",
+            "Blanda kanel och socker och strö över ananasskivorna.",
+            "Grilla ananasskivorna i cirka 3-4 minuter per sida.",
+            "Servera varma, gärna med vaniljglass."
+        ],
+        "categories": [
+            "Grillat",
+            "Dessert"
+        ]
+    },
+    {
         "id": 131,
         "name": "Boeuf Bourguignon",
         "shortIntro": "En klassisk fransk köttgryta med rött vin och grönsaker.",
