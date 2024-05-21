@@ -61,9 +61,9 @@ function patchRecipe(instanceData) {
 
     const popupHeart = document.getElementById('popupheart-' + instanceData.id)
 
-    if (currentLocation === "mypage") {
-        document.getElementById('rc-' + instanceData.id).remove();
-    }
+    // if (currentLocation === "mypage") {
+    //     document.getElementById('rc-' + instanceData.id).remove();
+    // }
 
     // if (savedDom.classList.contains('favorite')) {
     //     savedDom.classList.remove('favorite');

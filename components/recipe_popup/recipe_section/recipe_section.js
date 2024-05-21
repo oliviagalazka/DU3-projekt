@@ -20,9 +20,6 @@ async function renderRecipeInfo(parentId, recipe) {
     const recipeInfo = document.createElement('div');
     recipeInfo.id = 'recipe-info';
 
-    // const review = await recipeAverageReview(recipe);
-
-    // let formattedRank = review.averageRank.toFixed(0);
     const review = await recipeAverageReview(recipe);
     let formattedRank = 0;
     if (review != null & review.averageRank != '-') {
@@ -50,7 +47,6 @@ async function renderRecipeInfo(parentId, recipe) {
     parent.append(recipeInfo);
 
     const popupHeart = document.getElementById('popupheart-' + `${recipe.id}`);
-
     const user = State.GetEntity('user');
 
     popupHeart.innerText = "♡";
@@ -63,16 +59,7 @@ async function renderRecipeInfo(parentId, recipe) {
         }
     }
 
-
     popupHeart.addEventListener('click', saveRecipe);
-
-    // popupHeart.addEventListener('click', function () {
-    //     if (popupHeart.style.backgroundColor === 'black') {
-    //         popupHeart.style.backgroundColor = null;
-    //     } else {
-    //         popupHeart.style.backgroundColor = 'black';
-    //     }
-    // })
 }
 
 // Recipe Image
