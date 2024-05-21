@@ -40,10 +40,12 @@ async function renderRecipeCard(parentId, recipe) {
     const popupHeart = document.getElementById('saved-' + `${recipe.id}`);
 
     popupHeart.innerText = "♡";
-    for (let favoriteRecipe of user.savedRecipes) {
-        if (recipe.id === favoriteRecipe) {
-            popupHeart.textContent = "♥";
-            break;
+    if (localStorage.getItem('login')) {
+        for (let favoriteRecipe of user.savedRecipes) {
+            if (recipe.id === favoriteRecipe) {
+                popupHeart.textContent = "♥";
+                break;
+            }
         }
     }
 }

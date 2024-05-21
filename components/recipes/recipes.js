@@ -8,9 +8,11 @@ async function renderRecipePage(category) {
         entity: 'reviews', request: './../../api/reviews.php'
     });
 
-    await State.Get({
-        entity: 'user', request: './../../api/users.php?user=' + localStorage.getItem('login')
-    });
+    if (localStorage.getItem('login')) {
+        await State.Get({
+            entity: 'user', request: './../../api/users.php?user=' + localStorage.getItem('login')
+        });
+    }
 
     renderNavContainer('wrapper-recipes');
     renderRecipePageTopSection('wrapper-recipes');
