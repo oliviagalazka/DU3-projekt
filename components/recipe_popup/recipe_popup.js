@@ -1,7 +1,4 @@
 async function renderRecipePopup(recipe) {
-  await State.Get({
-    entity: 'user', request: './../../api/users.php?user=' + localStorage.getItem('login')
-  });
 
   const recipePopupWrapper = document.createElement('div');
   recipePopupWrapper.id = 'recipe-popup-wrapper';

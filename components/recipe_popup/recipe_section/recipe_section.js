@@ -54,10 +54,12 @@ async function renderRecipeInfo(parentId, recipe) {
     const user = State.GetEntity('user');
 
     popupHeart.innerText = "♡";
-    for (let favoriteRecipe of user.savedRecipes) {
-        if (recipe.id === favoriteRecipe) {
-            popupHeart.innerText = "♥";
-            break;
+    if (localStorage.getItem('login')) {
+        for (let favoriteRecipe of user.savedRecipes) {
+            if (recipe.id === favoriteRecipe) {
+                popupHeart.innerText = "♥";
+                break;
+            }
         }
     }
 
