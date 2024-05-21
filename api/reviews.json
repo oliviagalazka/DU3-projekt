@@ -61,20 +61,8 @@
     },
     {
         "id": 11,
-        "recipeId": 3,
-        "comment": "En perfekt soppa!",
-        "rank": 8
-    },
-    {
-        "id": 12,
         "recipeId": 2,
-        "comment": "en favorit!",
-        "rank": 9
-    },
-    {
-        "id": 13,
-        "recipeId": 18,
-        "comment": "God!",
-        "rank": 4
+        "comment": "smarrigt",
+        "rank": 0
     }
 ]
