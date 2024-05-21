@@ -59,17 +59,8 @@ function patchRecipe(instanceData) {
     const recipeId = get_dom_id(instanceData.id);
     const savedDom = document.getElementById(recipeId);
 
-    const popupHeart = document.getElementById('popupheart-' + instanceData.id)
+    const popupHeart = document.getElementById('popupheart-' + instanceData.id);
 
-    // if (currentLocation === "mypage") {
-    //     document.getElementById('rc-' + instanceData.id).remove();
-    // }
-
-    // if (savedDom.classList.contains('favorite')) {
-    //     savedDom.classList.remove('favorite');
-    // } else {
-    //     savedDom.classList.add('favorite');
-    // }
     if (savedDom != null) {
         if (savedDom.innerText === "♥") {
             savedDom.innerText = "♡";
@@ -85,15 +76,6 @@ function patchRecipe(instanceData) {
             popupHeart.innerText = "♥";
         }
     }
-
-    // popupHeart.innerText = "♡";
-    // for (let favoriteRecipe of user.savedRecipes) {
-    //     if (recipe.id === favoriteRecipe) {
-    //         popupHeart.textContent = "♥";
-    //         break;
-    //     }
-    // }
-
 }
 
 
