@@ -52,21 +52,21 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 #not-loged-in-popup-content {
     padding: 50px;
     z-index: 100;
-    background-color: rgb(184, 189, 184);
-    color: white;
+    background-color: #dfdcd3;
+    color: black;
     display: flex;
     flex-direction: column;
-    border: 1px solid white;
+    border: 1px solid black;
 }
 
 #close-popup {
-    color: white;
+    color: black;
     font-size: 30px;
     cursor: pointer;
     transition: transform 0.5s ease;
@@ -76,8 +76,7 @@
 }
 
 #close-popup:hover {
-    transform: scale(1.1);
-    color: rgb(124, 146, 139);
+    color: #b9b4a6;
 }
 
 #popup-links {
@@ -87,7 +86,7 @@
 }
 
 #popup-links a {
-    border: 1px solid white;
+    border: 1px solid black;
     cursor: pointer;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width: 100%;
@@ -95,18 +94,19 @@
     padding: 10px;
     margin: 10px;
     text-align: center;
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
 #not-loged-in-popup-text {
     padding: 20px;
-    color: white;
+    color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #popup-links a:hover {
-    color: rgb(124, 146, 139);
+    /*color: rgb(124, 146, 139);*/
+    background-color: #b9b4a6;
 }
 
 @media (max-width: 500px) {

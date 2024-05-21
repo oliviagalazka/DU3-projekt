@@ -30,6 +30,7 @@ body {
     box-shadow: 1px 1px 10px black;
     font-family: "gotu";
     text-align: center;
+    outline: none;
 }
 
 #login-button {

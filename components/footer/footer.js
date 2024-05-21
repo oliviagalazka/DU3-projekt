@@ -4,7 +4,7 @@ function renderFooter(parentId) {
 
     footer.innerHTML = `<div>
                             <div>
-                                <p id='to-top'>V</p>
+                                <p id='to-top'>&#8593</p>
                                 <p>Ta mig till toppen</p>
                             </div>
                             <div id='logo-container'>

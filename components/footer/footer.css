@@ -35,12 +35,18 @@ footer h2 {
 footer p {
     color: rgb(250, 250, 250);
     text-align: center;
+    font-size: 14px;
 }
 
 #to-top {
-    transform: rotate(180deg);
-    font-size: 18px;
+    font-size: 25px;
     cursor: pointer;
+    margin: 0px;
+    transition: transform 0.5s ease;
+}
+
+#to-top:hover {
+    transform: scale(1.2);
 }
 
 @media (max-width: 500px) {
@@ -62,6 +68,6 @@ footer p {
     }
 
     #to-top {
-        font-size: 3vw;
+        font-size: 5vw;
     }
 }
