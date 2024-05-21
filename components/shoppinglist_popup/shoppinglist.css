@@ -16,13 +16,18 @@
     gap: 15px;
     overflow-y: scroll;
     padding-top: 50px ;
+    background-image: url(../../img_for_design/rutigtbord.png);
+    background-position: center;
+    background-size: cover;
+    
 }
 
 #closeShoppinglistPopupButton {
-    color: black;
+    color: rgb(240, 178, 7);
     font-size: 30px;
+    font-weight: bolder;
     cursor: pointer;
-    width: 30px;
+    width: 40px;
     text-align: center;
     /*transition: transform 0.5s ease;*/
     /* display: inline-block; */
