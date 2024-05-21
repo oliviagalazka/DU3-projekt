@@ -19,7 +19,6 @@ function renderRegisterContainer() {
 
     const registerButton = document.getElementById('register-button');
     registerButton.addEventListener('click', async () => {
-        document.getElementById('feedback').textContent = '';
 
         if (username.value === '' || password.value === '' || passwordConfirm.value === '') {
             document.getElementById('feedback').textContent = 'Vänligen fyll i alla fält!';
