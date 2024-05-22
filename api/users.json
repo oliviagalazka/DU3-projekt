@@ -4,12 +4,10 @@
         "username": "olivia",
         "password": "olivia",
         "savedRecipes": [
+            12,
+            66,
             1,
-            3,
-            5,
-            4,
-            2,
-            12
+            10
         ],
         "shoppingList": [
             {

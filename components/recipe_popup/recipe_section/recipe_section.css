@@ -131,4 +131,17 @@
     #recipe-todo-container li {
         font-size: 3.5vw;
     }
+
+    #recipe-info-container {
+        flex-direction: column;
+    }
+
+    #recipe-info {
+        width: auto;
+    }
+
+    #recipe-image {
+        height: 300px;
+        width: 300px;
+    }
 }
