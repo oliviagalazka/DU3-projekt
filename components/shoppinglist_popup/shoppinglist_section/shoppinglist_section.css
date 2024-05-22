@@ -1,18 +1,37 @@
 #shoppingslist-section {
-    background-color: #fdfefd;
+    /* background-color: #fdfefd;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    
     color: black;
     font-family: "gotu";
-    padding: 15px;
     box-shadow: 1px 1px 10px black;
-    margin: auto;
-    min-height: 70vh;
-    width: 400px;
+    
+    min-height: 70vh; */
+
+    width: 100%;
+    height: calc(100vh - 65px);
+    overflow-y: scroll;
+    padding-bottom: 100px;
+
 }
 
 #shoppingslist-section>div {
+   background-color: #219b21;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   color: black;
+   font-family: "gotu";
+   padding: 15px;
+   box-shadow: 1px 1px 10px black;
+   margin: auto;
+   min-height: 70vh;
+   width: 400px;
+   margin-bottom: 20px;
+}
+
+#shoppingslist-section>div>div {
     display: flex;
     flex-direction: column;
     gap: 10px;

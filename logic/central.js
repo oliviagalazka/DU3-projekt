@@ -79,6 +79,8 @@ function postItemToShoppingslist(event) {
 
         State.Post(postObject);
         inputDom.value = '';
+        inputDom.setAttribute('placeholder', 'Lägg till vara här');
+
     }
 }
 
