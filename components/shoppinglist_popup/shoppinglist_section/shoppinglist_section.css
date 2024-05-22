@@ -17,18 +17,18 @@
 }
 
 #shoppingslist-section>div {
-    background-color: #ffffff;   
+    background-color: #ffffff;
     display: flex;
-   flex-direction: column;
-   align-items: center;
-   color: black;
-   font-family: "gotu";
-   padding: 15px;
-   box-shadow: 1px 1px 10px black;
-   margin: auto;
-   min-height: 70vh;
-   width: 400px;
-   margin-bottom: 20px;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    font-family: "gotu";
+    padding: 15px;
+    box-shadow: 1px 1px 10px black;
+    margin: auto;
+    min-height: 70vh;
+    width: 400px;
+    margin-bottom: 20px;
 }
 
 #shoppingslist-section>div>div {
@@ -110,4 +110,11 @@
 
 .checked {
     background-color: black;
+}
+
+/* --------------------------- MOBILVERSION --------------------------- */
+@media (max-width: 500px) {
+    #shoppingslist-section>div {
+        width: 350px;
+    }
 }

@@ -3,7 +3,7 @@ function renderExploreCategories(parentId) {
     const exploreCategoriesSection = document.createElement('div');
     exploreCategoriesSection.id = 'explore-categories-section';
     exploreCategoriesSection.innerHTML = `
-        <h2>UTFORSKA KATEGORIER</h2>
+        <h2>UTFORSKA VÅRA KATEGORIER</h2>
         <div id='explore-categories-container'></div>
     `;
 

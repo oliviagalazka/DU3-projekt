@@ -10,7 +10,7 @@ function renderMyPageTop(parentId) {
             <p id="mypage-user">HEJ ${username}!</p>
             <p> Du som har ett konto hos NamNam har möjlighet att: <p>
             <ul>
-                <li>Skapa personliga inköpslistor: Håll reda på vilka ingredienser du behöver för att tillaga dina favoritrecept.</li>
+                <li>Skapa din personliga inköpslista: Håll reda på vilka ingredienser du behöver för att tillaga dina favoritrecept.</li>
                 <li>Spara dina favoritrecept: Samla dina mest älskade recept på en plats för enkel åtkomst när inspirationen slår till.</li>
             </ul>
 
