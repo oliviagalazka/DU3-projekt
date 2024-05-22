@@ -10,10 +10,10 @@
     min-height: 70vh; */
 
     width: 100%;
-    height: calc(100vh - 65px);
+    height: 100vh;
     overflow-y: scroll;
     padding-bottom: 100px;
-
+    padding-top: 100px;
 }
 
 #shoppingslist-section>div {
