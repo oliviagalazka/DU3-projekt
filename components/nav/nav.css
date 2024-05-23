@@ -35,7 +35,8 @@ nav a {
 }
 
 nav a:hover {
-    text-shadow: 1px 1px 10px rgb(189, 188, 188);
+    text-shadow: 1px 1px 10px rgb(255, 254, 254);
+   /* text-shadow: 1px 1px 10px rgb(189, 188, 188); */
 }
 
 .active-link {
