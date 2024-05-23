@@ -19,7 +19,7 @@ function renderAboutUs(parentId) {
                                         <div id='au-right'>
                                             <div>
                                                 <p>Möt vårt team:</p>
-                                                <p>Namn, Namn, Namn och Namn</p>
+                                                <p>Embla, Johan, Hilda och Olivia</p>
                                             </div>
                                             <div id='au-img-container'>
                                                 <div>

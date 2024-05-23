@@ -68,6 +68,7 @@ function patchRecipe(instanceData) {
     if (savedDom != null) {
         if (savedDom.innerText === "♥") {
             savedDom.innerText = "♡";
+
         } else {
             savedDom.innerText = "♥";
         }
