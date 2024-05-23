@@ -32,7 +32,7 @@ function renderItem(parentId, item) {
     itemContainer.id = `item-${item.item}`;
     itemContainer.classList.add('item-container');
     itemContainer.innerHTML = `<div class='item-box'>
-                                    <div id='checkbox-${item.item}' class='check-box'></div>
+                                    <img id='checkbox-${item.item}' class='check-box' alt='Checkbox' src='./img_for_design/unchecked-box.svg'>
                                     <div>${item.item}</div>
                                 </div>
                                 <div id='delete-button-${item.item}' class='delete-box'>
@@ -44,6 +44,8 @@ function renderItem(parentId, item) {
 
     if (item.checked === true) {
         itemContainer.querySelector('.check-box').classList.add('checked');
+        itemContainer.querySelector('.check-box').src = './img_for_design/checked-box.svg';
+
     }
 
     itemContainer.querySelector('.check-box').addEventListener('click', toggleItemCheckbox);
@@ -66,6 +68,9 @@ function patchItemCheckbox(patchInstance) {
     itemDom = document.getElementById(`checkbox-${patchInstance.item}`);
     if (itemDom.classList.contains('checked')) {
         itemDom.classList.remove('checked');
-    } else
+        itemDom.src = './img_for_design/unchecked-box.svg';
+    } else {
         itemDom.classList.add('checked');
+        itemDom.src = './img_for_design/checked-box.svg';
+    }
 }

@@ -27,8 +27,8 @@
 }
 
 #au-img-team {
-    width: 300px;
-    height: 200px;
+    width: 350px;
+    height: 250px;
     background-image: url(./../../../img_for_design/gruppbild.jpg);
     background-size: cover;
     background-position: center;
@@ -77,5 +77,10 @@
 
     #au-left {
         width: 90%;
+    }
+
+    #au-img-team {
+        width: 300px;
+        height: 200px;
     }
 }
