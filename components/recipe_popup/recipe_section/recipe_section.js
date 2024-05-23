@@ -33,6 +33,8 @@ async function renderRecipeInfo(parentId, recipe) {
                             </div>
                             <h3 id="popup-omdome">${formattedRank}/10 (av ${review.totalReviews} omdömen)</h3>
                             <h4>${recipe.shortIntro}</h4>
+                            
+                        <div id='wrapperToSubInfoPopup'>
                             <div id='portions'>
                                 <img src='./img_for_design/portions.svg'>
                                 <p>${recipe.portions} portioner</p>
@@ -41,6 +43,7 @@ async function renderRecipeInfo(parentId, recipe) {
                             <img src='./img_for_design/clock.svg'>
                                 <p>${recipe.cookingTime}</p>
                             </div>
+                        </div>
                         `;
 
 
