@@ -11,7 +11,7 @@ function renderAboutUs(parentId) {
                                             <p>Vi strävar efter att förena vår passion för teknik med vår kärlek till matlagning. Genom att kombinera våra kunskaper och erfarenheter hoppas vi kunna erbjuda en inspirerande och användarvänlig plattform där alla kan upptäcka recept som tilltalar deras smak och kunskapsnivå.</p>
                                             <p>Du som har ett konto hos NamNam har möjlighet att:</p>
                                             <ul>
-                                                <li>Skapa personliga inköpslistor: Håll reda på vilka ingredienser du behöver för att tillaga dina favoritrecept.</li>
+                                                <li>Skapa din personliga inköpslista: Håll reda på vilka ingredienser du behöver för att tillaga dina favoritrecept.</li>
                                                 <li>Spara dina favoritrecept: Samla dina mest älskade recept på en plats för enkel åtkomst när inspirationen slår till.</li>
                                             </ul>
                                             <p>Tack för att du besöker vår sida, vi hoppas att du hittar massor av smakrika upplevelser här!</p>

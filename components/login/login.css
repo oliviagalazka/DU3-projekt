@@ -19,35 +19,40 @@ body {
 
 #login-container h1 {
     color: #260c1a;
-    font-family: "petit";
     font-size: 74px;
+    font-family: 'petit';
+    text-align: center;
+    margin-bottom: 25px;
 }
 
 #login-container input {
     width: 250px;
-    padding: 2px;
+    padding: 3px;
     border-radius: 20px;
     box-shadow: 1px 1px 10px black;
-    font-family: "gotu";
-    text-align: center;
     outline: none;
+    font-family: 'gotu';
+    text-align: center;
 }
 
 #login-button {
     background-color: #260c1a;
     color: #dfdcd3;
+    font-family: 'gotu';
     border-radius: 20px;
-    padding: 10px;
-    font-family: "gotu";
+    padding: 5px 20px 5px 20px;
+    cursor: pointer;
 }
 
 #login-container p {
-    font-family: "gotu";
+    font-family: 'gotu';
+    margin-bottom: 0;
 }
 
 #login-container a {
     color: black;
-    font-family: "gotu";
+    font-family: 'gotu';
+    font-size: 18px;
 }
 
 #feedback {

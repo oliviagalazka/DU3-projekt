@@ -35,7 +35,7 @@ async function renderRecipeInfo(parentId, recipe) {
                             <h4>${recipe.shortIntro}</h4>
                             <div id='portions'>
                                 <img src='./img_for_design/portions.svg'>
-                                <p>${recipe.portions}</p>
+                                <p>${recipe.portions} portioner</p>
                             </div>
                             <div id='cooking-time'>
                             <img src='./img_for_design/clock.svg'>

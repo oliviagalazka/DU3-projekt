@@ -17,7 +17,6 @@ function renderLoginContainer() {
 
     const loginButton = document.getElementById('login-button');
     loginButton.addEventListener('click', async () => {
-        document.getElementById('feedback').textContent = '';
 
         if (username.value === '' || password.value === '') {
             document.getElementById('feedback').textContent = 'Vänligen fyll i alla fält!';
@@ -52,5 +51,4 @@ function toLandingPage() {
     setTimeout(() => {
         window.location = './index.html';
     }, 2000);
-
 }
