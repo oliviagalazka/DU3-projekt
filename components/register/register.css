@@ -48,7 +48,7 @@ body {
     width: 150px;
 }
 
-#register-button {
+#register-button:hover {
     background-color: #333132;
 }
 
