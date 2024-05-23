@@ -56,4 +56,8 @@ nav a:hover {
     #logo-nav img {
         height: 2.5vh;
     }
+
+    nav {
+        z-index: 5;
+    }
 }
