@@ -6,29 +6,18 @@
         "savedRecipes": [
             14,
             2,
-            5,
-            6,
-            8,
-            1,
-            3,
             7,
-            89
+            9,
+            1,
+            4
         ],
         "shoppingList": [
             {
-                "item": "Morot",
-                "checked": false
+                "item": "Melon",
+                "checked": true
             },
             {
-                "item": "Soja",
-                "checked": false
-            },
-            {
-                "item": "Paprika",
-                "checked": false
-            },
-            {
-                "item": "l\u00f6k",
+                "item": "Gurka",
                 "checked": false
             }
         ]
@@ -75,7 +64,6 @@
         "password": "embla",
         "savedRecipes": [
             29,
-            95,
             123,
             81,
             1,
@@ -116,26 +104,6 @@
             },
             {
                 "item": "kjndf bjdf jnf nfk lkdf oidj \u00f6jaskdlfjn adifj idjfi jdn oiwjF IOIFOJW WHIHIUh ohohwih ifj owiej owjiojefoi qioejwijfoiwj qoiwhef oiowh oqwi",
-                "checked": false
-            },
-            {
-                "item": "f",
-                "checked": false
-            },
-            {
-                "item": "f",
-                "checked": false
-            },
-            {
-                "item": "f",
-                "checked": false
-            },
-            {
-                "item": "f",
-                "checked": false
-            },
-            {
-                "item": "f",
                 "checked": false
             },
             {

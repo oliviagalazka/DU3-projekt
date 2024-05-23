@@ -82,12 +82,10 @@ async function Patch(data) {
     }
 
     const resource = await response.json();
-    console.log(_state['user'].savedRecipes);
 
     switch (entity) {
         case 'user':
             _state[entity].savedRecipes = resource.savedRecipes;
-            console.log(_state['user'].savedRecipes);
             patchRecipe(resource);
             break;
         case 'shoppinglist':
