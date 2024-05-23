@@ -4,19 +4,12 @@
         "username": "olivia",
         "password": "olivia",
         "savedRecipes": [
-            12,
-            66,
-            1,
-            10
+            2
         ],
         "shoppingList": [
             {
-                "item": "Nudlar",
-                "checked": true
-            },
-            {
                 "item": "Morot",
-                "checked": true
+                "checked": false
             },
             {
                 "item": "Soja",
@@ -24,6 +17,10 @@
             },
             {
                 "item": "Paprika",
+                "checked": false
+            },
+            {
+                "item": "l\u00f6k",
                 "checked": false
             }
         ]
