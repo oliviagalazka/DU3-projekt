@@ -29,7 +29,7 @@ async function renderRecipeInfo(parentId, recipe) {
     recipeInfo.innerHTML = `
                             <div id='title-heart-container'>
                                 <h1>${recipe.name}</h1>
-                                <h2 id="popupheart-${recipe.id}">&#x2661</h2>
+                                <h2 id="popupheart-${recipe.id}">♡</h2>
                             </div>
                             <h3 id="popup-omdome">${formattedRank}/10 (av ${review.totalReviews} omdömen)</h3>
                             <h4>${recipe.shortIntro}</h4>
