@@ -31,6 +31,7 @@
     cursor: pointer;
     transition: transform 0.5s ease;
     display: inline-block;
+    position: fixed;
 }
 
 #closePopupButton:hover {
@@ -40,8 +41,17 @@
 @media (max-width: 500px) {
 
     #recipe-popup-content {
-        padding: 15px;
+        padding: 20px;
     }
 
+    #closePopupButton {
+        top: 0;
+        left: 0;
+        padding-left: 10px ;
+        padding-right: 10px;
+        background-color:  #b8b2a2;
+        border-radius: 0 0 50% 0;
+        font-size: 24px;
+    }
     
 }
