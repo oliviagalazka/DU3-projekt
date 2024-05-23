@@ -71,8 +71,8 @@
     cursor: pointer;
     transition: transform 0.5s ease;
     display: flex;
-    justify-content: flex-end;
     text-decoration: none;
+    width: 40px;
 }
 
 #close-popup:hover {
