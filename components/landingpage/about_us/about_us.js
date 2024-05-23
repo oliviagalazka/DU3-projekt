@@ -17,16 +17,18 @@ function renderAboutUs(parentId) {
                                             <p>Tack för att du besöker vår sida, vi hoppas att du hittar massor av smakrika upplevelser här!</p>
                                         </div>
                                         <div id='au-right'>
-                                            <div>
-                                                <p>Möt vårt team:</p>
-                                                <p>Embla, Johan, Hilda och Olivia</p>
-                                            </div>
+                                            
                                             <div id='au-img-container'>
                                                 <div>
                                                     <div id='au-img-team'></div>
-                                                    <div id='au-img-icon'></div>
+                                                    <div>
+                                                <p>Möt vårt team:<br>Embla, Johan, Hilda och Olivia</p>
+                                                
                                                 </div>
-                                                <div id='au-img-logo'></div>
+                                                    <div id='au-img-icon'></div>
+                                                    <div id='au-img-logo'></div>
+                                                </div>
+                                                
                                             </div>
                                         </div>
                                     </div>

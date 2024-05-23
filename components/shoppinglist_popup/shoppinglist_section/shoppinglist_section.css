@@ -108,6 +108,7 @@
 
 .item-box>div:nth-child(2) {
     width: 280px;
+    cursor: default;
 }
 
 .item-box>div:nth-child(3) {
