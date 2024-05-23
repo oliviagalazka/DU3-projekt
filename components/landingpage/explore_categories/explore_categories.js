@@ -35,7 +35,9 @@ function renderExploreCategoriesBoxes(parentId) {
     for (let category of categories) {
         const categoryDom = document.createElement('div');
         categoryDom.classList.add('category')
-        categoryDom.innerHTML = `<a>${category}</a>`;
+        categoryDom.innerHTML = `<div id='category-background'>
+                                    <a>${category}</a>
+                                </div>`;
         parent.append(categoryDom);
         categoryDom.style.backgroundImage = `url('./images_categories/${category}-category.jpg')`;
         categoryDom.addEventListener('click', function () {
