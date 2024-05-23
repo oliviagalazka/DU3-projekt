@@ -169,6 +169,7 @@
         margin: 0;
         line-height: 50px;
         font-size: 35px;
+        margin-top: 15px;
     }
 
     #recipe-info h4:first-of-type {
