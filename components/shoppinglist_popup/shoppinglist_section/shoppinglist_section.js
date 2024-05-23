@@ -36,10 +36,11 @@ function renderItem(parentId, item) {
                                     <div>${item.item}</div>
                                 </div>
                                 <div id='delete-button-${item.item}' class='delete-box'>
-                                    <div>Ta bort</div>
+                                    <img alt='Ta bort' src='./img_for_design/trashcan.svg'>
                                 </div>`;
 
     parent.append(itemContainer);
+
 
     if (item.checked === true) {
         itemContainer.querySelector('.check-box').classList.add('checked');
