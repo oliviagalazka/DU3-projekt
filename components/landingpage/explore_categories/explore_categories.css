@@ -63,6 +63,11 @@
     text-shadow: 3px 3px 3px black;
 }
 
+#explore-categories-container>div:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px #575757;
+}
+
 /* --------------------------- MOBILVERSION --------------------------- */
 @media (max-width: 500px) {
     #explore-categories-container {

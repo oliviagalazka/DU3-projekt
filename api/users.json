@@ -4,7 +4,8 @@
         "username": "olivia",
         "password": "olivia",
         "savedRecipes": [
-            2
+            2,
+            1
         ],
         "shoppingList": [
             {
