@@ -25,8 +25,8 @@ function renderNavContainer(parentId) {
         const logoutButton = document.getElementById('logout-button');
         logoutButton.addEventListener('click', async () => {
             window.localStorage.removeItem('login');
-            window.localStorage.removeItem('userdata');
         });
+
     } else {
         navContainer.innerHTML = `
             <div>
@@ -47,7 +47,7 @@ function renderNavContainer(parentId) {
 
     let aboutUsLink = document.getElementById('about-us');
     aboutUsLink.addEventListener('click', function (event) {
-        event.preventDefault(); // Förhindra standard länkbeteende
+        event.preventDefault();
         if (window.location.pathname.endsWith('index.html')) {
             // Om vi är på index.html, scrolla till sektionen direkt
             let aboutUsSection = document.getElementById('au-section');
@@ -70,7 +70,6 @@ function renderNavContainer(parentId) {
             }
         }, 250); // Fördröjning
     }
-
 
     let prevScroll = window.pageYOffset;
     let isScrollingDown = false;
@@ -111,6 +110,5 @@ function renderNavContainer(parentId) {
         });
 
     }
-
     markActiveLink();
 }

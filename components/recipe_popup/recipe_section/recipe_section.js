@@ -29,7 +29,7 @@ async function renderRecipeInfo(parentId, recipe) {
     recipeInfo.innerHTML = `
                             <div id='title-heart-container'>
                                 <h1>${recipe.name}</h1>
-                                <h2 id="popupheart-${recipe.id}">♡</h2>
+                                <h2 id="popupheart-${recipe.id}">${bigWhiteHeart}</h2>
                             </div>
                             <h3 id="popup-omdome">${formattedRank}/10 (av ${review.totalReviews} omdömen)</h3>
                             <h4>${recipe.shortIntro}</h4>
@@ -49,11 +49,12 @@ async function renderRecipeInfo(parentId, recipe) {
     const popupHeart = document.getElementById('popupheart-' + `${recipe.id}`);
     const user = State.GetEntity('user');
 
-    popupHeart.innerText = "♡";
+    popupHeart.innerHTML = bigWhiteHeart;
     if (localStorage.getItem('login')) {
         for (let favoriteRecipe of user.savedRecipes) {
             if (recipe.id === favoriteRecipe) {
-                popupHeart.innerText = "♥";
+                popupHeart.classList.add('favorite');
+                popupHeart.innerHTML = bigBlackHeart;
                 break;
             }
         }

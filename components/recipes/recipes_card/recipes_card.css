@@ -6,7 +6,7 @@
     width: 200px;
     cursor: pointer;
     border-radius: 2px;
-    box-shadow: 2px 6px 45px -100px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+    box-shadow: 2px 6px 45px -100px rgba(0, 0, 0, 0.1), 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
 }
 
 .rc-img {
@@ -30,11 +30,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 12px;
-}
-
-.favorite {
-    background-color: pink;
 }
 
 .rc-heart {

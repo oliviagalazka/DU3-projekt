@@ -1,4 +1,3 @@
-// Vad gör vi med denna exakt?
 let currentLocation = '';
 
 // SAVE RECIPE
@@ -47,7 +46,7 @@ async function recipeAverageReview(recipe) {
     const averageRank = totalRank / allReviews.length;
 
     if (allReviews.length === 0) {
-        return { averageRank: "-", totalReviews: allReviews.length };
+        return { averageRank: '-', totalReviews: allReviews.length };
     } else {
         return { averageRank: averageRank, totalReviews: allReviews.length };
     }
@@ -202,6 +201,24 @@ async function renderRandomRecipe(parentID, amount) {
 
     for (let i = 0; i < amount; i++) {
         const randomRecipe = getArrayRandomElement(recipes);
+        renderRecipeCard(parentID, randomRecipe);
+    }
+}
+
+async function renderRandomRecipe(parentID, amount) {
+    const recipes = State.GetEntity('recipes');
+    const renderedRecipes = [];
+
+    for (let i = 0; i < amount; i++) {
+        let randomRecipe = getArrayRandomElement(recipes);
+
+        // Om receptet redan är renderat, välj ett nytt recept
+        if (renderedRecipes.includes(randomRecipe)) {
+            i--;
+            continue;
+        }
+
+        renderedRecipes.push(randomRecipe);
         renderRecipeCard(parentID, randomRecipe);
     }
 }

@@ -35,8 +35,6 @@ const categories = [
     "Gratänger"
 ]
 
-
-
 function renderCategories(parentId, urlCategory) {
 
     const recipes = State.GetEntity('recipes');
@@ -63,7 +61,6 @@ function renderCategories(parentId, urlCategory) {
 
         //Börjar kolla om en kategori är ifylld och sen kollar på sökfältet.
         //sen sätter vi en eventListener på alla. 
-
 
         //Börjar kolla om en kategori är ifylld och sen kollar på sökfältet.
         //sen sätter vi en eventListener på alla. 
