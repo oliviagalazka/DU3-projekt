@@ -59,9 +59,9 @@ function patchRecipe(instanceData) {
     const popupHeart = document.getElementById('popupheart-' + instanceData.id);
 
     if (currentLocation === "mypage") {
+        document.getElementById(`rc-${instanceData.id}`).remove();
         popupHeart.classList.remove('favorite');
         popupHeart.innerHTML = bigWhiteHeart;
-        document.getElementById(`rc-${instanceData.id}`).remove();
         return;
     }
 

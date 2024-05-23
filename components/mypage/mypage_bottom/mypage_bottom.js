@@ -11,11 +11,21 @@ function renderMyPageBottom(parentId) {
 
   let user = State.GetEntity('user');
   let recipes = State.GetEntity('recipes');
-  for (let recipe of recipes) {
+  for (let savedRecipe of user.savedRecipes.reverse()) {
+    for (let recipe of recipes) {
+      if (savedRecipe === recipe.id) {
+        renderRecipeCard('saved-recipes-container', recipe);
+      }
+    }
+  }
+  /*for (let recipe of recipes) {
     for (let savedRecipe of user.savedRecipes) {
       if (recipe.id === savedRecipe) {
         renderRecipeCard('saved-recipes-container', recipe);
       }
     }
-  }
+  }*/
 }
+
+
+
