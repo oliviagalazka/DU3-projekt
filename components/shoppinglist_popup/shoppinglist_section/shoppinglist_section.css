@@ -75,10 +75,11 @@
 }
 
 #shoppingslist-section .check-box {
-    height: 15px;
+    /*height: 15px;
     width: 15px;
     border-radius: 50%;
     border: 1px solid black;
+    */
     /*background-color: white;*/
 }
 
@@ -121,9 +122,11 @@
     cursor: pointer;
 }
 
+/*
 .checked {
     background-color: black;
 }
+*/
 
 /* --------------------------- MOBILVERSION --------------------------- */
 @media (max-width: 500px) {

@@ -57,6 +57,16 @@ function postItemToShoppingslist(event) {
     const shoppinglistSection = document.getElementById('shoppingslist-section');
     const inputDom = shoppinglistSection.querySelector('input');
 
+    const user = State.GetEntity('user');
+
+    for (let item of user.shoppingList) {
+        if (inputDom.value === item.item) {
+            inputDom.value = '';
+            inputDom.setAttribute('placeholder', 'Oops, denna ingrediens finns redan på listan.');
+            return;
+        }
+    }
+
     if (inputDom.value === '') {
         inputDom.setAttribute('placeholder', 'Oops, vänligen skriv en ingrediens.');
     } else {
