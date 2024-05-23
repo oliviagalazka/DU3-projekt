@@ -82,9 +82,9 @@
 #recipe-image {
     height: 1fr;
     width: 350px;
-    background-color: #14342B;
     background-size: cover;
     background-position: center;
+    border-radius: 2px;
 }
 
 #recipe-todo-container {
