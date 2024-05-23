@@ -27,12 +27,13 @@ body {
 
 #login-container input {
     width: 250px;
-    padding: 3px;
     border-radius: 20px;
-    box-shadow: 1px 1px 10px black;
+    border: 1px solid black;
+    box-shadow: 1px 1px 6px black;
     outline: none;
     font-family: 'gotu';
     text-align: center;
+    padding: 5px 20px 5px 20px;
 }
 
 #login-button {
@@ -42,7 +43,15 @@ body {
     border-radius: 20px;
     padding: 5px 20px 5px 20px;
     cursor: pointer;
+    margin-top: 10px;
+    border: 1px solid black;
+    width: 150px;
 }
+
+#login-button:hover {
+    background-color: #333132;
+}
+
 
 #login-container p {
     font-family: 'gotu';
@@ -56,5 +65,5 @@ body {
 }
 
 #feedback {
-    color: #762d56;
+    color: green;
 }

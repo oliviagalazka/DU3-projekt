@@ -35,7 +35,6 @@
         "savedRecipes": [
             58,
             11,
-            10,
             7,
             18,
             73,
@@ -69,5 +68,12 @@
                 "checked": false
             }
         ]
+    },
+    {
+        "id": 5,
+        "username": "roxy",
+        "password": "roxy",
+        "savedRecipes": [],
+        "shoppingList": []
     }
 ]
