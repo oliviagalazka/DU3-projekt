@@ -2,6 +2,7 @@ footer {
     background-color: rgb(20, 20, 20);
     padding: 70px;
     font-family: 'gotu';
+    padding-top: 30px;
 }
 
 #to-top {
@@ -9,6 +10,8 @@ footer {
     cursor: pointer;
     margin: 0px;
     transition: transform 0.5s ease;
+    margin: auto;
+    width: 40px;
 }
 
 #to-top:hover {
@@ -35,6 +38,7 @@ footer h2 {
     justify-content: center;
     align-items: center;
     gap: 10px;
+    margin-top: 100px;
 }
 
 #logo-img {
