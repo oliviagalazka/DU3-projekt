@@ -3,7 +3,7 @@ function renderExploreCategories(parentId) {
     const exploreCategoriesSection = document.createElement('div');
     exploreCategoriesSection.id = 'explore-categories-section';
     exploreCategoriesSection.innerHTML = `
-        <h2>UTFORSKA KATEGORIER</h2>
+        <h2>UTFORSKA VÅRA KATEGORIER</h2>
         <div id='explore-categories-container'></div>
     `;
 
@@ -35,9 +35,11 @@ function renderExploreCategoriesBoxes(parentId) {
     for (let category of categories) {
         const categoryDom = document.createElement('div');
         categoryDom.classList.add('category')
-        categoryDom.innerHTML = `<a>${category}</a>`;
+        categoryDom.innerHTML = `<div id='category-background'>
+                                    <a>${category}</a>
+                                </div>`;
         parent.append(categoryDom);
-        categoryDom.style.backgroundImage = `url('./../../images_categories/${category}-category.jpg')`;
+        categoryDom.style.backgroundImage = `url('./images_categories/${category}-category.jpg')`;
         categoryDom.addEventListener('click', function () {
             window.location = './recipes.html?category=' + category;
         });

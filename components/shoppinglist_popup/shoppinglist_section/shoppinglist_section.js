@@ -2,14 +2,17 @@ function renderShoppinglistSection(parentId) {
     const parent = document.getElementById(parentId);
     const shoppinglistSection = document.createElement('div');
     shoppinglistSection.id = 'shoppingslist-section';
-    shoppinglistSection.innerHTML = `<div>
-                                        <h1>INKÖPSLISTA</h1>
-                                        <div id='items-container'></div>
-                                        <div id='input-button'>
-                                            <input type='text' placeholder='Lägg till vara här'>
-                                            <button>+</button>
-                                        </div>
-                                    </div>`;
+    shoppinglistSection.innerHTML = `
+        <div class='dumdum'>
+            <div>
+                <h1>INKÖPSLISTA</h1>
+                <div id='items-container'></div>
+                <div id='input-button'>
+                    <input type='text' placeholder='Lägg till vara här'>
+                    <button>+</button>
+                </div>
+            </div>
+        </div>`;
 
     parent.append(shoppinglistSection);
 

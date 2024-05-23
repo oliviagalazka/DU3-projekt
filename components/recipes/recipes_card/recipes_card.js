@@ -59,6 +59,10 @@ function patchRecipe(instanceData) {
     const recipeId = get_dom_id(instanceData.id);
     const savedDom = document.getElementById(recipeId);
 
+    if (currentLocation === "mypage") {
+        document.getElementById(`rc-${instanceData.id}`).remove();
+    }
+
     const popupHeart = document.getElementById('popupheart-' + instanceData.id);
 
     if (savedDom != null) {

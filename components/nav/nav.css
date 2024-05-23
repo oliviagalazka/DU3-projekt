@@ -18,7 +18,7 @@ nav {
 }
 
 #logo-nav img {
-    height: 3vh;
+    height: 25px;
 }
 
 nav div:first-child {
@@ -30,6 +30,8 @@ nav a {
     text-decoration: none;
     font-family: "gotu";
     color: #fefdfe;
+    filter: drop-shadow(0px 1px 6px rgba(0, 0, 0, 0.5));
+
 }
 
 nav a:hover {

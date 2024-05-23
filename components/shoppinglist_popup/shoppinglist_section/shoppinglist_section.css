@@ -1,18 +1,38 @@
 #shoppingslist-section {
-    background-color: #fdfefd;
+    /* background-color: #fdfefd;
+    display: flex;
+    flex-direction: column;
+    
+    color: black;
+    font-family: "gotu";
+    box-shadow: 1px 1px 10px black;
+    
+    min-height: 70vh; */
+
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+#shoppingslist-section>div {
+    background-color: #ffffff;
     display: flex;
     flex-direction: column;
     align-items: center;
     color: black;
     font-family: "gotu";
     padding: 15px;
-    box-shadow: 1px 1px 10px black;
     margin: auto;
     min-height: 70vh;
     width: 400px;
+    margin-bottom: 20px;
+    box-shadow: 4px 2px 34px -17px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+    border-radius: 3px;
 }
 
-#shoppingslist-section>div {
+#shoppingslist-section>div>div {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -43,9 +63,9 @@
 
 #shoppingslist-section input {
     border: none;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(178, 178, 178);
     background-color: #fdfefd;
-    width: 300px;
+    width: 330px;
     outline: none;
 }
 
@@ -69,20 +89,30 @@
 
 .item-container {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: space-between;
     gap: 15px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(178, 178, 178);
+    /* height: 40px; */
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .item-box {
     display: flex;
-    align-items: center;
-    gap: 5px;
+    /* align-items: center; */
+    gap: 15px;
     font-size: 14px;
     cursor: pointer;
 }
 
+.item-box>div:nth-child(2) {
+    width: 280px;
+}
+
+.item-box>div:nth-child(3) {
+    color: solid rgb(178, 178, 178);
+}
 
 .delete-box {
     font-size: 12px;
@@ -91,4 +121,11 @@
 
 .checked {
     background-color: black;
+}
+
+/* --------------------------- MOBILVERSION --------------------------- */
+@media (max-width: 500px) {
+    #shoppingslist-section>div {
+        width: 350px;
+    }
 }
