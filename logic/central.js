@@ -95,7 +95,7 @@ function postItemToShoppingslist(event) {
 
 // DELETE ITEM FROM SHOPPINGLIST
 function removeItemFromShoppingslist(event) {
-    const item = event.target.parentElement.id.split('-')[2];
+    const item = event.target.id.split('-')[2];
 
     const deleteData = {
         item: item,

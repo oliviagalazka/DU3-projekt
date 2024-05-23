@@ -35,9 +35,8 @@ function renderItem(parentId, item) {
                                     <img id='checkbox-${item.item}' class='check-box' alt='Checkbox' src='./img_for_design/unchecked-box.svg'>
                                     <div>${item.item}</div>
                                 </div>
-                                <div id='delete-button-${item.item}' class='delete-box'>
-                                    <img alt='Ta bort' src='./img_for_design/trashcan.svg'>
-                                </div>`;
+                                    <img alt='Ta bort' src='./img_for_design/trashcan.svg' id='delete-button-${item.item}' class='delete-box'>
+                                `;
 
     parent.append(itemContainer);
 

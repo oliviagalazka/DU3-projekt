@@ -13,12 +13,16 @@
         ],
         "shoppingList": [
             {
-                "item": "Melon",
+                "item": "Pasta",
                 "checked": true
             },
             {
+                "item": "Nudlar",
+                "checked": false
+            },
+            {
                 "item": "Gurka",
-                "checked": true
+                "checked": false
             }
         ]
     },
