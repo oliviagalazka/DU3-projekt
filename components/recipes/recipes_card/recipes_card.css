@@ -13,6 +13,7 @@
     height: 180px;
     background-size: cover;
     background-position: center;
+    border-radius: 2px 2px 0 0;
 }
 
 .rc-info {
