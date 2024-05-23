@@ -12,8 +12,8 @@ function renderNavContainer(parentId) {
                 </div>
                 <a href='./index.html'>HEM</a>
                 <a href='./recipes.html'>RECEPT</a>
-                <a href='./mypage.html'>MIN SIDA</a>
                 <a href="#" id='about-us'>OM OSS</a>
+                <a href='./mypage.html'>MIN SIDA</a>
             </div>
             <div>
                 <a href='./index.html' id="logout-button">LOGGA UT</a>

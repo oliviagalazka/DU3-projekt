@@ -3,12 +3,7 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
-.rc:hover{
-    cursor: pointer;
-}
-.rc-heart:hover{
-    color: rgb(142, 141, 141);
-}
+
 /* --------------------------- MOBILVERSION --------------------------- */
 @media (max-width: 500px) {
     #recipe-page-right-container {

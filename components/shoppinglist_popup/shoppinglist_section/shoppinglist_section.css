@@ -28,7 +28,7 @@
     min-height: 70vh;
     width: 400px;
     margin-bottom: 20px;
-    box-shadow: 4px 2px 34px -17px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+    box-shadow: 4px 2px 34px -17px rgba(0, 0, 0, 0.1), 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
     border-radius: 3px;
 }
 
@@ -127,5 +127,9 @@
 @media (max-width: 500px) {
     #shoppingslist-section>div {
         width: 350px;
+    }
+
+    #input-button {
+        width: 300px;
     }
 }

@@ -5,6 +5,7 @@
     flex-direction: column;
     height: 300px;
     width: 200px;
+    cursor: pointer;
 }
 
 .rc-img {
@@ -39,6 +40,10 @@
     justify-content: center;
     align-items: center;
     font-size: 30px;
+}
+
+.rc-heart:hover {
+    color: rgb(142, 141, 141);
 }
 
 #not-loged-in-popup {
