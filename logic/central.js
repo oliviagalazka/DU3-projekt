@@ -62,7 +62,7 @@ function postItemToShoppingslist(event) {
     for (let item of user.shoppingList) {
         if (inputDom.value === item.item) {
             inputDom.value = '';
-            inputDom.setAttribute('placeholder', 'Oops, denna ingrediens finns redan på listan.');
+            inputDom.setAttribute('placeholder', 'Oops, denna ingrediens finns redan.');
             return;
         }
     }
