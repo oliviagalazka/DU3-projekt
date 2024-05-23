@@ -137,4 +137,12 @@
     #input-button {
         width: 300px;
     }
+
+    #shoppingslist-section>div>div {
+        width: 100%;
+    }
+
+    .item-box>div:nth-child(2) {
+        width: auto;
+    }
 }
