@@ -26,6 +26,10 @@
         font-size: 9vw;
     }
 
+    #recipe-inspiration-section {
+        padding-bottom: 0px;
+    }
+
     #recipe-inspiration-container {
         grid-template-columns: repeat(2, 1fr);
         gap: 2vw;
