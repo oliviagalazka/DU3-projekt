@@ -1,5 +1,5 @@
 nav {
-    height: 6vh;
+    height: 7vh;
     width: 100vw;
     display: flex;
     justify-content: space-between;
@@ -31,12 +31,12 @@ nav a {
     font-family: "gotu";
     color: #fefdfe;
     filter: drop-shadow(0px 1px 6px rgba(0, 0, 0, 0.5));
-    transition:  0.3s ease;
+    transition: 0.3s ease;
 }
 
 nav a:hover {
     text-shadow: 1px 1px 10px rgb(255, 254, 254);
-   /* text-shadow: 1px 1px 10px rgb(189, 188, 188); */
+    /* text-shadow: 1px 1px 10px rgb(189, 188, 188); */
 }
 
 .active-link {
