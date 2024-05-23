@@ -8,7 +8,7 @@ function renderNavContainer(parentId) {
             <div>
                 <div id='logo-nav'>
                     <img src='./img_for_design/small-logo-white.png'>
-                    <div id='navLogoNamnamTitle'>NAMNAM</div>
+                    <div class='navLogoNamnamTitle'>NAMNAM</div>
                 </div>
                 <a href='./index.html'>HEM</a>
                 <a href='./recipes.html'>RECEPT</a>
@@ -32,7 +32,7 @@ function renderNavContainer(parentId) {
             <div>
                 <div id='logo-nav'>
                     <img src='./img_for_design/small-logo-white.png'>
-                    <div>NAMNAM</div>
+                    <div class='navLogoNamnamTitle'>NAMNAM</div>
                 </div>
                 <a href='./index.html'>HEM</a>
                 <a href='./recipes.html'>RECEPT</a>

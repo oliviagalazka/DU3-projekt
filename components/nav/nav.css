@@ -61,7 +61,7 @@ nav a:hover {
         z-index: 5;
     }
 
-    #navLogoNamnamTitle {
+    .navLogoNamnamTitle {
         display: none;
     }
 }
