@@ -22,5 +22,11 @@
         "recipeId": 1,
         "comment": "mmmm",
         "rank": 7
+    },
+    {
+        "id": 5,
+        "recipeId": 1,
+        "comment": "jag gillar verkligen tomater",
+        "rank": 8
     }
 ]

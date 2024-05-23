@@ -127,4 +127,24 @@
     #post-review-input {
         width: auto;
     }
+
+    #review-section {
+        margin-top: 20px;
+    }
+
+    #add-comment-container>div>p {
+        font-size: 13px;
+    }
+
+    #post-review-button {
+        margin-bottom: 40px;
+    }
+
+    #icon-review-container {
+        margin-bottom: 5px;
+    }
+
+    .review {
+        font-size: 13px;
+    }
 }
