@@ -52,7 +52,7 @@
     align-items: center;
     margin: auto;
     border: 1px solid #373737;
-    transition:  0.3s ease;
+    transition: 0.3s ease;
 }
 
 #explore-categories-container>div a {
@@ -62,7 +62,7 @@
     color: white;
     font-weight: bolder;
     text-shadow: 3px 3px 3px black;
-    
+
 }
 
 #explore-categories-container>div:hover {
@@ -94,7 +94,7 @@
     }
 
     #explore-categories-container>div a {
-        font-size: 3.5vw;
+        font-size: 3vw;
     }
 
 }

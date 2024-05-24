@@ -85,10 +85,11 @@
     transform: rotate(-10deg);
 }
 
-#textgubbe-klicka-har i {
+#textgubbe-klicka-har img {
     animation: blink 1s infinite;
     /* Använd animationen blink oändligt */
-    font-size: 40px;
+    height: 40px;
+    transform: rotate(30deg);
 }
 
 
