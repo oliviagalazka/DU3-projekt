@@ -130,54 +130,5 @@
         "password": "roxy",
         "savedRecipes": [],
         "shoppingList": []
-    },
-    {
-        "id": 6,
-        "username": "erik",
-        "password": "pinero",
-        "savedRecipes": [
-            24,
-            13,
-            128,
-            5,
-            30,
-            83,
-            35,
-            2
-        ],
-        "shoppingList": [
-            {
-                "item": "f",
-                "checked": false
-            },
-            {
-                "item": "f",
-                "checked": false
-            },
-            {
-                "item": "f",
-                "checked": false
-            },
-            {
-                "item": "f",
-                "checked": false
-            },
-            {
-                "item": "f",
-                "checked": false
-            },
-            {
-                "item": "f",
-                "checked": false
-            },
-            {
-                "item": "f",
-                "checked": false
-            },
-            {
-                "item": "f",
-                "checked": false
-            }
-        ]
     }
 ]
