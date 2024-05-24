@@ -113,11 +113,16 @@
 
 @media (max-width: 500px) {
     .rc {
-        height: 250px;
+        height: 265px;
         width: 170px;
     }
 
     .rc-info {
         font-size: 2.5vw;
+        height: 150px;
+    }
+
+    .rc-img {
+        height: 115px;
     }
 }
