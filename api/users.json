@@ -137,5 +137,12 @@
         "password": "malm\u00f6",
         "savedRecipes": [],
         "shoppingList": []
+    },
+    {
+        "id": 7,
+        "username": "emelie",
+        "password": "emelie",
+        "savedRecipes": [],
+        "shoppingList": []
     }
 ]
