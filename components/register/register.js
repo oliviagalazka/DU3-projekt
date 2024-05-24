@@ -50,7 +50,9 @@ renderRegisterContainer();
 
 // Om registreringen blir lyckad -> till login page
 function toLogin() {
-    document.getElementById('feedback').textContent = 'Ditt konto har nu skapats!';
+    let skapakontoReturn = document.getElementById('feedback');
+    skapakontoReturn.textContent = 'Ditt konto har nu skapats!';
+    skapakontoReturn.style.color = 'green';
 
     setTimeout(() => {
         window.location = './login.html';
