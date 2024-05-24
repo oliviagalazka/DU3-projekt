@@ -46,7 +46,9 @@ renderLoginContainer();
 
 // Om inloggningen lyckades -> till landing page
 function toLandingPage() {
-    document.getElementById('feedback').textContent = 'Du är nu inloggad, välkommen!';
+    let inloggadReturn = document.getElementById('feedback');
+    inloggadReturn.textContent = 'Du är nu inloggad, välkommen!';
+    inloggadReturn.style.color = 'green';
 
     setTimeout(() => {
         window.location = './index.html';
